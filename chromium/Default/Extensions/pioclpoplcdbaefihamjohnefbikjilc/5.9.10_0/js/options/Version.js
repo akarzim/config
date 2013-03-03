@@ -1,1 +1,0 @@
-var BUILD_VERSION = 'c70f6c5';
