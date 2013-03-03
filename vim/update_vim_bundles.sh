@@ -1,5 +1,5 @@
 #!/bin/bash
-logfile=/tmp/update_vim_bundles_$$.log
+logfile=~/.vim/log/update_vim_bundles_$$.log
 changes=""
 showchanges="no"
 

@@ -22,5 +22,8 @@
 /Trolltech.conf
 /update-notifier
 /user-dirs.*
+/vim/bundle
+/vim/ftbundle
+/vim/vimfiles
 /vlc
 /xfburn
