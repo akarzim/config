@@ -1,0 +1,28 @@
+{
+   "app": {
+      "launch": {
+         "local_path": "web/templates/default.html"
+      }
+   },
+   "background": {
+      "page": "web/templates/background.html"
+   },
+   "content_security_policy": "script-src 'self' 'unsafe-eval' https://*.twitter.com https://*.twimg.com https://ssl.google-analytics.com https://graph.facebook.com https://api-read.facebook.com https://api-ssl.bitly.com; object-src 'self' https://www.youtube.com",
+   "default_locale": "en_US",
+   "description": "__MSG_Yourpersonalbrowserforstayingintouchwithwhatshappeningnow__",
+   "homepage_url": "http://www.tweetdeck.com/",
+   "icons": {
+      "128": "web/assets/logos/128.png",
+      "16": "web/assets/logos/16.png",
+      "24": "web/assets/logos/24.png",
+      "32": "web/assets/logos/32.png",
+      "48": "web/assets/logos/48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCqs23JyCG9zfdNqDNE24p8WzQ9Cg9ZHZlXFDih1MbXlKcXZO9vvPi7MhdluCw/+DkgZupWAJCuaDCwkSsA35M4nwPRBY3DiFl68I9s5y+f0TEOMXUt3/nuWYp+4n7V3PheQyuzotZmrKXjwP5ABscxoGX8SPPQ21tOPhQRTn/2uQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "18",
+   "name": "TweetDeck",
+   "permissions": [ "unlimitedStorage", "tabs", "notifications", "geolocation", "contextMenus", "https://*.twitter.com/", "http://*.tweetdeck.com/", "https://*.tweetdeck.com/", "https://*.facebook.com/" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "2.6.1"
+}

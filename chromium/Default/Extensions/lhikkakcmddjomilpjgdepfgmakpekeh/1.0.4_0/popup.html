@@ -1,0 +1,137 @@
+<!DOCTYPE html">
+<html>
+<head>
+<style>
+body {
+	font: 13px/1.231 arial,helvetica,clean,sans-serif;
+	color: black;
+	background: white;
+    overflow-x: hidden;
+}
+
+.heading {
+	font-weight: bold;
+	margin-left: 2px;
+	white-space: nowrap;
+}
+
+h3 {
+	font-size: 100%;
+	font-weight: bold;
+	margin-bottom: 0.5em;
+	white-space: nowrap;
+}
+#footer {
+	font-size: 0.85em;
+	margin-top: 1.17em;
+	color: gray;
+}
+#footer a {
+	color: gray;
+}
+ul.feed {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+ul.feed li {
+	display: block;
+	line-height: 1.231em;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+ul.feed li.twitter img.icon {
+	background-color: #6DD2FC;
+	padding: 1px;
+	border-radius: 2px;
+	margin-left: -1px;
+}
+ul.feed li img.icon {
+	position: relative;
+	margin-right: 0.5em;
+	top: 3px;
+}
+.hidden {
+display: none;
+}
+</style>
+<script>
+
+
+function main() {
+
+  chrome.tabs.getSelected(null, function(tab) {
+    var heading = document.getElementById('heading');
+    var links = document.getElementById('pageTools');
+
+    var pageurl = chrome.extension.getBackgroundPage().feedData[tab.id];
+    //pageurl='http://www.google.com/';
+    xhr = new XMLHttpRequest();
+    xhr.open("GET", "http://page2rss.com/api/page?url=" + encodeURIComponent(pageurl), true);
+    xhr.onreadystatechange = function () {
+       console.debug("xhr.readyState = "+xhr.readyState);
+       if (xhr.readyState == 4) {
+          if (xhr.status == 200) {
+		var resp;
+		try {
+			console.debug("parsing JSON: "+xhr.responseText);
+			resp = JSON.parse(xhr.responseText);
+		}
+		catch(err) {
+			console.debug("unable to parse response "+err);
+			heading.innerText = "Unable to parse server response: "+err;
+			return;
+		}
+		if(resp.page && resp.page.feed) {
+			md=resp.page.feed.match(/\/([^\/]+?)$/i)[1];
+			var av=links.getElementsByTagName('a');
+			for (var i = 0; i < av.length; ++i) {
+				av[i].href=av[i].href+md;
+				av[i].addEventListener("click", onClick);
+			}
+			links.className="";
+	    	  	heading.className="hidden";
+		} else if(resp.error) {
+			heading.innerText = "Unable to create feed for this page: "+resp.error;
+		}
+          } else {
+		heading.innerText = "Page2RSS call error";
+	  }
+       }
+    };
+    xhr.send();
+  });
+
+}
+
+function onClick(event) {
+  console.debug("onClick ");
+  var a = event.currentTarget;
+  var href=a.href
+  chrome.tabs.create({ url: href });
+  window.close();
+}
+
+</script>
+</head>
+<body onload="javascript:main()">
+  <div id="content">
+    <span id="heading" class="heading"><img src="progress.gif "/>Loading...</span>
+
+<div id="pageTools" class="hidden">
+<h3>Subscribe to page updates:</h3>
+<ul class="feed">
+<li><a href="http://fusion.google.com/add?feedurl=http%3A%2F%2Fpage2rss.com%2Frss%2F"><img width="16" height="16" class="icon" alt="Subscribe with Google Reader" src="google_icon.ico"></a><a href="http://fusion.google.com/add?feedurl=http%3A%2F%2Fpage2rss.com%2Frss%2F">Google Reader</a></li>
+<li><a href="http://add.my.yahoo.com/rss?url=http%3A%2F%2Fpage2rss.com%2Frss%2F"><img width="16" height="16" class="icon" alt="Add to My Yahoo!" src="my_yahoo_icon.ico"></a><a href="http://add.my.yahoo.com/rss?url=http%3A%2F%2Fpage2rss.com%2Frss%2F">My Yahoo!</a></li>
+<li><a href="http://www.netvibes.com/subscribe.php?url=http%3A%2F%2Fpage2rss.com%2Frss%2F"><img width="16" height="16" class="icon" alt="Add to Netvibes" src="netvibes_icon.ico"></a><a href="http://www.netvibes.com/subscribe.php?url=http%3A%2F%2Fpage2rss.com%2Frss%2F">Netvibes</a></li>
+<li class="twitter"><a href="http://page2rss.com/my/feeds/add/"><img width="16" height="16" class="icon" alt="Subscribe with Twitter" src="twitter_icon.ico"></a><a href="http://page2rss.com/my/feeds/add/">Twitter</a></li>
+</ul>
+</div>
+<div id="footer">
+Powered by
+<a href="http://page2rss.com" onclick="chrome.tabs.create({url:event.target.href});window.close()">Page2RSS</a>
+</div>
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,1070 @@
+{
+   "April": {
+      "message": "Huhtikuu"
+   },
+   "Aug": {
+      "message": "Elo"
+   },
+   "BrowserActionTitle": {
+      "description": "Title for the browser action that's visible to the user of extension",
+      "message": "Leike Evernoteen"
+   },
+   "Close": {
+      "description": "The string that shows up on a button used to close a window.",
+      "message": "Sulje"
+   },
+   "Dec": {
+      "message": "Joulu"
+   },
+   "EDAMError_1": {
+      "description": "Used to describe an unknown EDAM error",
+      "message": "Tuntematon virhe"
+   },
+   "EDAMError_1_notebookGuid": {
+      "description": "Error message indicating unknown notebook",
+      "message": "Tuntematon muistikirja"
+   },
+   "EDAMError_3": {
+      "description": "Indicates that permission was denied for request by the server",
+      "message": "P\u00E4\u00E4sy ev\u00E4tty"
+   },
+   "EDAMError_3_User_active": {
+      "description": "Indicates that a user tried to login but their account is inactive",
+      "message": "P\u00E4\u00E4sy ev\u00E4tty, koska k\u00E4ytt\u00E4j\u00E4 on passiivinen"
+   },
+   "EDAMError_3_User_tooManyFailuresTryAgainLater": {
+      "description": "Indicates that a user tried to login way too many times with invalid credentials and needs to chill for a bit",
+      "message": "Liikaa ep\u00E4onnistuneita kirjautumisia. Yrit\u00E4 my\u00F6hemmin uudelleen"
+   },
+   "Error_HTTP_Transport": {
+      "description": "Generic error indicating that the extension could not get a response from a server",
+      "message": "Ongelma kommunikoitaessa palvelimen kanssa [$status$]. $errorText$",
+      "placeholders": {
+         "errorText": {
+            "content": "$2",
+            "example": "http error response"
+         },
+         "status": {
+            "content": "HTTP $1",
+            "example": "404"
+         }
+      }
+   },
+   "Error_Network_Unavailable": {
+      "description": "error message shown when we can't connect to the internet.",
+      "message": "Ei Internet-yhteytt\u00E4"
+   },
+   "ExtensionDescription": {
+      "description": "Description of the extension as it's visible to the outside world",
+      "message": "K\u00E4yt\u00E4 Evernote-laajennusta tallentaaksesi verkossa n\u00E4kemi\u00E4si asioita Evernote-tunnuksellesi. Voit jopa etsi\u00E4 muistiinpanojesi sis\u00E4lt\u00E4."
+   },
+   "ExtensionName": {
+      "description": "Name of the extension as it's visible to the outside world",
+      "message": "Evernote Web Clipper"
+   },
+   "Feb": {
+      "message": "Helmi"
+   },
+   "Friday": {
+      "message": "Perjantai"
+   },
+   "Jan": {
+      "message": "Tammi"
+   },
+   "July": {
+      "message": "Hein\u00E4kuu"
+   },
+   "June": {
+      "message": "Kes\u00E4kuu"
+   },
+   "March": {
+      "message": "maaliskuu"
+   },
+   "May": {
+      "message": "toukokuu"
+   },
+   "Monday": {
+      "message": "Maanantai"
+   },
+   "Nov": {
+      "message": "Marras"
+   },
+   "Oct": {
+      "message": "Loka"
+   },
+   "Saturday": {
+      "message": "Lauantai"
+   },
+   "Sept": {
+      "message": "Syys"
+   },
+   "Sunday": {
+      "message": "Sunnuntai"
+   },
+   "Thursday": {
+      "message": "Torstai"
+   },
+   "Today": {
+      "message": "T\u00E4n\u00E4\u00E4n"
+   },
+   "Tuesday": {
+      "message": "Tiistai"
+   },
+   "Wednesday": {
+      "message": "Keskiviikko"
+   },
+   "accountChangedTo": {
+      "description": "message notifying the user that he's switched to a different account.",
+      "message": "Nyt k\u00E4yt\u00F6ss\u00E4 tili $name$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "addAnotherAccount": {
+      "description": "Label to click when a user wants to log in with multiple accounts.",
+      "message": "Lis\u00E4\u00E4 toinen tili..."
+   },
+   "articleClipFailure": {
+      "description": "Messages shown to user when the article of the page isn't clippable.",
+      "message": "Valitettavasti Evernote ei voi ottaa t\u00E4st\u00E4 sivusta artikkelileikett\u00E4. Valitse sivun osa, josta haluat ottaa leikkeen."
+   },
+   "authPersistenceError": {
+      "description": "Error indicating that the browser fails to persist authentication.",
+      "message": "Selaimesi asetukset ovat ristiriidassa Evernote-laajennuksen kanssa. Yrit\u00E4 palauttaa Chromen tietosuoja-asetuksien sis\u00E4lt\u00F6asetukset oletuksiin: Salli paikallistietojen asettaminen ja \u00C4L\u00C4 est\u00E4 kolmannen osapuolen ev\u00E4steit\u00E4. Voit my\u00F6s poistaa k\u00E4yt\u00F6st\u00E4 muita kolmannen osapuolen laajennuksia."
+   },
+   "bizNotebookOptionText": {
+      "description": "text that shows up in the dropdown list used to select another user's business notebook.",
+      "message": " (jakanut $creator$)",
+      "placeholders": {
+         "creator": {
+            "content": "$1",
+            "example": "Connie Chan"
+         }
+      }
+   },
+   "bizNotebooksOptGroupTitle": {
+      "description": "text that appears above the list of business notebooks in the dropdown list of notebooks.",
+      "message": "Business-muistikirjat"
+   },
+   "cancelAddAnotherAccount": {
+      "description": "The text for the control that cancels adding a new acconut to switch to.",
+      "message": "Peruuta"
+   },
+   "cancelSwitchFree": {
+      "description": "Message on button to cancel switching to a different free account.",
+      "message": "Ei, vie minut takaisin"
+   },
+   "captcha_instruction": {
+      "description": "Instruction for captcha in the registration form.",
+      "message": "Sy\u00F6t\u00E4 alla olevat numerot"
+   },
+   "checkVersionWarning": {
+      "description": "Warning message shown to user when the client doesn't pass version check",
+      "message": "T\u00E4m\u00E4 versio Evernote Web Clipper -ty\u00F6kalusta ei ole en\u00E4\u00E4 yhteensopiva Evernote-palvelun kanssa. Asenna uusin versio."
+   },
+   "clearFeatureDiscoveryTooltip": {
+      "description": "The message that pops up when you hover over the 'x' icon for the 'feature discovery' box.",
+      "message": "\u00C4l\u00E4 n\u00E4yt\u00E4 t\u00E4t\u00E4 ilmoitusta uudelleen"
+   },
+   "clearTagsToolTip": {
+      "description": "The message that pops up when you hover over the 'x' icon that displays beside the tag list.",
+      "message": "Tyhjenn\u00E4 kaikki avainsanat"
+   },
+   "clipsFromThisSite": {
+      "description": "Label for the site search button.",
+      "message": "Muut leikkeet osoitteesta $site$",
+      "placeholders": {
+         "site": {
+            "content": "$1",
+            "example": "71"
+         }
+      }
+   },
+   "contentPreview_clipArticle": {
+      "description": "Selection nudging legend for clipping article",
+      "message": "leike artikkelista"
+   },
+   "contentPreview_expandSelection": {
+      "description": "Selection nudging legend for expanding selection",
+      "message": "suurenna valintaa"
+   },
+   "contentPreview_moveSelection": {
+      "description": "Selection nudging legend for moving selection",
+      "message": "liikuta valintaa"
+   },
+   "contentPreview_shrinkSelection": {
+      "description": "Selection nudging legend for shrinking selection",
+      "message": "pienenn\u00E4 valintaa"
+   },
+   "contentclipper_clipping": {
+      "description": "Message shown on content pages to notify users that the page is being scraped for clipping.",
+      "message": "\u003Cb\u003EOtetaan leike\u003C/b\u003E \u201C$clipTitle$\u201D",
+      "placeholders": {
+         "clipTitle": {
+            "content": "$1",
+            "example": "Sample clip title"
+         }
+      }
+   },
+   "contentclipper_clipping_no_title": {
+      "description": "Message shown on content pages to notify users that the page is being scraped for clipping when the title of the clip is unavailable.",
+      "message": "\u003Cb\u003EOtetaan leike...\u003C/b\u003E"
+   },
+   "contentclipper_syncing": {
+      "description": "Message shown on content pages to notify users that the page is being sent to the server.",
+      "message": "\u003Cb\u003ESynkronoidaan\u003C/b\u003E \u201C$clipTitle$\u201D",
+      "placeholders": {
+         "clipTitle": {
+            "content": "$1",
+            "example": "Sample clip title"
+         }
+      }
+   },
+   "contextMenuClipImage": {
+      "description": "Context menu item for creating a new note with image",
+      "message": "Ota leike kuvasta"
+   },
+   "contextMenuClipPDF": {
+      "description": "Context menu item for creating a new note with PDF",
+      "message": "Ota leike PDF:st\u00E4"
+   },
+   "contextMenuClipPage": {
+      "description": "Context menu item for clipping current page",
+      "message": "Ota leike sivusta"
+   },
+   "contextMenuClipSelection": {
+      "description": "Context menu item for clipping current selection",
+      "message": "Ota leike valinnasta"
+   },
+   "contextMenuClipUrl": {
+      "description": "Context menu item for creating a new note with just the URL of the current page",
+      "message": "Ota leike osoitteesta"
+   },
+   "contextMenuNewNote": {
+      "description": "Context menu item for creating new note",
+      "message": "Uusi muistiinpano"
+   },
+   "contextMenuPleaseLogin": {
+      "description": "Help message shown to users when they try to clip content via contextual menu items but not being intially logged in",
+      "message": "Sinun pit\u00E4\u00E4 kirjautua sis\u00E4\u00E4n Leike Evernoteen -ty\u00F6kalupalkkiin ennen kuin voit tehd\u00E4 leikkeit\u00E4"
+   },
+   "copyright": {
+      "description": "Copyright statement",
+      "message": "Copyright 2009-2013 Evernote Corporation. Kaikki oikeudet pid\u00E4tet\u00E4\u00E4n. \u003Ca href='$baseUrl$/privacy' target='_blank'\u003ETietosuojak\u00E4yt\u00E4nt\u00F6\u003C/a\u003E | \u003Ca href='$baseUrl$/tos' target='_blank'\u003EK\u00E4ytt\u00F6ehdot\u003C/a\u003E | \u003Ca href='#' id='legalLink'\u003EJuridiset tiedot\u003C/a\u003E",
+      "placeholders": {
+         "baseUrl": {
+            "content": "$1",
+            "example": "https://www.evernote.com"
+         }
+      }
+   },
+   "deleting": {
+      "description": "Message indicating that the extension is deleting previously clipped note from the server",
+      "message": "Poistetaan leikemuistiinpano..."
+   },
+   "desktopNotification_cancelFailedClip": {
+      "description": "Name of the action associated with cancelling the clip that failed to upload. Should be as short as possible",
+      "message": "Peruuta"
+   },
+   "desktopNotification_clipProcessorSignInMessage": {
+      "description": "Message shown to users inside desktop notification informing users that they clip could not be uploaded because they are not authenticated...",
+      "message": "Virhellinen tai vanhentunut tunnistautuminen. Kirjaudu sis\u00E4\u00E4n k\u00E4ytt\u00E4m\u00E4ll\u00E4 ty\u00F6kalupalkin painiketta ja yrit\u00E4 uudestaan."
+   },
+   "desktopNotification_clipProcessorSignInTitle": {
+      "description": "Title for desktop notification informing user that there was an error with uploading a clip. This should be as short as possible",
+      "message": "Ei voitu tallentaa leikett\u00E4 \"$clipTitle$\"",
+      "placeholders": {
+         "clipTitle": {
+            "content": "$1",
+            "example": "Sample clip title"
+         }
+      }
+   },
+   "desktopNotification_clipProcessorTooManyRetries": {
+      "description": "Message indicating that we've tried too many times to clip this note.",
+      "message": "Leike \"$title$\" on ep\u00E4onnistunut liian monta kertaa, eik\u00E4 sit\u00E4 voi yritt\u00E4\u00E4 uudelleen.",
+      "placeholders": {
+         "title": {
+            "content": "$1",
+            "example": "Title of the clip."
+         }
+      }
+   },
+   "desktopNotification_clipUploaded": {
+      "description": "Headline for desktop notification indicating that clip was successfully uploaded",
+      "message": "\u003Cb\u003EOtettiin leike\u003C/b\u003E \u201C$clipTitle$\u201D",
+      "placeholders": {
+         "clipTitle": {
+            "content": "$1",
+            "example": "Sample clip title"
+         }
+      }
+   },
+   "desktopNotification_clipUploadedMessage": {
+      "description": "Message indicating that clip was successfully uploaded",
+      "message": "Leike ladattiin onnistuneesti."
+   },
+   "desktopNotification_editSuccessClip": {
+      "description": "Name of the action associated with editing clipped note",
+      "message": "Muokkaa"
+   },
+   "desktopNotification_retryFailedClip": {
+      "description": "Name of the action associated with retrying the clip that failed to upload. Should be as short as possible",
+      "message": "Yrit\u00E4 uudelleen"
+   },
+   "desktopNotification_unableToSaveClip": {
+      "description": "Headline for desktop notifications indicating there was a problem with saving the clip",
+      "message": "Ei voitu tallentaa leikett\u00E4 \"$clipTitle$\"",
+      "placeholders": {
+         "clipTitle": {
+            "content": "$1",
+            "example": "Sample clip title"
+         }
+      }
+   },
+   "desktopNotification_unableToSaveClipUnknown": {
+      "description": "Headline for desktop notification indicating that there was an unknown error while uploading a clip",
+      "message": "Ei voitu tallentaa leikett\u00E4"
+   },
+   "desktopNotification_unableToSaveClipUnknownMessage": {
+      "description": "Description of the unknown error that may occur after the extension failed to upload a clip",
+      "message": "Tuntematon virhe havaittiin tallentaessa yht\u00E4 leikkeist\u00E4si. Virheilmoitus: $details$",
+      "placeholders": {
+         "details": {
+            "content": "$1",
+            "example": "Error 503"
+         }
+      }
+   },
+   "desktopNotification_viewSuccessClip": {
+      "description": "Name of the actions associated with viewing clipped note",
+      "message": "N\u00E4yt\u00E4"
+   },
+   "dismiss": {
+      "description": "Message shown on buttons to dismiss a widget of some kind",
+      "message": "Hylk\u00E4\u00E4"
+   },
+   "email": {
+      "description": "Label for email field of registration form",
+      "message": "S\u00E4hk\u00F6postiosoite"
+   },
+   "filing": {
+      "description": "Message indicating that the extension is filing changes made to previously clipped note on the server",
+      "message": "L\u00E4hetet\u00E4\u00E4n muistiinpanoa..."
+   },
+   "freeAccountLimit": {
+      "description": "",
+      "message": "Olet jo kirjautunut ilmaiselle tilille \u003Cb\u003E$name$\u003C/b\u003E. Voit vaihtaa useiden eri Premium-tilien mutta vain yhden ilmaisen tilin v\u00E4lill\u00E4. Haluatko k\u00E4ytt\u00E4\u00E4 t\u00E4t\u00E4 ilmaista tili\u00E4?",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "fullPageClipFailure": {
+      "description": "Message shown to user when full page clip wasn't possible",
+      "message": "Evernote ei pysty ottamaan leikett\u00E4 koko sivusta. Valitse sivun osa, josta haluat ottaa leikkeen."
+   },
+   "getEvernoteFood": {
+      "description": "First part of the text for the Evernote Food cross promotion that appears in the clip result notification",
+      "message": "Hanki Evernote Food"
+   },
+   "header_register": {
+      "description": "Registration link in header",
+      "message": "Luo Evernote-tili"
+   },
+   "hideRelatedNotes": {
+      "description": "text for the link in the 'related notes' overlay that will hide this section.",
+      "message": "Piilota liittyv\u00E4t muistiinpanot"
+   },
+   "illegalUrlClipFailure": {
+      "description": "Error message shown when you try to clip from pages that aren't scriptable by the browser. Such as the chrome gallery pages.",
+      "message": "Selaimen tekemien rajoituksien vuoksi et voi ottaa leikett\u00E4 t\u00E4st\u00E4 sivusta."
+   },
+   "legalNoticesTitle": {
+      "description": "the title of the legal notices dialog in the options page where we list the licenses of all third party packages we use",
+      "message": "Web Clipper k\u00E4ytt\u00E4\u00E4 seuraavaa avoimen l\u00E4hdekoodin ohjelmistoa"
+   },
+   "linkedNotebookOptionText": {
+      "description": "Text that shows up inside the dropdown list used to select another user's shared notebook.",
+      "message": "$notebookName$ (omistaja: $owner$)",
+      "placeholders": {
+         "notebookName": {
+            "content": "$1",
+            "example": "recipes"
+         },
+         "owner": {
+            "content": "$2",
+            "example": "tylerkaraszewski"
+         }
+      }
+   },
+   "linkedNotebooksOptGroupTitle": {
+      "description": "the text that apeears above the list of linked notebooks in the dropdown list of notebooks.",
+      "message": "Jaetut muistikirjat"
+   },
+   "loading": {
+      "description": "Message shown when extension is loading...",
+      "message": "Ladataan..."
+   },
+   "loggingIn": {
+      "description": "Message indicating that the extension is currently attempting to sign in user",
+      "message": "Kirjaudutaan sis\u00E4\u00E4n Evernoteen"
+   },
+   "loginForm_login": {
+      "description": "Sign in button label for login form",
+      "message": "Kirjaudu sis\u00E4\u00E4n"
+   },
+   "loginForm_password": {
+      "description": "Label for entering password into login form",
+      "message": "Salasana"
+   },
+   "loginForm_passwordError_5": {
+      "description": "",
+      "message": "Salasana vaaditaan."
+   },
+   "loginForm_passwordInvalidError": {
+      "description": "",
+      "message": "Virheellinen salasana"
+   },
+   "loginForm_rememberMe": {
+      "description": "Label for extending login session",
+      "message": "Muista minut"
+   },
+   "loginForm_searchHelper": {
+      "description": "Label for search helper option on the login view",
+      "message": "N\u00E4yt\u00E4 liittyv\u00E4t tulokset web-haun yhteydess\u00E4"
+   },
+   "loginForm_username": {
+      "description": "Label for entering email address or username into login form",
+      "message": "S\u00E4hk\u00F6postiosoite tai k\u00E4ytt\u00E4j\u00E4tunnus"
+   },
+   "loginForm_usernameError_5": {
+      "description": "",
+      "message": "K\u00E4ytt\u00E4j\u00E4tunnus vaaditaan."
+   },
+   "loginForm_usernameError_8": {
+      "description": "",
+      "message": "K\u00E4ytt\u00E4j\u00E4tunnus ja salasana eiv\u00E4t t\u00E4sm\u00E4\u00E4 olemassa olevaan k\u00E4ytt\u00E4j\u00E4\u00E4n."
+   },
+   "loginForm_usernameInvalidChinaError": {
+      "description": "",
+      "message": "Tuntematon kirjautuminen, tai k\u00E4yt\u00E4 Evernote Internationalia"
+   },
+   "loginForm_usernameInvalidError": {
+      "description": "",
+      "message": "Tuon nimist\u00E4 k\u00E4ytt\u00E4j\u00E4\u00E4 ei l\u00F6ydy."
+   },
+   "login_searchHelperLongDescription": {
+      "description": "Description of the search-helper feature as shown on the options page",
+      "message": "Kun toiminto on k\u00E4yt\u00F6ss\u00E4, hakusi tuetuissa hakukoneissa tehd\u00E4\u00E4n my\u00F6s Evernote-tiliss\u00E4si. Tuettuja hakukoneita ovat seuraavat: Google, Bing, Yahoo, Yandex, Baidu, Daum ja Naver."
+   },
+   "logs_export": {
+      "description": "Title of the button for exporting all of the logs",
+      "message": "Vientilokit"
+   },
+   "logs_follow": {
+      "description": "Label for an option to trail the logfile",
+      "message": "Seuraa"
+   },
+   "logs_selectLogFile": {
+      "description": "Label for selecting log files for viewing",
+      "message": "Valitse lokitiedosto: "
+   },
+   "logs_title": {
+      "description": "The title of the logs page.",
+      "message": "Tapahtumalokit"
+   },
+   "more": {
+      "description": "General purpose, capitalized word for More - as in - there's more to see/read etc.",
+      "message": "Lis\u00E4\u00E4"
+   },
+   "newFeatureDescription": {
+      "description": "The popover description of for the Smart Filing feature, including a link to the options page.",
+      "message": "Web Clipper ehdottaa avainsanoja ja muistikirjoja leikkeen sis\u00E4ll\u00F6n perusteella. Voit hallinnoida t\u00E4t\u00E4 ominaisuutta ja muita toimintoja Web Clipperin \u003Cspan class='newFeatureOptionsPseudoLink'\u003Easetuksissa\u003C/span\u003E."
+   },
+   "newFeatureTitle": {
+      "description": "The title for any new feature we're showcasing in the current release.",
+      "message": "\u00C4lyk\u00E4s arkistointi"
+   },
+   "noteSizeExceededFree": {
+      "description": "Error message shown to free users who try to clip something over the maximum note size",
+      "message": "Vain Evernote Premium -k\u00E4ytt\u00E4j\u00E4t voivat luoda kooltaan yli 25 Mt:n muistiinpanoja. \u003Ca href='$baseUrl$/Checkout.action'\u003EP\u00E4ivit\u00E4 Premium-versioon\u003C/a\u003E",
+      "placeholders": {
+         "baseUrl": {
+            "content": "$1",
+            "example": "http://www.evernote.com"
+         }
+      }
+   },
+   "noteSizeExceededPremium": {
+      "description": "Error message shown to premium users who try to clip something over the maximum note size",
+      "message": "Muistiinpanon enimm\u00E4iskoko on 100 Mt, muistiinpanoa ei voi luoda"
+   },
+   "notification_quotaExceededFree": {
+      "description": "Indicates that free user has exceeded their quota",
+      "message": "Siirtorajoitus est\u00E4\u00E4 leikkeen tallentamisen. \u003Ca href='$url$'\u003EP\u00E4ivit\u00E4 Premium-versioon\u003C/a\u003E",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "https://www.evernote.com/Checkout.action"
+         }
+      }
+   },
+   "notification_quotaExceededPremium": {
+      "description": "Indicates that premium user has exceeded their quota",
+      "message": "Siirtorajoitus est\u00E4\u00E4 leikkeen tallentamisen. \u003Ca href='$url$'\u003EKasvata siirtorajoitusta\u003C/a\u003E",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "https://www.evernote.com/QuotaCheckout.action"
+         }
+      }
+   },
+   "options_buildId": {
+      "description": "The revison number of this build of the clipper, as pulled fro mSVN at the time the clipper was built.",
+      "message": "Koontiversion ID:"
+   },
+   "options_client": {
+      "description": "Label for the dropdown menu in Options where user can choose what client s/he wants to open and edit notes in",
+      "message": "Avaa muistiinpanot kohteessa"
+   },
+   "options_clientSelectionDescription": {
+      "description": "Description of the dropdown menu to select what client the user wants to open notes in. Only displayed when user selects the desktop client",
+      "message": "Kun k\u00E4yt\u00E4t t\u00E4t\u00E4 asetusta ensimm\u00E4ist\u00E4 kertaa, n\u00E4et 'Ulkoinen protokollapyynt\u00F6'-valintaikkunan. Parhaan k\u00E4ytt\u00F6kokemuksen saat, kun merkitset 'Muista valintani'-laatikon ja valitset sitten 'K\u00E4ynnist\u00E4 sovellus'."
+   },
+   "options_client_desktop": {
+      "description": "Desktop client choice in the dropdown menu to select what client to open/edit a note in",
+      "message": "Ty\u00F6p\u00F6yt\u00E4ohjelma"
+   },
+   "options_client_web": {
+      "description": "Web client choice in the dropdown menu to select what client to open/edit a note in",
+      "message": "Web-palvelu"
+   },
+   "options_clipAction": {
+      "description": "Label for specifying default clipping action",
+      "message": "Oletustoiminta"
+   },
+   "options_clipAction_article": {
+      "description": "Label for article as the default clipping action",
+      "message": "Ota leike artikkelista"
+   },
+   "options_clipAction_fullPage": {
+      "description": "Label for full-page as the default clipping action",
+      "message": "Ota leike koko sivusta"
+   },
+   "options_clipAction_url": {
+      "description": "Label for url as the default clipping action",
+      "message": "Ota leike osoitteesta"
+   },
+   "options_clipNotificationEnabled": {
+      "description": "Label for option to enable notification about successful clips",
+      "message": "Ota ilmoitukset k\u00E4ytt\u00F6\u00F6n"
+   },
+   "options_clipNotificationEnabledDescription": {
+      "description": "Description of the notifications option",
+      "message": "Kun k\u00E4yt\u00F6ss\u00E4, saat ilmoituksen aina, kun leike on ladattu. Ilmoitusten ansiosta leikkeiden katselu, muokkaus ja jakaminen on helpompaa."
+   },
+   "options_clipStyle": {
+      "description": "Label for the option to keep the style of the page while clipping.",
+      "message": "S\u00E4ilyt\u00E4 tyyli"
+   },
+   "options_clipStyleDescription": {
+      "description": "Description for the option to preserve styles with clips.",
+      "message": "Kun k\u00E4yt\u00F6ss\u00E4, leikkeet s\u00E4ilytt\u00E4v\u00E4t tyylitiedot ja muotoilut, jotka ovat mahdollisimman l\u00E4hell\u00E4 alkuper\u00E4ist\u00E4 sivua. Kun ei k\u00E4yt\u00F6ss\u00E4, leikkeille annetaan yksinkertainen tyyli ilman muotoiluja."
+   },
+   "options_developer_title": {
+      "description": "Title for developer options",
+      "message": "Kehitt\u00E4j\u00E4n asetukset"
+   },
+   "options_eventLogDescription": {
+      "description": "Describes the purpose of the event logs link in the options page.",
+      "message": "Jos otat yhteytt\u00E4 Evernoten tukeen, sinua voidaan pyyt\u00E4\u00E4 n\u00E4ytt\u00E4m\u00E4\u00E4n n\u00E4it\u00E4 lokeja ongelman selvitt\u00E4miseksi."
+   },
+   "options_eventLogLink": {
+      "description": "the text for the link to the event logs page from the options page",
+      "message": "N\u00E4yt\u00E4 tapahtumalokit"
+   },
+   "options_insecureProto": {
+      "description": "Label for specifying insecure protocol option.",
+      "message": "Turvaton protokolla"
+   },
+   "options_overrideServiceURL": {
+      "description": "Custom URL to use that will override both stage and production URLs.",
+      "message": "Ohita palvelu-URL"
+   },
+   "options_saving": {
+      "description": "Notifies the user that their changes to the options page are being saved",
+      "message": "Tallennetaan..."
+   },
+   "options_secureProto": {
+      "description": "Label specifying secure protocol option.",
+      "message": "Turvallinen protokolla"
+   },
+   "options_selectionNudging": {
+      "description": "Label for selection nudging options",
+      "message": "Artikkelivalinta"
+   },
+   "options_selectionNudgingDescription": {
+      "description": "Description of selection nudging",
+      "message": "Kun k\u00E4yt\u00F6ss\u00E4, voit muokata artikkelivalintaa n\u00E4pp\u00E4imist\u00F6ll\u00E4 ennen leikkeen ottamista. Jos &quot;ei vihjeit\u00E4&quot; on valittu, tiedoteviesti\u00E4 ei n\u00E4ytet\u00E4. Kun ei k\u00E4yt\u00F6ss\u00E4 \u2013 et voi tehd\u00E4 muutoksia automaattiseen artikkelivalintaan."
+   },
+   "options_selectionNudging_disabled": {
+      "description": "Label for disabled selection nudging",
+      "message": "Ei k\u00E4yt\u00F6ss\u00E4"
+   },
+   "options_selectionNudging_enabled": {
+      "description": "Label for enabled selection nudging",
+      "message": "K\u00E4yt\u00F6ss\u00E4"
+   },
+   "options_selectionNudging_enabledNoprompt": {
+      "description": "Label for enabled selection nudging, but without showing the hits",
+      "message": "K\u00E4yt\u00F6ss\u00E4 (ei vihjeit\u00E4)"
+   },
+   "options_simulateCheckVersionFailure": {
+      "description": "Label for developer option to simulate checkVersion failure",
+      "message": "Simuloi checkVersion-ep\u00E4onnistumista"
+   },
+   "options_simulateSimplifiedChinese": {
+      "description": "Label for developer option to simulate checkVersion failure",
+      "message": "J\u00E4ljittele yksinkertaistettua kiinaa"
+   },
+   "options_simulateSimplifiedChineseDescription": {
+      "description": "Description for what it means to select this option",
+      "message": "Kun t\u00E4m\u00E4 asetus on valittu, verkkoleikety\u00F6kalu toimii ik\u00E4\u00E4n kuin sen kieliasetuksena olisi yksinkertaistettu kiina, kun yhdistett\u00E4v\u00E4\u00E4 palvelua valitaan."
+   },
+   "options_smartFilingBizDesc": {
+      "description": "Description of option to allow smart filing into business notebooks",
+      "message": "Salli \u00E4lyk\u00E4s arkistointi Business-muistikirjoihin"
+   },
+   "options_smartFilingEnabled": {
+      "description": "Label for option to enable automatic tagging and notebook selection for new notes.",
+      "message": "Ota \u00E4lyk\u00E4s arkistointi k\u00E4ytt\u00F6\u00F6n"
+   },
+   "options_smartFilingEnabledDescription": {
+      "description": "Description of the smart filing option",
+      "message": "\u00C4lyk\u00E4s arkistointi valitsee automaattisesti muistikirjan ja avainsanaluettelon sen sivun perusteella, josta olet ottamassa leikett\u00E4."
+   },
+   "options_smartFilingEnabled_all": {
+      "description": "",
+      "message": "Avainsanat ja muistikirjat"
+   },
+   "options_smartFilingEnabled_none": {
+      "description": "",
+      "message": "Ota \u00E4lyk\u00E4s arkistointi pois k\u00E4yt\u00F6st\u00E4"
+   },
+   "options_smartFilingEnabled_notebooks": {
+      "description": "",
+      "message": "Vain muistikirjat"
+   },
+   "options_smartFilingEnabled_tags": {
+      "description": "",
+      "message": "Vain avainsanat"
+   },
+   "options_storedCredentials": {
+      "description": "Label for a set of options controls enabling users to store their credentials",
+      "message": "Tunnukset"
+   },
+   "options_storedCredentialsDescription": {
+      "description": "Educational message for users who wish to store their Evernote password. First sentence is the most critical one as it will be used in options_storedCredentialsShortDescription",
+      "message": "\u003Cb\u003EHUOM:\u003C/b\u003E Salasanojen tallentamisesta voi seurata, ett\u00E4 muut pystyv\u00E4t k\u00E4ytt\u00E4m\u00E4\u00E4n Evernote-tili\u00E4si t\u00E4ll\u00E4 selaimella. Poista Leike Evernoteen -laajennus tai kirjaudu siit\u00E4 ulos, jos haluat pysyv\u00E4sti poistaa selainlaajennukseen tallennetun k\u00E4ytt\u00E4j\u00E4tunnuksen ja salasanan."
+   },
+   "options_title": {
+      "description": "Title of the options page",
+      "message": "Asetukset"
+   },
+   "options_useContextMenu": {
+      "description": "Label for option to enable clipping via contextual menu",
+      "message": "Ota kohdevalikot k\u00E4ytt\u00F6\u00F6n"
+   },
+   "options_useContextMenuDescription": {
+      "description": "Description of the contextual menu option",
+      "message": "Kun k\u00E4yt\u00F6ss\u00E4, voit ottaa leikkeit\u00E4 verkkosivuista kohdevalikon avulla. Kuvien, valitun tekstin tai mink\u00E4 tahansa sivulla olevan alueen napsautus hiiren oikealla n\u00E4pp\u00E4imell\u00E4 tuo n\u00E4kyviin k\u00E4ytett\u00E4viss\u00E4 olevat leiketoiminnot."
+   },
+   "options_useSearchHelper": {
+      "description": "Label for search-helper feature toggle",
+      "message": "Liittyv\u00E4t tulokset"
+   },
+   "options_useSearchHelperDescription": {
+      "description": "Description of the search-helper feature as shown on the options page",
+      "message": "Kun k\u00E4yt\u00F6ss\u00E4, hakujen suorittaminen tuetuilla verkkoselaimilla n\u00E4ytt\u00E4\u00E4 my\u00F6s tuloksia Evernote-tililt\u00E4si."
+   },
+   "options_useStage": {
+      "description": "Label for developer option to simulate checkVersion failure",
+      "message": "K\u00E4yt\u00E4 n\u00E4ytt\u00E4m\u00F6\u00E4"
+   },
+   "options_useStageDescription": {
+      "description": "Description for what it means to select this option",
+      "message": "M\u00E4\u00E4ritt\u00E4\u00E4 verkkoleikety\u00F6kalun k\u00E4ytt\u00E4m\u00E4\u00E4n tuotantopalvelun sijasta 'n\u00E4ytt\u00E4m\u00F6palvelua', jota normaalisti k\u00E4ytet\u00E4\u00E4n vain testaukseen."
+   },
+   "pdfTip": {
+      "description": "Tooltip that appears on PDFs",
+      "message": "Tiesitk\u00F6, ett\u00E4 voit liitt\u00E4\u00E4 PDF-tiedostoja suoraan Evernote-tiliisi Web Clipperin avulla?"
+   },
+   "popup_couldntStart": {
+      "description": "Message that shows up when the clipper popup can't open.",
+      "message": "Clipper ei pystynyt k\u00E4ynnistym\u00E4\u00E4n t\u00E4ll\u00E4 sivulla. Lataa sivu uudelleen ja yrit\u00E4 sitten. Jos siit\u00E4 ei ole apua, ota yhteytt\u00E4 asiakastukeen."
+   },
+   "popup_loadingNotebooks": {
+      "description": "Message shown while smart filing is running. Should *not* include trailing punctuation.",
+      "message": "Ladataan muistikirjoja"
+   },
+   "popup_loginCheckTimeout": {
+      "description": "Message that displays if checking if the user is logged in takes too long.",
+      "message": "Tunnusten tarkistus kesti liian kauan. Varmista, ett\u00E4 Internet-yhteytesi on k\u00E4yt\u00F6ss\u00E4, ja yrit\u00E4 uudelleen."
+   },
+   "popup_moreNotesLink": {
+      "description": "Message showing how many more notes can be seen on the server.",
+      "message": "N\u00E4yt\u00E4 $count$ muistiinpanoa lis\u00E4\u00E4...",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "10"
+         }
+      }
+   },
+   "popup_oneMoreNoteLink": {
+      "description": "Message showing there is one more note on the server.",
+      "message": "Katso viel\u00E4 yksi muistiinpano\u2026"
+   },
+   "popup_unsupportedScheme": {
+      "description": "The error to display when the popup can't operate on a specific type of url.",
+      "message": "Leikkeen ottamista t\u00E4st\u00E4 sijainnista ei tueta."
+   },
+   "popup_waiting": {
+      "description": "Displays while the popup window waits for a page to finish loading.",
+      "message": "Odotetaan sivua..."
+   },
+   "quickNote": {
+      "description": "Title for creating quick note",
+      "message": "Leike"
+   },
+   "quickNoteAction_clipArticle": {
+      "description": "Label for clipping article action",
+      "message": "Tallenna artikkeli"
+   },
+   "quickNoteAction_clipFullPage": {
+      "description": "Label for clipping full page action",
+      "message": "Tallenna koko sivu"
+   },
+   "quickNoteAction_clipPDF": {
+      "description": "Label for clipping PDF action",
+      "message": "Tallenna PDF"
+   },
+   "quickNoteAction_clipSelection": {
+      "description": "Label for clipping selection action",
+      "message": "Tallenna valinta"
+   },
+   "quickNoteAction_clipUrl": {
+      "description": "Label for clipping URL action",
+      "message": "Tallenna osoite"
+   },
+   "quickNote_addComment": {
+      "description": "Placeholder text for comment input",
+      "message": "Lis\u00E4\u00E4 kommentti"
+   },
+   "quickNote_addTags": {
+      "description": "Placeholder text for tag input",
+      "message": "Lis\u00E4\u00E4 avainsanoja"
+   },
+   "quickNote_comment": {
+      "description": "Label for additional text to be added to the note",
+      "message": "Lis\u00E4\u00E4 teksti"
+   },
+   "quickNote_notebook": {
+      "description": "Label for selection of note's notebook",
+      "message": "Muistikirja"
+   },
+   "quickNote_submit": {
+      "description": "Label for saving quick note",
+      "message": "Tallenna"
+   },
+   "quickNote_tagsDisabled": {
+      "description": "Message indicating that you can't use tags for shared notebooks.",
+      "message": "Avainsanoja ei t\u00E4ll\u00E4 hetkell\u00E4 tueta jaetuissa muistikirjoissa."
+   },
+   "quickNote_title": {
+      "description": "Label for note title",
+      "message": "Otsikko"
+   },
+   "quickNote_untitledNote": {
+      "description": "Placeholder title for untitled note",
+      "message": "Nimet\u00F6n muistiinpano"
+   },
+   "regForm_cancel": {
+      "description": "Allows user to back out of registration when s/he's creating an account during account switching",
+      "message": "Peruuta"
+   },
+   "regForm_deactivated_username": {
+      "description": "User wanted to register with a deactivated username",
+      "message": "K\u00E4ytt\u00E4j\u00E4tunnus on poistettu k\u00E4yt\u00F6st\u00E4. Haluatko \u003Ca href='$url$'\u003Eaktivoida tilin uudelleen\u003C/a\u003E?",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "https://www.evernote.com/AccountReactivation.action"
+         }
+      }
+   },
+   "regForm_email_required": {
+      "description": "User didn't enter an email address",
+      "message": "S\u00E4hk\u00F6postiosoite on vaadittu kentt\u00E4."
+   },
+   "regForm_goodUsername": {
+      "description": "The user entered a valid and available username into the registration form",
+      "message": "Saatavilla"
+   },
+   "regForm_invalid_captcha": {
+      "description": "User didn't fill out the captcha.",
+      "message": "Sy\u00F6t\u00E4 yll\u00E4 olevassa kuvassa n\u00E4kyv\u00E4t merkit."
+   },
+   "regForm_invalid_email": {
+      "description": "User didn't enter a properly-formatted email address",
+      "message": "S\u00E4hk\u00F6postiosoite n\u00E4ytt\u00E4\u00E4 olevan virheellinen."
+   },
+   "regForm_invalid_password": {
+      "description": "User entered an invalid password",
+      "message": "Valitse 6\u201364 merkin pituinen salasana, joka sis\u00E4lt\u00E4\u00E4 kirjaimia, numeroita ja v\u00E4limerkkej\u00E4."
+   },
+   "regForm_invalid_username": {
+      "description": "User entered an invalid username",
+      "message": "K\u00E4ytt\u00E4j\u00E4tunnuksesi pit\u00E4\u00E4 alkaa ja loppua joko kirjaimella tai numerolla, se voi sis\u00E4lt\u00E4\u00E4 my\u00F6s v\u00E4liviivoja ja alaviivoja."
+   },
+   "regForm_password_required": {
+      "description": "User didn't enter a password",
+      "message": "Salasana on vaadittu kentt\u00E4."
+   },
+   "regForm_taken_email": {
+      "description": "User entered a valid but unavailable email",
+      "message": "T\u00E4m\u00E4 s\u00E4hk\u00F6postiosoite on jo k\u00E4yt\u00F6ss\u00E4."
+   },
+   "regForm_taken_username": {
+      "description": "User entered a valid but unavailable username",
+      "message": "Valitsemasi k\u00E4ytt\u00E4j\u00E4tunnus on jo toisen k\u00E4ytt\u00E4j\u00E4n k\u00E4yt\u00F6ss\u00E4."
+   },
+   "register": {
+      "description": "Text on the submit button of the registration form",
+      "message": "Rekister\u00F6idy"
+   },
+   "registrationForm_username": {
+      "description": "Text on the username field of the registration form",
+      "message": "K\u00E4ytt\u00E4j\u00E4tunnus"
+   },
+   "registration_terms": {
+      "description": "Terms of Service and Privacy Policy agreement",
+      "message": "Napsauttamalla Rekister\u00F6idy hyv\u00E4ksyt \u003Ca href='$tos_url$'\u003Ek\u00E4ytt\u00F6ehtomme\u003C/a\u003E ja \u003Ca href='$pp_url$'\u003Erekisteriselosteemme\u003C/a\u003E.",
+      "placeholders": {
+         "pp_url": {
+            "content": "$2",
+            "example": "http://www.evernote.com/privacy"
+         },
+         "tos_url": {
+            "content": "$1",
+            "example": "http://www.evernote.com/tos"
+         }
+      }
+   },
+   "relatedNotes": {
+      "description": "Label for the related notes button, and the title for the descriptive overlay.",
+      "message": "Liittyv\u00E4t muistiinpanot"
+   },
+   "relatedNotesDescription": {
+      "description": "message describing what Related Notes do.",
+      "message": "Evernote etsii jopa kolme tilill\u00E4si olevaa muistiinpanoa, jotka liittyv\u00E4t juuri leikkaamaasi sivuun ja esitt\u00E4\u00E4 ne t\u00E4ss\u00E4."
+   },
+   "rememberFoodYouLove": {
+      "description": "Second part of the text for the Evernote Food cross promotion",
+      "message": "Muista ruoka, jota rakastat."
+   },
+   "safariContextClipImage": {
+      "description": "Label for right-click menu to clip an image in Safari.",
+      "message": "Tallenna kuva Evernoteen"
+   },
+   "safariContextClipPDF": {
+      "description": "Label for right-click menu to clip a PDF in Safari.",
+      "message": "Tallenna PDF-tiedosto Evernoteen"
+   },
+   "safariContextClipPage": {
+      "description": "Label for right-click menu to clip the whole page in Safari.",
+      "message": "Tallenna koko sivu Evernoteen"
+   },
+   "safariContextClipSelection": {
+      "description": "Label for right-click menu to clip a selection in Safari.",
+      "message": "Tallenna valinta Evernoteen"
+   },
+   "safariContextClipUrl": {
+      "description": "Label for right-click menu to clip a URL in Safari.",
+      "message": "Tallenna osoite Evernoteen"
+   },
+   "safariContextNewNote": {
+      "description": "Label for right-click menu to create a new note.",
+      "message": "Luo uusi muistiinpano Evernoteen"
+   },
+   "saveToEvernote": {
+      "description": "Label for button to save clip to Evernote",
+      "message": "Tallenna Evernoteen"
+   },
+   "searchHelperFoundNotes": {
+      "description": "Message indicating that related notes were found",
+      "message": "\u003Cb\u003ET\u00E4rkeimm\u00E4t tulokset\u003C/b\u003E Evernote-tilill\u00E4si"
+   },
+   "searchHelperLoginMessage": {
+      "description": "Message injected into search-engine page indicating that the user must login prior to seeing results.",
+      "message": "\u003Cdiv class='grayText' id='login'\u003E\u003Ca target='_blank' href='$loginUrl$'\u003EKirjaudu sis\u00E4\u00E4n\u003C/a\u003E Web Clipper, jos haluat n\u00E4hd\u00E4 liittyv\u00E4t tulokset\u003C/div\u003E",
+      "placeholders": {
+         "loginUrl": {
+            "content": "$1",
+            "example": "http://www.evernote.com/Login.action"
+         }
+      }
+   },
+   "searchHelperNoTransportError": {
+      "description": "Error message shown to user when there is a problem reaching the servers when doing simultaneous search.",
+      "message": "Samanaikainen haku ei ole t\u00E4ll\u00E4 hetkell\u00E4 k\u00E4ytett\u00E4viss\u00E4, koska Evernoten palvelimiin ei saada yhteytt\u00E4."
+   },
+   "searchHelperNotesNotFoundBiz": {
+      "description": "Message injected into search-engine page indicating there were no related notes found in personal or business accounts",
+      "message": "Ei liittyvi\u00E4 tuloksia henkil\u00F6kohtaisissa tai Business-muistiinpanoissa"
+   },
+   "searchHelperNotesNotFoundPers": {
+      "description": "Message injected into search-engine page indicating there were no related notes found in personal account",
+      "message": "Ei liittyvi\u00E4 tuloksia muistiinpanoissasi"
+   },
+   "searchHelperTopBizLibraryMatches": {
+      "description": "Section heading for the simsearch notes found in the user's business account",
+      "message": "$num$ liittyv\u00E4\u00E4 tulosta Business-muistiinpanoissasi",
+      "placeholders": {
+         "num": {
+            "content": "$1",
+            "example": "2"
+         }
+      }
+   },
+   "searchHelperTopBizLibraryMatchesOne": {
+      "description": "Section heading for the simsearch notes found in the user's business account, if there was only one result",
+      "message": "1 liittyv\u00E4 tulos Business-muistiinpanoissasi"
+   },
+   "searchHelperTopMatchesBiz": {
+      "description": "Section heading for the simsearch notes found in a business user's personal account",
+      "message": "$num$ liittyv\u00E4\u00E4 tulosta henkil\u00F6kohtaisissa muistiinpanoissasi",
+      "placeholders": {
+         "num": {
+            "content": "$1",
+            "example": "3"
+         }
+      }
+   },
+   "searchHelperTopMatchesBizOne": {
+      "description": "Section heading for the simsearch notes found in a business user's personal account, if there was only one result",
+      "message": "1 liittyv\u00E4 tulos henkil\u00F6kohtaisissa muistiinpanoissasi"
+   },
+   "searchHelperTopMatchesPers": {
+      "description": "Section heading for the simsearch notes found in a non-business user's personal account",
+      "message": "$num$ liittyv\u00E4\u00E4 tulosta muistiinpanoissasi",
+      "placeholders": {
+         "num": {
+            "content": "$1",
+            "example": "3"
+         }
+      }
+   },
+   "searchHelperTopMatchesPersOne": {
+      "description": "Section heading for the simsearch notes found in a non-business user's personal account, if there was only one result",
+      "message": "1 liittyv\u00E4 tulos muistiinpanoissasi"
+   },
+   "searchHelperViewAll": {
+      "description": "Label for the link in simsearch to the web client to search for the user's search query.",
+      "message": "N\u00E4yt\u00E4 kaikki"
+   },
+   "searchHelper_hidePerm": {
+      "description": "Text for the option in the simsearch drop down menu to let user to disable simsearch in the options",
+      "message": "\u00C4l\u00E4 n\u00E4yt\u00E4 en\u00E4\u00E4"
+   },
+   "searchHelper_hideTemp": {
+      "description": "Text for the option in the simsearch drop down menu to let user temporarily close the simsearch box, but not disable in the options",
+      "message": "Hylk\u00E4\u00E4"
+   },
+   "showRelatedNotes": {
+      "description": "text for the link in the 'related notes' overlay that will show this section.",
+      "message": "N\u00E4yt\u00E4 liittyv\u00E4t muistiinpanot"
+   },
+   "signInHelperText": {
+      "description": "message shown at the top of the login screen to tell them why they should sign in",
+      "message": "Kirjaudu sis\u00E4\u00E4n, jotta voit ottaa leikkeit\u00E4 ja tarkastella liittyvi\u00E4 tuloksia"
+   },
+   "signInPrompt": {
+      "description": "hover text on signed out state of the toolbar icon",
+      "message": "Kirjaudu Web Clipperiin"
+   },
+   "signOutAccount": {
+      "description": "menu item for logging out of the currently selected account.",
+      "message": "Kirjaudu ulos tililt\u00E4 $name$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "signOutAll": {
+      "description": "Label to click when a user wants to log in with multiple accounts.",
+      "message": "Kirjaudu ulos kaikilta tileilt\u00E4"
+   },
+   "signout": {
+      "description": "Text on a link prompting for signing out currently logged in user",
+      "message": "Kirjaudu ulos"
+   },
+   "stayLoggedInFree": {
+      "description": "Message indicating user should stay logged in as existing user.",
+      "message": "Pysy kirjautuneena tilill\u00E4 $name$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "switchAnyMessage": {
+      "description": "Message shown when a user tries to add another user and is not already logged into a free account.",
+      "message": "K\u00E4ytt\u00E4jien vaihto on Premium-ominaisuus, jonka avulla voit nopeasti vaihtaa k\u00E4ytt\u00E4jien v\u00E4lill\u00E4. Voit lis\u00E4t\u00E4 Premium- tai ilmaisen k\u00E4ytt\u00E4j\u00E4n."
+   },
+   "switchFreeAccount": {
+      "description": "Message indicating user should switch to newly logged in user.",
+      "message": "K\u00E4yt\u00E4 tili\u00E4 $name$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "switchPremiumMessage": {
+      "description": "Message shown when a user tries to add another user and is already logged into a free account.",
+      "message": "K\u00E4ytt\u00E4jien vaihto on Premium-ominaisuus, jonka avulla voit nopeasti vaihtaa k\u00E4ytt\u00E4jien v\u00E4lill\u00E4. Voit lis\u00E4t\u00E4 Premium-k\u00E4ytt\u00E4j\u00E4n."
+   },
+   "switchToAccount": {
+      "description": "Menu item indicating a user account that can be switched to.",
+      "message": "Vaihda tiliin $name$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "tagNamesNotInRange": {
+      "description": "Indicates that user entered an abnormal number of tags",
+      "message": "Olet sy\u00F6tt\u00E4nyt enimm\u00E4ism\u00E4\u00E4r\u00E4n avainsanoja."
+   },
+   "tryItOut": {
+      "description": "text for button on pdf tooltip",
+      "message": "Kokeile sit\u00E4"
+   },
+   "youHaveRelatedNotes": {
+      "description": "Text indicating that the user has other related notes.",
+      "message": "Sinulla on muita t\u00E4m\u00E4nkaltaisia muistiinpanoja."
+   }
+}

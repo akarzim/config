@@ -1,0 +1,1070 @@
+{
+   "April": {
+      "message": "4\u6708"
+   },
+   "Aug": {
+      "message": "8\u6708"
+   },
+   "BrowserActionTitle": {
+      "description": "Title for the browser action that's visible to the user of extension",
+      "message": "Evernote \u306B\u30AF\u30EA\u30C3\u30D7"
+   },
+   "Close": {
+      "description": "The string that shows up on a button used to close a window.",
+      "message": "\u9589\u3058\u308B"
+   },
+   "Dec": {
+      "message": "12\u6708"
+   },
+   "EDAMError_1": {
+      "description": "Used to describe an unknown EDAM error",
+      "message": "\u4E0D\u660E\u306A\u30A8\u30E9\u30FC"
+   },
+   "EDAMError_1_notebookGuid": {
+      "description": "Error message indicating unknown notebook",
+      "message": "\u4E0D\u660E\u306A\u30CE\u30FC\u30C8\u30D6\u30C3\u30AF"
+   },
+   "EDAMError_3": {
+      "description": "Indicates that permission was denied for request by the server",
+      "message": "\u30D1\u30FC\u30DF\u30C3\u30B7\u30E7\u30F3\u304C\u3042\u308A\u307E\u305B\u3093"
+   },
+   "EDAMError_3_User_active": {
+      "description": "Indicates that a user tried to login but their account is inactive",
+      "message": "\u30A2\u30AB\u30A6\u30F3\u30C8\u304C\u505C\u6B62\u4E2D\u306A\u306E\u3067\u30A2\u30AF\u30BB\u30B9\u304C\u62D2\u5426\u3055\u308C\u307E\u3057\u305F"
+   },
+   "EDAMError_3_User_tooManyFailuresTryAgainLater": {
+      "description": "Indicates that a user tried to login way too many times with invalid credentials and needs to chill for a bit",
+      "message": "\u5931\u6557\u56DE\u6570\u304C\u4E0A\u9650\u306B\u9054\u3057\u307E\u3057\u305F\u3002\u5F8C\u307B\u3069\u518D\u5EA6\u304A\u8A66\u3057\u4E0B\u3055\u3044\u3002"
+   },
+   "Error_HTTP_Transport": {
+      "description": "Generic error indicating that the extension could not get a response from a server",
+      "message": "\u30B5\u30FC\u30D0\u3068\u306E\u901A\u4FE1\u306B\u554F\u984C\u304C\u751F\u3058\u307E\u3057\u305F [$status$]. $errorText$",
+      "placeholders": {
+         "errorText": {
+            "content": "$2",
+            "example": "http error response"
+         },
+         "status": {
+            "content": "HTTP $1",
+            "example": "404"
+         }
+      }
+   },
+   "Error_Network_Unavailable": {
+      "description": "error message shown when we can't connect to the internet.",
+      "message": "\u30A4\u30F3\u30BF\u30FC\u30CD\u30C3\u30C8\u63A5\u7D9A\u304C\u3042\u308A\u307E\u305B\u3093"
+   },
+   "ExtensionDescription": {
+      "description": "Description of the extension as it's visible to the outside world",
+      "message": "Evernote \u62E1\u5F35\u6A5F\u80FD\u3092\u5229\u7528\u3057\u3066\u3001Web \u4E0A\u3067\u898B\u3064\u3051\u305F\u30DA\u30FC\u30B8\u3092 Evernote \u30A2\u30AB\u30A6\u30F3\u30C8\u306B\u4FDD\u5B58\u3057\u307E\u3059\u3002\u307E\u305F\u30CE\u30FC\u30C8\u5185\u306E\u691C\u7D22\u3082\u53EF\u80FD\u3067\u3059\u3002"
+   },
+   "ExtensionName": {
+      "description": "Name of the extension as it's visible to the outside world",
+      "message": "Evernote Web Clipper"
+   },
+   "Feb": {
+      "message": "2\u6708"
+   },
+   "Friday": {
+      "message": "\u91D1\u66DC\u65E5"
+   },
+   "Jan": {
+      "message": "1\u6708"
+   },
+   "July": {
+      "message": "7\u6708"
+   },
+   "June": {
+      "message": "6\u6708"
+   },
+   "March": {
+      "message": "3\u6708"
+   },
+   "May": {
+      "message": "5\u6708"
+   },
+   "Monday": {
+      "message": "\u6708\u66DC\u65E5"
+   },
+   "Nov": {
+      "message": "11\u6708"
+   },
+   "Oct": {
+      "message": "10\u6708"
+   },
+   "Saturday": {
+      "message": "\u571F\u66DC\u65E5"
+   },
+   "Sept": {
+      "message": "9\u6708"
+   },
+   "Sunday": {
+      "message": "\u65E5\u66DC\u65E5"
+   },
+   "Thursday": {
+      "message": "\u6728\u66DC\u65E5"
+   },
+   "Today": {
+      "message": "\u4ECA\u65E5"
+   },
+   "Tuesday": {
+      "message": "\u706B\u66DC\u65E5"
+   },
+   "Wednesday": {
+      "message": "\u6C34\u66DC\u65E5"
+   },
+   "accountChangedTo": {
+      "description": "message notifying the user that he's switched to a different account.",
+      "message": "\u30A2\u30AB\u30A6\u30F3\u30C8\u540D $name$ \u3092\u4F7F\u7528\u4E2D",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "addAnotherAccount": {
+      "description": "Label to click when a user wants to log in with multiple accounts.",
+      "message": "\u5225\u306E\u30A2\u30AB\u30A6\u30F3\u30C8\u3092\u8FFD\u52A0..."
+   },
+   "articleClipFailure": {
+      "description": "Messages shown to user when the article of the page isn't clippable.",
+      "message": "\u3053\u306E\u30DA\u30FC\u30B8\u3092\u8A18\u4E8B\u3068\u3057\u3066\u30AF\u30EA\u30C3\u30D7\u3067\u304D\u307E\u305B\u3093\u3002\u30AF\u30EA\u30C3\u30D7\u3057\u305F\u3044\u7B87\u6240\u3092\u9078\u629E\u3057\u3066\u4E0B\u3055\u3044\u3002"
+   },
+   "authPersistenceError": {
+      "description": "Error indicating that the browser fails to persist authentication.",
+      "message": "\u30D6\u30E9\u30A6\u30B6\u8A2D\u5B9A\u304C Evernote \u62E1\u5F35\u6A5F\u80FD\u3068\u77DB\u76FE\u3057\u3066\u3044\u307E\u3059\u3002Google Chrome \u306E\u30D7\u30E9\u30A4\u30D0\u30B7\u30FC\u30B3\u30F3\u30C6\u30F3\u30C4\u8A2D\u5B9A\u3092\u521D\u671F\u8A2D\u5B9A\u306B\u623B\u3057\u3066\u4E0B\u3055\u3044: \u30ED\u30FC\u30AB\u30EB\u30C7\u30FC\u30BF\u306E\u8A2D\u5B9A\u3092\u8A31\u53EF\u3001\u30B5\u30FC\u30C9\u30D1\u30FC\u30C6\u30A3\u306E\u30AF\u30C3\u30AD\u30FC\u3092\u30D6\u30ED\u30C3\u30AF\u3057\u306A\u3044\u3001\u4ED6\u306E\u30B5\u30FC\u30C9\u30D1\u30FC\u30C6\u30A3\u88FD\u62E1\u5F35\u6A5F\u80FD\u306E\u52D5\u4F5C\u3092\u7121\u52B9\u5316\u3002"
+   },
+   "bizNotebookOptionText": {
+      "description": "text that shows up in the dropdown list used to select another user's business notebook.",
+      "message": "\uFF08$creator$ \u304B\u3089\u5171\u6709\uFF09",
+      "placeholders": {
+         "creator": {
+            "content": "$1",
+            "example": "Connie Chan"
+         }
+      }
+   },
+   "bizNotebooksOptGroupTitle": {
+      "description": "text that appears above the list of business notebooks in the dropdown list of notebooks.",
+      "message": "\u30D3\u30B8\u30CD\u30B9\u30CE\u30FC\u30C8\u30D6\u30C3\u30AF"
+   },
+   "cancelAddAnotherAccount": {
+      "description": "The text for the control that cancels adding a new acconut to switch to.",
+      "message": "\u30AD\u30E3\u30F3\u30BB\u30EB"
+   },
+   "cancelSwitchFree": {
+      "description": "Message on button to cancel switching to a different free account.",
+      "message": "\u5143\u306E\u30A2\u30AB\u30A6\u30F3\u30C8\u306B\u623B\u308B"
+   },
+   "captcha_instruction": {
+      "description": "Instruction for captcha in the registration form.",
+      "message": "\u4E0B\u306B\u6570\u5B57\u3092\u5165\u529B\u3057\u3066\u4E0B\u3055\u3044"
+   },
+   "checkVersionWarning": {
+      "description": "Warning message shown to user when the client doesn't pass version check",
+      "message": "\u3053\u306E\u30D0\u30FC\u30B8\u30E7\u30F3\u306E Evernote Web \u30AF\u30EA\u30C3\u30D1\u30FC\u306F\u3001Evernote \u30B5\u30FC\u30D3\u30B9\u3068\u4E92\u63DB\u6027\u304C\u3042\u308A\u307E\u305B\u3093\u3002\u6700\u65B0\u7248\u3092\u30A4\u30F3\u30B9\u30C8\u30FC\u30EB\u3057\u3066\u4E0B\u3055\u3044\u3002"
+   },
+   "clearFeatureDiscoveryTooltip": {
+      "description": "The message that pops up when you hover over the 'x' icon for the 'feature discovery' box.",
+      "message": "\u3053\u306E\u901A\u77E5\u3092\u4ECA\u5F8C\u8868\u793A\u3057\u306A\u3044"
+   },
+   "clearTagsToolTip": {
+      "description": "The message that pops up when you hover over the 'x' icon that displays beside the tag list.",
+      "message": "\u3059\u3079\u3066\u306E\u30BF\u30B0\u3092\u30AF\u30EA\u30A2"
+   },
+   "clipsFromThisSite": {
+      "description": "Label for the site search button.",
+      "message": "$site$ \u304B\u3089\u306E\u30AF\u30EA\u30C3\u30D7",
+      "placeholders": {
+         "site": {
+            "content": "$1",
+            "example": "71"
+         }
+      }
+   },
+   "contentPreview_clipArticle": {
+      "description": "Selection nudging legend for clipping article",
+      "message": "\u8A18\u4E8B\u306E\u30AF\u30EA\u30C3\u30D7"
+   },
+   "contentPreview_expandSelection": {
+      "description": "Selection nudging legend for expanding selection",
+      "message": "\u9078\u629E\u7BC4\u56F2\u3092\u62E1\u5927"
+   },
+   "contentPreview_moveSelection": {
+      "description": "Selection nudging legend for moving selection",
+      "message": "\u9078\u629E\u7BC4\u56F2\u3092\u79FB\u52D5"
+   },
+   "contentPreview_shrinkSelection": {
+      "description": "Selection nudging legend for shrinking selection",
+      "message": "\u9078\u629E\u7BC4\u56F2\u3092\u7E2E\u5C0F"
+   },
+   "contentclipper_clipping": {
+      "description": "Message shown on content pages to notify users that the page is being scraped for clipping.",
+      "message": "\u300C$clipTitle$\u300D\u3092\u003Cb\u003E\u30AF\u30EA\u30C3\u30D7\u4E2D\u003C/b\u003E",
+      "placeholders": {
+         "clipTitle": {
+            "content": "$1",
+            "example": "Sample clip title"
+         }
+      }
+   },
+   "contentclipper_clipping_no_title": {
+      "description": "Message shown on content pages to notify users that the page is being scraped for clipping when the title of the clip is unavailable.",
+      "message": "\u003Cb\u003E\u30AF\u30EA\u30C3\u30D7\u4E2D...\u003C/b\u003E"
+   },
+   "contentclipper_syncing": {
+      "description": "Message shown on content pages to notify users that the page is being sent to the server.",
+      "message": "\u300C$clipTitle$\u300D\u3092\u003Cb\u003E\u540C\u671F\u4E2D\u003C/b\u003E",
+      "placeholders": {
+         "clipTitle": {
+            "content": "$1",
+            "example": "Sample clip title"
+         }
+      }
+   },
+   "contextMenuClipImage": {
+      "description": "Context menu item for creating a new note with image",
+      "message": "\u753B\u50CF\u3092\u30AF\u30EA\u30C3\u30D7"
+   },
+   "contextMenuClipPDF": {
+      "description": "Context menu item for creating a new note with PDF",
+      "message": "PDF \u3092\u30AF\u30EA\u30C3\u30D7"
+   },
+   "contextMenuClipPage": {
+      "description": "Context menu item for clipping current page",
+      "message": "\u3053\u306E\u30DA\u30FC\u30B8\u3092\u30AF\u30EA\u30C3\u30D7"
+   },
+   "contextMenuClipSelection": {
+      "description": "Context menu item for clipping current selection",
+      "message": "\u9078\u629E\u90E8\u5206\u3092\u30AF\u30EA\u30C3\u30D7"
+   },
+   "contextMenuClipUrl": {
+      "description": "Context menu item for creating a new note with just the URL of the current page",
+      "message": "URL \u3092\u30AF\u30EA\u30C3\u30D7"
+   },
+   "contextMenuNewNote": {
+      "description": "Context menu item for creating new note",
+      "message": "\u65B0\u898F\u30CE\u30FC\u30C8"
+   },
+   "contextMenuPleaseLogin": {
+      "description": "Help message shown to users when they try to clip content via contextual menu items but not being intially logged in",
+      "message": "\u30AF\u30EA\u30C3\u30D7\u3092\u4F5C\u6210\u3059\u308B\u524D\u306B\u300CEvernote \u306B\u30AF\u30EA\u30C3\u30D7\u300D\u30C4\u30FC\u30EB\u30D0\u30FC\u30DC\u30BF\u30F3\u304B\u3089\u30B5\u30A4\u30F3\u30A4\u30F3\u3059\u308B\u5FC5\u8981\u304C\u3042\u308A\u307E\u3059"
+   },
+   "copyright": {
+      "description": "Copyright statement",
+      "message": "Copyright 2009-2013 Evernote Corporation. All rights reserved. \u003Ca href='$baseUrl$/privacy' target='_blank'\u003E\u30D7\u30E9\u30A4\u30D0\u30B7\u30FC\u30DD\u30EA\u30B7\u30FC\u003C/a\u003E | \u003Ca href='$baseUrl$/tos' target='_blank'\u003E\u30B5\u30FC\u30D3\u30B9\u898F\u7D04\u003C/a\u003E | \u003Ca href='#' id='legalLink'\u003E\u6CD5\u52D9\u60C5\u5831\u003C/a\u003E",
+      "placeholders": {
+         "baseUrl": {
+            "content": "$1",
+            "example": "https://www.evernote.com"
+         }
+      }
+   },
+   "deleting": {
+      "description": "Message indicating that the extension is deleting previously clipped note from the server",
+      "message": "\u30AF\u30EA\u30C3\u30D7\u3057\u305F\u30CE\u30FC\u30C8\u3092\u524A\u9664\u4E2D..."
+   },
+   "desktopNotification_cancelFailedClip": {
+      "description": "Name of the action associated with cancelling the clip that failed to upload. Should be as short as possible",
+      "message": "\u30AD\u30E3\u30F3\u30BB\u30EB"
+   },
+   "desktopNotification_clipProcessorSignInMessage": {
+      "description": "Message shown to users inside desktop notification informing users that they clip could not be uploaded because they are not authenticated...",
+      "message": "\u30ED\u30B0\u30A4\u30F3\u60C5\u5831\u304C\u9593\u9055\u3063\u3066\u3044\u308B\u304B\u3001\u30ED\u30B0\u30A4\u30F3\u60C5\u5831\u4FDD\u6301\u306E\u671F\u9593\u304C\u904E\u304E\u307E\u3057\u305F\u3002\u30C4\u30FC\u30EB\u30D0\u30FC\u30DC\u30BF\u30F3\u304B\u3089\u518D\u5EA6\u30B5\u30A4\u30F3\u30A4\u30F3\u3057\u3066\u4E0B\u3055\u3044\u3002"
+   },
+   "desktopNotification_clipProcessorSignInTitle": {
+      "description": "Title for desktop notification informing user that there was an error with uploading a clip. This should be as short as possible",
+      "message": "\"$clipTitle$\" \u3092\u4FDD\u5B58\u3067\u304D\u307E\u305B\u3093",
+      "placeholders": {
+         "clipTitle": {
+            "content": "$1",
+            "example": "Sample clip title"
+         }
+      }
+   },
+   "desktopNotification_clipProcessorTooManyRetries": {
+      "description": "Message indicating that we've tried too many times to clip this note.",
+      "message": "\u30AF\u30EA\u30C3\u30D7 \"$title$\" \u306F\u4F55\u5EA6\u3082\u5931\u6557\u3057\u305F\u305F\u3081\u3001\u518D\u8A66\u884C\u3067\u304D\u307E\u305B\u3093\u3002",
+      "placeholders": {
+         "title": {
+            "content": "$1",
+            "example": "Title of the clip."
+         }
+      }
+   },
+   "desktopNotification_clipUploaded": {
+      "description": "Headline for desktop notification indicating that clip was successfully uploaded",
+      "message": "\u300C$clipTitle$\u300D\u3092\u003Cb\u003E\u30AF\u30EA\u30C3\u30D7\u3057\u307E\u3057\u305F\u003C/b\u003E",
+      "placeholders": {
+         "clipTitle": {
+            "content": "$1",
+            "example": "Sample clip title"
+         }
+      }
+   },
+   "desktopNotification_clipUploadedMessage": {
+      "description": "Message indicating that clip was successfully uploaded",
+      "message": "\u30AF\u30EA\u30C3\u30D7\u306F\u6B63\u5E38\u306B\u30A2\u30C3\u30D7\u30ED\u30FC\u30C9\u3055\u308C\u307E\u3057\u305F\u3002"
+   },
+   "desktopNotification_editSuccessClip": {
+      "description": "Name of the action associated with editing clipped note",
+      "message": "\u7DE8\u96C6"
+   },
+   "desktopNotification_retryFailedClip": {
+      "description": "Name of the action associated with retrying the clip that failed to upload. Should be as short as possible",
+      "message": "\u518D\u8A66\u884C"
+   },
+   "desktopNotification_unableToSaveClip": {
+      "description": "Headline for desktop notifications indicating there was a problem with saving the clip",
+      "message": "\"$clipTitle$\" \u3092\u4FDD\u5B58\u3067\u304D\u307E\u305B\u3093",
+      "placeholders": {
+         "clipTitle": {
+            "content": "$1",
+            "example": "Sample clip title"
+         }
+      }
+   },
+   "desktopNotification_unableToSaveClipUnknown": {
+      "description": "Headline for desktop notification indicating that there was an unknown error while uploading a clip",
+      "message": "\u30AF\u30EA\u30C3\u30D7\u3092\u4FDD\u5B58\u3067\u304D\u307E\u305B\u3093"
+   },
+   "desktopNotification_unableToSaveClipUnknownMessage": {
+      "description": "Description of the unknown error that may occur after the extension failed to upload a clip",
+      "message": "\u30AF\u30EA\u30C3\u30D7\u4FDD\u5B58\u4E2D\u306B\u4E0D\u660E\u306A\u30A8\u30E9\u30FC\u304C\u8D77\u304D\u307E\u3057\u305F\u3002\u30A8\u30E9\u30FC\u30E1\u30C3\u30BB\u30FC\u30B8: $details$",
+      "placeholders": {
+         "details": {
+            "content": "$1",
+            "example": "Error 503"
+         }
+      }
+   },
+   "desktopNotification_viewSuccessClip": {
+      "description": "Name of the actions associated with viewing clipped note",
+      "message": "\u8868\u793A"
+   },
+   "dismiss": {
+      "description": "Message shown on buttons to dismiss a widget of some kind",
+      "message": "\u9589\u3058\u308B"
+   },
+   "email": {
+      "description": "Label for email field of registration form",
+      "message": "\u30E1\u30FC\u30EB\u30A2\u30C9\u30EC\u30B9"
+   },
+   "filing": {
+      "description": "Message indicating that the extension is filing changes made to previously clipped note on the server",
+      "message": "\u30CE\u30FC\u30C8\u3092\u4FDD\u5B58\u4E2D..."
+   },
+   "freeAccountLimit": {
+      "description": "",
+      "message": "\u65E2\u306B\u7121\u6599\u306E\u30A2\u30AB\u30A6\u30F3\u30C8 \u003Cb\u003E$name$\u003C/b\u003E \u306B\u30B5\u30A4\u30F3\u30A4\u30F3\u3057\u3066\u3044\u307E\u3059\u3002\u30D7\u30EC\u30DF\u30A2\u30E0\u30A2\u30AB\u30A6\u30F3\u30C8\u306F\u8907\u6570\u30A2\u30AB\u30A6\u30F3\u30C8\u9593\u3067\u5207\u308A\u66FF\u3048\u3089\u308C\u307E\u3059\u304C\u3001\u7121\u6599\u30A2\u30AB\u30A6\u30F3\u30C8\u306F 1 \u500B\u3060\u3051\u3067\u3059\u3002\u3053\u306E\u7121\u6599\u30A2\u30AB\u30A6\u30F3\u30C8\u3092\u4F7F\u3044\u307E\u3059\u304B\uFF1F",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "fullPageClipFailure": {
+      "description": "Message shown to user when full page clip wasn't possible",
+      "message": "Evernote \u306F\u30DA\u30FC\u30B8\u5168\u4F53\u3092\u30AF\u30EA\u30C3\u30D7\u3067\u304D\u307E\u305B\u3093\u3002\u30AF\u30EA\u30C3\u30D7\u3057\u305F\u3044\u7B87\u6240\u3092\u9078\u629E\u3057\u3066\u518D\u5EA6\u304A\u8A66\u3057\u4E0B\u3055\u3044\u3002"
+   },
+   "getEvernoteFood": {
+      "description": "First part of the text for the Evernote Food cross promotion that appears in the clip result notification",
+      "message": "Evernote Food \u3092\u5165\u624B"
+   },
+   "header_register": {
+      "description": "Registration link in header",
+      "message": "Evernote \u30A2\u30AB\u30A6\u30F3\u30C8\u3092\u4F5C\u6210"
+   },
+   "hideRelatedNotes": {
+      "description": "text for the link in the 'related notes' overlay that will hide this section.",
+      "message": "\u95A2\u9023\u3059\u308B\u30CE\u30FC\u30C8\u3092\u96A0\u3059"
+   },
+   "illegalUrlClipFailure": {
+      "description": "Error message shown when you try to clip from pages that aren't scriptable by the browser. Such as the chrome gallery pages.",
+      "message": "\u30D6\u30E9\u30A6\u30B6\u306E\u5236\u9650\u306B\u3088\u308A\u3001\u3053\u306E\u30DA\u30FC\u30B8\u3092\u30AF\u30EA\u30C3\u30D7\u3059\u308B\u3053\u3068\u304C\u3067\u304D\u307E\u305B\u3093"
+   },
+   "legalNoticesTitle": {
+      "description": "the title of the legal notices dialog in the options page where we list the licenses of all third party packages we use",
+      "message": "Web \u30AF\u30EA\u30C3\u30D1\u30FC\u306F\u3001\u4EE5\u4E0B\u306E\u30AA\u30FC\u30D7\u30F3\u30BD\u30FC\u30B9\u30BD\u30D5\u30C8\u30A6\u30A7\u30A2\u3092\u4F7F\u7528\u3057\u3066\u3044\u307E\u3059"
+   },
+   "linkedNotebookOptionText": {
+      "description": "Text that shows up inside the dropdown list used to select another user's shared notebook.",
+      "message": "$notebookName$\uFF08\u6240\u6709\u8005: $owner$\uFF09",
+      "placeholders": {
+         "notebookName": {
+            "content": "$1",
+            "example": "recipes"
+         },
+         "owner": {
+            "content": "$2",
+            "example": "tylerkaraszewski"
+         }
+      }
+   },
+   "linkedNotebooksOptGroupTitle": {
+      "description": "the text that apeears above the list of linked notebooks in the dropdown list of notebooks.",
+      "message": "\u5171\u6709\u30CE\u30FC\u30C8\u30D6\u30C3\u30AF"
+   },
+   "loading": {
+      "description": "Message shown when extension is loading...",
+      "message": "\u8AAD\u307F\u8FBC\u307F\u4E2D..."
+   },
+   "loggingIn": {
+      "description": "Message indicating that the extension is currently attempting to sign in user",
+      "message": "Evernote \u306B\u30B5\u30A4\u30F3\u30A4\u30F3\u4E2D"
+   },
+   "loginForm_login": {
+      "description": "Sign in button label for login form",
+      "message": "\u30B5\u30A4\u30F3\u30A4\u30F3"
+   },
+   "loginForm_password": {
+      "description": "Label for entering password into login form",
+      "message": "\u30D1\u30B9\u30EF\u30FC\u30C9"
+   },
+   "loginForm_passwordError_5": {
+      "description": "",
+      "message": "\u30D1\u30B9\u30EF\u30FC\u30C9\u304C\u5FC5\u8981\u3067\u3059\u3002"
+   },
+   "loginForm_passwordInvalidError": {
+      "description": "",
+      "message": "\u30D1\u30B9\u30EF\u30FC\u30C9\u304C\u6B63\u3057\u304F\u3042\u308A\u307E\u305B\u3093"
+   },
+   "loginForm_rememberMe": {
+      "description": "Label for extending login session",
+      "message": "\u30ED\u30B0\u30A4\u30F3\u60C5\u5831\u3092\u8A18\u61B6\u3059\u308B"
+   },
+   "loginForm_searchHelper": {
+      "description": "Label for search helper option on the login view",
+      "message": "Web \u3067\u306E\u691C\u7D22\u6642\u3001\u95A2\u9023\u7D50\u679C\u3092\u8868\u793A"
+   },
+   "loginForm_username": {
+      "description": "Label for entering email address or username into login form",
+      "message": "\u30E1\u30FC\u30EB\u30A2\u30C9\u30EC\u30B9\u304B\u30E6\u30FC\u30B6\u540D"
+   },
+   "loginForm_usernameError_5": {
+      "description": "",
+      "message": "\u30E6\u30FC\u30B6\u540D\u306F\u5FC5\u9808\u3067\u3059\u3002"
+   },
+   "loginForm_usernameError_8": {
+      "description": "",
+      "message": "\u30E6\u30FC\u30B6\u540D\u3068\u30D1\u30B9\u30EF\u30FC\u30C9\u304C\u767B\u9332\u6E08\u307F\u30E6\u30FC\u30B6\u3068\u4E00\u81F4\u3057\u307E\u305B\u3093\u3002"
+   },
+   "loginForm_usernameInvalidChinaError": {
+      "description": "",
+      "message": "\u4E0D\u660E\u306A\u30ED\u30B0\u30A4\u30F3\u3067\u3059\u3002Evernote \u56FD\u969B\u7248\u3092\u304A\u8A66\u3057\u4E0B\u3055\u3044"
+   },
+   "loginForm_usernameInvalidError": {
+      "description": "",
+      "message": "\u305D\u306E\u30E6\u30FC\u30B6\u540D\u306F\u5B58\u5728\u3057\u307E\u305B\u3093\u3002"
+   },
+   "login_searchHelperLongDescription": {
+      "description": "Description of the search-helper feature as shown on the options page",
+      "message": "\u6709\u52B9\u306B\u3057\u305F\u5834\u5408\u3001\u30B5\u30DD\u30FC\u30C8\u3055\u308C\u3066\u3044\u308B\u691C\u7D22\u30A8\u30F3\u30B8\u30F3\u3067\u884C\u3063\u305F\u691C\u7D22\u304C Evernote \u30A2\u30AB\u30A6\u30F3\u30C8\u5185\u30C7\u30FC\u30BF\u3067\u3082\u5B9F\u884C\u3055\u308C\u307E\u3059\u3002\u30B5\u30DD\u30FC\u30C8\u3055\u308C\u3066\u3044\u308B\u691C\u7D22\u30A8\u30F3\u30B8\u30F3: Google\u3001Bing\u3001Yahoo\u3001Yandex\u3001Baidu\u3001Daum\u3001Naver\u3002"
+   },
+   "logs_export": {
+      "description": "Title of the button for exporting all of the logs",
+      "message": "\u30ED\u30B0\u3092\u30A8\u30AF\u30B9\u30DD\u30FC\u30C8"
+   },
+   "logs_follow": {
+      "description": "Label for an option to trail the logfile",
+      "message": "\u6700\u65B0\u306E\u30ED\u30B0\u3092\u8FFD\u3046"
+   },
+   "logs_selectLogFile": {
+      "description": "Label for selecting log files for viewing",
+      "message": "\u30ED\u30B0\u30D5\u30A1\u30A4\u30EB\u3092\u9078\u629E:"
+   },
+   "logs_title": {
+      "description": "The title of the logs page.",
+      "message": "\u30A4\u30D9\u30F3\u30C8\u30ED\u30B0"
+   },
+   "more": {
+      "description": "General purpose, capitalized word for More - as in - there's more to see/read etc.",
+      "message": "\u3055\u3089\u306B"
+   },
+   "newFeatureDescription": {
+      "description": "The popover description of for the Smart Filing feature, including a link to the options page.",
+      "message": "Web \u30AF\u30EA\u30C3\u30D1\u30FC\u306F\u3001\u30AF\u30EA\u30C3\u30D7\u306E\u5185\u5BB9\u306B\u57FA\u3065\u3044\u3066\u30BF\u30B0\u3084\u30CE\u30FC\u30C8\u30D6\u30C3\u30AF\u3092\u63D0\u6848\u3057\u307E\u3059\u3002Web \u30AF\u30EA\u30C3\u30D1\u30FC\u306E\u003Cspan class='newFeatureOptionsPseudoLink'\u003E\u8A2D\u5B9A\u003C/span\u003E\u304B\u3089\u3001\u3053\u306E\u6A5F\u80FD\u3084\u305D\u306E\u4ED6\u306E\u8A2D\u5B9A\u3092\u7BA1\u7406\u3067\u304D\u307E\u3059\u3002"
+   },
+   "newFeatureTitle": {
+      "description": "The title for any new feature we're showcasing in the current release.",
+      "message": "\u30B9\u30DE\u30FC\u30C8\u30D5\u30A1\u30A4\u30EB\u6A5F\u80FD"
+   },
+   "noteSizeExceededFree": {
+      "description": "Error message shown to free users who try to clip something over the maximum note size",
+      "message": "25MB \u4EE5\u4E0A\u306E\u30CE\u30FC\u30C8\u3092\u30AF\u30EA\u30C3\u30D7\u3067\u304D\u308B\u306E\u306F\u3001Evernote \u30D7\u30EC\u30DF\u30A2\u30E0\u30E6\u30FC\u30B6\u306E\u307F\u3067\u3059\u3002\u003Ca href='$baseUrl$/Checkout.action'\u003E\u30D7\u30EC\u30DF\u30A2\u30E0\u306B\u30A2\u30C3\u30D7\u30B0\u30EC\u30FC\u30C9\u003C/a\u003E",
+      "placeholders": {
+         "baseUrl": {
+            "content": "$1",
+            "example": "http://www.evernote.com"
+         }
+      }
+   },
+   "noteSizeExceededPremium": {
+      "description": "Error message shown to premium users who try to clip something over the maximum note size",
+      "message": "\u6700\u5927\u30CE\u30FC\u30C8\u5BB9\u91CF\u306F 100MB \u3067\u3059\u3002\u30CE\u30FC\u30C8\u3092\u4F5C\u6210\u3067\u304D\u307E\u305B\u3093"
+   },
+   "notification_quotaExceededFree": {
+      "description": "Indicates that free user has exceeded their quota",
+      "message": "\u3053\u306E\u30AF\u30EA\u30C3\u30D7\u3092\u4FDD\u5B58\u3067\u304D\u308B\u30A2\u30C3\u30D7\u30ED\u30FC\u30C9\u5BB9\u91CF\u304C\u3042\u308A\u307E\u305B\u3093\u3002 \u003Ca href='$url$'\u003E\u30D7\u30EC\u30DF\u30A2\u30E0\u306B\u30A2\u30C3\u30D7\u30B0\u30EC\u30FC\u30C9\u003C/a\u003E",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "https://www.evernote.com/Checkout.action"
+         }
+      }
+   },
+   "notification_quotaExceededPremium": {
+      "description": "Indicates that premium user has exceeded their quota",
+      "message": "\u3053\u306E\u30AF\u30EA\u30C3\u30D7\u3092\u4FDD\u5B58\u3067\u304D\u308B\u30A2\u30C3\u30D7\u30ED\u30FC\u30C9\u5BB9\u91CF\u304C\u3042\u308A\u307E\u305B\u3093\u3002 \u003Ca href='$url$'\u003E\u30A2\u30C3\u30D7\u30ED\u30FC\u30C9\u5BB9\u91CF\u3092\u8FFD\u52A0\u003C/a\u003E",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "https://www.evernote.com/QuotaCheckout.action"
+         }
+      }
+   },
+   "options_buildId": {
+      "description": "The revison number of this build of the clipper, as pulled fro mSVN at the time the clipper was built.",
+      "message": "\u30D3\u30EB\u30C9 ID:"
+   },
+   "options_client": {
+      "description": "Label for the dropdown menu in Options where user can choose what client s/he wants to open and edit notes in",
+      "message": "\u30CE\u30FC\u30C8\u3092\u958B\u304F:"
+   },
+   "options_clientSelectionDescription": {
+      "description": "Description of the dropdown menu to select what client the user wants to open notes in. Only displayed when user selects the desktop client",
+      "message": "\u3053\u306E\u8A2D\u5B9A\u3067\u306F\u6700\u521D\u306E\u4F7F\u7528\u6642\u300C\u5916\u90E8\u30D7\u30ED\u30C8\u30B3\u30EB\u30EA\u30AF\u30A8\u30B9\u30C8\u300D\u30C0\u30A4\u30A2\u30ED\u30B0\u304C\u8868\u793A\u3055\u308C\u307E\u3059\u3002\u300C\u9078\u629E\u3092\u4FDD\u5B58\u300D\u30C1\u30A7\u30C3\u30AF\u30DC\u30C3\u30AF\u30B9\u3092\u30AA\u30F3\u306B\u3057\u305F\u5F8C\u300C\u30A2\u30D7\u30EA\u30B1\u30FC\u30B7\u30E7\u30F3\u3092\u8D77\u52D5\u300D\u3092\u9078\u629E\u3057\u3066\u4E0B\u3055\u3044\u3002"
+   },
+   "options_client_desktop": {
+      "description": "Desktop client choice in the dropdown menu to select what client to open/edit a note in",
+      "message": "\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\u30AF\u30E9\u30A4\u30A2\u30F3\u30C8"
+   },
+   "options_client_web": {
+      "description": "Web client choice in the dropdown menu to select what client to open/edit a note in",
+      "message": "Web \u30AF\u30E9\u30A4\u30A2\u30F3\u30C8"
+   },
+   "options_clipAction": {
+      "description": "Label for specifying default clipping action",
+      "message": "\u30C7\u30D5\u30A9\u30EB\u30C8\u306E\u64CD\u4F5C"
+   },
+   "options_clipAction_article": {
+      "description": "Label for article as the default clipping action",
+      "message": "\u8A18\u4E8B\u3092\u30AF\u30EA\u30C3\u30D7"
+   },
+   "options_clipAction_fullPage": {
+      "description": "Label for full-page as the default clipping action",
+      "message": "\u30DA\u30FC\u30B8\u5168\u4F53\u3092\u30AF\u30EA\u30C3\u30D7"
+   },
+   "options_clipAction_url": {
+      "description": "Label for url as the default clipping action",
+      "message": "URL \u3092\u30AF\u30EA\u30C3\u30D7"
+   },
+   "options_clipNotificationEnabled": {
+      "description": "Label for option to enable notification about successful clips",
+      "message": "\u901A\u77E5\u3092\u6709\u52B9\u306B\u3059\u308B"
+   },
+   "options_clipNotificationEnabledDescription": {
+      "description": "Description of the notifications option",
+      "message": "\u6709\u52B9\u306B\u3057\u305F\u5834\u5408\u3001\u30AF\u30EA\u30C3\u30D7\u306E\u30A2\u30C3\u30D7\u30ED\u30FC\u30C9\u5B8C\u4E86\u3068\u540C\u6642\u306B\u901A\u77E5\u304C\u8868\u793A\u3055\u308C\u307E\u3059\u3002\u901A\u77E5\u304B\u3089\u3001\u30AF\u30EA\u30C3\u30D7\u306E\u95B2\u89A7\u3001\u7DE8\u96C6\u3001\u5171\u6709\u304C\u7C21\u5358\u306B\u3067\u304D\u308B\u3088\u3046\u306B\u306A\u308A\u307E\u3059\u3002"
+   },
+   "options_clipStyle": {
+      "description": "Label for the option to keep the style of the page while clipping.",
+      "message": "\u30C7\u30B6\u30A4\u30F3\u3092\u7DAD\u6301"
+   },
+   "options_clipStyleDescription": {
+      "description": "Description for the option to preserve styles with clips.",
+      "message": "\u6709\u52B9\u306B\u3059\u308B\u3068\u3001\u5143\u306E\u30DA\u30FC\u30B8\u306E\u30B9\u30BF\u30A4\u30EB\u60C5\u5831\u3092\u53EF\u80FD\u306A\u9650\u308A\u4FDD\u6301\u3057\u306A\u304C\u3089\u30AF\u30EA\u30C3\u30D7\u3057\u307E\u3059\u3002\u7121\u52B9\u306B\u3059\u308B\u3068\u3001\u88C5\u98FE\u306E\u306A\u3044\u30B7\u30F3\u30D7\u30EB\u306A\u30C7\u30B6\u30A4\u30F3\u306E\u30C6\u30AD\u30B9\u30C8\u3068\u3057\u3066\u30AF\u30EA\u30C3\u30D7\u3057\u307E\u3059\u3002"
+   },
+   "options_developer_title": {
+      "description": "Title for developer options",
+      "message": "\u958B\u767A\u8005\u5411\u3051\u30AA\u30D7\u30B7\u30E7\u30F3"
+   },
+   "options_eventLogDescription": {
+      "description": "Describes the purpose of the event logs link in the options page.",
+      "message": "Evernote \u30B5\u30DD\u30FC\u30C8\u306B\u9023\u7D61\u3057\u305F\u969B\u3001\u554F\u984C\u306E\u8A3A\u65AD\u306E\u305F\u3081\u3001\u3053\u308C\u3089\u306E\u30ED\u30B0\u306E\u8868\u793A\u3092\u6C42\u3081\u3089\u308C\u308B\u5834\u5408\u304C\u3042\u308A\u307E\u3059\u3002"
+   },
+   "options_eventLogLink": {
+      "description": "the text for the link to the event logs page from the options page",
+      "message": "\u30A4\u30D9\u30F3\u30C8\u30ED\u30B0\u3092\u8868\u793A"
+   },
+   "options_insecureProto": {
+      "description": "Label for specifying insecure protocol option.",
+      "message": "\u30BB\u30AD\u30E5\u30A2\u3067\u306A\u3044\u30D7\u30ED\u30C8\u30B3\u30EB"
+   },
+   "options_overrideServiceURL": {
+      "description": "Custom URL to use that will override both stage and production URLs.",
+      "message": "\u30B5\u30FC\u30D3\u30B9 URL \u3092\u4E0A\u66F8\u304D"
+   },
+   "options_saving": {
+      "description": "Notifies the user that their changes to the options page are being saved",
+      "message": "\u4FDD\u5B58\u4E2D..."
+   },
+   "options_secureProto": {
+      "description": "Label specifying secure protocol option.",
+      "message": "\u30BB\u30AD\u30E5\u30A2\u306A\u30D7\u30ED\u30C8\u30B3\u30EB"
+   },
+   "options_selectionNudging": {
+      "description": "Label for selection nudging options",
+      "message": "\u8A18\u4E8B\u306E\u9078\u629E"
+   },
+   "options_selectionNudgingDescription": {
+      "description": "Description of selection nudging",
+      "message": "\u6709\u52B9\u306B\u3059\u308B\u3068\u3001\u30AF\u30EA\u30C3\u30D7\u3092\u4F5C\u6210\u3059\u308B\u524D\u306B\u3001\u30AD\u30FC\u30DC\u30FC\u30C9\u3092\u4F7F\u7528\u3057\u3066\u8A18\u4E8B\u306E\u9078\u629E\u7BC4\u56F2\u3092\u4FEE\u6B63\u3067\u304D\u307E\u3059\u3002\u300C\u30D2\u30F3\u30C8\u306A\u3057\u300D\u306E\u6709\u52B9\u306E\u5834\u5408\u306F\u3001\u60C5\u5831\u30E1\u30C3\u30BB\u30FC\u30B8\u304C\u8868\u793A\u3055\u308C\u306A\u304F\u306A\u308A\u307E\u3059\u3002\u7121\u52B9\u306B\u3059\u308B\u3068\u3001\u8A18\u4E8B\u306E\u9078\u629E\u7BC4\u56F2\u3092\u8ABF\u6574\u3059\u308B\u3053\u3068\u306F\u3067\u304D\u307E\u305B\u3093\u3002"
+   },
+   "options_selectionNudging_disabled": {
+      "description": "Label for disabled selection nudging",
+      "message": "\u7121\u52B9"
+   },
+   "options_selectionNudging_enabled": {
+      "description": "Label for enabled selection nudging",
+      "message": "\u6709\u52B9"
+   },
+   "options_selectionNudging_enabledNoprompt": {
+      "description": "Label for enabled selection nudging, but without showing the hits",
+      "message": "\u6709\u52B9\uFF08\u30D2\u30F3\u30C8\u306A\u3057\uFF09"
+   },
+   "options_simulateCheckVersionFailure": {
+      "description": "Label for developer option to simulate checkVersion failure",
+      "message": "checkVersion \u969C\u5BB3\u3092\u30B7\u30DF\u30E5\u30EC\u30FC\u30C8"
+   },
+   "options_simulateSimplifiedChinese": {
+      "description": "Label for developer option to simulate checkVersion failure",
+      "message": "\u4E2D\u56FD\u8A9E\uFF08\u7C21\u4F53\uFF09\u30B7\u30DF\u30E5\u30EC\u30FC\u30B7\u30E7\u30F3"
+   },
+   "options_simulateSimplifiedChineseDescription": {
+      "description": "Description for what it means to select this option",
+      "message": "\u3053\u306E\u30AA\u30D7\u30B7\u30E7\u30F3\u304C\u6709\u52B9\u306A\u5834\u5408\u3001\u30AF\u30EA\u30C3\u30D1\u30FC\u306F\u63A5\u7D9A\u3059\u308B\u30B5\u30FC\u30D3\u30B9\u3092\u9078\u629E\u3059\u308B\u305F\u3081\u3001\u7C21\u4F53\u4E2D\u56FD\u8A9E\u306B\u8A2D\u5B9A\u3055\u308C\u3066\u3044\u308B\u304B\u306E\u3088\u3046\u306B\u52D5\u4F5C\u3057\u307E\u3059\u3002"
+   },
+   "options_smartFilingBizDesc": {
+      "description": "Description of option to allow smart filing into business notebooks",
+      "message": "\u30D3\u30B8\u30CD\u30B9\u30CE\u30FC\u30C8\u30D6\u30C3\u30AF\u3067\u30B9\u30DE\u30FC\u30C8\u30D5\u30A1\u30A4\u30EB\u6A5F\u80FD\u3092\u8A31\u53EF"
+   },
+   "options_smartFilingEnabled": {
+      "description": "Label for option to enable automatic tagging and notebook selection for new notes.",
+      "message": "\u30B9\u30DE\u30FC\u30C8\u30D5\u30A1\u30A4\u30EA\u30F3\u30B0\u3092\u6709\u52B9\u5316"
+   },
+   "options_smartFilingEnabledDescription": {
+      "description": "Description of the smart filing option",
+      "message": "\u30B9\u30DE\u30FC\u30C8\u30D5\u30A1\u30A4\u30EA\u30F3\u30B0\u306F\u3001\u30AF\u30EA\u30C3\u30D4\u30F3\u30B0\u3057\u3066\u3044\u308B\u30DA\u30FC\u30B8\u306B\u57FA\u3065\u3044\u3066\u3001\u30CE\u30FC\u30C8\u30D6\u30C3\u30AF\u3068\u30BF\u30B0\u306E\u30EA\u30B9\u30C8\u3092\u81EA\u52D5\u7684\u306B\u9078\u629E\u3057\u307E\u3059\u3002"
+   },
+   "options_smartFilingEnabled_all": {
+      "description": "",
+      "message": "\u30BF\u30B0\u3068\u30CE\u30FC\u30C8\u30D6\u30C3\u30AF"
+   },
+   "options_smartFilingEnabled_none": {
+      "description": "",
+      "message": "\u30B9\u30DE\u30FC\u30C8\u30D5\u30A1\u30A4\u30EA\u30F3\u30B0\u3092\u7121\u52B9\u5316"
+   },
+   "options_smartFilingEnabled_notebooks": {
+      "description": "",
+      "message": "\u30CE\u30FC\u30C8\u30D6\u30C3\u30AF\u306E\u307F"
+   },
+   "options_smartFilingEnabled_tags": {
+      "description": "",
+      "message": "\u30BF\u30B0\u306E\u307F"
+   },
+   "options_storedCredentials": {
+      "description": "Label for a set of options controls enabling users to store their credentials",
+      "message": "\u8A8D\u8A3C\u60C5\u5831"
+   },
+   "options_storedCredentialsDescription": {
+      "description": "Educational message for users who wish to store their Evernote password. First sentence is the most critical one as it will be used in options_storedCredentialsShortDescription",
+      "message": "\u003Cb\u003E\u6CE8\u610F:\u003C/b\u003E \u30D1\u30B9\u30EF\u30FC\u30C9\u3092\u4FDD\u5B58\u3059\u308B\u3068\u3001\u3053\u306E\u30D6\u30E9\u30A6\u30B6\u3092\u4F7F\u7528\u3057\u3066\u3044\u308B\u4ED6\u306E\u65B9\u304C\u3042\u306A\u305F\u306E Evernote \u30A2\u30AB\u30A6\u30F3\u30C8\u306B\u30A2\u30AF\u30BB\u30B9\u3059\u308B\u3053\u3068\u304C\u3067\u304D\u307E\u3059\u3002Clip To Evernote \u62E1\u5F35\u6A5F\u80FD\u304B\u3089\u30B5\u30A4\u30F3\u30A2\u30A6\u30C8\u3059\u308B\u304B\u30A2\u30F3\u30A4\u30F3\u30B9\u30C8\u30FC\u30EB\u3057\u3066\u30D6\u30E9\u30A6\u30B6\u306B\u4FDD\u5B58\u3055\u308C\u3066\u3044\u308B\u30E6\u30FC\u30B6\u540D\u3068\u30D1\u30B9\u30EF\u30FC\u30C9\u3092\u524A\u9664\u3057\u3066\u4E0B\u3055\u3044\u3002"
+   },
+   "options_title": {
+      "description": "Title of the options page",
+      "message": "\u30AA\u30D7\u30B7\u30E7\u30F3"
+   },
+   "options_useContextMenu": {
+      "description": "Label for option to enable clipping via contextual menu",
+      "message": "\u30B3\u30F3\u30C6\u30AD\u30B9\u30C8\u30E1\u30CB\u30E5\u30FC\u3092\u6709\u52B9\u306B\u3059\u308B"
+   },
+   "options_useContextMenuDescription": {
+      "description": "Description of the contextual menu option",
+      "message": "\u6709\u52B9\u306B\u3057\u305F\u5834\u5408\u3001\u30B3\u30F3\u30C6\u30AD\u30B9\u30C8\u30E1\u30CB\u30E5\u30FC\u304B\u3089\u30A6\u30A7\u30D6\u30DA\u30FC\u30B8\u3092\u30AF\u30EA\u30C3\u30D7\u3059\u308B\u3053\u3068\u304C\u3067\u304D\u307E\u3059\u3002\u753B\u50CF\u3084\u9078\u629E\u3057\u305F\u30C6\u30AD\u30B9\u30C8\u4E0A\u306A\u3069\u3001\u30DA\u30FC\u30B8\u5185\u3067\u53F3\u30AF\u30EA\u30C3\u30AF\u3059\u308B\u3068\u3001\u9069\u5207\u306A\u30AF\u30EA\u30C3\u30D7\u30AA\u30D7\u30B7\u30E7\u30F3\u304C\u8868\u793A\u3055\u308C\u307E\u3059\u3002"
+   },
+   "options_useSearchHelper": {
+      "description": "Label for search-helper feature toggle",
+      "message": "\u95A2\u9023\u7D50\u679C"
+   },
+   "options_useSearchHelperDescription": {
+      "description": "Description of the search-helper feature as shown on the options page",
+      "message": "\u6709\u52B9\u306B\u3059\u308B\u3068\u3001\u5BFE\u5FDC Web \u30D6\u30E9\u30A6\u30B6\u3067 Web \u3092\u691C\u7D22\u3057\u305F\u969B\u3001Evernote \u30A2\u30AB\u30A6\u30F3\u30C8\u304B\u3089\u306E\u7D50\u679C\u3082\u8868\u793A\u3055\u308C\u307E\u3059\u3002"
+   },
+   "options_useStage": {
+      "description": "Label for developer option to simulate checkVersion failure",
+      "message": "\u30B9\u30C6\u30FC\u30B8\u3092\u4F7F\u7528"
+   },
+   "options_useStageDescription": {
+      "description": "Description for what it means to select this option",
+      "message": "\u30AF\u30EA\u30C3\u30D1\u30FC\u304C\u3001\u751F\u7523\u30B5\u30FC\u30D3\u30B9\u306E\u4EE3\u308F\u308A\u306B\u901A\u5E38\u30C6\u30B9\u30C8\u7528\u306B\u3057\u304B\u4F7F\u308F\u308C\u306A\u3044\u300C\u30B9\u30C6\u30FC\u30B8\u300D\u30B5\u30FC\u30D3\u30B9\u3092\u4F7F\u7528\u3059\u308B\u3088\u3046\u8A2D\u5B9A\u3002"
+   },
+   "pdfTip": {
+      "description": "Tooltip that appears on PDFs",
+      "message": "Web \u30AF\u30EA\u30C3\u30D1\u30FC\u3067 Evernote \u30A2\u30AB\u30A6\u30F3\u30C8\u306B\u76F4\u63A5 PD\u200B\u200BF \u3092\u30AF\u30EA\u30C3\u30D7\u3067\u304D\u308B\u306E\u306F\u3054\u5B58\u3058\u3067\u3059\u304B\uFF1F"
+   },
+   "popup_couldntStart": {
+      "description": "Message that shows up when the clipper popup can't open.",
+      "message": "\u30AF\u30EA\u30C3\u30D1\u30FC\u306F\u3001\u3053\u306E\u30DA\u30FC\u30B8\u3067\u8D77\u52D5\u3067\u304D\u307E\u305B\u3093\u3067\u3057\u305F\u3002\u30DA\u30FC\u30B8\u3092\u518D\u8AAD\u307F\u8FBC\u307F\u3057\u3001\u518D\u5EA6\u304A\u8A66\u3057\u4E0B\u3055\u3044\u3002\u89E3\u6C7A\u3057\u306A\u3044\u5834\u5408\u306F\u3001\u30AB\u30B9\u30BF\u30DE\u30FC\u30B5\u30DD\u30FC\u30C8\u307E\u3067\u3054\u9023\u7D61\u4E0B\u3055\u3044\u3002"
+   },
+   "popup_loadingNotebooks": {
+      "description": "Message shown while smart filing is running. Should *not* include trailing punctuation.",
+      "message": "\u30CE\u30FC\u30C8\u30D6\u30C3\u30AF\u3092\u8AAD\u307F\u8FBC\u307F\u4E2D"
+   },
+   "popup_loginCheckTimeout": {
+      "description": "Message that displays if checking if the user is logged in takes too long.",
+      "message": "\u30ED\u30B0\u30A4\u30F3\u60C5\u5831\u306E\u78BA\u8A8D\u304C\u30BF\u30A4\u30E0\u30A2\u30A6\u30C8\u3057\u307E\u3057\u305F\u3002\u30A4\u30F3\u30BF\u30FC\u30CD\u30C3\u30C8\u306B\u63A5\u7D9A\u3057\u3066\u3044\u308B\u3053\u3068\u3092\u78BA\u8A8D\u3057\u3001\u518D\u5EA6\u304A\u8A66\u3057\u4E0B\u3055\u3044\u3002"
+   },
+   "popup_moreNotesLink": {
+      "description": "Message showing how many more notes can be seen on the server.",
+      "message": "\u305D\u306E\u4ED6\u306E\u30CE\u30FC\u30C8 $count$ \u3092\u8868\u793A...",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "10"
+         }
+      }
+   },
+   "popup_oneMoreNoteLink": {
+      "description": "Message showing there is one more note on the server.",
+      "message": "\u3082\u3046 1 \u500B\u30CE\u30FC\u30C8\u3092\u8868\u793A..."
+   },
+   "popup_unsupportedScheme": {
+      "description": "The error to display when the popup can't operate on a specific type of url.",
+      "message": "\u3053\u306E\u5834\u6240\u304B\u3089\u306E\u30AF\u30EA\u30C3\u30D4\u30F3\u30B0\u306F\u30B5\u30DD\u30FC\u30C8\u3055\u308C\u3066\u3044\u307E\u305B\u3093\u3002"
+   },
+   "popup_waiting": {
+      "description": "Displays while the popup window waits for a page to finish loading.",
+      "message": "\u30DA\u30FC\u30B8\u3092\u5F85\u6A5F\u4E2D..."
+   },
+   "quickNote": {
+      "description": "Title for creating quick note",
+      "message": "\u30AF\u30EA\u30C3\u30D7"
+   },
+   "quickNoteAction_clipArticle": {
+      "description": "Label for clipping article action",
+      "message": "\u8A18\u4E8B\u3092\u4FDD\u5B58"
+   },
+   "quickNoteAction_clipFullPage": {
+      "description": "Label for clipping full page action",
+      "message": "\u30DA\u30FC\u30B8\u5168\u4F53\u3092\u4FDD\u5B58"
+   },
+   "quickNoteAction_clipPDF": {
+      "description": "Label for clipping PDF action",
+      "message": "PDF \u30D5\u30A1\u30A4\u30EB\u3092\u4FDD\u5B58"
+   },
+   "quickNoteAction_clipSelection": {
+      "description": "Label for clipping selection action",
+      "message": "\u9078\u629E\u7BC4\u56F2\u3092\u4FDD\u5B58"
+   },
+   "quickNoteAction_clipUrl": {
+      "description": "Label for clipping URL action",
+      "message": "URL\u3092\u4FDD\u5B58"
+   },
+   "quickNote_addComment": {
+      "description": "Placeholder text for comment input",
+      "message": "\u30B3\u30E1\u30F3\u30C8\u3092\u8FFD\u52A0"
+   },
+   "quickNote_addTags": {
+      "description": "Placeholder text for tag input",
+      "message": "\u30BF\u30B0\u3092\u8FFD\u52A0"
+   },
+   "quickNote_comment": {
+      "description": "Label for additional text to be added to the note",
+      "message": "\u30C6\u30AD\u30B9\u30C8\u3092\u8FFD\u52A0\u3059\u308B"
+   },
+   "quickNote_notebook": {
+      "description": "Label for selection of note's notebook",
+      "message": "\u30CE\u30FC\u30C8\u30D6\u30C3\u30AF"
+   },
+   "quickNote_submit": {
+      "description": "Label for saving quick note",
+      "message": "\u4FDD\u5B58"
+   },
+   "quickNote_tagsDisabled": {
+      "description": "Message indicating that you can't use tags for shared notebooks.",
+      "message": "\u5171\u6709\u30CE\u30FC\u30C8\u30D6\u30C3\u30AF\u306F\u73FE\u5728\u30BF\u30B0\u306B\u5BFE\u5FDC\u3057\u3066\u3044\u307E\u305B\u3093\u3002"
+   },
+   "quickNote_title": {
+      "description": "Label for note title",
+      "message": "\u30BF\u30A4\u30C8\u30EB"
+   },
+   "quickNote_untitledNote": {
+      "description": "Placeholder title for untitled note",
+      "message": "\u7121\u984C\u306E\u30CE\u30FC\u30C8"
+   },
+   "regForm_cancel": {
+      "description": "Allows user to back out of registration when s/he's creating an account during account switching",
+      "message": "\u30AD\u30E3\u30F3\u30BB\u30EB"
+   },
+   "regForm_deactivated_username": {
+      "description": "User wanted to register with a deactivated username",
+      "message": "\u30E6\u30FC\u30B6\u540D\u304C\u505C\u6B62\u3055\u308C\u3066\u3044\u307E\u3059\u3002\u30A2\u30AB\u30A6\u30F3\u30C8\u3092\u003Ca href='$url$'\u003E\u5FA9\u6D3B\u003C/a\u003E\u3055\u305B\u307E\u3059\u304B\uFF1F",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "https://www.evernote.com/AccountReactivation.action"
+         }
+      }
+   },
+   "regForm_email_required": {
+      "description": "User didn't enter an email address",
+      "message": "\u30E1\u30FC\u30EB\u30A2\u30C9\u30EC\u30B9\u306F\u5FC5\u9808\u3067\u3059\u3002"
+   },
+   "regForm_goodUsername": {
+      "description": "The user entered a valid and available username into the registration form",
+      "message": "\u5229\u7528\u53EF\u80FD"
+   },
+   "regForm_invalid_captcha": {
+      "description": "User didn't fill out the captcha.",
+      "message": "\u4E0A\u8A18\u306E\u7D75\u306E\u4E2D\u306B\u898B\u3048\u308B\u6587\u5B57\u5217\u3092\u5165\u529B\u3057\u3066\u4E0B\u3055\u3044\u3002"
+   },
+   "regForm_invalid_email": {
+      "description": "User didn't enter a properly-formatted email address",
+      "message": "\u30E1\u30FC\u30EB\u30A2\u30C9\u30EC\u30B9\u304C\u6B63\u3057\u304F\u306A\u3044\u3088\u3046\u3067\u3059\u3002"
+   },
+   "regForm_invalid_password": {
+      "description": "User entered an invalid password",
+      "message": "\u6587\u5B57\u3001\u6570\u5B57\u3001\u304A\u3088\u3073\u53E5\u8AAD\u70B9\u3067\u69CB\u6210\u3055\u308C\u308B 6 \uFF5E 64 \u6587\u5B57\u306E\u30D1\u30B9\u30EF\u30FC\u30C9\u3092\u9078\u629E\u3057\u3066\u4E0B\u3055\u3044\u3002"
+   },
+   "regForm_invalid_username": {
+      "description": "User entered an invalid username",
+      "message": "\u30E6\u30FC\u30B6\u540D\u306F\u534A\u89D2\u82F1\u6570\u5B57\u3067\u5165\u529B\u3057\u3001\u5148\u982D\u3068\u672B\u5C3E\u306F\u6587\u5B57\u307E\u305F\u306F\u6570\u5B57\u306B\u3059\u308B\u5FC5\u8981\u304C\u3042\u308A\u307E\u3059\u3002\u9014\u4E2D\u306B\u30CF\u30A4\u30D5\u30F3\u3084\u30A2\u30F3\u30C0\u30FC\u30E9\u30A4\u30F3\u3092\u542B\u3081\u308B\u3053\u3068\u306F\u53EF\u80FD\u3067\u3059\u3002"
+   },
+   "regForm_password_required": {
+      "description": "User didn't enter a password",
+      "message": "\u30D1\u30B9\u30EF\u30FC\u30C9\u306F\u5FC5\u9808\u9805\u76EE\u3067\u3059\u3002"
+   },
+   "regForm_taken_email": {
+      "description": "User entered a valid but unavailable email",
+      "message": "\u3053\u306E\u30E1\u30FC\u30EB\u30A2\u30C9\u30EC\u30B9\u306F\u65E2\u306B\u4F7F\u7528\u3055\u308C\u3066\u3044\u307E\u3059\u3002"
+   },
+   "regForm_taken_username": {
+      "description": "User entered a valid but unavailable username",
+      "message": "\u9078\u629E\u3057\u305F\u30E6\u30FC\u30B6\u540D\u306F\u3001\u65E2\u306B\u5225\u306E\u30E6\u30FC\u30B6\u306B\u3088\u308A\u4F7F\u7528\u3055\u308C\u3066\u3044\u307E\u3059\u3002"
+   },
+   "register": {
+      "description": "Text on the submit button of the registration form",
+      "message": "\u767B\u9332\u3059\u308B"
+   },
+   "registrationForm_username": {
+      "description": "Text on the username field of the registration form",
+      "message": "\u30E6\u30FC\u30B6\u540D"
+   },
+   "registration_terms": {
+      "description": "Terms of Service and Privacy Policy agreement",
+      "message": "\u767B\u9332\u3092\u30AF\u30EA\u30C3\u30AF\u3059\u308B\u3068\u3001\u003Ca href='$tos_url$'\u003E\u30B5\u30FC\u30D3\u30B9\u898F\u7D04\u003C/a\u003E\u3068\u003Ca href='$pp_url$'\u003E\u30D7\u30E9\u30A4\u30D0\u30B7\u30FC\u30DD\u30EA\u30B7\u30FC\u003C/a\u003E\u306B\u540C\u610F\u3057\u305F\u3068\u307F\u306A\u3055\u308C\u307E\u3059\u3002",
+      "placeholders": {
+         "pp_url": {
+            "content": "$2",
+            "example": "http://www.evernote.com/privacy"
+         },
+         "tos_url": {
+            "content": "$1",
+            "example": "http://www.evernote.com/tos"
+         }
+      }
+   },
+   "relatedNotes": {
+      "description": "Label for the related notes button, and the title for the descriptive overlay.",
+      "message": "\u95A2\u9023\u3059\u308B\u30CE\u30FC\u30C8"
+   },
+   "relatedNotesDescription": {
+      "description": "message describing what Related Notes do.",
+      "message": "\u30AF\u30EA\u30C3\u30D7\u3057\u305F\u30DA\u30FC\u30B8\u306B\u95A2\u9023\u3059\u308B\u30CE\u30FC\u30C8\u304C\u30A2\u30AB\u30A6\u30F3\u30C8\u5185\u3067 3 \u500B\u307E\u3067\u691C\u51FA\u3055\u308C\u3001\u3053\u3053\u306B\u8868\u793A\u3055\u308C\u307E\u3059\u3002"
+   },
+   "rememberFoodYouLove": {
+      "description": "Second part of the text for the Evernote Food cross promotion",
+      "message": "\u697D\u3057\u304B\u3063\u305F\u98DF\u4E8B\u4F53\u9A13\u3092\u8A18\u9332"
+   },
+   "safariContextClipImage": {
+      "description": "Label for right-click menu to clip an image in Safari.",
+      "message": "Evernote \u306B\u753B\u50CF\u3092\u4FDD\u5B58"
+   },
+   "safariContextClipPDF": {
+      "description": "Label for right-click menu to clip a PDF in Safari.",
+      "message": "PDF\u3092Evernote\u306B\u4FDD\u5B58"
+   },
+   "safariContextClipPage": {
+      "description": "Label for right-click menu to clip the whole page in Safari.",
+      "message": "Evernote \u306B\u30DA\u30FC\u30B8\u5168\u4F53\u3092\u4FDD\u5B58"
+   },
+   "safariContextClipSelection": {
+      "description": "Label for right-click menu to clip a selection in Safari.",
+      "message": "Evernote \u306B\u9078\u629E\u7BC4\u56F2\u3092\u4FDD\u5B58"
+   },
+   "safariContextClipUrl": {
+      "description": "Label for right-click menu to clip a URL in Safari.",
+      "message": "Evernote \u306B URL \u3092\u4FDD\u5B58"
+   },
+   "safariContextNewNote": {
+      "description": "Label for right-click menu to create a new note.",
+      "message": "Evernote \u3067\u65B0\u3057\u3044\u30CE\u30FC\u30C8\u3092\u4F5C\u6210"
+   },
+   "saveToEvernote": {
+      "description": "Label for button to save clip to Evernote",
+      "message": "Evernote\u306B\u4FDD\u5B58\u3059\u308B"
+   },
+   "searchHelperFoundNotes": {
+      "description": "Message indicating that related notes were found",
+      "message": "Evernote \u30A2\u30AB\u30A6\u30F3\u30C8\u5185\u306E\u003Cb\u003E\u7D50\u679C\u4E0A\u4F4D\u003C/b\u003E"
+   },
+   "searchHelperLoginMessage": {
+      "description": "Message injected into search-engine page indicating that the user must login prior to seeing results.",
+      "message": "\u003Cdiv class='grayText' id='login'\u003E\u95A2\u9023\u7D50\u679C\u3092\u898B\u308B\u306B\u306F\u3001Web \u30AF\u30EA\u30C3\u30D1\u30FC\u306B\u003Ca target='_blank' href='$loginUrl$'\u003E\u30B5\u30A4\u30F3\u30A4\u30F3\u003C/a\u003E\u3057\u3066\u4E0B\u3055\u3044\u003C/div\u003E",
+      "placeholders": {
+         "loginUrl": {
+            "content": "$1",
+            "example": "http://www.evernote.com/Login.action"
+         }
+      }
+   },
+   "searchHelperNoTransportError": {
+      "description": "Error message shown to user when there is a problem reaching the servers when doing simultaneous search.",
+      "message": "Evernote \u306E\u30B5\u30FC\u30D0\u306B\u30A2\u30AF\u30BB\u30B9\u3067\u304D\u306A\u3044\u305F\u3081\u3001\u73FE\u5728\u540C\u6642\u691C\u7D22\u3092\u5229\u7528\u3067\u304D\u307E\u305B\u3093\u3002"
+   },
+   "searchHelperNotesNotFoundBiz": {
+      "description": "Message injected into search-engine page indicating there were no related notes found in personal or business accounts",
+      "message": "\u500B\u4EBA\u304A\u3088\u3073\u30D3\u30B8\u30CD\u30B9\u30CE\u30FC\u30C8\u306B\u95A2\u9023\u7D50\u679C\u306F\u3042\u308A\u307E\u305B\u3093"
+   },
+   "searchHelperNotesNotFoundPers": {
+      "description": "Message injected into search-engine page indicating there were no related notes found in personal account",
+      "message": "\u30CE\u30FC\u30C8\u306B\u95A2\u9023\u7D50\u679C\u306F\u3042\u308A\u307E\u305B\u3093"
+   },
+   "searchHelperTopBizLibraryMatches": {
+      "description": "Section heading for the simsearch notes found in the user's business account",
+      "message": "\u30D3\u30B8\u30CD\u30B9\u30CE\u30FC\u30C8\u306E\u95A2\u9023\u7D50\u679C $num$ \u4EF6",
+      "placeholders": {
+         "num": {
+            "content": "$1",
+            "example": "2"
+         }
+      }
+   },
+   "searchHelperTopBizLibraryMatchesOne": {
+      "description": "Section heading for the simsearch notes found in the user's business account, if there was only one result",
+      "message": "\u30D3\u30B8\u30CD\u30B9\u30CE\u30FC\u30C8\u306E\u95A2\u9023\u7D50\u679C 1 \u4EF6"
+   },
+   "searchHelperTopMatchesBiz": {
+      "description": "Section heading for the simsearch notes found in a business user's personal account",
+      "message": "\u500B\u4EBA\u306E\u30CE\u30FC\u30C8\u306E\u95A2\u9023\u7D50\u679C $num$ \u4EF6",
+      "placeholders": {
+         "num": {
+            "content": "$1",
+            "example": "3"
+         }
+      }
+   },
+   "searchHelperTopMatchesBizOne": {
+      "description": "Section heading for the simsearch notes found in a business user's personal account, if there was only one result",
+      "message": "\u500B\u4EBA\u306E\u30CE\u30FC\u30C8\u306E\u95A2\u9023\u7D50\u679C 1 \u4EF6"
+   },
+   "searchHelperTopMatchesPers": {
+      "description": "Section heading for the simsearch notes found in a non-business user's personal account",
+      "message": "\u30CE\u30FC\u30C8\u306E\u95A2\u9023\u7D50\u679C $num$ \u4EF6",
+      "placeholders": {
+         "num": {
+            "content": "$1",
+            "example": "3"
+         }
+      }
+   },
+   "searchHelperTopMatchesPersOne": {
+      "description": "Section heading for the simsearch notes found in a non-business user's personal account, if there was only one result",
+      "message": "\u3042\u306A\u305F\u306E\u30CE\u30FC\u30C8\u306E\u95A2\u9023\u7D50\u679C 1 \u4EF6"
+   },
+   "searchHelperViewAll": {
+      "description": "Label for the link in simsearch to the web client to search for the user's search query.",
+      "message": "\u3059\u3079\u3066\u3092\u8868\u793A"
+   },
+   "searchHelper_hidePerm": {
+      "description": "Text for the option in the simsearch drop down menu to let user to disable simsearch in the options",
+      "message": "\u9589\u3058\u3066\u4E8C\u5EA6\u3068\u8868\u793A\u3057\u306A\u3044"
+   },
+   "searchHelper_hideTemp": {
+      "description": "Text for the option in the simsearch drop down menu to let user temporarily close the simsearch box, but not disable in the options",
+      "message": "\u9589\u3058\u308B"
+   },
+   "showRelatedNotes": {
+      "description": "text for the link in the 'related notes' overlay that will show this section.",
+      "message": "\u95A2\u9023\u3059\u308B\u30CE\u30FC\u30C8\u3092\u8868\u793A"
+   },
+   "signInHelperText": {
+      "description": "message shown at the top of the login screen to tell them why they should sign in",
+      "message": "\u30B5\u30A4\u30F3\u30A4\u30F3\u3057\u3066\u30AF\u30EA\u30C3\u30D7\u3067\u304D\u308B\u3053\u3068\u3092\u78BA\u8A8D\u30FB\u95A2\u9023\u7D50\u679C\u3092\u95B2\u89A7"
+   },
+   "signInPrompt": {
+      "description": "hover text on signed out state of the toolbar icon",
+      "message": "Web \u30AF\u30EA\u30C3\u30D1\u30FC\u306B\u30B5\u30A4\u30F3\u30A4\u30F3"
+   },
+   "signOutAccount": {
+      "description": "menu item for logging out of the currently selected account.",
+      "message": "$name$ \u304B\u3089\u30B5\u30A4\u30F3\u30A2\u30A6\u30C8",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "signOutAll": {
+      "description": "Label to click when a user wants to log in with multiple accounts.",
+      "message": "\u5168\u30A2\u30AB\u30A6\u30F3\u30C8\u304B\u3089\u30B5\u30A4\u30F3\u30A2\u30A6\u30C8"
+   },
+   "signout": {
+      "description": "Text on a link prompting for signing out currently logged in user",
+      "message": "\u30B5\u30A4\u30F3\u30A2\u30A6\u30C8"
+   },
+   "stayLoggedInFree": {
+      "description": "Message indicating user should stay logged in as existing user.",
+      "message": "$name$ \u306B\u305D\u306E\u307E\u307E\u30ED\u30B0\u30A4\u30F3",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "switchAnyMessage": {
+      "description": "Message shown when a user tries to add another user and is not already logged into a free account.",
+      "message": "\u7D20\u65E9\u304F\u30A2\u30AB\u30A6\u30F3\u30C8\u9593\u306E\u5207\u308A\u66FF\u3048\u304C\u3067\u304D\u308B\u6A5F\u80FD\u306F\u30D7\u30EC\u30DF\u30A2\u30E0\u30A2\u30AB\u30A6\u30F3\u30C8\u5C02\u7528\u6A5F\u80FD\u3067\u3059\u3002\u30D7\u30EC\u30DF\u30A2\u30E0\u307E\u305F\u306F\u7121\u6599\u30E6\u30FC\u30B6\u3092\u8FFD\u52A0\u3067\u304D\u307E\u3059\u3002"
+   },
+   "switchFreeAccount": {
+      "description": "Message indicating user should switch to newly logged in user.",
+      "message": "$name$ \u3092\u4F7F\u7528",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "switchPremiumMessage": {
+      "description": "Message shown when a user tries to add another user and is already logged into a free account.",
+      "message": "\u7D20\u65E9\u304F\u30A2\u30AB\u30A6\u30F3\u30C8\u9593\u306E\u5207\u308A\u66FF\u3048\u304C\u3067\u304D\u308B\u6A5F\u80FD\u306F\u30D7\u30EC\u30DF\u30A2\u30E0\u30A2\u30AB\u30A6\u30F3\u30C8\u5C02\u7528\u6A5F\u80FD\u3067\u3059\u3002\u30D7\u30EC\u30DF\u30A2\u30E0\u30E6\u30FC\u30B6\u3092\u8FFD\u52A0\u3067\u304D\u307E\u3059\u3002"
+   },
+   "switchToAccount": {
+      "description": "Menu item indicating a user account that can be switched to.",
+      "message": "$name$ \u306B\u5207\u308A\u66FF\u3048",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "tagNamesNotInRange": {
+      "description": "Indicates that user entered an abnormal number of tags",
+      "message": "\u30BF\u30B0\u306E\u6700\u5927\u6570\u3092\u8D85\u3048\u307E\u3057\u305F"
+   },
+   "tryItOut": {
+      "description": "text for button on pdf tooltip",
+      "message": "\u304A\u8A66\u3057\u4E0B\u3055\u3044"
+   },
+   "youHaveRelatedNotes": {
+      "description": "Text indicating that the user has other related notes.",
+      "message": "\u985E\u4F3C\u3059\u308B\u30CE\u30FC\u30C8\u304C\u3042\u308A\u307E\u3059"
+   }
+}

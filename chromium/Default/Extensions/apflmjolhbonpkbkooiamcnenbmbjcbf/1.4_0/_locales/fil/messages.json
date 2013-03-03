@@ -1,0 +1,52 @@
+{
+   "chrome_extension_description": {
+      "message": "Ipinapakita ang bilang ng mga hindi pa nababasang item sa iyong Google Reader account. Maaaring magpakita ng popup ng preview ang pag-click o buksan nito ang iyong Reader account."
+   },
+   "chrome_extension_name": {
+      "message": "Taga-notify ng Google Reader (ng Google)"
+   },
+   "clickaction": {
+      "message": "Sa pag-click:"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "intervaltext": {
+      "message": "I-update tuwing:"
+   },
+   "loadingtext": {
+      "message": "Naglo-load..."
+   },
+   "minutes": {
+      "message": "$1 (na) minuto",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "nosummary": {
+      "message": "Walang Buod"
+   },
+   "openreaderlink": {
+      "message": "Magbukas ng Google Reader"
+   },
+   "refreshlink": {
+      "message": "I-refresh"
+   },
+   "savebutton": {
+      "message": "I-save"
+   },
+   "savedmessage": {
+      "message": "Na-save"
+   },
+   "showmodule": {
+      "message": "Magpakita ng popup"
+   },
+   "showreader": {
+      "message": "Magbukas ng Google Reader"
+   },
+   "title": {
+      "message": "Mga Pagpipilian sa Taga-Notify ng Google Reader"
+   }
+}

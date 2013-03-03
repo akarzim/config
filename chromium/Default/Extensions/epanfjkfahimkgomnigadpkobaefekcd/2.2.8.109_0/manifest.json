@@ -1,0 +1,29 @@
+{
+   "background": {
+      "page": "webkit/chrome/background.html"
+   },
+   "browser_action": {
+      "default_icon": "Icon.png",
+      "default_title": "Do Not Track Me"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "chrome/content/common.js", "webkit/common.js", "webkit/chrome/content.js", "webkit/inpage.js", "chrome/content/events.js", "chrome/content/socialButtons.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "Icon-128.png",
+      "16": "Icon-16.png",
+      "48": "Icon-48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDZ1YcwVaEuDiAEIXikSOHsko3mhhI8roIunPTk6ibIgGGXMOgyWOle5a5O7g/0Bsmmo3cGkfDx/AXBYjHhLAR5R78Vda5j14y1cJadxKRzbQtR+ZzEGYleOYXz0Zk0LN97mlnog74ydS2GKe2ve4+6r49FX/RbhnalDII2Xz4/hwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "permissions": [ "webRequest", "webRequestBlocking", "tabs", "cookies", "\u003Call_urls\u003E" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "2.2.8.109",
+   "web_accessible_resources": [ "webkit/chrome/blank.gif", "webkit/chrome/blank.html" ]
+}

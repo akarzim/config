@@ -1,0 +1,27 @@
+.notificationIcon{
+  float: left;
+  margin-right: 10px;
+}
+.notificationMessage{
+  font-size: 10pt;
+  min-height: 48px;
+}
+.notificationHeadline {
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 8px;
+}
+.notificationActions {
+  margin-top: 10px 5px;
+}
+.notificationActions a {
+  margin-left: 0px;
+  -webkit-box-sizing: border-box;
+}
+.error {
+  color: red;
+}
+.separator {
+  padding: 0px 5px;
+}

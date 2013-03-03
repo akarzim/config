@@ -1,0 +1,1070 @@
+{
+   "April": {
+      "message": "Aprilie"
+   },
+   "Aug": {
+      "message": "August"
+   },
+   "BrowserActionTitle": {
+      "description": "Title for the browser action that's visible to the user of extension",
+      "message": "Decupa\u021Bi \u0219i trimite\u0163i c\u0103tre Evernote"
+   },
+   "Close": {
+      "description": "The string that shows up on a button used to close a window.",
+      "message": "\u00CEnchide"
+   },
+   "Dec": {
+      "message": "Decembrie"
+   },
+   "EDAMError_1": {
+      "description": "Used to describe an unknown EDAM error",
+      "message": "Eroare necunoscut\u0103"
+   },
+   "EDAMError_1_notebookGuid": {
+      "description": "Error message indicating unknown notebook",
+      "message": "Notebook Necunoscut"
+   },
+   "EDAMError_3": {
+      "description": "Indicates that permission was denied for request by the server",
+      "message": "Permisiune refuzat\u0103"
+   },
+   "EDAMError_3_User_active": {
+      "description": "Indicates that a user tried to login but their account is inactive",
+      "message": "Permisiune respins\u0103 deoarece utilizatorul este inactiv"
+   },
+   "EDAMError_3_User_tooManyFailuresTryAgainLater": {
+      "description": "Indicates that a user tried to login way too many times with invalid credentials and needs to chill for a bit",
+      "message": "Prea multe \u00EEncerc\u0103ri e\u0219uate de autentificare. V\u0103 rug\u0103m s\u0103 \u00EEncerca\u021Bi mai t\u00E2rziu"
+   },
+   "Error_HTTP_Transport": {
+      "description": "Generic error indicating that the extension could not get a response from a server",
+      "message": "Probleme de comunicare cu serverul [$status$]. $errorText$",
+      "placeholders": {
+         "errorText": {
+            "content": "$2",
+            "example": "http error response"
+         },
+         "status": {
+            "content": "HTTP $1",
+            "example": "404"
+         }
+      }
+   },
+   "Error_Network_Unavailable": {
+      "description": "error message shown when we can't connect to the internet.",
+      "message": "Nu exist\u0103 Conexiune internet"
+   },
+   "ExtensionDescription": {
+      "description": "Description of the extension as it's visible to the outside world",
+      "message": "Folosi\u021Bi extensia Evernote pentru a salva lucruri pe care le vede\u021Bi pe web \u00EEn contul dvs. Evernote. Pute\u021Bi chiar s\u0103 c\u0103uta\u021Bi prin note."
+   },
+   "ExtensionName": {
+      "description": "Name of the extension as it's visible to the outside world",
+      "message": "Evernote Web Clipper"
+   },
+   "Feb": {
+      "message": "Februarie"
+   },
+   "Friday": {
+      "message": "Vineri"
+   },
+   "Jan": {
+      "message": "Ianuarie"
+   },
+   "July": {
+      "message": "Iulie"
+   },
+   "June": {
+      "message": "Iunie"
+   },
+   "March": {
+      "message": "Martie"
+   },
+   "May": {
+      "message": "Mai"
+   },
+   "Monday": {
+      "message": "Luni"
+   },
+   "Nov": {
+      "message": "Noiembrie"
+   },
+   "Oct": {
+      "message": "Octombrie"
+   },
+   "Saturday": {
+      "message": "S\u00E2mb\u0103t\u0103"
+   },
+   "Sept": {
+      "message": "Septembrie"
+   },
+   "Sunday": {
+      "message": "Duminic\u0103"
+   },
+   "Thursday": {
+      "message": "Joi"
+   },
+   "Today": {
+      "message": "Ast\u0103zi"
+   },
+   "Tuesday": {
+      "message": "Mar\u021Bi"
+   },
+   "Wednesday": {
+      "message": "Miercuri"
+   },
+   "accountChangedTo": {
+      "description": "message notifying the user that he's switched to a different account.",
+      "message": "Acum se folose\u0219te contul $name$ ",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "addAnotherAccount": {
+      "description": "Label to click when a user wants to log in with multiple accounts.",
+      "message": "Ad\u0103uga\u021Bi un alt cont ..."
+   },
+   "articleClipFailure": {
+      "description": "Messages shown to user when the article of the page isn't clippable.",
+      "message": "Ne pare r\u0103u, Evernote nu poate decupa aceast\u0103 pagin\u0103 ca un articol. V\u0103 rug\u0103m s\u0103 selecta\u021Bi por\u021Biunea pe care dori\u021Bi s\u0103 o decupa\u021Bi."
+   },
+   "authPersistenceError": {
+      "description": "Error indicating that the browser fails to persist authentication.",
+      "message": "Exist\u0103 un conflict intre preferin\u021Bele browserului  \u0219i extensia Evernote. \u00CEncerca\u021Bi s\u0103 restabili\u021Bi set\u0103rile de confiden\u021Bialitate Chrome la valorile implicite: Permite\u021Bi ca date locale care urmeaz\u0103 s\u0103 fie stabilite \u0219i s\u0103 NU blocheze cookie-urile. Lua\u021Bi \u00EEn considerare dezactivarea altor extensii 3rd party."
+   },
+   "bizNotebookOptionText": {
+      "description": "text that shows up in the dropdown list used to select another user's business notebook.",
+      "message": "(\u00CEmp\u0103rt\u0103\u0219ite de $creator$)",
+      "placeholders": {
+         "creator": {
+            "content": "$1",
+            "example": "Connie Chan"
+         }
+      }
+   },
+   "bizNotebooksOptGroupTitle": {
+      "description": "text that appears above the list of business notebooks in the dropdown list of notebooks.",
+      "message": "Notebook-uri de afaceri"
+   },
+   "cancelAddAnotherAccount": {
+      "description": "The text for the control that cancels adding a new acconut to switch to.",
+      "message": "Anulare"
+   },
+   "cancelSwitchFree": {
+      "description": "Message on button to cancel switching to a different free account.",
+      "message": "Nu, ia-m\u0103 \u00EEnapoi"
+   },
+   "captcha_instruction": {
+      "description": "Instruction for captcha in the registration form.",
+      "message": "Introduce\u021Bi numerele de mai jos"
+   },
+   "checkVersionWarning": {
+      "description": "Warning message shown to user when the client doesn't pass version check",
+      "message": "Aceast\u0103 versiune a Evernote Web Clipper nu mai este compatibil\u0103 cu Serviciul Evernote. V\u0103 rug\u0103m s\u0103 instala\u021Bi cea mai recent\u0103 versiune."
+   },
+   "clearFeatureDiscoveryTooltip": {
+      "description": "The message that pops up when you hover over the 'x' icon for the 'feature discovery' box.",
+      "message": "Nu mai afi\u0219a aceast\u0103 notificare din nou"
+   },
+   "clearTagsToolTip": {
+      "description": "The message that pops up when you hover over the 'x' icon that displays beside the tag list.",
+      "message": "Goli\u021Bi toate etichetele"
+   },
+   "clipsFromThisSite": {
+      "description": "Label for the site search button.",
+      "message": "Alte clipuri din $site$",
+      "placeholders": {
+         "site": {
+            "content": "$1",
+            "example": "71"
+         }
+      }
+   },
+   "contentPreview_clipArticle": {
+      "description": "Selection nudging legend for clipping article",
+      "message": "ata\u0219eaz\u0103 articol"
+   },
+   "contentPreview_expandSelection": {
+      "description": "Selection nudging legend for expanding selection",
+      "message": "extinde selec\u021Bia"
+   },
+   "contentPreview_moveSelection": {
+      "description": "Selection nudging legend for moving selection",
+      "message": "mut\u0103 selec\u021Bia"
+   },
+   "contentPreview_shrinkSelection": {
+      "description": "Selection nudging legend for shrinking selection",
+      "message": "\u00EEngusteaz\u0103 selec\u021Bia"
+   },
+   "contentclipper_clipping": {
+      "description": "Message shown on content pages to notify users that the page is being scraped for clipping.",
+      "message": "\u003Cb\u003Edecupare\u003C/b\u003E \"$clipTitle$\"",
+      "placeholders": {
+         "clipTitle": {
+            "content": "$1",
+            "example": "Sample clip title"
+         }
+      }
+   },
+   "contentclipper_clipping_no_title": {
+      "description": "Message shown on content pages to notify users that the page is being scraped for clipping when the title of the clip is unavailable.",
+      "message": "\u003Cb\u003Edecupare ...\u003C/b\u003E"
+   },
+   "contentclipper_syncing": {
+      "description": "Message shown on content pages to notify users that the page is being sent to the server.",
+      "message": "\u003Cb\u003Esincronizeaz\u0103\u003C/b\u003E \"$clipTitle$\"",
+      "placeholders": {
+         "clipTitle": {
+            "content": "$1",
+            "example": "Sample clip title"
+         }
+      }
+   },
+   "contextMenuClipImage": {
+      "description": "Context menu item for creating a new note with image",
+      "message": "Ata\u0219eaz\u0103 imagine"
+   },
+   "contextMenuClipPDF": {
+      "description": "Context menu item for creating a new note with PDF",
+      "message": "Decupeaz\u0103 PDF"
+   },
+   "contextMenuClipPage": {
+      "description": "Context menu item for clipping current page",
+      "message": "Decupeaz\u0103 aceast\u0103 pagin\u0103"
+   },
+   "contextMenuClipSelection": {
+      "description": "Context menu item for clipping current selection",
+      "message": "Decupeaz\u0103 selec\u021Bia"
+   },
+   "contextMenuClipUrl": {
+      "description": "Context menu item for creating a new note with just the URL of the current page",
+      "message": "Decupeaz\u0103 URL"
+   },
+   "contextMenuNewNote": {
+      "description": "Context menu item for creating new note",
+      "message": "Not\u0103 nou\u0103"
+   },
+   "contextMenuPleaseLogin": {
+      "description": "Help message shown to users when they try to clip content via contextual menu items but not being intially logged in",
+      "message": "Ar trebui s\u0103 v\u0103 conecta\u021Bi folosind decuparea la bara Evernote \u00EEnainte de a putea face o decupare"
+   },
+   "copyright": {
+      "description": "Copyright statement",
+      "message": "Drepturi de autor 2009-2013 Evernote Corporation. Toate drepturile rezervate. \u003Ca href='$baseUrl$/privacy' target='_blank'\u003EPolitica de confidentialitate\u003C/a\u003E | \u003Ca href='$baseUrl$/tos' target='_blank'\u003ETermeni de utilizare\u003C/a\u003E | \u003Ca href='#' id='legalLink'\u003ENotific\u0103ri juridice\u003C/a\u003E",
+      "placeholders": {
+         "baseUrl": {
+            "content": "$1",
+            "example": "https://www.evernote.com"
+         }
+      }
+   },
+   "deleting": {
+      "description": "Message indicating that the extension is deleting previously clipped note from the server",
+      "message": "\u0218terge nota decupat\u0103..."
+   },
+   "desktopNotification_cancelFailedClip": {
+      "description": "Name of the action associated with cancelling the clip that failed to upload. Should be as short as possible",
+      "message": "Anulare"
+   },
+   "desktopNotification_clipProcessorSignInMessage": {
+      "description": "Message shown to users inside desktop notification informing users that they clip could not be uploaded because they are not authenticated...",
+      "message": "Autentificare Nevalid\u0103 sau expirat\u0103. V\u0103 rug\u0103m  s\u0103 v\u0103 autentifica\u021Bi utiliz\u00E2nd butonul barei de instrumente, \u0219i \u00EEncerca\u021Bi din nou."
+   },
+   "desktopNotification_clipProcessorSignInTitle": {
+      "description": "Title for desktop notification informing user that there was an error with uploading a clip. This should be as short as possible",
+      "message": "Imposibil de salvat \"$clipTitle$\"",
+      "placeholders": {
+         "clipTitle": {
+            "content": "$1",
+            "example": "Sample clip title"
+         }
+      }
+   },
+   "desktopNotification_clipProcessorTooManyRetries": {
+      "description": "Message indicating that we've tried too many times to clip this note.",
+      "message": "Decuparea\"$title$\" nu a reu\u0219it de prea multe ori \u0219i nu mai poate fi re\u00EEncercat\u0103.",
+      "placeholders": {
+         "title": {
+            "content": "$1",
+            "example": "Title of the clip."
+         }
+      }
+   },
+   "desktopNotification_clipUploaded": {
+      "description": "Headline for desktop notification indicating that clip was successfully uploaded",
+      "message": "\u003Cb\u003EDecupat\u003C/b\u003E \"$clipTitle$\"",
+      "placeholders": {
+         "clipTitle": {
+            "content": "$1",
+            "example": "Sample clip title"
+         }
+      }
+   },
+   "desktopNotification_clipUploadedMessage": {
+      "description": "Message indicating that clip was successfully uploaded",
+      "message": "Decuparea a fost \u00EEnc\u0103rcat\u0103 cu succes."
+   },
+   "desktopNotification_editSuccessClip": {
+      "description": "Name of the action associated with editing clipped note",
+      "message": "Modific\u0103"
+   },
+   "desktopNotification_retryFailedClip": {
+      "description": "Name of the action associated with retrying the clip that failed to upload. Should be as short as possible",
+      "message": "Re\u00EEncerca\u021Bi"
+   },
+   "desktopNotification_unableToSaveClip": {
+      "description": "Headline for desktop notifications indicating there was a problem with saving the clip",
+      "message": "Imposibil de salvat \"$clipTitle$\"",
+      "placeholders": {
+         "clipTitle": {
+            "content": "$1",
+            "example": "Sample clip title"
+         }
+      }
+   },
+   "desktopNotification_unableToSaveClipUnknown": {
+      "description": "Headline for desktop notification indicating that there was an unknown error while uploading a clip",
+      "message": "Imposibil de salvat decuparea"
+   },
+   "desktopNotification_unableToSaveClipUnknownMessage": {
+      "description": "Description of the unknown error that may occur after the extension failed to upload a clip",
+      "message": "A ap\u0103rut o Eroare necunoscut\u0103 \u00EEn timp ce a \u00EEncercat s\u0103 salveze unul din clipurile tale. Mesaj de eroare: $details$",
+      "placeholders": {
+         "details": {
+            "content": "$1",
+            "example": "Error 503"
+         }
+      }
+   },
+   "desktopNotification_viewSuccessClip": {
+      "description": "Name of the actions associated with viewing clipped note",
+      "message": "Vizualizare"
+   },
+   "dismiss": {
+      "description": "Message shown on buttons to dismiss a widget of some kind",
+      "message": "Anulare"
+   },
+   "email": {
+      "description": "Label for email field of registration form",
+      "message": "Adresa de email"
+   },
+   "filing": {
+      "description": "Message indicating that the extension is filing changes made to previously clipped note on the server",
+      "message": "Completare not\u0103 ..."
+   },
+   "freeAccountLimit": {
+      "description": "",
+      "message": "Sunte\u021Bi deja \u00EEnscris la un cont gratuit, \u003Cb\u003E$name$\u003C/b\u003E. Ave\u021Bi posibilitatea s\u0103 comuta\u021Bi \u00EEntre conturi premium multiple, dar numai un singur cont gratuit. Dori\u021Bi \u00EEn schimb s\u0103 utiliza\u021Bi acest cont gratuit?",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "fullPageClipFailure": {
+      "description": "Message shown to user when full page clip wasn't possible",
+      "message": "Ne pare r\u0103u, Evernote nu poate decupa aceast\u0103 pagin\u0103 \u00EEntreag\u0103. V\u0103 rug\u0103m s\u0103 selecta\u021Bi por\u021Biunea pe care dori\u021Bi s\u0103 o decupa\u021Bi."
+   },
+   "getEvernoteFood": {
+      "description": "First part of the text for the Evernote Food cross promotion that appears in the clip result notification",
+      "message": "\u00CEnscrie\u021Bi-v\u0103 la Evernote Food"
+   },
+   "header_register": {
+      "description": "Registration link in header",
+      "message": "Crea\u021Bi un cont Evernote"
+   },
+   "hideRelatedNotes": {
+      "description": "text for the link in the 'related notes' overlay that will hide this section.",
+      "message": "Ascunde notele aferente"
+   },
+   "illegalUrlClipFailure": {
+      "description": "Error message shown when you try to clip from pages that aren't scriptable by the browser. Such as the chrome gallery pages.",
+      "message": "Datorit\u0103 restric\u021Biilor browser-ului, nu pute\u021Bi decupa aceast\u0103 pagin\u0103"
+   },
+   "legalNoticesTitle": {
+      "description": "the title of the legal notices dialog in the options page where we list the licenses of all third party packages we use",
+      "message": "Web Clipper folose\u0219te software open source"
+   },
+   "linkedNotebookOptionText": {
+      "description": "Text that shows up inside the dropdown list used to select another user's shared notebook.",
+      "message": "$notebookName$ (detinut de $owner$)",
+      "placeholders": {
+         "notebookName": {
+            "content": "$1",
+            "example": "recipes"
+         },
+         "owner": {
+            "content": "$2",
+            "example": "tylerkaraszewski"
+         }
+      }
+   },
+   "linkedNotebooksOptGroupTitle": {
+      "description": "the text that apeears above the list of linked notebooks in the dropdown list of notebooks.",
+      "message": "Notebook-uri partajate"
+   },
+   "loading": {
+      "description": "Message shown when extension is loading...",
+      "message": "\u00CEnc\u0103rcare..."
+   },
+   "loggingIn": {
+      "description": "Message indicating that the extension is currently attempting to sign in user",
+      "message": "Conectare la Evernote"
+   },
+   "loginForm_login": {
+      "description": "Sign in button label for login form",
+      "message": "\u00CEnregistrare"
+   },
+   "loginForm_password": {
+      "description": "Label for entering password into login form",
+      "message": "Parol\u0103"
+   },
+   "loginForm_passwordError_5": {
+      "description": "",
+      "message": "Este necesar\u0103 o parol\u0103."
+   },
+   "loginForm_passwordInvalidError": {
+      "description": "",
+      "message": "Parol\u0103 incorect\u0103"
+   },
+   "loginForm_rememberMe": {
+      "description": "Label for extending login session",
+      "message": "\u021Aine-m\u0103 minte"
+   },
+   "loginForm_searchHelper": {
+      "description": "Label for search helper option on the login view",
+      "message": "Arata rezultate similare atunci c\u00E2nd c\u0103uta\u021Bi pe web"
+   },
+   "loginForm_username": {
+      "description": "Label for entering email address or username into login form",
+      "message": "Adresa de e-mail sau numele de utilizator"
+   },
+   "loginForm_usernameError_5": {
+      "description": "",
+      "message": "Este necesar un nume de utilizator."
+   },
+   "loginForm_usernameError_8": {
+      "description": "",
+      "message": "Numele de utilizator \u0219i parola nu se potrivesc cu utilizatorul existent."
+   },
+   "loginForm_usernameInvalidChinaError": {
+      "description": "",
+      "message": "Autentificare necunoscut\u0103, sau \u00EEncerca\u021Bi Evernote International"
+   },
+   "loginForm_usernameInvalidError": {
+      "description": "",
+      "message": "Nu exist\u0103 nici un utilizator cu acest nume."
+   },
+   "login_searchHelperLongDescription": {
+      "description": "Description of the search-helper feature as shown on the options page",
+      "message": "C\u00E2nd sunt activate, c\u0103ut\u0103rile de pe motoarele de c\u0103utare acceptate vor fi, de asemenea, efectuate pe contul dvs. Evernote. Motoarele de cautare suportate sunt: Google, Bing, Yahoo, Yandex, Baidu, Daum, \u0219i Naver."
+   },
+   "logs_export": {
+      "description": "Title of the button for exporting all of the logs",
+      "message": "Export\u0103 Jurnale"
+   },
+   "logs_follow": {
+      "description": "Label for an option to trail the logfile",
+      "message": "Urm\u0103re\u0219te"
+   },
+   "logs_selectLogFile": {
+      "description": "Label for selecting log files for viewing",
+      "message": "Selecteaz\u0103 fi\u0219ier activitate"
+   },
+   "logs_title": {
+      "description": "The title of the logs page.",
+      "message": "Jurnale de Evenimente"
+   },
+   "more": {
+      "description": "General purpose, capitalized word for More - as in - there's more to see/read etc.",
+      "message": "Mai mult"
+   },
+   "newFeatureDescription": {
+      "description": "The popover description of for the Smart Filing feature, including a link to the options page.",
+      "message": "Web Clipper va sugera etichete \u0219i notebook-uri bazate pe con\u021Binutul clipului. Gestiona\u021Bi aceast\u0103 caracteristic\u0103 \u0219i alte set\u0103ri \u00EEn Web Clipper \u003Cspan class='newFeatureOptionsPseudoLink'\u003EOp\u021Biuni\u003C/span\u003E."
+   },
+   "newFeatureTitle": {
+      "description": "The title for any new feature we're showcasing in the current release.",
+      "message": "Umplere inteligent\u0103"
+   },
+   "noteSizeExceededFree": {
+      "description": "Error message shown to free users who try to clip something over the maximum note size",
+      "message": "Doar utilizatorii Evernote Premium pot decupa note peste 25MB. \u003Ca href='$baseUrl$/Checkout.action'\u003EUpgrade la Premium\u003C/a\u003E",
+      "placeholders": {
+         "baseUrl": {
+            "content": "$1",
+            "example": "http://www.evernote.com"
+         }
+      }
+   },
+   "noteSizeExceededPremium": {
+      "description": "Error message shown to premium users who try to clip something over the maximum note size",
+      "message": "Dimensiunea maxim\u0103 a notei este de 100 MB, nu poate crea nota."
+   },
+   "notification_quotaExceededFree": {
+      "description": "Indicates that free user has exceeded their quota",
+      "message": "Nu ave\u021Bi suficient\u0103 cot\u0103 de  \u00EEnc\u0103rcare pentru a salva acest clip.  \u003Ca href='$url$'\u003EActualizare la Premium\u003C/a\u003E",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "https://www.evernote.com/Checkout.action"
+         }
+      }
+   },
+   "notification_quotaExceededPremium": {
+      "description": "Indicates that premium user has exceeded their quota",
+      "message": "Nu ave\u021Bi suficient\u0103 cot\u0103 de \u00EEnc\u0103rcare pentru a salva acest clip. \u003Ca href='$url$'\u003ECre\u0219terea cotelor de \u00EEnc\u0103rcare\u003C/a\u003E",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "https://www.evernote.com/QuotaCheckout.action"
+         }
+      }
+   },
+   "options_buildId": {
+      "description": "The revison number of this build of the clipper, as pulled fro mSVN at the time the clipper was built.",
+      "message": "Build ID:"
+   },
+   "options_client": {
+      "description": "Label for the dropdown menu in Options where user can choose what client s/he wants to open and edit notes in",
+      "message": "Deschide note \u00EEn"
+   },
+   "options_clientSelectionDescription": {
+      "description": "Description of the dropdown menu to select what client the user wants to open notes in. Only displayed when user selects the desktop client",
+      "message": "La prima utilizare a acestei set\u0103ri ve\u021Bi vedea un dialog \"cerere de protocol extern\". Pentru cea mai bun\u0103 experien\u021B\u0103 bifeaz\u0103 caseta de selectare \"Remember my choice\" \u0219i apoi \"Lansare Aplica\u021Bie\"."
+   },
+   "options_client_desktop": {
+      "description": "Desktop client choice in the dropdown menu to select what client to open/edit a note in",
+      "message": "Spa\u021Biul de lucru client"
+   },
+   "options_client_web": {
+      "description": "Web client choice in the dropdown menu to select what client to open/edit a note in",
+      "message": "Web client"
+   },
+   "options_clipAction": {
+      "description": "Label for specifying default clipping action",
+      "message": "Ac\u021Biune Implicit\u0103"
+   },
+   "options_clipAction_article": {
+      "description": "Label for article as the default clipping action",
+      "message": "Decupeaz\u0103 articol"
+   },
+   "options_clipAction_fullPage": {
+      "description": "Label for full-page as the default clipping action",
+      "message": "Decupeaz\u0103 pagin\u0103 complet\u0103"
+   },
+   "options_clipAction_url": {
+      "description": "Label for url as the default clipping action",
+      "message": "Decupeaz\u0103 URL"
+   },
+   "options_clipNotificationEnabled": {
+      "description": "Label for option to enable notification about successful clips",
+      "message": "Activa\u021Bi notific\u0103rile"
+   },
+   "options_clipNotificationEnabledDescription": {
+      "description": "Description of the notifications option",
+      "message": "C\u00E2nd este activat, ve\u021Bi fi notificat ori de c\u00E2te ori un clip a fost \u00EEnc\u0103rcat. Notific\u0103rile fac s\u0103 fie mai u\u0219or pentru tine s\u0103 vizualizezi, editezi \u0219i partajezi clipurile."
+   },
+   "options_clipStyle": {
+      "description": "Label for the option to keep the style of the page while clipping.",
+      "message": "Conservare Stil"
+   },
+   "options_clipStyleDescription": {
+      "description": "Description for the option to preserve styles with clips.",
+      "message": "C\u00E2nd este activat, decup\u0103rile vor p\u0103stra informa\u021Biile de stil pentru a fi c\u00E2t mai aproape de pagina original\u0103. C\u00E2nd este dezactivat, dacup\u0103rile vor avea un stil simplu, cu text simplu \u0219i f\u0103r\u0103 decor."
+   },
+   "options_developer_title": {
+      "description": "Title for developer options",
+      "message": "Op\u021Biuni pentru dezvoltatori"
+   },
+   "options_eventLogDescription": {
+      "description": "Describes the purpose of the event logs link in the options page.",
+      "message": "Dac\u0103 ve\u021Bi contacta Asisten\u021Ba Evernote, aceasta v\u0103 poate cere s\u0103 vizualiza\u021Bi aceste jurnale pentru a ajuta la diagnosticarea unei probleme."
+   },
+   "options_eventLogLink": {
+      "description": "the text for the link to the event logs page from the options page",
+      "message": "Vizualizare jurnale de evenimente"
+   },
+   "options_insecureProto": {
+      "description": "Label for specifying insecure protocol option.",
+      "message": "Protocol Nesigur"
+   },
+   "options_overrideServiceURL": {
+      "description": "Custom URL to use that will override both stage and production URLs.",
+      "message": "URL-ul serviciului Override "
+   },
+   "options_saving": {
+      "description": "Notifies the user that their changes to the options page are being saved",
+      "message": "Salvare..."
+   },
+   "options_secureProto": {
+      "description": "Label specifying secure protocol option.",
+      "message": "Protocolul de siguran\u021B\u0103"
+   },
+   "options_selectionNudging": {
+      "description": "Label for selection nudging options",
+      "message": "Selec\u021Bia Articolului"
+   },
+   "options_selectionNudgingDescription": {
+      "description": "Description of selection nudging",
+      "message": "C\u00E2nd este activat, ave\u021Bi posibilitatea s\u0103 modifica\u021Bi selec\u021Bia articolului utiliz\u00E2nd tastatura dvs. \u00EEnainte de a face o decupare. Activarea cu \"f\u0103r\u0103 indiciii\" va \u00EEmpiedica afi\u0219area mesajului informa\u021Bional. C\u00E2nd este dezactivat - nu pute\u021Bi face ajust\u0103ri de selec\u021Bie automat\u0103."
+   },
+   "options_selectionNudging_disabled": {
+      "description": "Label for disabled selection nudging",
+      "message": "Dezactivat"
+   },
+   "options_selectionNudging_enabled": {
+      "description": "Label for enabled selection nudging",
+      "message": "Activat"
+   },
+   "options_selectionNudging_enabledNoprompt": {
+      "description": "Label for enabled selection nudging, but without showing the hits",
+      "message": "Activat (f\u0103r\u0103 indicii)"
+   },
+   "options_simulateCheckVersionFailure": {
+      "description": "Label for developer option to simulate checkVersion failure",
+      "message": "Pr\u0103bu\u0219ire simulare verificare Versiune"
+   },
+   "options_simulateSimplifiedChinese": {
+      "description": "Label for developer option to simulate checkVersion failure",
+      "message": "Simulare chinez\u0103 simplificat\u0103"
+   },
+   "options_simulateSimplifiedChineseDescription": {
+      "description": "Description for what it means to select this option",
+      "message": "Atunci c\u00E2nd este activat\u0103 aceast\u0103 op\u021Biune, Clipperul va pretinde s\u0103 fie setat la limba chinez\u0103 simplificat\u0103, pentru a alege un serviciu la care s\u0103 se conecteze."
+   },
+   "options_smartFilingBizDesc": {
+      "description": "Description of option to allow smart filing into business notebooks",
+      "message": "Permite\u021Bi Depunerea inteligent\u0103 \u00EEn Business Notebooks"
+   },
+   "options_smartFilingEnabled": {
+      "description": "Label for option to enable automatic tagging and notebook selection for new notes.",
+      "message": "Activa\u021Bi Depunerea inteligent\u0103"
+   },
+   "options_smartFilingEnabledDescription": {
+      "description": "Description of the smart filing option",
+      "message": "Completarea inteligent\u0103 va selecta \u00EEn mod automat un notebook \u0219i o list\u0103 de etichete pe baza paginii din care decupezi."
+   },
+   "options_smartFilingEnabled_all": {
+      "description": "",
+      "message": "Etichete \u0219i notebook-uri"
+   },
+   "options_smartFilingEnabled_none": {
+      "description": "",
+      "message": "Dezactiva\u021Bi Depunerea inteligent\u0103"
+   },
+   "options_smartFilingEnabled_notebooks": {
+      "description": "",
+      "message": "Numai notebook-uri"
+   },
+   "options_smartFilingEnabled_tags": {
+      "description": "",
+      "message": "Numai etichete"
+   },
+   "options_storedCredentials": {
+      "description": "Label for a set of options controls enabling users to store their credentials",
+      "message": "Acreditare"
+   },
+   "options_storedCredentialsDescription": {
+      "description": "Educational message for users who wish to store their Evernote password. First sentence is the most critical one as it will be used in options_storedCredentialsShortDescription",
+      "message": "\u003Cb\u003ENOTA:\u003C/b\u003E Stocarea parolelor poate permite altora s\u0103 acceseze contul dvs. Evernote atunci c\u00E2nd se utilizeaz\u0103 acest browser. Elimina\u021Bi sau deconecta\u021Bi-v\u0103 de la Clip pentru ca extensia Evernote s\u0103 elimine definitiv numele de utilizator \u0219i parola stocate \u00EEn extensia browserului dvs.."
+   },
+   "options_title": {
+      "description": "Title of the options page",
+      "message": "Op\u021Biuni"
+   },
+   "options_useContextMenu": {
+      "description": "Label for option to enable clipping via contextual menu",
+      "message": "Activa\u021Bi meniuri contextuale"
+   },
+   "options_useContextMenuDescription": {
+      "description": "Description of the contextual menu option",
+      "message": "C\u00E2nd este activat, pute\u021Bi decupa pagini web prin intermediul meniul contextual. Click dreapta pe imagini, selecta\u021Bi text sau oriunde \u00EEn pagin\u0103 va dezv\u0103lui op\u021Biuni adecvate de decupare."
+   },
+   "options_useSearchHelper": {
+      "description": "Label for search-helper feature toggle",
+      "message": "Rezultate similare"
+   },
+   "options_useSearchHelperDescription": {
+      "description": "Description of the search-helper feature as shown on the options page",
+      "message": "C\u00E2nd este activat\u0103, c\u0103utarea pe Web cu browsere web acceptate va afi\u0219a, de asemenea, rezultatele din contul dvs. Evernote."
+   },
+   "options_useStage": {
+      "description": "Label for developer option to simulate checkVersion failure",
+      "message": "Etapa de Utilizare"
+   },
+   "options_useStageDescription": {
+      "description": "Description for what it means to select this option",
+      "message": "Instruie\u0219te decuparea s\u0103 foloseasc\u0103 serviciul \"etap\u0103\" \u00EEn locul serviciului de produc\u021Bie, ceea ce este normal doar pentru testare."
+   },
+   "pdfTip": {
+      "description": "Tooltip that appears on PDFs",
+      "message": "\u0218tia\u021Bi c\u0103 pute\u021Bi decupa PDF direct \u00EEn contul dvs. Evernote cu Web Clipper?"
+   },
+   "popup_couldntStart": {
+      "description": "Message that shows up when the clipper popup can't open.",
+      "message": "Clipper nu a putut \u00EEncepe de pe aceast\u0103 pagin\u0103. Re\u00EEnc\u0103rca\u021Bi pagina \u0219i \u00EEncerca\u021Bi din nou. \u00CEn cazul \u00EEn care nu ajut\u0103, contacta\u021Bi asisten\u021Ba pentru clien\u021Bi."
+   },
+   "popup_loadingNotebooks": {
+      "description": "Message shown while smart filing is running. Should *not* include trailing punctuation.",
+      "message": "Se \u00EEncarc\u0103 notebook-uri"
+   },
+   "popup_loginCheckTimeout": {
+      "description": "Message that displays if checking if the user is logged in takes too long.",
+      "message": "Verificarea prerogativelor luat prea mult timp. Asigura\u021Bi-v\u0103 c\u0103 sunte\u021Bi conectat la Internet \u0219i \u00EEncerca\u021Bi din nou."
+   },
+   "popup_moreNotesLink": {
+      "description": "Message showing how many more notes can be seen on the server.",
+      "message": "A se vedea mai multe note din $count$...",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "10"
+         }
+      }
+   },
+   "popup_oneMoreNoteLink": {
+      "description": "Message showing there is one more note on the server.",
+      "message": "Mai vezi o not\u0103..."
+   },
+   "popup_unsupportedScheme": {
+      "description": "The error to display when the popup can't operate on a specific type of url.",
+      "message": "Ata\u0219area din aceast\u0103 loca\u021Bie nu este acceptat\u0103."
+   },
+   "popup_waiting": {
+      "description": "Displays while the popup window waits for a page to finish loading.",
+      "message": "A\u0219teptare pentru pagina ..."
+   },
+   "quickNote": {
+      "description": "Title for creating quick note",
+      "message": "Segment"
+   },
+   "quickNoteAction_clipArticle": {
+      "description": "Label for clipping article action",
+      "message": "Salveaz\u0103 articolul"
+   },
+   "quickNoteAction_clipFullPage": {
+      "description": "Label for clipping full page action",
+      "message": "Salveaz\u0103 pagina \u00EEntreag\u0103"
+   },
+   "quickNoteAction_clipPDF": {
+      "description": "Label for clipping PDF action",
+      "message": "Salva\u021Bi PDF"
+   },
+   "quickNoteAction_clipSelection": {
+      "description": "Label for clipping selection action",
+      "message": "Salveaz\u0103 selec\u021Bia"
+   },
+   "quickNoteAction_clipUrl": {
+      "description": "Label for clipping URL action",
+      "message": "Salveaz\u0103 URL"
+   },
+   "quickNote_addComment": {
+      "description": "Placeholder text for comment input",
+      "message": "Adaug\u0103 comentariu"
+   },
+   "quickNote_addTags": {
+      "description": "Placeholder text for tag input",
+      "message": "Ad\u0103uga\u021Bi etichete"
+   },
+   "quickNote_comment": {
+      "description": "Label for additional text to be added to the note",
+      "message": "Ad\u0103uga\u021Bi text"
+   },
+   "quickNote_notebook": {
+      "description": "Label for selection of note's notebook",
+      "message": "Notebook"
+   },
+   "quickNote_submit": {
+      "description": "Label for saving quick note",
+      "message": "Salveaz\u0103"
+   },
+   "quickNote_tagsDisabled": {
+      "description": "Message indicating that you can't use tags for shared notebooks.",
+      "message": "Etichetele nu sunt acceptate \u00EEn prezent pentru notebook-uri partajate."
+   },
+   "quickNote_title": {
+      "description": "Label for note title",
+      "message": "Titlu"
+   },
+   "quickNote_untitledNote": {
+      "description": "Placeholder title for untitled note",
+      "message": "Not\u0103 nedenumit\u0103"
+   },
+   "regForm_cancel": {
+      "description": "Allows user to back out of registration when s/he's creating an account during account switching",
+      "message": "Anulare"
+   },
+   "regForm_deactivated_username": {
+      "description": "User wanted to register with a deactivated username",
+      "message": "Nume de utilizator a fost dezactivat. Dori\u021Bi s\u0103  \u003Ca href='$url$'\u003Ereactiva\u021Bi\u003C/a\u003E contul?",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "https://www.evernote.com/AccountReactivation.action"
+         }
+      }
+   },
+   "regForm_email_required": {
+      "description": "User didn't enter an email address",
+      "message": "Adresa de e-mail este un c\u00E2mp obligatoriu."
+   },
+   "regForm_goodUsername": {
+      "description": "The user entered a valid and available username into the registration form",
+      "message": "Disponibil"
+   },
+   "regForm_invalid_captcha": {
+      "description": "User didn't fill out the captcha.",
+      "message": "Tasta\u021Bi caracterele pe care le vede\u021Bi \u00EEn imaginea de mai sus."
+   },
+   "regForm_invalid_email": {
+      "description": "User didn't enter a properly-formatted email address",
+      "message": "Adresa de e-mail pare a fi nevalid\u0103."
+   },
+   "regForm_invalid_password": {
+      "description": "User entered an invalid password",
+      "message": "Selecta\u021Bi o parol\u0103 \u00EEntre 6 \u0219i 64 de caractere formate din litere, cifre \u0219i semne de punctua\u021Bie."
+   },
+   "regForm_invalid_username": {
+      "description": "User entered an invalid username",
+      "message": "Numele dvs. de utilizator trebuie s\u0103 \u00EEnceap\u0103 \u0219i s\u0103 se termine cu o liter\u0103 sau un num\u0103r, poate con\u021Bine cratime \u0219i underscore."
+   },
+   "regForm_password_required": {
+      "description": "User didn't enter a password",
+      "message": "Parola este un c\u00E2mp obligatoriu."
+   },
+   "regForm_taken_email": {
+      "description": "User entered a valid but unavailable email",
+      "message": "Aceast\u0103 adres\u0103 de email este deja \u00EEn uz."
+   },
+   "regForm_taken_username": {
+      "description": "User entered a valid but unavailable username",
+      "message": "Numele de utilizator selectat este deja utilizat de un alt utilizator."
+   },
+   "register": {
+      "description": "Text on the submit button of the registration form",
+      "message": "\u00CEnregistrare"
+   },
+   "registrationForm_username": {
+      "description": "Text on the username field of the registration form",
+      "message": "Nume utilizator"
+   },
+   "registration_terms": {
+      "description": "Terms of Service and Privacy Policy agreement",
+      "message": "F\u0103c\u00E2nd clic pe Register, sunte\u021Bi de acord cu \u003Ca href='$tos_url$'\u003EConditiile de utilizare\u003C/a\u003E \u0219i \u003Ca href='$pp_url$'\u003EPolitica de confidentialitate\u003C/a\u003E.",
+      "placeholders": {
+         "pp_url": {
+            "content": "$2",
+            "example": "http://www.evernote.com/privacy"
+         },
+         "tos_url": {
+            "content": "$1",
+            "example": "http://www.evernote.com/tos"
+         }
+      }
+   },
+   "relatedNotes": {
+      "description": "Label for the related notes button, and the title for the descriptive overlay.",
+      "message": "Note relative"
+   },
+   "relatedNotesDescription": {
+      "description": "message describing what Related Notes do.",
+      "message": "Evernote g\u0103se\u0219te p\u00E2n\u0103 la trei note \u00EEn contul dvs., care sunt legate de pagina pe care tocmai a\u021Bi decupat-o \u0219i le prezint\u0103 aici."
+   },
+   "rememberFoodYouLove": {
+      "description": "Second part of the text for the Evernote Food cross promotion",
+      "message": "Aminti\u021Bi-v\u0103 produsele culinare \u0219i gastronomice care v\u0103 plac."
+   },
+   "safariContextClipImage": {
+      "description": "Label for right-click menu to clip an image in Safari.",
+      "message": "Salvare imagine \u00EEn Evernote"
+   },
+   "safariContextClipPDF": {
+      "description": "Label for right-click menu to clip a PDF in Safari.",
+      "message": "Salvare PDF \u00EEn Evernote"
+   },
+   "safariContextClipPage": {
+      "description": "Label for right-click menu to clip the whole page in Safari.",
+      "message": "Salva\u021Bi pagina complet\u0103 \u00EEn Evernote"
+   },
+   "safariContextClipSelection": {
+      "description": "Label for right-click menu to clip a selection in Safari.",
+      "message": "Salvare selec\u021Bie \u00EEn Evernote"
+   },
+   "safariContextClipUrl": {
+      "description": "Label for right-click menu to clip a URL in Safari.",
+      "message": "Salva\u021Bi URL la Evernote"
+   },
+   "safariContextNewNote": {
+      "description": "Label for right-click menu to create a new note.",
+      "message": "Crea\u021Bi not\u0103 nou\u0103 \u00EEn Evernote"
+   },
+   "saveToEvernote": {
+      "description": "Label for button to save clip to Evernote",
+      "message": "Salveaz\u0103 \u00EEn Evernote"
+   },
+   "searchHelperFoundNotes": {
+      "description": "Message indicating that related notes were found",
+      "message": "\u003Cb\u003ERezultate populare\u003C/b\u003E, \u00EEn contul dvs. Evernote"
+   },
+   "searchHelperLoginMessage": {
+      "description": "Message injected into search-engine page indicating that the user must login prior to seeing results.",
+      "message": "\u003Cdiv class='grayText' id='login'\u003E\u003Ca target='_blank' href='$loginUrl$'\u003ELogare\u003C/a\u003E la Web Clipper pentru a vedea rezultate similare\u003C/div\u003E",
+      "placeholders": {
+         "loginUrl": {
+            "content": "$1",
+            "example": "http://www.evernote.com/Login.action"
+         }
+      }
+   },
+   "searchHelperNoTransportError": {
+      "description": "Error message shown to user when there is a problem reaching the servers when doing simultaneous search.",
+      "message": "C\u0103utare simultan\u0103 nu este disponibil\u0103 \u00EEn prezent, deoarece serverele Evernote nu pot fi g\u0103site."
+   },
+   "searchHelperNotesNotFoundBiz": {
+      "description": "Message injected into search-engine page indicating there were no related notes found in personal or business accounts",
+      "message": "Nu exist\u0103 rezultate asem\u0103n\u0103toare \u00EEn notele dvs. personale sau de afaceri"
+   },
+   "searchHelperNotesNotFoundPers": {
+      "description": "Message injected into search-engine page indicating there were no related notes found in personal account",
+      "message": "Nu exist\u0103 rezultate asem\u0103n\u0103toare \u00EEn note"
+   },
+   "searchHelperTopBizLibraryMatches": {
+      "description": "Section heading for the simsearch notes found in the user's business account",
+      "message": "$num$ Rezultate similare \u00EEn notele dvs. de afaceri",
+      "placeholders": {
+         "num": {
+            "content": "$1",
+            "example": "2"
+         }
+      }
+   },
+   "searchHelperTopBizLibraryMatchesOne": {
+      "description": "Section heading for the simsearch notes found in the user's business account, if there was only one result",
+      "message": "1 Rezultat aferent \u00EEn notele dvs. de afaceri"
+   },
+   "searchHelperTopMatchesBiz": {
+      "description": "Section heading for the simsearch notes found in a business user's personal account",
+      "message": "$num$ Rezultate similare \u00EEn notele tale personale",
+      "placeholders": {
+         "num": {
+            "content": "$1",
+            "example": "3"
+         }
+      }
+   },
+   "searchHelperTopMatchesBizOne": {
+      "description": "Section heading for the simsearch notes found in a business user's personal account, if there was only one result",
+      "message": "1 Rezultat aferent \u00EEn notele tale personale"
+   },
+   "searchHelperTopMatchesPers": {
+      "description": "Section heading for the simsearch notes found in a non-business user's personal account",
+      "message": "$num$ Rezultate similare \u00EEn notele dvs.",
+      "placeholders": {
+         "num": {
+            "content": "$1",
+            "example": "3"
+         }
+      }
+   },
+   "searchHelperTopMatchesPersOne": {
+      "description": "Section heading for the simsearch notes found in a non-business user's personal account, if there was only one result",
+      "message": "1 Rezultat aferent \u00EEn note"
+   },
+   "searchHelperViewAll": {
+      "description": "Label for the link in simsearch to the web client to search for the user's search query.",
+      "message": "Vezi toate"
+   },
+   "searchHelper_hidePerm": {
+      "description": "Text for the option in the simsearch drop down menu to let user to disable simsearch in the options",
+      "message": "Renun\u021Ba\u021Bi pentru totdeauna"
+   },
+   "searchHelper_hideTemp": {
+      "description": "Text for the option in the simsearch drop down menu to let user temporarily close the simsearch box, but not disable in the options",
+      "message": "Anulare"
+   },
+   "showRelatedNotes": {
+      "description": "text for the link in the 'related notes' overlay that will show this section.",
+      "message": "Afi\u0219a\u021Bi notele similare"
+   },
+   "signInHelperText": {
+      "description": "message shown at the top of the login screen to tell them why they should sign in",
+      "message": "Conecta\u021Bi-v\u0103 pentru a v\u0103 asigura c\u0103 pute\u021Bi decupa sau vizualiza rezultate similare"
+   },
+   "signInPrompt": {
+      "description": "hover text on signed out state of the toolbar icon",
+      "message": "Conecta\u021Bi-v\u0103 la Web Clipper"
+   },
+   "signOutAccount": {
+      "description": "menu item for logging out of the currently selected account.",
+      "message": "Deconecta\u021Bi-v\u0103 ca $name$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "signOutAll": {
+      "description": "Label to click when a user wants to log in with multiple accounts.",
+      "message": "Deconecta\u021Bi-v\u0103 din toate conturile"
+   },
+   "signout": {
+      "description": "Text on a link prompting for signing out currently logged in user",
+      "message": "Deconectare"
+   },
+   "stayLoggedInFree": {
+      "description": "Message indicating user should stay logged in as existing user.",
+      "message": "R\u0103m\u00E2i autentificat ca $name$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "switchAnyMessage": {
+      "description": "Message shown when a user tries to add another user and is not already logged into a free account.",
+      "message": "Comutarea Utilizatorilor este o caracteristic\u0103 premium care v\u0103 permite s\u0103 s\u0103ri\u021Bi rapid \u00EEntre utilizatori. Pute\u021Bi ad\u0103uga un cont utilizator premium sau gratuit."
+   },
+   "switchFreeAccount": {
+      "description": "Message indicating user should switch to newly logged in user.",
+      "message": "Utiliza\u021Bi $name$ ",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "switchPremiumMessage": {
+      "description": "Message shown when a user tries to add another user and is already logged into a free account.",
+      "message": "Comutarea Utilizatorilor este o caracteristic\u0103 premium care v\u0103 permite s\u0103 s\u0103ri\u021Bi rapid \u00EEntre utilizatori. Pute\u021Bi ad\u0103uga un cont utilizator premium."
+   },
+   "switchToAccount": {
+      "description": "Menu item indicating a user account that can be switched to.",
+      "message": "Comuta\u021Bi la $name$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "tagNamesNotInRange": {
+      "description": "Indicates that user entered an abnormal number of tags",
+      "message": "A\u021Bi introdus num\u0103rul maxim de etichete."
+   },
+   "tryItOut": {
+      "description": "text for button on pdf tooltip",
+      "message": "\u00CEncerca\u021Bi-l"
+   },
+   "youHaveRelatedNotes": {
+      "description": "Text indicating that the user has other related notes.",
+      "message": "Ai alte note, ca aceasta."
+   }
+}

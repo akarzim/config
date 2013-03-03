@@ -1,0 +1,62 @@
+{
+   "days": {
+      "message": "$1 dies",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "description": {
+      "message": "Comproveu r\u00E0pidament el temps que falta per a la propera reuni\u00F3 a qualsevol dels vostres calendaris. Feu clic al bot\u00F3 per anar-hi."
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "extensionname": {
+      "message": "Google Calendar Checker"
+   },
+   "hours": {
+      "message": "$1 h",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "imagetooltip": {
+      "message": "Google Calendar"
+   },
+   "minutes": {
+      "message": "$1 min",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "multicalendartext": {
+      "message": "Compatibilitat amb m\u00FAltiples calendaris"
+   },
+   "multicalendartooltip": {
+      "message": "Activeu la casella per activar la compatibilitat amb m\u00FAltiples calendaris"
+   },
+   "name": {
+      "message": "Google Calendar Checker (de Google)"
+   },
+   "notitle": {
+      "message": "(Sense t\u00EDtol)"
+   },
+   "optionstitle": {
+      "message": "Google Calendar Checker"
+   },
+   "status_saved": {
+      "message": "S'ha desat la configuraci\u00F3."
+   },
+   "status_saving": {
+      "message": "S'est\u00E0 desant..."
+   },
+   "title": {
+      "message": "Google Calendar Checker"
+   }
+}

@@ -1,0 +1,52 @@
+{
+   "chrome_extension_description": {
+      "message": "Prika\u017Ee \u0161tevilo neprebranih elementov v ra\u010Dunu za Google Bralnik. S klikom lahko prika\u017Eete pojavno okno ali odprete ra\u010Dun za Bralnik."
+   },
+   "chrome_extension_name": {
+      "message": "Orodja za obve\u0161\u010Danje za Google Bralnik (uporablja tehnologijo Google)"
+   },
+   "clickaction": {
+      "message": "Ko kliknete:"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "intervaltext": {
+      "message": "Interval posodabljanja:"
+   },
+   "loadingtext": {
+      "message": "Nalaganje ..."
+   },
+   "minutes": {
+      "message": "$1 min.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "nosummary": {
+      "message": "Brez povzetka"
+   },
+   "openreaderlink": {
+      "message": "Odpri Google Bralnik"
+   },
+   "refreshlink": {
+      "message": "Osve\u017Ei"
+   },
+   "savebutton": {
+      "message": "Shrani"
+   },
+   "savedmessage": {
+      "message": "Shranjeno"
+   },
+   "showmodule": {
+      "message": "Poka\u017Ei pojavno okno"
+   },
+   "showreader": {
+      "message": "Odpri Google Bralnik"
+   },
+   "title": {
+      "message": "Mo\u017Enosti orodja za obve\u0161\u010Danje za Google Bralnik"
+   }
+}

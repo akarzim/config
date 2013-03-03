@@ -1,0 +1,57 @@
+<!--
+ * Copyright (c) 2010 Page Two Technologies LLC. All rights reserved.
+ * Copyright (c) 2010 The Chromium Authors. All rights reserved.  Use of this
+ * source code is governed by a BSD-style license that can be found in the
+ * LICENSE file.
+-->
+<html>
+<head>
+<script>
+  // A dictionary keyed off of tabId that keeps track of data per tab (for
+  // example what feedUrl was detected in the tab).
+  var feedData = {};
+
+  chrome.extension.onRequest.addListener(function(request, sender) {
+    if (request.msg == "needPage2RSS") {
+      // We have received a list of feed urls found on the page.
+      // Enable the page action icon.
+      feedData[sender.tab.id] = request.href;
+      chrome.pageAction.setTitle({ tabId: sender.tab.id,
+                                   title: "Click to subscribe using Page2RSS..."});
+      chrome.pageAction.show(sender.tab.id);
+    }
+  });
+
+  chrome.tabs.onRemoved.addListener(function(tabId) {
+    delete feedData[tabId];
+  });
+
+  // On Linux, popups aren't supported yet, so Chrome will call into us
+  chrome.pageAction.onClicked.addListener(function(tab) {
+    chrome.windows.get(tab.windowId, function(window) {
+      // We need to know if we are the active window, because the tab may
+      // have moved to another window and we don't want to execute this
+      // action multiple times.
+      if (window.focused) {
+	    chrome.pageAction.setIcon({path: "progress.gif" ,tabId: tab.id});
+            xhr = new XMLHttpRequest();
+            xhr.open("GET", "http://page2rss.com/api/page?url=" + encodeURIComponent(feedData[tab.id]), false);
+            xhr.onreadystatechange = function () {
+              if (xhr.readyState == 4) {
+                if (xhr.status == 200) {
+		  var resp = JSON.parse(xhr.responseText);
+                  var feedurl = resp.page.feed;
+	          var url = "http://www.google.com/ig/add?feedurl=" + encodeURIComponent(feedurl);
+		  chrome.tabs.create({url: url, windowId: window.id});
+                }
+              }
+            };
+            xhr.send();
+	    chrome.pageAction.setIcon({path: "icon_16x16_png8.png" ,tabId: tab.id});
+      }
+    });
+  });
+
+</script>
+</head>
+</html>

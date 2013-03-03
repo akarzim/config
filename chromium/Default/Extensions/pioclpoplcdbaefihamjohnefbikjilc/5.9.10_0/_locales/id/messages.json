@@ -1,0 +1,1070 @@
+{
+   "April": {
+      "message": "April"
+   },
+   "Aug": {
+      "message": "Agt"
+   },
+   "BrowserActionTitle": {
+      "description": "Title for the browser action that's visible to the user of extension",
+      "message": "Klip ke Evernote"
+   },
+   "Close": {
+      "description": "The string that shows up on a button used to close a window.",
+      "message": "Tutup"
+   },
+   "Dec": {
+      "message": "Des"
+   },
+   "EDAMError_1": {
+      "description": "Used to describe an unknown EDAM error",
+      "message": "Galat tak dikenal"
+   },
+   "EDAMError_1_notebookGuid": {
+      "description": "Error message indicating unknown notebook",
+      "message": "Buku catatan tak dikenal"
+   },
+   "EDAMError_3": {
+      "description": "Indicates that permission was denied for request by the server",
+      "message": "Izin ditolak"
+   },
+   "EDAMError_3_User_active": {
+      "description": "Indicates that a user tried to login but their account is inactive",
+      "message": "Izin ditolak karena pengguna tidak aktif"
+   },
+   "EDAMError_3_User_tooManyFailuresTryAgainLater": {
+      "description": "Indicates that a user tried to login way too many times with invalid credentials and needs to chill for a bit",
+      "message": "Terlalu banyak kegagalan percobaan masuk. Silakan coba lagi nanti"
+   },
+   "Error_HTTP_Transport": {
+      "description": "Generic error indicating that the extension could not get a response from a server",
+      "message": "Masalah saat berkomunikasi dengan server [$status$]. $errorText$",
+      "placeholders": {
+         "errorText": {
+            "content": "$2",
+            "example": "http error response"
+         },
+         "status": {
+            "content": "HTTP $1",
+            "example": "404"
+         }
+      }
+   },
+   "Error_Network_Unavailable": {
+      "description": "error message shown when we can't connect to the internet.",
+      "message": "Tidak Ada Sambungan Internet"
+   },
+   "ExtensionDescription": {
+      "description": "Description of the extension as it's visible to the outside world",
+      "message": "Gunakan ekstensi Evernote untuk menyimpan hal-hal yang Anda lihat di web ke akun Evernote Anda. Ekstensi ini bahkan memampukan Anda mencari melalui catatan Anda."
+   },
+   "ExtensionName": {
+      "description": "Name of the extension as it's visible to the outside world",
+      "message": "Evernote Web Clipper"
+   },
+   "Feb": {
+      "message": "Feb"
+   },
+   "Friday": {
+      "message": "Jumat"
+   },
+   "Jan": {
+      "message": "Jan"
+   },
+   "July": {
+      "message": "Juli"
+   },
+   "June": {
+      "message": "Juni"
+   },
+   "March": {
+      "message": "Maret"
+   },
+   "May": {
+      "message": "Mei"
+   },
+   "Monday": {
+      "message": "Senin"
+   },
+   "Nov": {
+      "message": "Nov"
+   },
+   "Oct": {
+      "message": "Okt"
+   },
+   "Saturday": {
+      "message": "Sabtu"
+   },
+   "Sept": {
+      "message": "Sept"
+   },
+   "Sunday": {
+      "message": "Minggu"
+   },
+   "Thursday": {
+      "message": "Kamis"
+   },
+   "Today": {
+      "message": "Hari ini"
+   },
+   "Tuesday": {
+      "message": "Selasa"
+   },
+   "Wednesday": {
+      "message": "Rabu"
+   },
+   "accountChangedTo": {
+      "description": "message notifying the user that he's switched to a different account.",
+      "message": "Sekarang menggunakan akun $name$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "addAnotherAccount": {
+      "description": "Label to click when a user wants to log in with multiple accounts.",
+      "message": "Tambahkan akun lain..."
+   },
+   "articleClipFailure": {
+      "description": "Messages shown to user when the article of the page isn't clippable.",
+      "message": "Maaf, Evernote tidak dapat menyimpan laman ini sebagai artikel. Silakan pilih bagian yang ingin Anda klip."
+   },
+   "authPersistenceError": {
+      "description": "Error indicating that the browser fails to persist authentication.",
+      "message": "Preferensi peramban Anda bermasalah dengan ekstensi Evernote. Coba pulihkan setelan Konten Privasi Chrome ke asalnya: Izinkan data lokal ditetapkan dan JANGAN blokir cookies pihak-ketiga. Coba nonaktifkan ekstensi pihak-ketiga lainnya."
+   },
+   "bizNotebookOptionText": {
+      "description": "text that shows up in the dropdown list used to select another user's business notebook.",
+      "message": " (dibagi oleh $creator$)",
+      "placeholders": {
+         "creator": {
+            "content": "$1",
+            "example": "Connie Chan"
+         }
+      }
+   },
+   "bizNotebooksOptGroupTitle": {
+      "description": "text that appears above the list of business notebooks in the dropdown list of notebooks.",
+      "message": "Buku Catatan Bisnis"
+   },
+   "cancelAddAnotherAccount": {
+      "description": "The text for the control that cancels adding a new acconut to switch to.",
+      "message": "Batal"
+   },
+   "cancelSwitchFree": {
+      "description": "Message on button to cancel switching to a different free account.",
+      "message": "Tidak, bawa saya kembali"
+   },
+   "captcha_instruction": {
+      "description": "Instruction for captcha in the registration form.",
+      "message": "Masukkan angka berikut"
+   },
+   "checkVersionWarning": {
+      "description": "Warning message shown to user when the client doesn't pass version check",
+      "message": "Evernote Web Clipper versi ini tidak lagi kompatibel dengan Layanan Evernote. Silakan instal versi terbaru."
+   },
+   "clearFeatureDiscoveryTooltip": {
+      "description": "The message that pops up when you hover over the 'x' icon for the 'feature discovery' box.",
+      "message": "Jangan tampilkan pemberitahuan ini lagi"
+   },
+   "clearTagsToolTip": {
+      "description": "The message that pops up when you hover over the 'x' icon that displays beside the tag list.",
+      "message": "Hapus semua label"
+   },
+   "clipsFromThisSite": {
+      "description": "Label for the site search button.",
+      "message": "Klip lain dari $site$",
+      "placeholders": {
+         "site": {
+            "content": "$1",
+            "example": "71"
+         }
+      }
+   },
+   "contentPreview_clipArticle": {
+      "description": "Selection nudging legend for clipping article",
+      "message": "klip artikel"
+   },
+   "contentPreview_expandSelection": {
+      "description": "Selection nudging legend for expanding selection",
+      "message": "kembangkan pilihan"
+   },
+   "contentPreview_moveSelection": {
+      "description": "Selection nudging legend for moving selection",
+      "message": "pindahkan pilihan"
+   },
+   "contentPreview_shrinkSelection": {
+      "description": "Selection nudging legend for shrinking selection",
+      "message": "perkecil pilihan "
+   },
+   "contentclipper_clipping": {
+      "description": "Message shown on content pages to notify users that the page is being scraped for clipping.",
+      "message": "\u003Cb\u003EMengeklip\u003C/b\u003E \u201C$clipTitle$\u201D",
+      "placeholders": {
+         "clipTitle": {
+            "content": "$1",
+            "example": "Sample clip title"
+         }
+      }
+   },
+   "contentclipper_clipping_no_title": {
+      "description": "Message shown on content pages to notify users that the page is being scraped for clipping when the title of the clip is unavailable.",
+      "message": "\u003Cb\u003EMengeklip \u2026\u003C/b\u003E"
+   },
+   "contentclipper_syncing": {
+      "description": "Message shown on content pages to notify users that the page is being sent to the server.",
+      "message": "\u003Cb\u003EMensinkronisasi\u003C/b\u003E \u201C$clipTitle$\u201D",
+      "placeholders": {
+         "clipTitle": {
+            "content": "$1",
+            "example": "Sample clip title"
+         }
+      }
+   },
+   "contextMenuClipImage": {
+      "description": "Context menu item for creating a new note with image",
+      "message": "Klip gambar"
+   },
+   "contextMenuClipPDF": {
+      "description": "Context menu item for creating a new note with PDF",
+      "message": "Klip PDF"
+   },
+   "contextMenuClipPage": {
+      "description": "Context menu item for clipping current page",
+      "message": "Klip laman ini"
+   },
+   "contextMenuClipSelection": {
+      "description": "Context menu item for clipping current selection",
+      "message": "Klip terpilih"
+   },
+   "contextMenuClipUrl": {
+      "description": "Context menu item for creating a new note with just the URL of the current page",
+      "message": "Klip URL"
+   },
+   "contextMenuNewNote": {
+      "description": "Context menu item for creating new note",
+      "message": "Catatan baru"
+   },
+   "contextMenuPleaseLogin": {
+      "description": "Help message shown to users when they try to clip content via contextual menu items but not being intially logged in",
+      "message": "Anda harus masuk menggunakan tombol toolbar Klip Ke Evernote sebelum dapat membuat klip"
+   },
+   "copyright": {
+      "description": "Copyright statement",
+      "message": "Hak cipta 2009-2013 Evernote Corporation. Hak cipta dilindungi undang-undang. \u003Ca href='$baseUrl$/privacy' target='_blank'\u003EKebijakan Privasi\u003C/a\u003E | \u003Ca href='$baseUrl$/tos' target='_blank'\u003EKetentuan Layanan\u003C/a\u003E | \u003Ca href='#' id='legalLink'\u003EKetentuan Hukum\u003C/a\u003E",
+      "placeholders": {
+         "baseUrl": {
+            "content": "$1",
+            "example": "https://www.evernote.com"
+         }
+      }
+   },
+   "deleting": {
+      "description": "Message indicating that the extension is deleting previously clipped note from the server",
+      "message": "Menghapus catatan terklip..."
+   },
+   "desktopNotification_cancelFailedClip": {
+      "description": "Name of the action associated with cancelling the clip that failed to upload. Should be as short as possible",
+      "message": "Batal"
+   },
+   "desktopNotification_clipProcessorSignInMessage": {
+      "description": "Message shown to users inside desktop notification informing users that they clip could not be uploaded because they are not authenticated...",
+      "message": "Autentikasi tak valid atau kedaluwarsa. Silakan masuk menggunakan tombol toolbar, dan coba lagi."
+   },
+   "desktopNotification_clipProcessorSignInTitle": {
+      "description": "Title for desktop notification informing user that there was an error with uploading a clip. This should be as short as possible",
+      "message": "Gagal menyimpan \"$clipTitle$\"",
+      "placeholders": {
+         "clipTitle": {
+            "content": "$1",
+            "example": "Sample clip title"
+         }
+      }
+   },
+   "desktopNotification_clipProcessorTooManyRetries": {
+      "description": "Message indicating that we've tried too many times to clip this note.",
+      "message": "Klip \"$title$\" terlalu sering gagal dan tidak dapat dicoba lagi.",
+      "placeholders": {
+         "title": {
+            "content": "$1",
+            "example": "Title of the clip."
+         }
+      }
+   },
+   "desktopNotification_clipUploaded": {
+      "description": "Headline for desktop notification indicating that clip was successfully uploaded",
+      "message": "\u201C$clipTitle$\u201D \u003Cb\u003EDiklip\u003C/b\u003E ",
+      "placeholders": {
+         "clipTitle": {
+            "content": "$1",
+            "example": "Sample clip title"
+         }
+      }
+   },
+   "desktopNotification_clipUploadedMessage": {
+      "description": "Message indicating that clip was successfully uploaded",
+      "message": "Klip berhasil diunggah."
+   },
+   "desktopNotification_editSuccessClip": {
+      "description": "Name of the action associated with editing clipped note",
+      "message": "Edit"
+   },
+   "desktopNotification_retryFailedClip": {
+      "description": "Name of the action associated with retrying the clip that failed to upload. Should be as short as possible",
+      "message": "Coba lagi"
+   },
+   "desktopNotification_unableToSaveClip": {
+      "description": "Headline for desktop notifications indicating there was a problem with saving the clip",
+      "message": "Gagal menyimpan \"$clipTitle$\"",
+      "placeholders": {
+         "clipTitle": {
+            "content": "$1",
+            "example": "Sample clip title"
+         }
+      }
+   },
+   "desktopNotification_unableToSaveClipUnknown": {
+      "description": "Headline for desktop notification indicating that there was an unknown error while uploading a clip",
+      "message": "Gagal menyimpan klip"
+   },
+   "desktopNotification_unableToSaveClipUnknownMessage": {
+      "description": "Description of the unknown error that may occur after the extension failed to upload a clip",
+      "message": "Galat yang tidak diketahui terjadi ketika mencoba menyimpan salah satu klip. Pesan Galat: $details$",
+      "placeholders": {
+         "details": {
+            "content": "$1",
+            "example": "Error 503"
+         }
+      }
+   },
+   "desktopNotification_viewSuccessClip": {
+      "description": "Name of the actions associated with viewing clipped note",
+      "message": "Tampilkan"
+   },
+   "dismiss": {
+      "description": "Message shown on buttons to dismiss a widget of some kind",
+      "message": "Keluar"
+   },
+   "email": {
+      "description": "Label for email field of registration form",
+      "message": "Alamat email"
+   },
+   "filing": {
+      "description": "Message indicating that the extension is filing changes made to previously clipped note on the server",
+      "message": "Menyimpan catatan..."
+   },
+   "freeAccountLimit": {
+      "description": "",
+      "message": "Anda sudah masuk ke akun gratis, \u003Cb\u003E$name$\u003C/b\u003E. Anda dapat beralih antara berbagai akun premium, tetapi hanya satu akun gratis. Apakah Anda ingin menggunakan akun gratis ini saja?",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "fullPageClipFailure": {
+      "description": "Message shown to user when full page clip wasn't possible",
+      "message": "Maaf, Evernote tidak dapat menyimpan seluruh laman ini. Silakan pilih bagian yang ingin Anda klip."
+   },
+   "getEvernoteFood": {
+      "description": "First part of the text for the Evernote Food cross promotion that appears in the clip result notification",
+      "message": "Dapatkan Evernote Food"
+   },
+   "header_register": {
+      "description": "Registration link in header",
+      "message": "Buat akun Evernote"
+   },
+   "hideRelatedNotes": {
+      "description": "text for the link in the 'related notes' overlay that will hide this section.",
+      "message": "Sembunyikan Catatan Terkait"
+   },
+   "illegalUrlClipFailure": {
+      "description": "Error message shown when you try to clip from pages that aren't scriptable by the browser. Such as the chrome gallery pages.",
+      "message": "Karena pembatasan oleh peramban, Anda tidak dapat menyimpan laman ini"
+   },
+   "legalNoticesTitle": {
+      "description": "the title of the legal notices dialog in the options page where we list the licenses of all third party packages we use",
+      "message": "Web Clipper menggunakan perangkat lunak dari sumber terbuka berikut ini:"
+   },
+   "linkedNotebookOptionText": {
+      "description": "Text that shows up inside the dropdown list used to select another user's shared notebook.",
+      "message": "$notebookName$ (dimiliki oleh $owner$)",
+      "placeholders": {
+         "notebookName": {
+            "content": "$1",
+            "example": "recipes"
+         },
+         "owner": {
+            "content": "$2",
+            "example": "tylerkaraszewski"
+         }
+      }
+   },
+   "linkedNotebooksOptGroupTitle": {
+      "description": "the text that apeears above the list of linked notebooks in the dropdown list of notebooks.",
+      "message": "Buku Catatan Bersama"
+   },
+   "loading": {
+      "description": "Message shown when extension is loading...",
+      "message": "Memuat..."
+   },
+   "loggingIn": {
+      "description": "Message indicating that the extension is currently attempting to sign in user",
+      "message": "Masuk ke Evernote"
+   },
+   "loginForm_login": {
+      "description": "Sign in button label for login form",
+      "message": "Masuk"
+   },
+   "loginForm_password": {
+      "description": "Label for entering password into login form",
+      "message": "Sandi"
+   },
+   "loginForm_passwordError_5": {
+      "description": "",
+      "message": "Sandi wajib diisi."
+   },
+   "loginForm_passwordInvalidError": {
+      "description": "",
+      "message": "Kata Sandi Tidak Dikenal"
+   },
+   "loginForm_rememberMe": {
+      "description": "Label for extending login session",
+      "message": "Ingat saya"
+   },
+   "loginForm_searchHelper": {
+      "description": "Label for search helper option on the login view",
+      "message": "Tampilkan Hasil Pencarian Terkait saat Anda melakukan pencarian di web"
+   },
+   "loginForm_username": {
+      "description": "Label for entering email address or username into login form",
+      "message": "Email atau nama pengguna:"
+   },
+   "loginForm_usernameError_5": {
+      "description": "",
+      "message": "Nama pengguna wajib diisi."
+   },
+   "loginForm_usernameError_8": {
+      "description": "",
+      "message": "Nama pengguna dan sandi tidak cocok dengan pengguna saat ini."
+   },
+   "loginForm_usernameInvalidChinaError": {
+      "description": "",
+      "message": "Yang Anda masukkan tidak kenal atau coba Evernote International"
+   },
+   "loginForm_usernameInvalidError": {
+      "description": "",
+      "message": "Tidak ada pengguna dengan nama tersebut."
+   },
+   "login_searchHelperLongDescription": {
+      "description": "Description of the search-helper feature as shown on the options page",
+      "message": "Saat diaktifkan, pencarian pada mesin pencarian yang didukung juga akan dilakukan di akun Evernote Anda. Mesin pencarian yang didukung adalah: Google, Bing, Yahoo, Yandex, Baidu, Daum, dan Naver."
+   },
+   "logs_export": {
+      "description": "Title of the button for exporting all of the logs",
+      "message": "Log Ekspor"
+   },
+   "logs_follow": {
+      "description": "Label for an option to trail the logfile",
+      "message": "Ikuti"
+   },
+   "logs_selectLogFile": {
+      "description": "Label for selecting log files for viewing",
+      "message": "Pilih berkas log: "
+   },
+   "logs_title": {
+      "description": "The title of the logs page.",
+      "message": "Log Peristiwa"
+   },
+   "more": {
+      "description": "General purpose, capitalized word for More - as in - there's more to see/read etc.",
+      "message": "Lebih"
+   },
+   "newFeatureDescription": {
+      "description": "The popover description of for the Smart Filing feature, including a link to the options page.",
+      "message": "Web Clipper akan menyarankan label dan buku catatan berdasarkan isi klip. Kelola fitur ini dan setelan lain di \u003Cspan class='newFeatureOptionsPseudoLink'\u003EPilihan\u003C/span\u003E Web Clipper."
+   },
+   "newFeatureTitle": {
+      "description": "The title for any new feature we're showcasing in the current release.",
+      "message": "Smart Filing"
+   },
+   "noteSizeExceededFree": {
+      "description": "Error message shown to free users who try to clip something over the maximum note size",
+      "message": "Hanya pengguna Evernote Premium yang dapat mengeklip catatan dengan ukuran lebih dari 25 MB. \u003Ca href='$baseUrl$/Checkout.action'\u003ETingkatkan ke Premium\u003C/a\u003E",
+      "placeholders": {
+         "baseUrl": {
+            "content": "$1",
+            "example": "http://www.evernote.com"
+         }
+      }
+   },
+   "noteSizeExceededPremium": {
+      "description": "Error message shown to premium users who try to clip something over the maximum note size",
+      "message": "Ukuran catatan maksimum 100 MB; tidak dapat membuat catatan"
+   },
+   "notification_quotaExceededFree": {
+      "description": "Indicates that free user has exceeded their quota",
+      "message": "Kuota unggahan Anda tidak mencukupi untuk menyimpan klip ini. \u003Ca href='$url$'\u003ETingkatkan ke Premium\u003C/a\u003E",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "https://www.evernote.com/Checkout.action"
+         }
+      }
+   },
+   "notification_quotaExceededPremium": {
+      "description": "Indicates that premium user has exceeded their quota",
+      "message": "Kuota unggahan Anda tidak mencukupi untuk menyimpan klip ini. \u003Ca href='$url$'\u003ENaikkan kuota unggahan\u003C/a\u003E",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "https://www.evernote.com/QuotaCheckout.action"
+         }
+      }
+   },
+   "options_buildId": {
+      "description": "The revison number of this build of the clipper, as pulled fro mSVN at the time the clipper was built.",
+      "message": "Buat ID:"
+   },
+   "options_client": {
+      "description": "Label for the dropdown menu in Options where user can choose what client s/he wants to open and edit notes in",
+      "message": "Buka catatan di"
+   },
+   "options_clientSelectionDescription": {
+      "description": "Description of the dropdown menu to select what client the user wants to open notes in. Only displayed when user selects the desktop client",
+      "message": "Pada penggunaan pertama dengan pengaturan ini, Anda akan melihat dialog 'Permohonan Protokol Eksternal'. Untuk mendapatkan pengalaman terbaik, centang kotak 'Ingat pilihan saya' lalu 'Jalankan Aplikasi'."
+   },
+   "options_client_desktop": {
+      "description": "Desktop client choice in the dropdown menu to select what client to open/edit a note in",
+      "message": "Desktop client"
+   },
+   "options_client_web": {
+      "description": "Web client choice in the dropdown menu to select what client to open/edit a note in",
+      "message": "Web client"
+   },
+   "options_clipAction": {
+      "description": "Label for specifying default clipping action",
+      "message": "Tindakan asali"
+   },
+   "options_clipAction_article": {
+      "description": "Label for article as the default clipping action",
+      "message": "Klip artikel"
+   },
+   "options_clipAction_fullPage": {
+      "description": "Label for full-page as the default clipping action",
+      "message": "Klip seluruh laman"
+   },
+   "options_clipAction_url": {
+      "description": "Label for url as the default clipping action",
+      "message": "Klip URL"
+   },
+   "options_clipNotificationEnabled": {
+      "description": "Label for option to enable notification about successful clips",
+      "message": "Aktifkan pemberitahuan"
+   },
+   "options_clipNotificationEnabledDescription": {
+      "description": "Description of the notifications option",
+      "message": "Jika diaktifkan, Anda akan diberitahu kapan pun sebuah klip telah diunggah. Pemberitahuan memudahkan Anda dalam menampilkan, mengedit, dan membagi klip Anda."
+   },
+   "options_clipStyle": {
+      "description": "Label for the option to keep the style of the page while clipping.",
+      "message": "Pertahankan Gaya"
+   },
+   "options_clipStyleDescription": {
+      "description": "Description for the option to preserve styles with clips.",
+      "message": "Jika diaktifkan, klip akan mempertahankan informasi penggayaan sehingga sedapat mungkin terlihat seperti halaman aslinya. Jika dinonaktifkan, klip akan diberi gaya sederhana dengan teks biasa tanpa dekorasi."
+   },
+   "options_developer_title": {
+      "description": "Title for developer options",
+      "message": "Pilihan Pengembang"
+   },
+   "options_eventLogDescription": {
+      "description": "Describes the purpose of the event logs link in the options page.",
+      "message": "Jika Anda menghubungi Dukungan Evernote, mereka mungkin meminta Anda untuk melihat log ini untuk membantu mendiagnosis masalah."
+   },
+   "options_eventLogLink": {
+      "description": "the text for the link to the event logs page from the options page",
+      "message": "Lihat Log Peristiwa"
+   },
+   "options_insecureProto": {
+      "description": "Label for specifying insecure protocol option.",
+      "message": "Protokol tak aman"
+   },
+   "options_overrideServiceURL": {
+      "description": "Custom URL to use that will override both stage and production URLs.",
+      "message": "URL Layanan Pembatalan"
+   },
+   "options_saving": {
+      "description": "Notifies the user that their changes to the options page are being saved",
+      "message": "Menyimpan..."
+   },
+   "options_secureProto": {
+      "description": "Label specifying secure protocol option.",
+      "message": "Protokol aman"
+   },
+   "options_selectionNudging": {
+      "description": "Label for selection nudging options",
+      "message": "Pilihan artikel"
+   },
+   "options_selectionNudgingDescription": {
+      "description": "Description of selection nudging",
+      "message": "Jika diaktifkan, Anda dapat mengubah pilihan artikel menggunakan papan tombol Anda sebelum membuat klip. Jika Anda mengaktifkan dengan &quot;tanpa petunjuk&quot; maka pesan yang berisi informasi tidak akan ditampilkan. Jika diaktifkan - Anda tidak dapat membuat penyesuaian terhadap pilihan artikel otomatis."
+   },
+   "options_selectionNudging_disabled": {
+      "description": "Label for disabled selection nudging",
+      "message": "Dinonaktifkan"
+   },
+   "options_selectionNudging_enabled": {
+      "description": "Label for enabled selection nudging",
+      "message": "Aktifkan"
+   },
+   "options_selectionNudging_enabledNoprompt": {
+      "description": "Label for enabled selection nudging, but without showing the hits",
+      "message": "Diaktifkan (tanpa petunjuk)"
+   },
+   "options_simulateCheckVersionFailure": {
+      "description": "Label for developer option to simulate checkVersion failure",
+      "message": "Gagal Mensimulasikan checkVersion"
+   },
+   "options_simulateSimplifiedChinese": {
+      "description": "Label for developer option to simulate checkVersion failure",
+      "message": "Simulasikan Bahasa Cina Sederhana"
+   },
+   "options_simulateSimplifiedChineseDescription": {
+      "description": "Description for what it means to select this option",
+      "message": "Jika pilihan ini diaktifkan, clipper seolah-olah disetel ke bahasa Cina Sederhana dengan tujuan untuk memilih layanan yang akan disambungkan."
+   },
+   "options_smartFilingBizDesc": {
+      "description": "Description of option to allow smart filing into business notebooks",
+      "message": "Izinkan Smart Filing ke Buku Catatan Bisnis"
+   },
+   "options_smartFilingEnabled": {
+      "description": "Label for option to enable automatic tagging and notebook selection for new notes.",
+      "message": "Aktifkan Smart Filing"
+   },
+   "options_smartFilingEnabledDescription": {
+      "description": "Description of the smart filing option",
+      "message": "Smart Filing akan memilih buku catatan dan daftar label secara otomatis untuk Anda berdasarkan laman tempat Anda mengeklip."
+   },
+   "options_smartFilingEnabled_all": {
+      "description": "",
+      "message": "Label dan Buku Catatan"
+   },
+   "options_smartFilingEnabled_none": {
+      "description": "",
+      "message": "Nonaktifkan Smart Filing"
+   },
+   "options_smartFilingEnabled_notebooks": {
+      "description": "",
+      "message": "Buku Catatan Saja"
+   },
+   "options_smartFilingEnabled_tags": {
+      "description": "",
+      "message": "Label Saja"
+   },
+   "options_storedCredentials": {
+      "description": "Label for a set of options controls enabling users to store their credentials",
+      "message": "Kredensial"
+   },
+   "options_storedCredentialsDescription": {
+      "description": "Educational message for users who wish to store their Evernote password. First sentence is the most critical one as it will be used in options_storedCredentialsShortDescription",
+      "message": "\u003Cb\u003EINGAT:\u003C/b\u003E Menyimpan sandi dapat membuat orang lain mengakses akun Evernote ketika menggunakan peramban ini. Hapus atau keluar dari ekstensi Klip ke Evernote untuk menghapus permanen nama-pengguna dan sandi yang tersimpan di ekstensi peramban Anda."
+   },
+   "options_title": {
+      "description": "Title of the options page",
+      "message": "Pilihan"
+   },
+   "options_useContextMenu": {
+      "description": "Label for option to enable clipping via contextual menu",
+      "message": "Aktifkan menu kontekstual"
+   },
+   "options_useContextMenuDescription": {
+      "description": "Description of the contextual menu option",
+      "message": "Saat diaktifkan, Anda dapat menyimpan laman web melalui menu kontekstual. Klik kanan pada gambar, teks terpilih, atau di sembarang tempat di laman tersebut akan memunculkan pilihan penyimpanan."
+   },
+   "options_useSearchHelper": {
+      "description": "Label for search-helper feature toggle",
+      "message": "Hasil Pencarian Terkait"
+   },
+   "options_useSearchHelperDescription": {
+      "description": "Description of the search-helper feature as shown on the options page",
+      "message": "Ketika diaktifkan, pencarian di web dengan peramban web yang didukung juga akan menampilkan hasil dari akun Evernote Anda."
+   },
+   "options_useStage": {
+      "description": "Label for developer option to simulate checkVersion failure",
+      "message": "Gunakan Tingkat"
+   },
+   "options_useStageDescription": {
+      "description": "Description for what it means to select this option",
+      "message": "Instruksikan clipper untuk menggunakan layanan 'tingkat' sebagai pengganti layanan produksi, yang normalnya untuk tes saja."
+   },
+   "pdfTip": {
+      "description": "Tooltip that appears on PDFs",
+      "message": "Apakah Anda tahu bahwa Anda dapat mengeklip PDF langsung ke akun Evernote Anda dengan Web Clipper?"
+   },
+   "popup_couldntStart": {
+      "description": "Message that shows up when the clipper popup can't open.",
+      "message": "Clipper tidak dapat diaktifkan di laman ini. Muat ulang laman lalu coba lagi. Jika hal tersebut tidak membantu, hubungi dukungan pelanggan."
+   },
+   "popup_loadingNotebooks": {
+      "description": "Message shown while smart filing is running. Should *not* include trailing punctuation.",
+      "message": "Memuat Buku Catatan"
+   },
+   "popup_loginCheckTimeout": {
+      "description": "Message that displays if checking if the user is logged in takes too long.",
+      "message": "Pemeriksaan kredensial memakan waktu terlalu lama. Pastikan Anda tersambung ke internet lalu coba lagi."
+   },
+   "popup_moreNotesLink": {
+      "description": "Message showing how many more notes can be seen on the server.",
+      "message": "Lihat $count$ catatan lainnya\u2026",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "10"
+         }
+      }
+   },
+   "popup_oneMoreNoteLink": {
+      "description": "Message showing there is one more note on the server.",
+      "message": "Lihat satu catatan lagi\u2026"
+   },
+   "popup_unsupportedScheme": {
+      "description": "The error to display when the popup can't operate on a specific type of url.",
+      "message": "Pengeklipan dari lokasi ini tidak didukung."
+   },
+   "popup_waiting": {
+      "description": "Displays while the popup window waits for a page to finish loading.",
+      "message": "Menunggu laman..."
+   },
+   "quickNote": {
+      "description": "Title for creating quick note",
+      "message": "Klip"
+   },
+   "quickNoteAction_clipArticle": {
+      "description": "Label for clipping article action",
+      "message": "Simpan Artikel"
+   },
+   "quickNoteAction_clipFullPage": {
+      "description": "Label for clipping full page action",
+      "message": "Simpan Laman Penuh"
+   },
+   "quickNoteAction_clipPDF": {
+      "description": "Label for clipping PDF action",
+      "message": "Simpan PDF"
+   },
+   "quickNoteAction_clipSelection": {
+      "description": "Label for clipping selection action",
+      "message": "Simpan Pilihan"
+   },
+   "quickNoteAction_clipUrl": {
+      "description": "Label for clipping URL action",
+      "message": "Simpan URL"
+   },
+   "quickNote_addComment": {
+      "description": "Placeholder text for comment input",
+      "message": "Tambah komentar"
+   },
+   "quickNote_addTags": {
+      "description": "Placeholder text for tag input",
+      "message": "Tambah label"
+   },
+   "quickNote_comment": {
+      "description": "Label for additional text to be added to the note",
+      "message": "Tambahkan teks"
+   },
+   "quickNote_notebook": {
+      "description": "Label for selection of note's notebook",
+      "message": "Buku catatan"
+   },
+   "quickNote_submit": {
+      "description": "Label for saving quick note",
+      "message": "Simpan"
+   },
+   "quickNote_tagsDisabled": {
+      "description": "Message indicating that you can't use tags for shared notebooks.",
+      "message": "Label saat ini tidak didukung untuk buku catatan bersama."
+   },
+   "quickNote_title": {
+      "description": "Label for note title",
+      "message": "Judul"
+   },
+   "quickNote_untitledNote": {
+      "description": "Placeholder title for untitled note",
+      "message": "Catatan tak berjudul"
+   },
+   "regForm_cancel": {
+      "description": "Allows user to back out of registration when s/he's creating an account during account switching",
+      "message": "Batal"
+   },
+   "regForm_deactivated_username": {
+      "description": "User wanted to register with a deactivated username",
+      "message": "Nama pengguna telah dinonaktifkan.  Apakah Anda ingin \u003Ca href='$url$'\u003Emengaktifkan ulang\u003C/a\u003E akun?",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "https://www.evernote.com/AccountReactivation.action"
+         }
+      }
+   },
+   "regForm_email_required": {
+      "description": "User didn't enter an email address",
+      "message": "Alamat email adalah isian yang wajib dilengkapi."
+   },
+   "regForm_goodUsername": {
+      "description": "The user entered a valid and available username into the registration form",
+      "message": "Tersedia"
+   },
+   "regForm_invalid_captcha": {
+      "description": "User didn't fill out the captcha.",
+      "message": "Ketikkan karakter yang terlihat pada gambar di atas."
+   },
+   "regForm_invalid_email": {
+      "description": "User didn't enter a properly-formatted email address",
+      "message": "Alamat email sepertinya tidak dikenal."
+   },
+   "regForm_invalid_password": {
+      "description": "User entered an invalid password",
+      "message": "Pilih kata sandi yang panjangnya antara 6 sampai 64 karakter yang terdiri dari huruf, angka, dan tanda baca."
+   },
+   "regForm_invalid_username": {
+      "description": "User entered an invalid username",
+      "message": "Nama pengguna Anda harus dimulai dan diakhiri dengan huruf atau angka, juga boleh berisi tanda-hubung dan garis-bawah."
+   },
+   "regForm_password_required": {
+      "description": "User didn't enter a password",
+      "message": "Kata sandi adalah isian yang wajib dilengkapi."
+   },
+   "regForm_taken_email": {
+      "description": "User entered a valid but unavailable email",
+      "message": "Alamat email ini sudah digunakan."
+   },
+   "regForm_taken_username": {
+      "description": "User entered a valid but unavailable username",
+      "message": "Nama pengguna yang Anda pilih sudah dipakai oleh pengguna lain."
+   },
+   "register": {
+      "description": "Text on the submit button of the registration form",
+      "message": "Daftar"
+   },
+   "registrationForm_username": {
+      "description": "Text on the username field of the registration form",
+      "message": "Nama pengguna"
+   },
+   "registration_terms": {
+      "description": "Terms of Service and Privacy Policy agreement",
+      "message": "Dengan mengklik Daftar, Anda menyetujui \u003Ca href='$tos_url$'\u003EKetentuan Layanan\u003C/a\u003E dan \u003Ca href='$pp_url$'\u003EKebijakan Privasi\u003C/a\u003E kami.",
+      "placeholders": {
+         "pp_url": {
+            "content": "$2",
+            "example": "http://www.evernote.com/privacy"
+         },
+         "tos_url": {
+            "content": "$1",
+            "example": "http://www.evernote.com/tos"
+         }
+      }
+   },
+   "relatedNotes": {
+      "description": "Label for the related notes button, and the title for the descriptive overlay.",
+      "message": "Catatan Terkait"
+   },
+   "relatedNotesDescription": {
+      "description": "message describing what Related Notes do.",
+      "message": "Evernote menemukan hingga tiga catatan yang terkait dengan laman yang baru saja Anda klip di akun Anda dan menyediakan catatan-catatan tersebut di sini."
+   },
+   "rememberFoodYouLove": {
+      "description": "Second part of the text for the Evernote Food cross promotion",
+      "message": "Ingat makanan yang Anda suka."
+   },
+   "safariContextClipImage": {
+      "description": "Label for right-click menu to clip an image in Safari.",
+      "message": "Simpan gambar ke Evernote"
+   },
+   "safariContextClipPDF": {
+      "description": "Label for right-click menu to clip a PDF in Safari.",
+      "message": "Simpan PDF ke Evernote"
+   },
+   "safariContextClipPage": {
+      "description": "Label for right-click menu to clip the whole page in Safari.",
+      "message": "Simpan seluruh halaman ke Evernote"
+   },
+   "safariContextClipSelection": {
+      "description": "Label for right-click menu to clip a selection in Safari.",
+      "message": "Simpan pilihan ke Evernote"
+   },
+   "safariContextClipUrl": {
+      "description": "Label for right-click menu to clip a URL in Safari.",
+      "message": "Simpan URL ke Evernote"
+   },
+   "safariContextNewNote": {
+      "description": "Label for right-click menu to create a new note.",
+      "message": "Buat catatan baru di Evernote"
+   },
+   "saveToEvernote": {
+      "description": "Label for button to save clip to Evernote",
+      "message": "Simpan ke Evernote"
+   },
+   "searchHelperFoundNotes": {
+      "description": "Message indicating that related notes were found",
+      "message": "\u003Cb\u003EHasil teratas\u003C/b\u003E di akun Evernote Anda"
+   },
+   "searchHelperLoginMessage": {
+      "description": "Message injected into search-engine page indicating that the user must login prior to seeing results.",
+      "message": "\u003Cdiv class='grayText' id='login'\u003E\u003Ca target='_blank' href='$loginUrl$'\u003EMasuk\u003C/a\u003E ke Web Clipper untuk melihat Hasil Pencarian Terkait\u003C/div\u003E",
+      "placeholders": {
+         "loginUrl": {
+            "content": "$1",
+            "example": "http://www.evernote.com/Login.action"
+         }
+      }
+   },
+   "searchHelperNoTransportError": {
+      "description": "Error message shown to user when there is a problem reaching the servers when doing simultaneous search.",
+      "message": "Pencarian serentak tidak tersedia saat ini karena server evernote tidak dapat dijangkau."
+   },
+   "searchHelperNotesNotFoundBiz": {
+      "description": "Message injected into search-engine page indicating there were no related notes found in personal or business accounts",
+      "message": "Tidak ada Hasil Pencarian Terkait di catatan Pribadi atau Bisnis Anda"
+   },
+   "searchHelperNotesNotFoundPers": {
+      "description": "Message injected into search-engine page indicating there were no related notes found in personal account",
+      "message": "Tidak Ada Hasil Pencarian Terkait di catatan Anda"
+   },
+   "searchHelperTopBizLibraryMatches": {
+      "description": "Section heading for the simsearch notes found in the user's business account",
+      "message": "$num$ Hasil Pencarian Terkait di catatan Bisnis Anda",
+      "placeholders": {
+         "num": {
+            "content": "$1",
+            "example": "2"
+         }
+      }
+   },
+   "searchHelperTopBizLibraryMatchesOne": {
+      "description": "Section heading for the simsearch notes found in the user's business account, if there was only one result",
+      "message": "1 Hasil Pencarian Terkait di catatan Bisnis Anda"
+   },
+   "searchHelperTopMatchesBiz": {
+      "description": "Section heading for the simsearch notes found in a business user's personal account",
+      "message": "$num$ Hasil Pencarian Terkait di catatan Pribadi Anda",
+      "placeholders": {
+         "num": {
+            "content": "$1",
+            "example": "3"
+         }
+      }
+   },
+   "searchHelperTopMatchesBizOne": {
+      "description": "Section heading for the simsearch notes found in a business user's personal account, if there was only one result",
+      "message": "1 Hasil Pencarian Terkait di catatan Pribadi Anda"
+   },
+   "searchHelperTopMatchesPers": {
+      "description": "Section heading for the simsearch notes found in a non-business user's personal account",
+      "message": "$num$ Hasil Pencarian Terkait di catatan Anda",
+      "placeholders": {
+         "num": {
+            "content": "$1",
+            "example": "3"
+         }
+      }
+   },
+   "searchHelperTopMatchesPersOne": {
+      "description": "Section heading for the simsearch notes found in a non-business user's personal account, if there was only one result",
+      "message": "1 Hasil Pencarian Terkait di catatan Anda"
+   },
+   "searchHelperViewAll": {
+      "description": "Label for the link in simsearch to the web client to search for the user's search query.",
+      "message": "Lihat semua"
+   },
+   "searchHelper_hidePerm": {
+      "description": "Text for the option in the simsearch drop down menu to let user to disable simsearch in the options",
+      "message": "Hapus secara permanen"
+   },
+   "searchHelper_hideTemp": {
+      "description": "Text for the option in the simsearch drop down menu to let user temporarily close the simsearch box, but not disable in the options",
+      "message": "Keluar"
+   },
+   "showRelatedNotes": {
+      "description": "text for the link in the 'related notes' overlay that will show this section.",
+      "message": "Tampilkan Catatan Terkait"
+   },
+   "signInHelperText": {
+      "description": "message shown at the top of the login screen to tell them why they should sign in",
+      "message": "Masuk untuk memastikan Anda dapat mengeklip atau melihat Hasil Pencarian Terkait"
+   },
+   "signInPrompt": {
+      "description": "hover text on signed out state of the toolbar icon",
+      "message": "Masuk ke Web Clipper"
+   },
+   "signOutAccount": {
+      "description": "menu item for logging out of the currently selected account.",
+      "message": "Keluar dari $name$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "signOutAll": {
+      "description": "Label to click when a user wants to log in with multiple accounts.",
+      "message": "Keluar dari semua akun"
+   },
+   "signout": {
+      "description": "Text on a link prompting for signing out currently logged in user",
+      "message": "Keluar"
+   },
+   "stayLoggedInFree": {
+      "description": "Message indicating user should stay logged in as existing user.",
+      "message": "Tetap masuk sebagai $name$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "switchAnyMessage": {
+      "description": "Message shown when a user tries to add another user and is not already logged into a free account.",
+      "message": "Pengalihan pengguna adalah fitur premium yang memungkinkan Anda beralih dari pengguna yang satu ke pengguna yang lain dengan cepat. Anda dapat menambahkan pengguna premium atau gratis."
+   },
+   "switchFreeAccount": {
+      "description": "Message indicating user should switch to newly logged in user.",
+      "message": "Gunakan $name$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "switchPremiumMessage": {
+      "description": "Message shown when a user tries to add another user and is already logged into a free account.",
+      "message": "Pengalihan pengguna adalah fitur premium yang memungkinkan Anda beralih dari pengguna yang satu ke pengguna yang lain dengan cepat. Anda dapat menambahkan pengguna premium."
+   },
+   "switchToAccount": {
+      "description": "Menu item indicating a user account that can be switched to.",
+      "message": "Beralih ke $name$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "tagNamesNotInRange": {
+      "description": "Indicates that user entered an abnormal number of tags",
+      "message": "Anda telah memasukkan jumlah label maksimum."
+   },
+   "tryItOut": {
+      "description": "text for button on pdf tooltip",
+      "message": "Cobalah"
+   },
+   "youHaveRelatedNotes": {
+      "description": "Text indicating that the user has other related notes.",
+      "message": "Anda memiliki catatan lain yang seperti ini."
+   }
+}

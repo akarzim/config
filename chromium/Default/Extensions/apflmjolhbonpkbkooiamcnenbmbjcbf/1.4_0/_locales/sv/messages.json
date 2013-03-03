@@ -1,0 +1,52 @@
+{
+   "chrome_extension_description": {
+      "message": "Visar antalet ol\u00E4sta poster i ditt Google Reader-konto. Du kan visa ett popupf\u00F6nster f\u00F6r f\u00F6rhandsgranskning eller ditt Reader-konto genom att klicka."
+   },
+   "chrome_extension_name": {
+      "message": "Google Reader Notifier (fr\u00E5n Google)"
+   },
+   "clickaction": {
+      "message": "Klicka f\u00F6r att:"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "intervaltext": {
+      "message": "Uppdatera varje:"
+   },
+   "loadingtext": {
+      "message": "L\u00E4ser in..."
+   },
+   "minutes": {
+      "message": "$1 minuter",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "nosummary": {
+      "message": "Ingen \u00F6versikt"
+   },
+   "openreaderlink": {
+      "message": "\u00D6ppna Google Reader"
+   },
+   "refreshlink": {
+      "message": "Uppdatera"
+   },
+   "savebutton": {
+      "message": "Spara"
+   },
+   "savedmessage": {
+      "message": "Sparat"
+   },
+   "showmodule": {
+      "message": "Visa popupf\u00F6nster"
+   },
+   "showreader": {
+      "message": "\u00D6ppna Google Reader"
+   },
+   "title": {
+      "message": "Alternativ f\u00F6r Google Reader Notifier"
+   }
+}

@@ -1,0 +1,12 @@
+h1 > .label { top: -8px; }
+h2 > .label { top: -6px; }
+h3 > .label { top: -4px; }
+h4 > .label { top: -2px; }
+.label { background-image: none; cursor: auto; display: inline; font-size: 13px; font-weight: normal; margin-right: 5px; position: relative; top: -1px; }
+.web-developer-document > h1 { margin-bottom: 0; }
+.web-developer-document > h2 { margin-left: 40px; padding-top: 0; }
+.web-developer-document > h3 { margin-left: 80px; }
+.web-developer-document > h4 { margin-left: 120px; }
+.web-developer-document > h5 { margin-left: 160px; }
+.web-developer-document > h6 { color: inherit; margin-left: 200px; text-transform: none; }
+.web-developer-missing-heading { color: #999; }

@@ -1,0 +1,194 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/evernote.css" />
+    <link rel="stylesheet" type="text/css" href="css/tabbedview.css" />
+    <link rel="stylesheet" type="text/css" href="css/notelist.css" />
+    <link rel="stylesheet" type="text/css" href="css/popup.css" />
+
+    <script type="text/javascript" src="third_party/port.js"></script>
+    <script type="text/javascript" src="js/common/Browser.js"></script>
+    <script type="text/javascript" src="js/GlobalUtils.js"></script>
+    <script type="text/javascript" src="js/common/Persistent.js"></script>
+    <script type="text/javascript" src="js/common/Log.js"></script>
+    <script type="text/javascript" src="js/common/Bootstrap.js"></script>
+    <script type="text/javascript" src="third_party/jsonrpc.js"></script>
+    <script type="text/javascript" src="js/popup/TagEntryBox.js"></script>
+    <script type="text/javascript" src="js/JsonRpc.js"></script>
+    <script type="text/javascript" src="js/JsonQueue.js"></script>
+    <script type="text/javascript" src="js/common/LRUCache.js"></script>
+    <script type="text/javascript" src="js/popup/Popup.js"></script>
+    <script type="text/javascript" src="js/common/retina.js"></script>
+  </head>
+<body class="popup">
+
+<!-- Adding a border-radius to 'body' doesn't work, so we do it here. -->
+<div id="main">
+
+  <!-- HEADER --------------------------------------------------------------------- -->
+  <div id="header">
+    <div id="headerLogo">
+      <img id="logoImg" src="images/web-clipper-logo.png" width="191" height="36" />
+    </div>
+    <div id="headerUser" class="headerLinks" style="display: none">
+      <div id="switcherContainer">
+        <div id="currentUser"><img width="24" height="24" id="acctIcon" src="images/user-icon-free.png"/>
+          <span id="currentUsername"></span>
+          <img width="8" height="4" class="downArrow" src="images/user-selector-arrow.png"/></div>
+        <div id="userSwitcher" class="hidden"></div>
+      </div>
+    </div>
+    <div id="headerNoUser" class="headerLinks" style="display: none">
+      <span id="headerRegister" message="header_register" href="#" tabindex="7"></span>
+      <span id="headerLogin" message="loginForm_login" href="#" tabindex="7"></span><br/>
+    </div>
+  </div>
+
+  <!-- ERROR MESSAGE CONTAINER --------------------------------------------------------------------- -->
+  <div id="globalErrorMessage" class="globalErrorMessage banner"></div>
+
+  <!-- PROGRESS METER ON PAGE LOAD --------------------------------------------------------------------- -->
+  <div id="waitingView" class="view">
+    <div id="waitingText" message="popup_waiting"></div>
+    <progress indeterminate></progress> 
+  </div>
+
+  <!-- LOGIN FORM --------------------------------------------------------------------- -->
+  <div id="loginView" class="view">
+    <form id="loginForm" name="loginForm" action="#">
+        <div>
+          <div id="loginSwitchMessageBlock" style="display: none">
+          </div>
+          <div class="loginFieldBlock">
+            <label for="username" message="loginForm_username"></label>
+            <input type="text" autofocus id="username" name="username" maxlength="64" tabindex="1"/>
+            <div id="usernameError" class="inputStatus"></div>
+          </div>
+        </div>
+        <div>
+          <div class="loginFieldBlock">
+            <label for="password" message="loginForm_password"></label>
+            <input type="password" id="password" name="password" maxlength="64" tabindex="2"/>
+            <div id="passwordError" class="inputStatus"></div>
+          </div>
+        </div>
+        <div>
+          <div class="loginCheckboxBlock">
+            <input type="checkbox" id="useSearchHelper" name="useSearchHelper" tabindex="3"/>
+            <label for="useSearchHelper" message="loginForm_searchHelper"></label>
+            <img id="searchHelperIcon" src="images/question-mark.png" width="14" height="14"
+              title="login_searchHelperLongDescription"/>
+            <div id="searchHelperDescription" class="loginDescription" style="display: none;">
+            <img src="images/arrow-popover-top.png" width="13" height="7" />
+            <div message="login_searchHelperLongDescription"></div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="loginCheckboxBlock">
+            <input type="checkbox" id="rememberMe" name="rememberMe" tabindex="4"/>
+            <label for="rememberMe" message="loginForm_rememberMe"></label>
+            <div id="login_storedCredentialsDescription" class="loginDescription friendlyWarning" style="padding-left: 21px; display: none;" message="options_storedCredentialsDescription"></div>
+          </div>
+        </div>
+        <div class="loginCheckboxBlock">
+          <input type="button" class="greenButton" id="loginControl" name="login" message="loginForm_login" style="margin-bottom: 8px;" tabindex="5"/>
+          <input type="button" class="grayButton" id="cancelSwitchControl" name="cancel" message="loginForm_login"
+          style="display: none" tabindex="6"/>
+        </div>
+    </form>
+    <div id="switchService" style="display:none">
+      <span id="switchText"><img id="switchImg" src="images/arrow.png" width="14" height="14" /></span>
+    </div>
+  </div>
+
+  <!-- REGISTRATION FORM --------------------------------------------------------------------- -->
+  <div id="registrationView" class="view">
+    <form id="registrationForm">
+      <div class="registrationFieldBlock">
+        <label for="regEmail" message="email"></label>
+        <input type="text" autofocus id="regEmail" maxlength="255" tabindex="13"/>
+        <div id="regEmailError" class="inputStatus"></div>
+      </div>
+      <div class="registrationFieldBlock">
+        <label for="regUsername" message="registrationForm_username"></label>
+        <input type="text" id="regUsername" maxlength="64" tabindex="14"/>
+        <div id="regUsernameSuccess" class="inputStatus" message="regForm_goodUsername"></div>
+        <div id="regUsernameError" class="inputStatus"></div>
+      </div>
+      <div class="registrationFieldBlock">
+        <label for="regPassword" message="loginForm_password"></label>
+        <input type="password" id="regPassword" maxlength="64" tabindex="15"/>
+        <div id="regPasswordError" class="inputStatus"></div>
+      </div>
+      <div class="registrationFieldBlock">
+        <label for="captchaImg" message="captcha_instruction"></label>
+        <div id="captchaImgContainer">
+          <img id="captchaImg">
+        </div>
+        <input type="text" id="regCaptcha" maxlength="64" tabindex="16" />
+        <div id="regCaptchaError" class="inputStatus"></div>
+      </div>
+      <div class="registrationFieldBlock">
+        <label id="regTerms"></label>
+        <input type="button" class="greenButton" id="registerControl" message="register" style="margin-bottom: 8px;" tabindex="17"/>
+        <input type="button" class="grayButton" id="cancelRegisterControl" message="regForm_cancel" style="margin-bottom: 8px; display: none" tabindex="17"/>
+      </div>
+    </form>
+  </div>
+
+  <!-- SWITCH FREE USERS SCREEN --------------------------------------------------------------------- -->
+  <div id="switchFreeView" class="view">
+    <div id="freeAccountLimit" message="freeAccountLimit"></div>
+    <div id="newFreeLogin" class="grayButton bold"></div>
+    <div message="cancelSwitchFree" id="oldFreeLogin" class="grayButton"></div>
+    
+  </div>
+
+  <!-- CLIP FORM --------------------------------------------------------------------- -->
+  <div id="clipView" class="view">
+    <form class="clipForm" action="#">
+      <div class="row firstRow">
+        <input class="row firstRow" type="text" name="title" title="quickNote_title" maxlength="200" tabindex="8"
+        placeholder="quickNote_untitledNote"/>
+      </div>
+      <div class="row rowPadded notebookField">
+        <span id="notebookPlaceholder"><span id="notebookLoading" message="popup_loadingNotebooks"></span><span
+          id="notebookActivity"></span></span>
+        <select id="notebookControl" class="notebookSelect" name="notebookGuid"
+          title="quickNote_notebook" tabindex="9" style="display: none"></select>
+        <img id="multiplayerIcon" class="notebookTypeIcon" src="images/multiplayer.png" width="23" height="13" />
+        <img id="businessIcon" class="notebookTypeIcon" src="images/briefcase.png" width="18" height="15" />
+      </div>
+      <div class="row rowPadded tagField">
+        <div id="tagControlContainer"></div>
+      </div>
+      <div class="row rowPadded lastRow commentField">
+        <textarea name="comment" rows="1" tabindex="10" title="quickNote_comment" placeholder="quickNote_addComment"></textarea>
+      </div>
+      <div class="actions">
+        <div class="clipSubmitContainer">
+          <div style="display: none" id="safariOptionsLink"><span message="options_title"></span></div>
+          <input type="button" name="quickNote" class="greenButton" id="clipSubmitControl" message="quickNote_submit" tabindex="11"/><!--
+          Important comment, prevent whitespace rendering.
+          --><select id="clipAction" class="greenButton clipTypeDropdown" tabindex="12">
+            <option value="CLIP_ACTION_ARTICLE" message="quickNoteAction_clipArticle"></option>
+            <option value="CLIP_ACTION_SELECTION" message="quickNoteAction_clipSelection"></option>
+            <option value="CLIP_ACTION_FULL_PAGE" message="quickNoteAction_clipFullPage"></option>
+            <option value="CLIP_ACTION_PDF" message="quickNoteAction_clipPDF"></option>
+            <option value="CLIP_ACTION_URL" message="quickNoteAction_clipUrl"></option>
+          </select>
+        </div>
+      </div>
+    </form>
+    <div class="newFeatureOverlay">
+      <img id="newFeatureDismissControl" title="clearFeatureDiscoveryTooltip" src="images/new_feature_dismiss.png"
+        width="10" height="10" />
+      <span message="newFeatureTitle"></span>
+      <br/>
+      <span message="newFeatureDescription"></span>
+    </div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+{
+   "background": {
+      "page": "background/background.html"
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "overlay/images/icon.png",
+         "38": "overlay/images/icon-2x.png"
+      },
+      "default_popup": "overlay/overlay.html",
+      "default_title": "__MSG_extensionName__"
+   },
+   "content_scripts": [ {
+      "js": [ "content/content.js" ],
+      "matches": [ "\u003Call_urls\u003E" ]
+   } ],
+   "default_locale": "en_US",
+   "description": "__MSG_extensionDescription__",
+   "homepage_url": "http://chrispederick.com/work/web-developer/chrome/",
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "48": "icons/48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDqzooK0Nk6479vcXm/kYwHuAZ1FNqe+xQlSJLkRtZnXxxVuWcWJenL526c9PjW71/LgJA8AqtGS9MD59fT4LTfNY5yyTvX0yRFpd8aGADfVGDRPLp8qas+v5LIw2TaGF2Fn281yi5PnxTLUtWuscFfUNU95quxIwvPYkEjASnnNwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_extensionName__",
+   "options_page": "options/options.html",
+   "permissions": [ "clipboardWrite", "contentSettings", "cookies", "history", "proxy", "tabs", "\u003Call_urls\u003E" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.4.3",
+   "web_accessible_resources": [ "*" ]
+}

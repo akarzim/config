@@ -1,0 +1,874 @@
+{
+   "allowed_sites": {
+      "description": "no description",
+      "message": "Permitiendo el rastreo en estos sitios:"
+   },
+   "appDesc": {
+      "description": "no description",
+      "message": "DoNotTrackMe protege su privacidad al bloquear el rastreo en l\u00EDnea."
+   },
+   "appName": {
+      "description": "no description",
+      "message": "DoNotTrackMe"
+   },
+   "chart_x_axis_title": {
+      "description": "no description",
+      "message": "Time since blocking chart began"
+   },
+   "chart_y2_axis_title": {
+      "description": "no description",
+      "message": "Daily # trackers blocked"
+   },
+   "chart_y_axis_title": {
+      "description": "no description",
+      "message": "Total # trackers blocked"
+   },
+   "clear_skies": {
+      "description": "no description",
+      "message": "\u00A1Despejado! Nadie le est\u00E1 rastreando en esta p\u00E1gina."
+   },
+   "dntp_Fblocked": {
+      "description": "no description",
+      "message": "bloqueada"
+   },
+   "dntp_Fblockeds": {
+      "description": "no description",
+      "message": "bloqueadas"
+   },
+   "dntp_Mblocked": {
+      "description": "no description",
+      "message": "bloqueado"
+   },
+   "dntp_Mblockeds": {
+      "description": "no description",
+      "message": "bloqueados"
+   },
+   "dntp_adnetworks": {
+      "description": "no description",
+      "message": "Redes de publicidad"
+   },
+   "dntp_adnetworkstracking": {
+      "description": "no description",
+      "message": "El anuncio $2 de $1 est\u00E1 rastre\u00E1ndole:"
+   },
+   "dntp_allblocked": {
+      "description": "no description",
+      "message": "Todos los rastreadores est\u00E1n bloqueados aqu\u00ED."
+   },
+   "dntp_allblockedeverywhere": {
+      "description": "no description",
+      "message": "Todos los rastreadores est\u00E1n bloqueados en todas las p\u00E1ginas."
+   },
+   "dntp_allowanalytics": {
+      "description": "no description",
+      "message": "\u00BFPermitir estad\u00EDsticas an\u00F3nimas?"
+   },
+   "dntp_allowdomainrules": {
+      "description": "no description",
+      "message": "$1 para permitir p\u00E1ginas,"
+   },
+   "dntp_allowsubstringrules": {
+      "description": "no description",
+      "message": "$1 para permitir p\u00E1ginas con ciertas subcadenas dentro de su nombre y"
+   },
+   "dntp_alltime": {
+      "description": "no description",
+      "message": "Has bloqueado:"
+   },
+   "dntp_alltimesuffix": {
+      "description": "no description",
+      "message": "$1 de rastreo."
+   },
+   "dntp_allunblocked": {
+      "description": "no description",
+      "message": "Todos los rastreadores est\u00E1n desbloqueados aqu\u00ED."
+   },
+   "dntp_allunblockedeverywhere": {
+      "description": "no description",
+      "message": "Todos los rastreadores est\u00E1n desbloqueados en todas las p\u00E1ginas."
+   },
+   "dntp_at": {
+      "description": "no description",
+      "message": "en"
+   },
+   "dntp_attempt": {
+      "description": "no description",
+      "message": "intento"
+   },
+   "dntp_attempts": {
+      "description": "no description",
+      "message": "intentos"
+   },
+   "dntp_bad_tracker_button": {
+      "description": "no description",
+      "message": "Hello!  You recently blocked \u003Cb\u003E$1\u003C/b\u003E!  What's \u003Cb\u003E$1\u003C/b\u003E?"
+   },
+   "dntp_badge_congrats": {
+      "description": "no description",
+      "message": "\u00A1Enhorabuena! \u00A1Ha ganado $1 medalla!"
+   },
+   "dntp_badge_new_share": {
+      "description": "no description",
+      "message": "Publique su medalla nueva y ayude a otros a obtener privacidad"
+   },
+   "dntp_badge_share": {
+      "description": "no description",
+      "message": "Publique su medalla y ayude a otros a obtener privacidad"
+   },
+   "dntp_badges_bronze": {
+      "description": "no description",
+      "message": "Bronce"
+   },
+   "dntp_badges_gold": {
+      "description": "no description",
+      "message": "Oro"
+   },
+   "dntp_badges_levelup": {
+      "description": "no description",
+      "message": "$1 para $2"
+   },
+   "dntp_badges_levelup_diff": {
+      "description": "no description",
+      "message": "$1 for $2"
+   },
+   "dntp_badges_maxlevel": {
+      "description": "no description",
+      "message": "M\u00C1XIMO"
+   },
+   "dntp_badges_mybadges": {
+      "description": "no description",
+      "message": "Sus medallas"
+   },
+   "dntp_badges_platinum": {
+      "description": "no description",
+      "message": "Platino"
+   },
+   "dntp_badges_silver": {
+      "description": "no description",
+      "message": "Plata"
+   },
+   "dntp_badges_socialBlocked_badgeText": {
+      "description": "no description",
+      "message": "SOCIAL"
+   },
+   "dntp_badges_socialBlocked_text": {
+      "description": "no description",
+      "message": "Intentos de rastreo social bloqueados"
+   },
+   "dntp_badges_socialBlocked_title": {
+      "description": "no description",
+      "message": "Bloqueos sociales"
+   },
+   "dntp_badges_totalBlocked_badgeText": {
+      "description": "no description",
+      "message": "BLOQUEADO"
+   },
+   "dntp_badges_totalBlocked_text": {
+      "description": "no description",
+      "message": "Intentos de rastreo bloqueados"
+   },
+   "dntp_badges_totalBlocked_title": {
+      "description": "no description",
+      "message": "Bloqueos totales"
+   },
+   "dntp_blockall": {
+      "description": "no description",
+      "message": "\u00BFBloquear a todos?"
+   },
+   "dntp_blockalleverywhere": {
+      "description": "no description",
+      "message": "\u00BFBloquear a todos los rastreadores en todas las p\u00E1ginas?"
+   },
+   "dntp_blockdomainrules": {
+      "description": "no description",
+      "message": "$1 para bloquear p\u00E1ginas,"
+   },
+   "dntp_blocked": {
+      "description": "no description",
+      "message": "bloqueado"
+   },
+   "dntp_blockedhere": {
+      "description": "no description",
+      "message": "bloqueado aqu\u00ED."
+   },
+   "dntp_blocksubstringrules": {
+      "description": "no description",
+      "message": "$1 para bloquear p\u00E1ginas con ciertas subcadenas dentro de su nombre."
+   },
+   "dntp_button": {
+      "description": "no description",
+      "message": "bot\u00F3n"
+   },
+   "dntp_capblockedhere": {
+      "description": "no description",
+      "message": "Bloqueado aqu\u00ED"
+   },
+   "dntp_capblockedhere_recommended": {
+      "description": "no description",
+      "message": "Bloqueado (No sugerido)"
+   },
+   "dntp_cblocked": {
+      "description": "no description",
+      "message": "Bloqueado"
+   },
+   "dntp_chatwithus": {
+      "description": "no description",
+      "message": "Hable con nosotros."
+   },
+   "dntp_clearskies_thanks": {
+      "description": "no description",
+      "message": "\u00A1Dele las gracias a $1!"
+   },
+   "dntp_clickhere": {
+      "description": "no description",
+      "message": "Haga clic aqu\u00ED"
+   },
+   "dntp_companies": {
+      "description": "no description",
+      "message": "empresas"
+   },
+   "dntp_company": {
+      "description": "no description",
+      "message": "empresa"
+   },
+   "dntp_count_socialbutton": {
+      "description": "no description",
+      "message": "red social"
+   },
+   "dntp_count_socialbuttons": {
+      "description": "no description",
+      "message": "redes sociales"
+   },
+   "dntp_dark_ui": {
+      "description": "no description",
+      "message": "Tema oscuro"
+   },
+   "dntp_daysactive": {
+      "description": "no description",
+      "message": "D\u00EDas de actividad:"
+   },
+   "dntp_dntpsettings": {
+      "description": "no description",
+      "message": "Configuraci\u00F3n de Do Not Track Me"
+   },
+   "dntp_duplicatename": {
+      "description": "no description",
+      "message": "El nombre que ingres\u00F3 ya est\u00E1 en la lista."
+   },
+   "dntp_enteremail": {
+      "description": "no description",
+      "message": "Ingrese su direcci\u00F3n de correo electr\u00F3nico para verificar si alguna de su informaci\u00F3n est\u00E1 publicada:"
+   },
+   "dntp_expiredlicense": {
+      "description": "no description",
+      "message": "Su clave de licencia ha caducado."
+   },
+   "dntp_failedtoload": {
+      "description": "no description",
+      "message": "Error cargando la lista de protecci\u00F3n de rastreo."
+   },
+   "dntp_footer_deleteme": {
+      "description": "no description",
+      "message": "Proteja su privacidad con"
+   },
+   "dntp_footer_how": {
+      "description": "no description",
+      "message": "\u00BFC\u00F3mo funciona?"
+   },
+   "dntp_footer_sayhello": {
+      "description": "no description",
+      "message": "Ayuda"
+   },
+   "dntp_footer_settings": {
+      "description": "no description",
+      "message": "Ajustes"
+   },
+   "dntp_global_all_allowedeverywhere": {
+      "description": "no description",
+      "message": "Permitiendo todas las empresas de rastreo en todas partes"
+   },
+   "dntp_global_all_blockedeverywhere": {
+      "description": "no description",
+      "message": "Bloqueando todas las empresas de rastreo en todas partes"
+   },
+   "dntp_global_allowedSites": {
+      "description": "no description",
+      "message": "Ver sitios permitidos"
+   },
+   "dntp_global_back": {
+      "description": "no description",
+      "message": "Atr\u00E1s"
+   },
+   "dntp_global_blockall": {
+      "description": "no description",
+      "message": "Bloquear a todos"
+   },
+   "dntp_global_blockedeverywhere": {
+      "description": "no description",
+      "message": "Bloqueado en todas partes"
+   },
+   "dntp_global_controltracking": {
+      "description": "no description",
+      "message": "Controle el rastreo en todas las p\u00E1ginas que visite."
+   },
+   "dntp_global_expired": {
+      "description": "no description",
+      "message": "suscripci\u00F3n caducada"
+   },
+   "dntp_global_expireson": {
+      "description": "no description",
+      "message": "Caduca:"
+   },
+   "dntp_global_invalid": {
+      "description": "no description",
+      "message": "licencia no v\u00E1lida"
+   },
+   "dntp_global_learnmore": {
+      "description": "no description",
+      "message": "Aprenda m\u00E1s sobre estas empresas"
+   },
+   "dntp_global_licensecode": {
+      "description": "no description",
+      "message": "C\u00F3digo de licencia:"
+   },
+   "dntp_global_notblocked": {
+      "description": "no description",
+      "message": "Permitido en todas partes"
+   },
+   "dntp_global_tpl": {
+      "description": "no description",
+      "message": "\u00DAltima actualizaci\u00F3n de protecci\u00F3n de rastreo:"
+   },
+   "dntp_global_unblockall": {
+      "description": "no description",
+      "message": "Desbloquear a todos"
+   },
+   "dntp_global_useglobalallow": {
+      "description": "no description",
+      "message": "Usar sugerencias de Abine"
+   },
+   "dntp_global_viewsettings": {
+      "description": "no description",
+      "message": "Ver configuraci\u00F3n de cabecera de Do Not Track"
+   },
+   "dntp_helpothers": {
+      "description": "no description",
+      "message": "Perm\u00EDtanos saber por qu\u00E9 desactiv\u00F3 DNTMe en este sitio:"
+   },
+   "dntp_howthisworks": {
+      "description": "no description",
+      "message": "C\u00F3mo funciona DNTMe"
+   },
+   "dntp_ie_new_version_available": {
+      "description": "no description",
+      "message": "Nueva versi\u00F3n disponible"
+   },
+   "dntp_ie_service_not_running": {
+      "description": "no description",
+      "message": "\u00A1Vaya! A DNTMe no se le permiti\u00F3 comunicarse normalmente; DNTPService.exe se ha cerrado.\\n\\nEste error es causado frecuentemente por antivirus hiperactivos u otro software de seguridad. Primero, pruebe a reiniciar Internet Explorer.\\n\\nSi eso no ayuda, quiz\u00E1 necesite configurar su software de seguridad para que permita la ejecuci\u00F3n del proceso DNTPService.exe.  El equipo de asistencia de Abine.com puede ayudar.  \u00A1Mant\u00E9ngase seguro y privado!"
+   },
+   "dntp_importedtpl": {
+      "description": "no description",
+      "message": "La lista de protecci\u00F3n de rastreo que est\u00E1 usando tiene"
+   },
+   "dntp_intotalend": {
+      "description": "no description",
+      "message": "$1 de rastreo."
+   },
+   "dntp_intotalstart": {
+      "description": "no description",
+      "message": "En total, ha detenido"
+   },
+   "dntp_invalidTPL": {
+      "description": "no description",
+      "message": "Formato inv\u00E1lido para la lista de protecci\u00F3n de rastreo."
+   },
+   "dntp_invalidlicense": {
+      "description": "no description",
+      "message": "No tiene una licencia v\u00E1lida para bloquear el rastreo."
+   },
+   "dntp_invalidwebsite": {
+      "description": "no description",
+      "message": "Por favor ingrese un nombre v\u00E1lido (ej. www.google.com)."
+   },
+   "dntp_invitations": {
+      "description": "no description",
+      "message": "Invitaciones"
+   },
+   "dntp_light_ui": {
+      "description": "no description",
+      "message": "Tema claro"
+   },
+   "dntp_network": {
+      "description": "no description",
+      "message": "red"
+   },
+   "dntp_networks": {
+      "description": "no description",
+      "message": "redes"
+   },
+   "dntp_new_trackers": {
+      "description": "no description",
+      "message": "Privacy Upgrade!"
+   },
+   "dntp_new_trackers_details": {
+      "description": "no description",
+      "message": "DNTMe now blocks more trackers to give you more privacy:"
+   },
+   "dntp_new_trackers_link": {
+      "description": "no description",
+      "message": "Read more about these updated trackers"
+   },
+   "dntp_newsearch": {
+      "description": "no description",
+      "message": "b\u00FAsqueda nueva."
+   },
+   "dntp_no_badge": {
+      "description": "no description",
+      "message": "\u00A1A\u00FAn no hay medalla para usted! Siga navegando privadamente."
+   },
+   "dntp_noadnetworks": {
+      "description": "no description",
+      "message": "No hay redes publicitarias aqu\u00ED"
+   },
+   "dntp_nosocial": {
+      "description": "no description",
+      "message": "No se encontraron redes sociales aqu\u00ED."
+   },
+   "dntp_notblockedhere": {
+      "description": "no description",
+      "message": "Desbloqueado aqu\u00ED"
+   },
+   "dntp_notblockedhere_recommended": {
+      "description": "no description",
+      "message": "Desbloqueado (Sugerido)"
+   },
+   "dntp_note": {
+      "description": "no description",
+      "message": "Note que esta lista es usada para mandar, de forma selectiva, mensajes de Do Not Track. NO est\u00E1 usada para bloquear solicitudes de su navegador."
+   },
+   "dntp_notinuse": {
+      "description": "no description",
+      "message": "No est\u00E1 en uso"
+   },
+   "dntp_notoptingout": {
+      "description": "no description",
+      "message": "Advertising opt-out cookies are OFF."
+   },
+   "dntp_notrackingcompanies": {
+      "description": "no description",
+      "message": "Ninguna empresa le est\u00E1 rastreando aqu\u00ED."
+   },
+   "dntp_notscanned": {
+      "description": "no description",
+      "message": "Qu\u00E9 tal. Por alguna raz\u00F3n, no pudimos analizar esta p\u00E1gina.\u003Cbr\u003E\u003Cbr\u003EPara poder ver el rastreo aqu\u00ED:\u003Cbr\u003E\u003Cbr\u003Ea) Actualice esta p\u00E1gina\u003Cbr\u003E\u003Cbr\u003Eo\u003Cbr\u003E\u003Cbr\u003Eb) Cargue una nueva p\u00E1gina web."
+   },
+   "dntp_now_disabled": {
+      "description": "no description",
+      "message": "DNTMe est\u00E1 ahora permitiendo el rastreo en $1"
+   },
+   "dntp_numblocked": {
+      "description": "no description",
+      "message": "Intentos bloqueados"
+   },
+   "dntp_oneofseveral": {
+      "description": "no description",
+      "message": "es una de varias empresas que, sin avisarle, le rastrea por muchas de las p\u00E1ginas que usted visita."
+   },
+   "dntp_optingout": {
+      "description": "no description",
+      "message": "Advertising opt-out cookies are ON."
+   },
+   "dntp_optoutsoff": {
+      "description": "no description",
+      "message": "Turn ON"
+   },
+   "dntp_optoutson": {
+      "description": "no description",
+      "message": "Turn OFF"
+   },
+   "dntp_orstarta": {
+      "description": "no description",
+      "message": "o comience una"
+   },
+   "dntp_others": {
+      "description": "no description",
+      "message": "Otros"
+   },
+   "dntp_othersite": {
+      "description": "no description",
+      "message": "vez"
+   },
+   "dntp_othersites": {
+      "description": "no description",
+      "message": "veces"
+   },
+   "dntp_pleasebuy": {
+      "description": "no description",
+      "message": "Adqui\u00E9rala en http://www.donottrackplus.com. Si ya la ha comprado, lea las instrucciones que le llegaron por correo electr\u00F3nico."
+   },
+   "dntp_pleasecheck": {
+      "description": "no description",
+      "message": "Tendremos los resultados de su b\u00FAsqueda en cinco minutos."
+   },
+   "dntp_pleaseselect": {
+      "description": "no description",
+      "message": "Por favor elija el nombre que desea eliminar."
+   },
+   "dntp_pleasewait": {
+      "description": "no description",
+      "message": "Actualice la p\u00E1gina para aplicar su nueva configuraci\u00F3n."
+   },
+   "dntp_readbadges": {
+      "description": "no description",
+      "message": "Lea sobre las medallas"
+   },
+   "dntp_recommended": {
+      "description": "no description",
+      "message": "\u00BFQu\u00E9 son las sugerencias?"
+   },
+   "dntp_renew": {
+      "description": "no description",
+      "message": "Renueve su suscripci\u00F3n\u003Cbr/\u003Een donottrackplus.com"
+   },
+   "dntp_renewnow": {
+      "description": "no description",
+      "message": "Renueve su suscripci\u00F3n\u003Cbr/\u003Eahora\u003Cbr/\u003Epara alejar a los rastreadores."
+   },
+   "dntp_rule": {
+      "description": "no description",
+      "message": "regla"
+   },
+   "dntp_rules": {
+      "description": "no description",
+      "message": "reglas"
+   },
+   "dntp_safeads": {
+      "description": "no description",
+      "message": "\u00BFMostrar anuncios seguros?"
+   },
+   "dntp_search": {
+      "description": "no description",
+      "message": "Buscar"
+   },
+   "dntp_searchdone": {
+      "description": "no description",
+      "message": "Acabamos!"
+   },
+   "dntp_searchresults": {
+      "description": "no description",
+      "message": "resultados de b\u00FAsqueda"
+   },
+   "dntp_site": {
+      "description": "no description",
+      "message": "sitio"
+   },
+   "dntp_slogan": {
+      "description": "no description",
+      "message": "la compa\u00F1\u00EDa de privacidad cibern\u00E9tica"
+   },
+   "dntp_socialbuttons": {
+      "description": "no description",
+      "message": "Botones sociales"
+   },
+   "dntp_socialtracking": {
+      "description": "no description",
+      "message": "$1 $2 rastre\u00E1ndome:"
+   },
+   "dntp_stillwork": {
+      "description": "no description",
+      "message": "Todav\u00EDa puede compartir cuando quiera."
+   },
+   "dntp_submit": {
+      "description": "no description",
+      "message": "Enviar"
+   },
+   "dntp_thankyou": {
+      "description": "no description",
+      "message": "Gracias por evaluar Do Not Track Me."
+   },
+   "dntp_tooltip_chrome_installed": {
+      "description": "no description",
+      "message": "Do Not Track Me para Chrome ahora est\u00E1 instalado."
+   },
+   "dntp_tooltip_clickingit": {
+      "description": "no description",
+      "message": "Haga clic en \u00E9l para ver c\u00F3mo le est\u00E1 rastreando un sitio web."
+   },
+   "dntp_tooltip_clickitnow": {
+      "description": "no description",
+      "message": "H\u00E1gale clic nuevamente para cerrar este mensaje."
+   },
+   "dntp_tooltip_look": {
+      "description": "no description",
+      "message": "Busque este icono en su barra de herramientas."
+   },
+   "dntp_tooltip_off": {
+      "description": "no description",
+      "message": "desactivado"
+   },
+   "dntp_tooltip_onoff": {
+      "description": "no description",
+      "message": "est\u00E1 desactivado aqu\u00ED"
+   },
+   "dntp_tooltip_safari_installed": {
+      "description": "no description",
+      "message": "Do Not Track Me para Safari ahora est\u00E1 instalado."
+   },
+   "dntp_tooltip_txt": {
+      "description": "no description",
+      "message": "$1 de $2 rastreadores bloqueados"
+   },
+   "dntp_torenewit": {
+      "description": "no description",
+      "message": "para renovarla."
+   },
+   "dntp_tosee": {
+      "description": "no description",
+      "message": "para ver lo que encontramos!"
+   },
+   "dntp_tplimporter": {
+      "description": "no description",
+      "message": "Lista de protecci\u00F3n de rastreo"
+   },
+   "dntp_tplstatus": {
+      "description": "no description",
+      "message": "Estado de la lista de protecci\u00F3n de rastreo:"
+   },
+   "dntp_tracker": {
+      "description": "no description",
+      "message": "Rastreador"
+   },
+   "dntp_trackersfree": {
+      "description": "no description",
+      "message": "y eso implica que los rastreadores pueden seguirle de nuevo."
+   },
+   "dntp_trackingcompanies": {
+      "description": "no description",
+      "message": "Empresas de rastreo"
+   },
+   "dntp_trackingcompany": {
+      "description": "no description",
+      "message": "$1 $2 de rastreo:"
+   },
+   "dntp_tracksacross": {
+      "description": "no description",
+      "message": "le rastrea a trav\u00E9s de la red."
+   },
+   "dntp_trialexpired": {
+      "description": "no description",
+      "message": "Su versi\u00F3n de prueba ha caducado\u2026"
+   },
+   "dntp_trialresults": {
+      "description": "no description",
+      "message": "Los resultados de su prueba gratuita:"
+   },
+   "dntp_turnedoff": {
+      "description": "no description",
+      "message": "Ha desactivado la detecci\u00F3n de privacidad y bloqueo aqu\u00ED."
+   },
+   "dntp_turnedoff_block": {
+      "description": "no description",
+      "message": "Puede $1bloquear este sitio$2 de nuevo."
+   },
+   "dntp_turnedoff_viewall": {
+      "description": "no description",
+      "message": "Tambi\u00E9n puede ver la $1lista completa de sitios a los que ha permitido rastrearle.$2"
+   },
+   "dntp_turnedon": {
+      "description": "no description",
+      "message": "Ha activado la detecci\u00F3n de privacidad y bloqueo aqu\u00ED."
+   },
+   "dntp_turnoff": {
+      "description": "no description",
+      "message": "Permitir sitio"
+   },
+   "dntp_turnon": {
+      "description": "no description",
+      "message": "Bloquear sitio"
+   },
+   "dntp_unblockall": {
+      "description": "no description",
+      "message": "\u00BFDesbloquear a todos?"
+   },
+   "dntp_unblockalleverywhere": {
+      "description": "no description",
+      "message": "\u00BFDesbloquear a todos los rastreadores en todas las p\u00E1ginas?"
+   },
+   "dntp_unblocked": {
+      "description": "no description",
+      "message": "desbloqueado"
+   },
+   "dntp_unblockedhere": {
+      "description": "no description",
+      "message": "desbloqueado aqu\u00ED."
+   },
+   "dntp_usehistory": {
+      "description": "no description",
+      "message": "Y usar su historial de navegaci\u00F3n para obtener dinero."
+   },
+   "dntp_view": {
+      "description": "no description",
+      "message": "Mire sus"
+   },
+   "dntp_view_invitations": {
+      "description": "no description",
+      "message": "Invitaciones"
+   },
+   "dntp_wearestill": {
+      "description": "no description",
+      "message": "Todav\u00EDa estamos ejecutando nuestra busqueda. Por favor regrese en varios minutos."
+   },
+   "dntp_webkit_pleasewait": {
+      "description": "no description",
+      "message": "Actualice la p\u00E1gina para aplicar su nueva configuraci\u00F3n."
+   },
+   "dntp_whatisoptout": {
+      "description": "no description",
+      "message": "What happens when you opt out?"
+   },
+   "dntp_whoarethey": {
+      "description": "no description",
+      "message": "\u00BFQui\u00E9nes son estas compa\u00F1\u00EDas?"
+   },
+   "dntp_whostried": {
+      "description": "no description",
+      "message": "\u00BFQui\u00E9n ha intentado rastrearle?"
+   },
+   "dntp_withouttelling": {
+      "description": "no description",
+      "message": "Sin avisarle."
+   },
+   "dntp_yourinformation": {
+      "description": "no description",
+      "message": "Las empresas de rastreo pueden publicar su informaci\u00F3n privada!"
+   },
+   "done": {
+      "description": "no description",
+      "message": "Hecho"
+   },
+   "firstparty_youblocked": {
+      "description": "no description",
+      "message": "Ha bloqueado intentos de rastreo de $1 en $2 $3."
+   },
+   "funword1": {
+      "description": "no description",
+      "message": "Magn\u00EDfico"
+   },
+   "funword10": {
+      "description": "no description",
+      "message": "Grandioso"
+   },
+   "funword11": {
+      "description": "no description",
+      "message": "Espl\u00E9ndido"
+   },
+   "funword12": {
+      "description": "no description",
+      "message": "Incre\u00EDble"
+   },
+   "funword13": {
+      "description": "no description",
+      "message": "Fet\u00E9n"
+   },
+   "funword14": {
+      "description": "no description",
+      "message": "Excelente"
+   },
+   "funword15": {
+      "description": "no description",
+      "message": "Espectacular"
+   },
+   "funword16": {
+      "description": "no description",
+      "message": "Espectacular"
+   },
+   "funword2": {
+      "description": "no description",
+      "message": "Excelente"
+   },
+   "funword3": {
+      "description": "no description",
+      "message": "Fant\u00E1stico"
+   },
+   "funword4": {
+      "description": "no description",
+      "message": "Fabuloso"
+   },
+   "funword5": {
+      "description": "no description",
+      "message": "Fenomenal"
+   },
+   "funword6": {
+      "description": "no description",
+      "message": "Extraordinario"
+   },
+   "funword7": {
+      "description": "no description",
+      "message": "Sensacional"
+   },
+   "funword8": {
+      "description": "no description",
+      "message": "Genial"
+   },
+   "funword9": {
+      "description": "no description",
+      "message": "Magn\u00EDfico"
+   },
+   "is_tracking": {
+      "description": "no description",
+      "message": "Me est\u00E1 rastreando"
+   },
+   "my_stats": {
+      "description": "no description",
+      "message": "Mis estad\u00EDsticas"
+   },
+   "no_thanks": {
+      "description": "no description",
+      "message": "No, gracias."
+   },
+   "none_disabled_sites": {
+      "description": "no description",
+      "message": "No est\u00E1 permitiendo a ning\u00FAn sitio que le rastreen."
+   },
+   "now_blocking": {
+      "description": "no description",
+      "message": "Ahora bloqueando el rastreo en:"
+   },
+   "off_reason_1": {
+      "description": "no description",
+      "message": "Falta contenido en el sitio."
+   },
+   "off_reason_2": {
+      "description": "no description",
+      "message": "El sitio no funciona adecuadamente."
+   },
+   "off_reason_3": {
+      "description": "no description",
+      "message": "De hecho, necesito usar o probar un rastreador."
+   },
+   "off_reason_4": {
+      "description": "no description",
+      "message": "Otro motivo"
+   },
+   "onoff_off": {
+      "description": "no description",
+      "message": "Permitiendo el  rastreo"
+   },
+   "onoff_off_here": {
+      "description": "no description",
+      "message": "Permitiendo que empresas sepan lo que hago aqu\u00ED"
+   },
+   "onoff_on": {
+      "description": "no description",
+      "message": "Bloqueando el rastreo"
+   },
+   "onoff_on_here": {
+      "description": "no description",
+      "message": "Bloqueando $1 $2 para evitar que sepan lo que hago aqu\u00ED"
+   },
+   "was_tracking": {
+      "description": "no description",
+      "message": "Me estuvo rastreando"
+   }
+}

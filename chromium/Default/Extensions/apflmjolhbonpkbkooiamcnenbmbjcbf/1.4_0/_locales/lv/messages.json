@@ -1,0 +1,52 @@
+{
+   "chrome_extension_description": {
+      "message": "Par\u0101da, cik daudz j\u016Bsu Google las\u012Bt\u0101ja kont\u0101 ir neizlas\u012Btu vienumu. Noklik\u0161\u0137inot var tikt atv\u0113rts vai nu priek\u0161skat\u012Bjuma uznirsto\u0161ais logs, vai ar\u012B j\u016Bsu Las\u012Bt\u0101ja konts."
+   },
+   "chrome_extension_name": {
+      "message": "Google las\u012Bt\u0101ja zi\u0146ot\u0101js (nodro\u0161ina Google)"
+   },
+   "clickaction": {
+      "message": "Noklik\u0161\u0137inot:"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "intervaltext": {
+      "message": "Atjaunin\u0101t ik p\u0113c:"
+   },
+   "loadingtext": {
+      "message": "Notiek iel\u0101de..."
+   },
+   "minutes": {
+      "message": "$1\u00A0min\u016Btes",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "nosummary": {
+      "message": "Nav kopsavilkuma"
+   },
+   "openreaderlink": {
+      "message": "Atv\u0113rt Google las\u012Bt\u0101ju"
+   },
+   "refreshlink": {
+      "message": "Atsvaidzin\u0101t"
+   },
+   "savebutton": {
+      "message": "Saglab\u0101t"
+   },
+   "savedmessage": {
+      "message": "Saglab\u0101ts"
+   },
+   "showmodule": {
+      "message": "R\u0101d\u012Bt uznirsto\u0161o logu"
+   },
+   "showreader": {
+      "message": "Atv\u0113rt Google las\u012Bt\u0101ju"
+   },
+   "title": {
+      "message": "Google las\u012Bt\u0101ja zi\u0146ot\u0101ja opcijas"
+   }
+}

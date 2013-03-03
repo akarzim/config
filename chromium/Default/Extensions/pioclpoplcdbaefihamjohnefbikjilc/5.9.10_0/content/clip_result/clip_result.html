@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Related Notes</title>
+  <script type="text/javascript" src="../../third_party/port.js"></script>
+  <script type="text/javascript" src="../../js/common/Browser.js"></script>
+  <script type="text/javascript" src="../../js/GlobalUtils.js"></script>
+  <script type="text/javascript" src="../../js/common/Persistent.js"></script>
+  <script type="text/javascript" src="../../js/common/Log.js"></script>
+  <script type="text/javascript" src="../../js/common/Bootstrap.js"></script>
+  <script type="text/javascript" src="../../js/common/retina.js"></script>
+  <script type="text/javascript" src="ClipResult.js"></script>
+  <script type="text/javascript" src="NoteSnippets.js"></script>
+  <link rel="stylesheet" type="text/css" href="small_snippet.css" />
+  <link rel="stylesheet" type="text/css" href="clip_result.css" />
+</head>
+<body>
+  <div>
+    <div id="main">
+      <div id="status" class="depressedBox">
+        <div id="clippingIcon" class="notificationIcon" style="display: none;">
+          <img src="../../images/scissors.png" width="21" height="17" />
+        </div>
+        <div id="activeIcon" class="notificationIcon" style="display: none;">
+          <img src="../../images/sync.png" width="23" height="23" />
+        </div>
+        <div id="successIcon" class="notificationIcon" style="display: none;">
+          <img src="../../images/check.png" width="18" height="14" />
+        </div>
+        <div id="errorIcon" class="notificationIcon" style="display: none;">
+          <img src="../../images/warning.png" width="17" height="17" />
+        </div>
+        <div id="notificationMessage" class="notificationMessage">
+          <div id="notificationHeadline" class="notificationHeadline"></div>
+          <div id="notificationDetails" class="notificationDetails"></div>
+          <div id="successActions" style="display: none;">
+            <span id="viewClip" message="desktopNotification_viewSuccessClip" class="fakeLink"></span>
+            <span class='separator'>&#9679;</span>
+            <span id="editClip" message="desktopNotification_editSuccessClip" class="fakeLink"></span>
+          </div>
+          <div id="errorActions" style="display: none;">
+            <span id="retryClip" message="desktopNotification_retryFailedClip" class="fakeLink"></span>
+            <span class='separator'>&#9679;</span>
+            <span id="cancelClip" message="desktopNotification_cancelFailedClip" class="fakeLink"></span>
+          </div>
+        </div>
+      </div>
+      <div id="foodPromo" class="depressedBox">
+        <div id="foodIcon"></div>
+        <div id="foodText">
+          <div id="getEvernoteFood" message="getEvernoteFood"></div>
+          <div id="rememberFoodYouLove" message="rememberFoodYouLove"></div>
+        </div>
+        <div id="downloadButtons">
+          <div id="ios" class="getFoodButton">
+            <a href="https://itunes.apple.com/us/app/evernote-food/id481893372?mt=8" target="_blank">iOS</a>
+          </div>
+          <div id="android" class="getFoodButton">
+            <a href="https://play.google.com/store/apps/details?id=com.evernote.food&hl=en" target="_blank">Android</a>
+          </div>
+        </div>
+      </div>
+      <div id="relatedNotes">
+        <div id="relatedNotesHeader">
+          <div id="youHaveRelatedNotes" message="youHaveRelatedNotes"></div>
+          <div id="relatedNotesButton" class="selected" message="relatedNotes"></div><!-- whitespace elimination.
+          --><div id="siteSearchButton" message="clipsFromThisSite"></div>
+        </div>
+        <div id="relatedNotesScrollable">
+          <div id="slider" class="showLeft">
+          <div id="relatedNotesContainer"></div><!--
+          --><div id="siteNotesContainer"></div>
+          </div>
+        </div>
+        <div class="newFeatureOverlay" style="display: none">
+          <div class="newFeatureDismissControl" title="clearFeatureDiscoveryTooltip"></div>
+          <h1 message="relatedNotes"></h1>
+          <span message="relatedNotesDescription"></span>
+          <img src="../../images/arrow-up-light.png" width="19" height="11" />
+        </div>
+      </div>
+      <div id="footer">
+        <div id="hideRelated" style="display: none">
+          <img src="../../images/arrow-up.png" width="9" height="5" />
+          <span id="hideRelatedControl"></span>
+        </div>
+        <div id="closeControl">
+          <input type="button" id="closeResultControl" message="Close"/>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+{
+   "days": {
+      "message": "$1nap",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "description": {
+      "message": "Gyorsan megn\u00E9zheti b\u00E1rmelyik napt\u00E1r\u00E1ban, hogy mennyi ideje van m\u00E9g a k\u00F6vetkez\u0151 tal\u00E1lkoz\u00F3ig. Kattintson a gombra a napt\u00E1r megtekint\u00E9s\u00E9hez."
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "extensionname": {
+      "message": "Google Calendar Checker"
+   },
+   "hours": {
+      "message": "$1\u00F3",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "imagetooltip": {
+      "message": "Google Napt\u00E1r"
+   },
+   "minutes": {
+      "message": "$1p",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "multicalendartext": {
+      "message": "T\u00F6bb napt\u00E1r t\u00E1mogat\u00E1sa"
+   },
+   "multicalendartooltip": {
+      "message": "K\u00E9rj\u00FCk, jel\u00F6lje be a jel\u00F6l\u0151n\u00E9gyzetet t\u00F6bb napt\u00E1r t\u00E1mogat\u00E1s\u00E1nak enged\u00E9lyez\u00E9s\u00E9hez"
+   },
+   "name": {
+      "message": "Google Calendar Checker (a Google-t\u00F3l)"
+   },
+   "notitle": {
+      "message": "(Nincs c\u00EDm)"
+   },
+   "optionstitle": {
+      "message": "Google Calendar Checker"
+   },
+   "status_saved": {
+      "message": "Be\u00E1ll\u00EDt\u00E1sok elmentve."
+   },
+   "status_saving": {
+      "message": "Ment\u00E9s..."
+   },
+   "title": {
+      "message": "Google Calendar Checker"
+   }
+}

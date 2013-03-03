@@ -1,0 +1,52 @@
+{
+   "chrome_extension_description": {
+      "message": "Viser antallet af ul\u00E6ste indl\u00E6g i din Google L\u00E6ser-konto. N\u00E5r du klikker vises en eksempelvisning af en popup eller \u00E5bnes din L\u00E6ser-konto."
+   },
+   "chrome_extension_name": {
+      "message": "Google Reader Notifier (af Google)"
+   },
+   "clickaction": {
+      "message": "N\u00E5r du klikker:"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "intervaltext": {
+      "message": "Opdater hver:"
+   },
+   "loadingtext": {
+      "message": "Indl\u00E6ser..."
+   },
+   "minutes": {
+      "message": "$1 minutter",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "nosummary": {
+      "message": "Ingen oversigt"
+   },
+   "openreaderlink": {
+      "message": "\u00C5bn Google L\u00E6ser"
+   },
+   "refreshlink": {
+      "message": "Opdater"
+   },
+   "savebutton": {
+      "message": "Gem"
+   },
+   "savedmessage": {
+      "message": "Gemt"
+   },
+   "showmodule": {
+      "message": "Vis popup"
+   },
+   "showreader": {
+      "message": "\u00C5bn Google L\u00E6ser"
+   },
+   "title": {
+      "message": "Indstillinger for Google Reader Notifier"
+   }
+}

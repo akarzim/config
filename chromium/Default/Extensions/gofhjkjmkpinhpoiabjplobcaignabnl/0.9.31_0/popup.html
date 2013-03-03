@@ -1,0 +1,212 @@
+<html>
+	<head>
+		<script src="chromelib.js"></script>
+		<script src="prefs.js"></script>
+		<style>
+		    body {
+			  padding: 0;
+			  margin: 0;
+			  font-family:arial;
+			  font-size:11px;
+			  color:#2a2e41;
+			  background-color:#ffffff;
+			  background-image:url('images/panelBG.png');
+			  background-position:bottom;
+			  background-repeat:repeat-x;
+			}
+			#main {
+				padding: 0;
+				margin: 0;
+				cursor : default;
+				//width:100%;
+			}
+			.row {
+				font-size : 12px;
+				padding-top:3px;
+				padding-bottom:3px;
+				padding-left:4px;
+				padding-right:3px;
+				cursor:pointer;
+				border:1px solid #e4e4e4;
+				-webkit-border-radius:4px;
+				margin-bottom:3px;
+				//background-color:#123456;
+				-webkit-transition-property: padding-left;
+				-webkit-transition-duration: 0.4s;
+				transition-timing-function : linear;
+			}
+			.allow {
+				background: -webkit-gradient(linear, left top, left bottom, from(#48ac37), to(#2e6f23));
+				color:#e7f1e6;
+			}
+			.block {
+				background: -webkit-gradient(linear, left top, left bottom, from(#e10e2c), to(#9e0c21));
+				color:#e7f1e6;
+			}
+
+			div.row:not(.disable):hover {
+				color:#dfdfdf;
+				// background-color:#dbddef;
+				// border:1px solid #123456;
+				background-image:url('images/menuItemBGOver.png');
+				-webkit-border-radius:4px;
+				/*padding-left:20px;*/
+			}
+			div.row.disable {
+				color : gray;
+				cursor : none;
+			}
+		    #separator {
+			    width:100%;
+			    height:2px;
+				background-image:url('images/separator.png');
+				background-repeat:repeat-x;
+				cursor:pointer;
+				margin-bottom:1px;
+
+			}
+			#options {
+			//	background-image:url('images/menuItemBG.png');
+				background-repeat:repeat-x;
+			}
+
+			#removePageAction {
+				display:none;
+				width:240px;
+				//width:100%;
+				font-size:12px;
+				margin-top:5px;
+				margin-left:6px;
+				color:#3c434f;
+				cursor:default;
+			}
+			
+			#external-extension-request{
+				display:none;
+				width:90%;
+				font-size:12px;
+				margin-top:5px;
+				margin-left:6px;
+				color:#3c434f;
+				cursor:default;
+			}
+		</style>	
+		<script>
+			var pageStatus;
+			var askBeforeHidePageAction=prefs['pageAction.askBeforeHide']
+											
+			// Allow/Block
+			function allowOrBlock(){
+				chrome.tabs.getSelected(null,function(tab){
+					if (pageStatus == 2){
+						var bg=chrome.extension.getBackgroundPage()
+						var request = bg.externalWhiteListMap[bg.getHost(tab.url)];
+						document.body.style.width = "250px";
+						document.querySelector('#external-extension-request').style.display="block"
+						document.querySelector('#external-extension-request').innerText=
+						"Name: " + request.extension_name + "\n\n"+
+						"Id:" + request.extension_id + "\n\n" +
+						"Nessage:\n" + request.user_message;
+						
+						document.querySelector('#menu').style.display="none"							
+						return;
+					}else{
+						var enable = pageStatus == 0 ? false : true
+						chrome.extension.getBackgroundPage().allowOrBlock(tab.id,tab.url,enable)
+						chrome.tabs.sendRequest(tab.id,enable?{type:'allow'}:{type:'block',prefs:prefs.pack()})
+						window.close()
+					}
+				})
+			}
+
+			// Options
+			function options(){
+				chrome.extension.getBackgroundPage().openOptions()
+			}
+						
+			// Hide Page Action
+			function hidePageAction(){
+				if (!askBeforeHidePageAction)
+					prefs['pageAction.askBeforeHide']=false
+				prefs['pageAction.enabled']=false
+				window.close()	
+			}
+			
+			function popupHidePageAction(){
+				if (askBeforeHidePageAction){
+					document.body.style.width="250px"
+					document.body.style.height="130px"
+					document.querySelector('#removePageAction').style.display="block"
+					document.querySelector('#menu').style.display="none"				
+				}else
+					hidePageAction()
+			}
+
+			// Enable / Disable
+			function toggleEnable(){
+				prefs['general.enabled']=!prefs['general.enabled']
+				window.close()
+			}
+			
+			function load(){
+				var enabled=prefs['general.enabled']
+				document.querySelector('#toggleEnable').innerText=(enabled ? 'Disable' : 'Enable')+" Flash Block"
+				chrome.tabs.getSelected(null,function(tab){
+					pageStatus = chrome.extension.getBackgroundPage().updatePageAction(tab.id,tab.url)
+					var allowOrBlock=document.querySelector('#allowOrBlock')
+					if (pageStatus == 2){
+						allowOrBlock.innerText="Another extension requested to allow Flash on this host.\nDetails.."
+						allowOrBlock.className='row';
+					}else if (pageStatus == 0) {
+						allowOrBlock.innerText="Always block flash on this site"
+						allowOrBlock.className='row block'
+					}else{
+						allowOrBlock.innerText="Always allow flash on this site"
+						allowOrBlock.className='row allow'
+					}
+					if (tab.url.indexOf('chrome') == 0 || !enabled){
+						allowOrBlock.className='row disable'
+						allowOrBlock.onclick=null
+						document.querySelector('#toggleEnable').className='row allow'
+					}
+				})
+			}
+		</script>
+	</head>
+	<body onload="load()" style="width:190px">
+		<div id="external-extension-request">
+
+		</div>
+		<div id="removePageAction">
+			FlashBlock will continue to work, only the icon will be removed from the address bar<br>
+			<div style="float:left;margin-top:6px;">
+				<span style="color:#d71338;padding-top:5px;padding-right:10px;">Are you sure?</span>
+				<input type='button' style="height:20px;font-size:12px;vertical-align:middle" value="Yes" onclick="hidePageAction()">
+				<input type='button' style="height:20px;font-size:12px;vertical-align:middle" value="No" onclick="window.close()">
+			</div>
+			<div style="float:left;margin-top:6px;">
+				<div style="float:left;">
+					<input type='checkbox' onclick="askBeforeHidePageAction=!this.checked" style="float:left;height:20px;margin:0px;margin-right:7px;font-size:12px;vertical-align:middle">
+					<div style="float:left;margin-top:2px;">
+						Do not ask next time
+					</div>
+				</div>
+				<div style="float:left;margin-top:5px;">
+					<span style="width:100%;text-align:justify">
+						To show the icon again go to:<br>
+						Tools > Extensions > FlashBlock > Options
+					</span>
+				</div>
+			</div>
+			</center>
+		</div>
+
+		<div id="menu">
+			<div id='allowOrBlock' class="row" onclick="allowOrBlock()"></div>
+			<div id="separator"></div>
+			<div id="options" class="row"onclick="options()">Options...</div>
+			<div onclick="popupHidePageAction()" class="row">Hide icon...</div>
+			<div id="toggleEnable" class="row" onclick="toggleEnable()"></div>			
+		</div>
+	</body>
+</html>

@@ -1,0 +1,97 @@
+<? if (parameters.toggledOff) {?><? DIE ?><? } ?>
+<?
+	var social = parameters.social;
+	var blocked = parameters.blocked;
+	var firstPartySocial = parameters.firstPartySocial;
+	var msg = parameters.abineMessage;
+
+	var domain = parameters.domain;
+	var currentSocialCount = parameters.currentSocialCount;
+
+    var textColor = controller.getTextColor(blocked, social);
+
+    var socialImg = controller.getSocialImage(blocked, social);
+
+    var noSocial = false;
+?>
+<div class="block" id="socialBlock">
+	<div class="header clearfix <?=social.length == 0&&!firstPartySocial?'empty':''?>" id="socialTop">
+		<div class=title id="DNTPsocialText">
+			<? if (social.length > 0) {?>
+				<?=_("dntp.socialtracking", social.length, _(DNTP.plural("dntp.count.socialbutton", social.length)))?>
+				<span id=DNTPsocialTextColor class=count style="color:<?=textColor?>">
+                   <?=parameters.socialBlocked?> <?=_(DNTP.plural("dntp.Mblocked", parameters.socialBlocked))?>
+				</span>
+                <? controller.observe('socialTop', 'click', controller.bind(controller.toggleBlock, 'DNTPsocial')); ?>
+			<? } else {?>
+				<? if (firstPartySocial) {?>
+					<?=DNTP.socialMap[parameters.domain].name?> <?=_("dntp.tracksacross")?>
+					<? controller.observe('socialTop', 'click', controller.bind(controller.toggleBlock, 'DNTPsocial')); ?>
+				<? } else { noSocial = true; ?>
+					<?=_("dntp.nosocial")?>
+				<? }?>
+			<? }?>
+		</div>
+		<img src="<?=DNTP.getImageUrl(socialImg)?>" id="DNTPsocialIcon"  height="36px" width="36px" /></div>
+        <? if (!noSocial) {?>
+        <div id="DNTPsocial" style="<?=(firstPartySocial||msg)?'':'display:none;'?>
+                        max-height:150px;overflow:hidden;" class="cb clearfix">
+
+	        <? if (firstPartySocial) { msg = null; ?>
+                <div style="padding:5px;" class=clearfix>
+		        <span style='font-weight:normal;'><?=DNTP.socialMap[domain].name + " "+_("dntp.oneofseveral")?></span>
+                <? if (currentSocialCount > 0) {?>
+                <br/><br/>
+                <div style='float:left;'>
+			        <img src='<?=DNTP.getImageUrl(DNTP.socialMap[domain].favicon)?>'
+		                                      style='height:24px;width:24px;float:left;margin-right:4px;' />
+		        </div>
+	            <div style='float:left;font-size:1.6em;margin-right:5px;color:green;font-weight:normal !important;'>
+		            <?=currentSocialCount?>
+	            </div>
+	            <div style='float:left;display:inline;width:250px;font-weight:normal;'>
+		            <?=_("firstparty.youblocked",DNTP.socialMap[domain].name, currentSocialCount, _(DNTP.plural('dntp.othersite', currentSocialCount))) ?>
+	            </div>
+                <div style='clear:both;'></div>
+                <? } ?>
+                </div>
+	        <? } ?>
+
+	        <? if (msg) {?><div id='msgBorder' style='padding:4px;border:2px solid orange;position:relative'><?}?>
+
+	        <ul id='DNTPsocialList'>
+		        <? for (var ruleName in social) {
+		            if (ruleName == "length") continue;
+		            var nospace = ruleName.replace(" ", "");
+
+		            var rec = (social[ruleName] == 2)?".recommended":"";
+		            var cls = (social[ruleName] == 2)?"suggested":"";
+
+                    controller.observe(nospace, 'click', controller.bind(controller.toggleTracker, ruleName, true));
+		        ?>
+                <li id="<?=nospace?>"
+                     class="tracker clearfix <? if (ruleName in blocked) {?>on<?}else{?>off<?}?>">
+                    <div class="fl name"><?=ruleName?></div>
+                    <div class="fr onMsg <?=cls?>"><?=_("dntp.capblockedhere"+rec)?></div>
+                    <div class="fr offMsg <?=cls?>"><?=_("dntp.notblockedhere"+rec)?></div>
+                    <div class="fr button" style="background-image: url(<?=DNTP.getImageUrl('on-off.png')?>);">
+                        <img class=skip src="<?=DNTP.getImageUrl('on-off-knob.png')?>"/>
+                    </div>
+                </li>
+		        <? } ?>
+		        <? if (social.length > 0) {?>
+		        <li class=nohover>
+			        <a class=externalLink href='<?=DNTP.getLinkUrl('how-social')?>'
+			           style='float:left;padding-top:5px;' target='_blank'>
+			            <?=_("dntp.stillwork")?>
+			        </a>
+		        </li>
+		        <? } ?>
+		    </ul>
+
+	        <? if (msg) {?><br style='clear:both;'/><span id=abineMsg><?=msg?></span></div><? } ?>
+
+	    </div>
+        <? } ?>
+	</div>
+</div>

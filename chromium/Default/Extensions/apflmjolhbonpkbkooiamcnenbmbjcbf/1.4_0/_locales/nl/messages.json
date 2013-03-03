@@ -1,0 +1,52 @@
+{
+   "chrome_extension_description": {
+      "message": "Hierin wordt het aantal ongelezen items in uw Google Reader-account weergegeven. Wanneer u hierop klikt, kan er een pop-upvenster met een voorbeeld worden weergegeven of kan uw Reader-account worden geopend."
+   },
+   "chrome_extension_name": {
+      "message": "Google Reader Notifier (van Google)"
+   },
+   "clickaction": {
+      "message": "Na klik:"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "intervaltext": {
+      "message": "Interval voor bijwerken:"
+   },
+   "loadingtext": {
+      "message": "Laden..."
+   },
+   "minutes": {
+      "message": "$1 minuten",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "nosummary": {
+      "message": "Geen overzicht"
+   },
+   "openreaderlink": {
+      "message": "Google Reader openen"
+   },
+   "refreshlink": {
+      "message": "Vernieuwen"
+   },
+   "savebutton": {
+      "message": "Opslaan"
+   },
+   "savedmessage": {
+      "message": "Opgeslagen"
+   },
+   "showmodule": {
+      "message": "Pop-upvenster weergeven"
+   },
+   "showreader": {
+      "message": "Google Reader openen"
+   },
+   "title": {
+      "message": "Opties voor Google Reader Notifier"
+   }
+}

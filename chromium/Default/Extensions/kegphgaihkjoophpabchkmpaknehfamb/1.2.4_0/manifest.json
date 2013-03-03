@@ -1,0 +1,25 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "jquery.js", "content.js" ],
+      "matches": [ "\u003Call_urls\u003E" ]
+   } ],
+   "description": "During checkout it will remind, show, and automatically enter coupon codes for you with a single click.",
+   "homepage_url": "http://couponfollow.com/checkout",
+   "icons": {
+      "128": "images/catc128.png",
+      "16": "images/catc16.png",
+      "48": "images/catc.png",
+      "64": "images/catc64.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCsOcwqlL4TlbCLW89Qzm+acuYhmmpwn8j9b94LbnqlezJh6fUu8QweFNUGguhifwGrGaA+4V6AL1E8pioHMCCCEl2nX2HQ0myI3+RtikXl4JPxaTPERvTV4s8xh0atH8FvfqgMjAdO+ZVPeWvbl06gmIGmMB9kabyeB3H1IzKpRwIDAQAB",
+   "manifest_version": 2,
+   "name": "Coupons at Checkout",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "\u003Call_urls\u003E" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.2.4"
+}

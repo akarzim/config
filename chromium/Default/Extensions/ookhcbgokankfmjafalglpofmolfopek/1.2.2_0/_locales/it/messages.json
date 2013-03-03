@@ -1,0 +1,62 @@
+{
+   "days": {
+      "message": "$1 g",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "description": {
+      "message": "Usa uno dei tuoi calendari per controllare rapidamente quanto manca alla prossima riunione. Fai clic sul pulsante per accedere al calendario."
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "extensionname": {
+      "message": "Google Calendar Checker"
+   },
+   "hours": {
+      "message": "$1 h",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "imagetooltip": {
+      "message": "Google Calendar"
+   },
+   "minutes": {
+      "message": "$1 m",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "multicalendartext": {
+      "message": "Supporto di pi\u00F9 calendari"
+   },
+   "multicalendartooltip": {
+      "message": "Seleziona la casella per attivare il supporto di pi\u00F9 calendari"
+   },
+   "name": {
+      "message": "Google Calendar Checker (di Google)"
+   },
+   "notitle": {
+      "message": "(Nessun titolo)"
+   },
+   "optionstitle": {
+      "message": "Google Calendar Checker"
+   },
+   "status_saved": {
+      "message": "Impostazioni salvate."
+   },
+   "status_saving": {
+      "message": "Salvataggio in corso..."
+   },
+   "title": {
+      "message": "Google Calendar Checker"
+   }
+}

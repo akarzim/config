@@ -1,0 +1,25 @@
+{
+   "background": {
+      "scripts": [ "prefs.js", "closure.js", "util.js", "main.js", "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icon-signed-out.png",
+      "default_popup": "module.html",
+      "default_title": "__MSG_title__"
+   },
+   "default_locale": "en",
+   "description": "__MSG_chrome_extension_description__",
+   "icons": {
+      "128": "icon-128.png",
+      "16": "icon-16.png",
+      "32": "icon-32.png",
+      "64": "icon-64.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC5cK3ybDkh173plsjDXoqUzvsjFRMtbc5+a8HR6dxYBETeXQ7GOR5/xYnsY2R4smo5ly4yUK69iF7rnPNH+X97K7e7JFbuH5W/ZRc8YaIG66oJ9JwKZagSOZasSJPWNz4f1GdaHD1Z4KRucvOYxsaPVdwS2W3nbG6i3oQFaio+JQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_chrome_extension_name__",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "http://www.google.com/", "https://www.google.com/" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.4"
+}

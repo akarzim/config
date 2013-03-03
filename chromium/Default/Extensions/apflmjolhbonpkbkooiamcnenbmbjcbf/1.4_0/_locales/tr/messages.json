@@ -1,0 +1,52 @@
+{
+   "chrome_extension_description": {
+      "message": "Google Reader hesab\u0131n\u0131zdaki okunmam\u0131\u015F \u00F6\u011Fe say\u0131s\u0131n\u0131 g\u00F6sterir. T\u0131kland\u0131\u011F\u0131nda \u00F6nizleme pop-up penceresi g\u00F6sterilebilir veya Reader hesab\u0131n\u0131z a\u00E7\u0131labilir."
+   },
+   "chrome_extension_name": {
+      "message": "Google Reader Notifier (Google'dan)"
+   },
+   "clickaction": {
+      "message": "T\u0131kland\u0131\u011F\u0131nda:"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "intervaltext": {
+      "message": "G\u00FCncellenme aral\u0131\u011F\u0131:"
+   },
+   "loadingtext": {
+      "message": "Y\u00FCkleniyor..."
+   },
+   "minutes": {
+      "message": "$1 dakika",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "nosummary": {
+      "message": "\u00D6zet Yok"
+   },
+   "openreaderlink": {
+      "message": "Google Reader'\u0131 a\u00E7"
+   },
+   "refreshlink": {
+      "message": "Yenile"
+   },
+   "savebutton": {
+      "message": "Kaydet"
+   },
+   "savedmessage": {
+      "message": "Kaydedilen"
+   },
+   "showmodule": {
+      "message": "Pop-up g\u00F6ster"
+   },
+   "showreader": {
+      "message": "Google Reader'\u0131 a\u00E7"
+   },
+   "title": {
+      "message": "Google Reader Notifier Se\u00E7enekleri"
+   }
+}

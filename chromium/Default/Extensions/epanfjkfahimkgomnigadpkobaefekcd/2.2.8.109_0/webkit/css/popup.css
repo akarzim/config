@@ -1,0 +1,11 @@
+#thePopup {
+    position: static;
+    top: auto;
+    left: auto;
+}
+
+#DNTPdntSignalDisplay {display:none;}
+
+#DNTPclosePopup a {
+    left: 0px;
+}

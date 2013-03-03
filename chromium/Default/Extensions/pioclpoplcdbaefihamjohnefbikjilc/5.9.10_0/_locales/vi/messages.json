@@ -1,0 +1,1070 @@
+{
+   "April": {
+      "message": "Th\u00E1ng 4"
+   },
+   "Aug": {
+      "message": "Th\u00E1ng 8"
+   },
+   "BrowserActionTitle": {
+      "description": "Title for the browser action that's visible to the user of extension",
+      "message": "T\u1EA1o clip v\u00E0o Evernote"
+   },
+   "Close": {
+      "description": "The string that shows up on a button used to close a window.",
+      "message": "\u0110\u00F3ng"
+   },
+   "Dec": {
+      "message": "Th\u00E1ng 12"
+   },
+   "EDAMError_1": {
+      "description": "Used to describe an unknown EDAM error",
+      "message": "L\u1ED7i kh\u00F4ng r\u00F5"
+   },
+   "EDAMError_1_notebookGuid": {
+      "description": "Error message indicating unknown notebook",
+      "message": "Kh\u00F4ng bi\u1EBFt s\u1ED5 tay"
+   },
+   "EDAMError_3": {
+      "description": "Indicates that permission was denied for request by the server",
+      "message": "C\u1EA5p ph\u00E9p b\u1ECB t\u1EEB ch\u1ED1i"
+   },
+   "EDAMError_3_User_active": {
+      "description": "Indicates that a user tried to login but their account is inactive",
+      "message": "C\u1EA5p ph\u00E9p b\u1ECB t\u1EEB ch\u1ED1i do ng\u01B0\u1EDDi d\u00F9ng kh\u00F4ng hi\u1EC7n ho\u1EA1t"
+   },
+   "EDAMError_3_User_tooManyFailuresTryAgainLater": {
+      "description": "Indicates that a user tried to login way too many times with invalid credentials and needs to chill for a bit",
+      "message": "Qu\u00E1 nhi\u1EC1u l\u1EA7n c\u1ED1 \u0111\u0103ng nh\u1EADp th\u1EA5t b\u1EA1i. Vui l\u00F2ng th\u1EED l\u1EA1i sau."
+   },
+   "Error_HTTP_Transport": {
+      "description": "Generic error indicating that the extension could not get a response from a server",
+      "message": "V\u1EA5n \u0111\u1EC1 v\u1EC1 li\u00EAn l\u1EA1c v\u1EDBi h\u1EC7 ph\u1EE5c v\u1EE5 [$status$]. $errorText$",
+      "placeholders": {
+         "errorText": {
+            "content": "$2",
+            "example": "http error response"
+         },
+         "status": {
+            "content": "HTTP $1",
+            "example": "404"
+         }
+      }
+   },
+   "Error_Network_Unavailable": {
+      "description": "error message shown when we can't connect to the internet.",
+      "message": "Kh\u00F4ng c\u00F3 K\u1EBFt n\u1ED1i Internet"
+   },
+   "ExtensionDescription": {
+      "description": "Description of the extension as it's visible to the outside world",
+      "message": "S\u1EED d\u1EE5ng ph\u1EA7n m\u1EDF r\u1ED9ng Evernote \u0111\u1EC3 l\u01B0u nh\u1EEFng g\u00EC b\u1EA1n th\u1EA5y tr\u00EAn web v\u00E0o tr\u01B0\u01A1ng m\u1EE5c Evernote c\u1EE7a b\u1EA1n. N\u00F3 th\u1EADm ch\u00ED c\u00F2n \u0111\u1EC3 b\u1EA1n t\u00ECm ki\u1EBFm trong c\u00E1c ghi ch\u00FA c\u1EE7a b\u1EA1n."
+   },
+   "ExtensionName": {
+      "description": "Name of the extension as it's visible to the outside world",
+      "message": "Evernote Web Clipper"
+   },
+   "Feb": {
+      "message": "Th\u00E1ng 2"
+   },
+   "Friday": {
+      "message": "Th\u1EE9 S\u00E1u"
+   },
+   "Jan": {
+      "message": "Th\u00E1ng 1"
+   },
+   "July": {
+      "message": "Th\u00E1ng 7"
+   },
+   "June": {
+      "message": "Th\u00E1ng 6"
+   },
+   "March": {
+      "message": "Th\u00E1ng 3"
+   },
+   "May": {
+      "message": "Th\u00E1ng 5"
+   },
+   "Monday": {
+      "message": "Th\u1EE9 Hai"
+   },
+   "Nov": {
+      "message": "Th\u00E1ng 11"
+   },
+   "Oct": {
+      "message": "Th\u00E1ng 10"
+   },
+   "Saturday": {
+      "message": "Th\u1EE9 B\u1EA3y"
+   },
+   "Sept": {
+      "message": "Th\u00E1ng Ch\u00EDn"
+   },
+   "Sunday": {
+      "message": "Ch\u1EE7 Nh\u1EADt"
+   },
+   "Thursday": {
+      "message": "Th\u1EE9 N\u0103m"
+   },
+   "Today": {
+      "message": "H\u00F4m nay"
+   },
+   "Tuesday": {
+      "message": "Th\u1EE9 Ba"
+   },
+   "Wednesday": {
+      "message": "Th\u1EE9 T\u01B0"
+   },
+   "accountChangedTo": {
+      "description": "message notifying the user that he's switched to a different account.",
+      "message": "Hi\u1EC7n \u0111ang d\u00F9ng tr\u01B0\u01A1ng m\u1EE5c $name$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "addAnotherAccount": {
+      "description": "Label to click when a user wants to log in with multiple accounts.",
+      "message": "Th\u00EAm tr\u01B0\u01A1ng m\u1EE5c kh\u00E1c..."
+   },
+   "articleClipFailure": {
+      "description": "Messages shown to user when the article of the page isn't clippable.",
+      "message": "R\u1EA5t ti\u1EBFc, Evernote kh\u00F4ng th\u1EC3 t\u1EA1o clip trang n\u00E0y nh\u01B0 m\u1ED9t b\u00E0i vi\u1EBFt. Vui l\u00F2ng ch\u1ECDn ph\u1EA7n b\u1EA1n mu\u1ED1n t\u1EA1o clip."
+   },
+   "authPersistenceError": {
+      "description": "Error indicating that the browser fails to persist authentication.",
+      "message": "C\u00E1c thi\u1EBFt \u0111\u1EB7t s\u1EDF th\u00EDch c\u1EE7a b\u1EA1n xung \u0111\u1ED9t v\u1EDBi ph\u1EA7n m\u1EDF r\u1ED9ng Evernote. Th\u1EED kh\u00F4i ph\u1EE5c c\u00E1c thi\u1EBFt \u0111\u1EB7t N\u1ED9i dung Ri\u00EAng c\u1EE7a Chrome v\u1EC1 m\u1EB7c \u0111\u1ECBnh: Cho ph\u00E9p d\u1EEF li\u1EC7u c\u1EE5c b\u1ED9 \u0111\u01B0\u1EE3c \u0111\u1EB7t v\u00E0 KH\u00D4NG ch\u1EB7n c\u00E1c cookie c\u1EE7a h\u00E3ng th\u1EE9 ba. C\u00E2n nh\u1EAFc vi\u1EC7c v\u00F4 hi\u1EC7u ph\u1EA7n m\u1EDF r\u1ED9ng c\u1EE7a h\u00E3ng th\u1EE9 ba."
+   },
+   "bizNotebookOptionText": {
+      "description": "text that shows up in the dropdown list used to select another user's business notebook.",
+      "message": " (\u0111\u01B0\u1EE3c chia s\u1EBB b\u1EDFi $creator$)",
+      "placeholders": {
+         "creator": {
+            "content": "$1",
+            "example": "Connie Chan"
+         }
+      }
+   },
+   "bizNotebooksOptGroupTitle": {
+      "description": "text that appears above the list of business notebooks in the dropdown list of notebooks.",
+      "message": "S\u1ED5 tay c\u00F4ng vi\u1EC7c"
+   },
+   "cancelAddAnotherAccount": {
+      "description": "The text for the control that cancels adding a new acconut to switch to.",
+      "message": "Hu\u1EF7 b\u1ECF"
+   },
+   "cancelSwitchFree": {
+      "description": "Message on button to cancel switching to a different free account.",
+      "message": "Kh\u00F4ng, \u0111\u01B0a t\u00F4i tr\u1EDF l\u1EA1i"
+   },
+   "captcha_instruction": {
+      "description": "Instruction for captcha in the registration form.",
+      "message": "Nh\u1EADp c\u00E1c s\u1ED1 d\u01B0\u1EDBi \u0111\u00E2y"
+   },
+   "checkVersionWarning": {
+      "description": "Warning message shown to user when the client doesn't pass version check",
+      "message": "Phi\u00EAn b\u1EA3n hi\u1EC7n t\u1EA1i c\u1EE7a Evernote Web Clipper kh\u00F4ng c\u00F2n t\u01B0\u01A1ng th\u00EDch v\u1EDBi d\u1ECBch v\u1EE5 Evernote. Xin vui l\u00F2ng c\u00E0i \u0111\u1EB7t phi\u00EAn b\u1EA3n m\u1EDBi nh\u1EA5t."
+   },
+   "clearFeatureDiscoveryTooltip": {
+      "description": "The message that pops up when you hover over the 'x' icon for the 'feature discovery' box.",
+      "message": "Kh\u00F4ng hi\u1EC7n l\u1EA1i th\u00F4ng b\u00E1o n\u00E0y"
+   },
+   "clearTagsToolTip": {
+      "description": "The message that pops up when you hover over the 'x' icon that displays beside the tag list.",
+      "message": "X\u00F3a m\u1ECDi th\u1EBB"
+   },
+   "clipsFromThisSite": {
+      "description": "Label for the site search button.",
+      "message": "C\u00E1c clip kh\u00E1c t\u1EEB $site$",
+      "placeholders": {
+         "site": {
+            "content": "$1",
+            "example": "71"
+         }
+      }
+   },
+   "contentPreview_clipArticle": {
+      "description": "Selection nudging legend for clipping article",
+      "message": "t\u1EA1o clip b\u00E0i vi\u1EBFt"
+   },
+   "contentPreview_expandSelection": {
+      "description": "Selection nudging legend for expanding selection",
+      "message": "m\u1EDF r\u1ED9ng v\u00F9ng ch\u1ECDn"
+   },
+   "contentPreview_moveSelection": {
+      "description": "Selection nudging legend for moving selection",
+      "message": "di chuy\u1EC3n v\u00F9ng ch\u1ECDn"
+   },
+   "contentPreview_shrinkSelection": {
+      "description": "Selection nudging legend for shrinking selection",
+      "message": "co v\u00F9ng ch\u1ECDn"
+   },
+   "contentclipper_clipping": {
+      "description": "Message shown on content pages to notify users that the page is being scraped for clipping.",
+      "message": "\u003Cb\u003E\u0110ang t\u1EA1o clip\u003C/b\u003E \u201C$clipTitle$\u201D",
+      "placeholders": {
+         "clipTitle": {
+            "content": "$1",
+            "example": "Sample clip title"
+         }
+      }
+   },
+   "contentclipper_clipping_no_title": {
+      "description": "Message shown on content pages to notify users that the page is being scraped for clipping when the title of the clip is unavailable.",
+      "message": "\u003Cb\u003E\u0110ang t\u1EA1o clip \u2026\u003C/b\u003E"
+   },
+   "contentclipper_syncing": {
+      "description": "Message shown on content pages to notify users that the page is being sent to the server.",
+      "message": "\u003Cb\u003E\u0110ang \u0111\u1ED3ng b\u1ED9\u003C/b\u003E \u201C$clipTitle$\u201D",
+      "placeholders": {
+         "clipTitle": {
+            "content": "$1",
+            "example": "Sample clip title"
+         }
+      }
+   },
+   "contextMenuClipImage": {
+      "description": "Context menu item for creating a new note with image",
+      "message": "T\u1EA1o clip \u1EA3nh"
+   },
+   "contextMenuClipPDF": {
+      "description": "Context menu item for creating a new note with PDF",
+      "message": "Clip PDF"
+   },
+   "contextMenuClipPage": {
+      "description": "Context menu item for clipping current page",
+      "message": "T\u1EA1o clip trang n\u00E0y"
+   },
+   "contextMenuClipSelection": {
+      "description": "Context menu item for clipping current selection",
+      "message": "T\u1EA1o clip v\u00F9ng ch\u1ECDn"
+   },
+   "contextMenuClipUrl": {
+      "description": "Context menu item for creating a new note with just the URL of the current page",
+      "message": "T\u1EA1o clip URL"
+   },
+   "contextMenuNewNote": {
+      "description": "Context menu item for creating new note",
+      "message": "Ghi ch\u00FA m\u1EDBi"
+   },
+   "contextMenuPleaseLogin": {
+      "description": "Help message shown to users when they try to clip content via contextual menu items but not being intially logged in",
+      "message": "B\u1EA1n ph\u1EA3i \u0111\u0103ng nh\u1EADp s\u1EED d\u1EE5ng n\u00FAt thanh c\u00F4ng c\u1EE5 T\u1EA1o clip v\u00E0o Evernote tr\u01B0\u1EDBc khi b\u1EA1n c\u00F3 th\u1EC3 t\u1EA1o c\u00E1c clip"
+   },
+   "copyright": {
+      "description": "Copyright statement",
+      "message": "B\u1EA3n quy\u1EC1n 2009-2013 c\u1EE7a T\u1EADp \u0111o\u00E0n Evernote. B\u1EA3o l\u01B0u m\u1ECDi quy\u1EC1n. \u003Ca href='$baseUrl$/privacy' target='_blank'\u003ECh\u00EDnh s\u00E1ch v\u1EC1 Quy\u1EC1n rieng t\u01B0\u003C/a\u003E | \u003Ca href='$baseUrl$/tos' target='_blank'\u003E\u0110i\u1EC1u kho\u1EA3n D\u1ECBch v\u1EE5\u003C/a\u003E | \u003Ca href='#' id='legalLink'\u003ETh\u00F4ng c\u00E1o Ph\u00E1p lu\u1EADt\u003C/a\u003E",
+      "placeholders": {
+         "baseUrl": {
+            "content": "$1",
+            "example": "https://www.evernote.com"
+         }
+      }
+   },
+   "deleting": {
+      "description": "Message indicating that the extension is deleting previously clipped note from the server",
+      "message": "\u0110ang x\u00F3a b\u1ECF ghi ch\u00FA \u0111\u00E3 \u0111\u01B0\u1EE3c t\u1EA1o clip..."
+   },
+   "desktopNotification_cancelFailedClip": {
+      "description": "Name of the action associated with cancelling the clip that failed to upload. Should be as short as possible",
+      "message": "Hu\u1EF7 b\u1ECF"
+   },
+   "desktopNotification_clipProcessorSignInMessage": {
+      "description": "Message shown to users inside desktop notification informing users that they clip could not be uploaded because they are not authenticated...",
+      "message": "X\u00E1c th\u1EF1c kh\u00F4ng h\u1EE3p l\u1EC7 ho\u1EB7c \u0111\u00E3 h\u1EBFt h\u1EA1n. Vui l\u00F2ng \u0111\u0103ng nh\u1EADp s\u1EED d\u1EE5ng n\u00FAt thanh c\u00F4ng c\u1EE5, r\u1ED3i th\u1EED l\u1EA1i."
+   },
+   "desktopNotification_clipProcessorSignInTitle": {
+      "description": "Title for desktop notification informing user that there was an error with uploading a clip. This should be as short as possible",
+      "message": "Kh\u00F4ng th\u1EC3 l\u01B0u \"$clipTitle$\"",
+      "placeholders": {
+         "clipTitle": {
+            "content": "$1",
+            "example": "Sample clip title"
+         }
+      }
+   },
+   "desktopNotification_clipProcessorTooManyRetries": {
+      "description": "Message indicating that we've tried too many times to clip this note.",
+      "message": "Clip \"$title$\" \u0111\u00E3 th\u1EA5t b\u1EA1i qu\u00E1 nhi\u1EC1u l\u1EA7n v\u00E0 kh\u00F4ng th\u1EC3 th\u1EED l\u1EA1i \u0111\u01B0\u1EE3c.",
+      "placeholders": {
+         "title": {
+            "content": "$1",
+            "example": "Title of the clip."
+         }
+      }
+   },
+   "desktopNotification_clipUploaded": {
+      "description": "Headline for desktop notification indicating that clip was successfully uploaded",
+      "message": "\u003Cb\u003E\u0110\u00E3 t\u1EA1o clip\u003C/b\u003E \u201C$clipTitle$\u201D",
+      "placeholders": {
+         "clipTitle": {
+            "content": "$1",
+            "example": "Sample clip title"
+         }
+      }
+   },
+   "desktopNotification_clipUploadedMessage": {
+      "description": "Message indicating that clip was successfully uploaded",
+      "message": "Clip \u0111\u00E3 \u0111\u01B0\u1EE3c t\u1EA3i l\u00EAn th\u00E0nh c\u00F4ng."
+   },
+   "desktopNotification_editSuccessClip": {
+      "description": "Name of the action associated with editing clipped note",
+      "message": "S\u1EEDa"
+   },
+   "desktopNotification_retryFailedClip": {
+      "description": "Name of the action associated with retrying the clip that failed to upload. Should be as short as possible",
+      "message": "Th\u1EED l\u1EA1i"
+   },
+   "desktopNotification_unableToSaveClip": {
+      "description": "Headline for desktop notifications indicating there was a problem with saving the clip",
+      "message": "Kh\u00F4ng th\u1EC3 l\u01B0u \"$clipTitle$\"",
+      "placeholders": {
+         "clipTitle": {
+            "content": "$1",
+            "example": "Sample clip title"
+         }
+      }
+   },
+   "desktopNotification_unableToSaveClipUnknown": {
+      "description": "Headline for desktop notification indicating that there was an unknown error while uploading a clip",
+      "message": "Kh\u00F4ng th\u1EC3 l\u01B0u clip"
+   },
+   "desktopNotification_unableToSaveClipUnknownMessage": {
+      "description": "Description of the unknown error that may occur after the extension failed to upload a clip",
+      "message": "\u0110\u00E3 x\u1EA3y ra l\u1ED7i ko bi\u1EBFt trong khi \u0111ang c\u1ED1 l\u01B0u m\u1ED9t trong c\u00E1c clip c\u1EE7a b\u1EA1n. Th\u00F4ng b\u00E1o L\u1ED7i: $details$",
+      "placeholders": {
+         "details": {
+            "content": "$1",
+            "example": "Error 503"
+         }
+      }
+   },
+   "desktopNotification_viewSuccessClip": {
+      "description": "Name of the actions associated with viewing clipped note",
+      "message": "Xem"
+   },
+   "dismiss": {
+      "description": "Message shown on buttons to dismiss a widget of some kind",
+      "message": "B\u1ECF"
+   },
+   "email": {
+      "description": "Label for email field of registration form",
+      "message": "\u0110\u1ECBa ch\u1EC9 th\u01B0 \u0111i\u1EC7n t\u1EED"
+   },
+   "filing": {
+      "description": "Message indicating that the extension is filing changes made to previously clipped note on the server",
+      "message": "\u0110ang x\u1EBFp ghi ch\u00FA..."
+   },
+   "freeAccountLimit": {
+      "description": "",
+      "message": "B\u1EA1n \u0111\u00E3 \u0111\u0103ng nh\u1EADp v\u00E0o m\u1ED9t tr\u01B0\u01A1ng m\u1EE5c mi\u1EC5n ph\u00ED, \u003Cb\u003E$name$\u003C/b\u003E. B\u1EA1n c\u00F3 th\u1EC3 chuy\u1EC3n gi\u1EEFa nhi\u1EC1u tr\u01B0\u01A1ng m\u1EE5c th\u01B0\u1EDFng, nh\u01B0ng ch\u1EC9 m\u1ED9t tr\u01B0\u01A1ng m\u1EE5c mi\u1EC5n ph\u00ED. B\u1EA1n c\u00F3 mu\u1ED1n d\u00F9ng tr\u01B0\u01A1ng m\u1EE5c mi\u1EC5n ph\u00ED n\u00E0y thay cho kh\u00F4ng?",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "fullPageClipFailure": {
+      "description": "Message shown to user when full page clip wasn't possible",
+      "message": "R\u1EA5t ti\u1EBFc, Evernote kh\u00F4ng th\u1EC3 t\u1EA1o clip to\u00E0n b\u1ED9 trang n\u00E0y. Vui l\u00F2ng ch\u1ECDn ph\u1EA7n b\u1EA1n mu\u1ED1n t\u1EA1o clip."
+   },
+   "getEvernoteFood": {
+      "description": "First part of the text for the Evernote Food cross promotion that appears in the clip result notification",
+      "message": "L\u1EA5y Evernote Food"
+   },
+   "header_register": {
+      "description": "Registration link in header",
+      "message": "T\u1EA1o m\u1ED9t tr\u01B0\u01A1ng m\u1EE5c Evernote"
+   },
+   "hideRelatedNotes": {
+      "description": "text for the link in the 'related notes' overlay that will hide this section.",
+      "message": "\u1EA8n Ghi ch\u00FA Li\u00EAn quan"
+   },
+   "illegalUrlClipFailure": {
+      "description": "Error message shown when you try to clip from pages that aren't scriptable by the browser. Such as the chrome gallery pages.",
+      "message": "Cho c\u00E1c h\u1EA1n ch\u1EBF \u0111\u01B0\u1EE3c \u0111\u1EB7t b\u1EDFi tr\u00ECnh duy\u1EC7t, b\u1EA1n kh\u00F4ng th\u1EC3 t\u1EA1o clip trang n\u00E0y"
+   },
+   "legalNoticesTitle": {
+      "description": "the title of the legal notices dialog in the options page where we list the licenses of all third party packages we use",
+      "message": "Web Clipper s\u1EED d\u1EE5ng ph\u1EA7n m\u1EC1m ngu\u1ED3n m\u1EDF sau"
+   },
+   "linkedNotebookOptionText": {
+      "description": "Text that shows up inside the dropdown list used to select another user's shared notebook.",
+      "message": "$notebookName$ (s\u1EDF h\u1EEFu b\u1EDFi $owner$)",
+      "placeholders": {
+         "notebookName": {
+            "content": "$1",
+            "example": "recipes"
+         },
+         "owner": {
+            "content": "$2",
+            "example": "tylerkaraszewski"
+         }
+      }
+   },
+   "linkedNotebooksOptGroupTitle": {
+      "description": "the text that apeears above the list of linked notebooks in the dropdown list of notebooks.",
+      "message": "S\u1ED5 tay Chia s\u1EBB"
+   },
+   "loading": {
+      "description": "Message shown when extension is loading...",
+      "message": "\u0110ang n\u1EA1p..."
+   },
+   "loggingIn": {
+      "description": "Message indicating that the extension is currently attempting to sign in user",
+      "message": "\u0110ang \u0111\u0103ng nh\u1EADp v\u00E0o Evernote"
+   },
+   "loginForm_login": {
+      "description": "Sign in button label for login form",
+      "message": "\u0110\u0103ng nh\u1EADp"
+   },
+   "loginForm_password": {
+      "description": "Label for entering password into login form",
+      "message": "M\u1EADt kh\u1EA9u"
+   },
+   "loginForm_passwordError_5": {
+      "description": "",
+      "message": "M\u1EADt kh\u1EA9u l\u00E0 b\u1EAFt bu\u1ED9c."
+   },
+   "loginForm_passwordInvalidError": {
+      "description": "",
+      "message": "M\u1EADt kh\u1EA9u Kh\u00F4ng h\u1EE3p l\u1EC7"
+   },
+   "loginForm_rememberMe": {
+      "description": "Label for extending login session",
+      "message": "Nh\u1EDB t\u00F4i"
+   },
+   "loginForm_searchHelper": {
+      "description": "Label for search helper option on the login view",
+      "message": "Hi\u1EC7n c\u00E1c K\u1EBFt qu\u1EA3 Li\u00EAn quan khi b\u1EA1n t\u00ECm ki\u1EBFm tr\u00EAn web"
+   },
+   "loginForm_username": {
+      "description": "Label for entering email address or username into login form",
+      "message": "\u0110\u1ECBa ch\u1EC9 th\u01B0 \u0111i\u1EC7n t\u1EED ho\u1EB7c t\u00EAn ng\u01B0\u1EDDi d\u00F9ng"
+   },
+   "loginForm_usernameError_5": {
+      "description": "",
+      "message": "T\u00EAn ng\u01B0\u1EDDi d\u00F9ng l\u00E0 b\u1EAFt bu\u1ED9c."
+   },
+   "loginForm_usernameError_8": {
+      "description": "",
+      "message": "T\u00EAn ng\u01B0\u1EDDi d\u00F9ng v\u00E0 m\u1EADt kh\u1EA9u kh\u00F4ng kh\u1EDBp v\u1EDBi ng\u01B0\u1EDDi d\u00F9ng hi\u1EC7n c\u00F3."
+   },
+   "loginForm_usernameInvalidChinaError": {
+      "description": "",
+      "message": "\u0110\u0103ng nh\u1EADp kh\u00F4ng bi\u1EBFt ho\u1EB7c th\u1EED Evernote Qu\u1ED1c t\u1EBF"
+   },
+   "loginForm_usernameInvalidError": {
+      "description": "",
+      "message": "Kh\u00F4ng c\u00F3 ng\u01B0\u1EDDi d\u00F9ng n\u00E0o c\u00F3 t\u00EAn \u0111\u00F3."
+   },
+   "login_searchHelperLongDescription": {
+      "description": "Description of the search-helper feature as shown on the options page",
+      "message": "Khi \u0111\u01B0\u1EE3c hi\u1EC7u l\u1EF1c h\u00F3a, c\u00E1c t\u00ECm ki\u1EBFm c\u1EE7a b\u1EA1n tr\u00EAn c\u00E1c m\u00F4-t\u01A1 t\u00ECm ki\u1EBFm \u0111\u01B0\u1EE3c h\u1ED7 tr\u1EE3 c\u0169ng s\u1EBD \u0111\u01B0\u1EE3c th\u1EF1c hi\u1EC7n tr\u00EAn tr\u01B0\u01A1ng m\u1EE5c Evernote c\u1EE7a b\u1EA1n. C\u00E1c m\u00F4-t\u01A1 t\u00ECm ki\u1EBFm \u0111\u01B0\u1EE3c h\u1ED7 tr\u1EE3 l\u00E0: Google, Bing, Yahoo, Yandex, Baidu, Daum v\u00E0 Naver."
+   },
+   "logs_export": {
+      "description": "Title of the button for exporting all of the logs",
+      "message": "Xu\u1EA5t chuy\u1EC3n S\u1ED5 ghi"
+   },
+   "logs_follow": {
+      "description": "Label for an option to trail the logfile",
+      "message": "Theo"
+   },
+   "logs_selectLogFile": {
+      "description": "Label for selecting log files for viewing",
+      "message": "Ch\u1ECDn t\u1EC7p k\u00FD s\u1EF1: "
+   },
+   "logs_title": {
+      "description": "The title of the logs page.",
+      "message": "S\u1ED5 ghi S\u1EF1 ki\u1EC7n"
+   },
+   "more": {
+      "description": "General purpose, capitalized word for More - as in - there's more to see/read etc.",
+      "message": "Nhi\u1EC1u h\u01A1n"
+   },
+   "newFeatureDescription": {
+      "description": "The popover description of for the Smart Filing feature, including a link to the options page.",
+      "message": "Web Clipper s\u1EBD g\u1EE3i \u00FD c\u00E1c th\u1EBB v\u00E0 s\u1ED5 tay d\u1EF1a tr\u00EAn n\u1ED9i dung c\u1EE7a clip. Qu\u1EA3n l\u00FD t\u00EDnh n\u0103ng n\u00E0y v\u00E0 c\u00E1c thi\u1EBFt \u0111\u1EB7t kh\u00E1c trong \u003Cspan class='newFeatureOptionsPseudoLink'\u003ET\u00F9y ch\u1ECDn\u003C/span\u003E Web Clipper."
+   },
+   "newFeatureTitle": {
+      "description": "The title for any new feature we're showcasing in the current release.",
+      "message": "X\u1EBFp Th\u00F4ng minh"
+   },
+   "noteSizeExceededFree": {
+      "description": "Error message shown to free users who try to clip something over the maximum note size",
+      "message": "Ch\u1EC9 nh\u1EEFng ng\u01B0\u1EDDi d\u00F9ng Evernote Th\u01B0\u1EDFng m\u1EDBi c\u00F3 th\u1EC3 t\u1EA1o clip c\u00E1c ghi ch\u00FA c\u00F3 k\u00EDch c\u1EE1 l\u1EDBn h\u01A1n 25mb. \u003Ca href='$baseUrl$/Checkout.action'\u003EN\u00E2ng c\u1EA5p l\u00EAn Th\u01B0\u1EDFng\u003C/a\u003E",
+      "placeholders": {
+         "baseUrl": {
+            "content": "$1",
+            "example": "http://www.evernote.com"
+         }
+      }
+   },
+   "noteSizeExceededPremium": {
+      "description": "Error message shown to premium users who try to clip something over the maximum note size",
+      "message": "K\u00EDch c\u1EE1 ghi ch\u00FA t\u1ED1i \u0111a l\u00E0 100mb, kh\u00F4ng th\u1EC3 t\u1EA1o ghi ch\u00FA"
+   },
+   "notification_quotaExceededFree": {
+      "description": "Indicates that free user has exceeded their quota",
+      "message": "B\u1EA1n kh\u00F4ng c\u00F3 \u0111\u1EE7 c\u1EA5p ph\u00E1t t\u1EA3i l\u00EAn \u0111\u1EC3 l\u01B0u clip n\u00E0y. \u003Ca href='$url$'\u003EN\u00E2ng c\u1EA5p l\u00EAn Th\u01B0\u1EDFng\u003C/a\u003E",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "https://www.evernote.com/Checkout.action"
+         }
+      }
+   },
+   "notification_quotaExceededPremium": {
+      "description": "Indicates that premium user has exceeded their quota",
+      "message": "B\u1EA1n kh\u00F4ng c\u00F3 \u0111\u1EE7 c\u1EA5p ph\u00E1t t\u1EA3i l\u00EAn \u0111\u1EC3 l\u01B0u clip n\u00E0y. \u003Ca href='$url$'\u003ET\u0103ng c\u1EA5p ph\u00E1t t\u1EA3i l\u00EAn\u003C/a\u003E",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "https://www.evernote.com/QuotaCheckout.action"
+         }
+      }
+   },
+   "options_buildId": {
+      "description": "The revison number of this build of the clipper, as pulled fro mSVN at the time the clipper was built.",
+      "message": "ID B\u1EA3n d\u1EF1ng:"
+   },
+   "options_client": {
+      "description": "Label for the dropdown menu in Options where user can choose what client s/he wants to open and edit notes in",
+      "message": "M\u1EDF ghi ch\u00FA trong"
+   },
+   "options_clientSelectionDescription": {
+      "description": "Description of the dropdown menu to select what client the user wants to open notes in. Only displayed when user selects the desktop client",
+      "message": "V\u00E0o l\u1EA7n \u0111\u1EA7u s\u1EED d\u1EE5ng thi\u1EBFt \u0111\u1EB7t n\u00E0y b\u1EA1n s\u1EBD th\u1EA5y m\u1ED9t h\u1ED9p tho\u1EA1i \u2018Y\u00EAu c\u1EA7u Giao th\u1EE9c Ngo\u00E0i\u2019. \u0110\u1EC3 c\u00F3 tr\u1EA3i nghi\u1EC7m t\u1ED1t nh\u1EA5t, ch\u1ECDn h\u1ED9p ki\u1EC3m \u2018Nh\u1EDB l\u1EF1a ch\u1ECDn c\u1EE7a t\u00F4i\u2019 v\u00E0 sau \u0111\u00F3 \u2018Kh\u1EDFi ch\u1EA1y \u1EE8ng d\u1EE5ng\u2019."
+   },
+   "options_client_desktop": {
+      "description": "Desktop client choice in the dropdown menu to select what client to open/edit a note in",
+      "message": "H\u1EC7 s\u1EED d\u1EE5ng m\u00E1y \u0111\u1EC3 b\u00E0n"
+   },
+   "options_client_web": {
+      "description": "Web client choice in the dropdown menu to select what client to open/edit a note in",
+      "message": "H\u1EC7 s\u1EED d\u1EE5ng Web"
+   },
+   "options_clipAction": {
+      "description": "Label for specifying default clipping action",
+      "message": "H\u00E0nh \u0111\u1ED9ng m\u1EB7c \u0111\u1ECBnh"
+   },
+   "options_clipAction_article": {
+      "description": "Label for article as the default clipping action",
+      "message": "T\u1EA1o clip b\u00E0i vi\u1EBFt"
+   },
+   "options_clipAction_fullPage": {
+      "description": "Label for full-page as the default clipping action",
+      "message": "T\u1EA1o clip c\u1EA3 trang"
+   },
+   "options_clipAction_url": {
+      "description": "Label for url as the default clipping action",
+      "message": "T\u1EA1o clip URL"
+   },
+   "options_clipNotificationEnabled": {
+      "description": "Label for option to enable notification about successful clips",
+      "message": "Hi\u1EC7u l\u1EF1c h\u00F3a th\u00F4ng b\u00E1o"
+   },
+   "options_clipNotificationEnabledDescription": {
+      "description": "Description of the notifications option",
+      "message": "Khi \u0111\u01B0\u1EE3c hi\u1EC7u l\u1EF1c h\u00F3a, b\u1EA1n s\u1EBD \u0111\u01B0\u1EE3c th\u00F4ng b\u00E1o b\u1EA5t c\u1EE9 khi n\u00E0o clip \u0111\u01B0\u1EE3c t\u1EA3i l\u00EAn. C\u00E1c th\u00F4ng b\u00E1o khi\u1EBFn b\u1EA1n d\u1EC5 d\u00E0ng xem, s\u1EEDa v\u00E0 chia s\u1EBB clip c\u1EE7a b\u1EA1n."
+   },
+   "options_clipStyle": {
+      "description": "Label for the option to keep the style of the page while clipping.",
+      "message": "Gi\u1EEF nguy\u00EAn Ki\u1EC3u"
+   },
+   "options_clipStyleDescription": {
+      "description": "Description for the option to preserve styles with clips.",
+      "message": "Khi \u0111\u01B0\u1EE3c hi\u1EC7u l\u1EF1c h\u00F3a, c\u00E1c clip s\u1EBD gi\u1EEF nguy\u00EAn th\u00F4ng tin v\u1EC1 ki\u1EC3u \u0111\u1EC3 tr\u00F4ng gi\u1ED1ng nh\u01B0 trang g\u1ED1c nh\u1EA5t c\u00F3 th\u1EC3. Khi b\u1ECB v\u00F4 hi\u1EC7u, c\u00E1c clip s\u1EBD mang ki\u1EC3u \u0111\u01A1n gi\u1EA3n v\u1EDBi thu\u1EA7n v\u0103n b\u1EA3n v\u00E0 kh\u00F4ng c\u00F3 trang tr\u00ED."
+   },
+   "options_developer_title": {
+      "description": "Title for developer options",
+      "message": "T\u00F9y ch\u1ECDn Nh\u00E0 ph\u00E1t tri\u1EC3n"
+   },
+   "options_eventLogDescription": {
+      "description": "Describes the purpose of the event logs link in the options page.",
+      "message": "N\u1EBFu b\u1EA1n li\u00EAn h\u1EC7 v\u1EDBi H\u1ED7 tr\u1EE3 c\u1EE7a Evernote, h\u1ECD c\u00F3 th\u1EC3 y\u00EAu c\u1EA7u b\u1EA1n cho xem c\u00E1c s\u1ED5 ghi n\u00E0y \u0111\u1EC3 gi\u00FAp ch\u1EA9n \u0111o\u00E1n v\u1EA5n \u0111\u1EC1."
+   },
+   "options_eventLogLink": {
+      "description": "the text for the link to the event logs page from the options page",
+      "message": "Xem S\u1ED5 ghi S\u1EF1 ki\u1EC7n"
+   },
+   "options_insecureProto": {
+      "description": "Label for specifying insecure protocol option.",
+      "message": "Giao th\u1EE9c kh\u00F4ng b\u1EA3o m\u1EADt"
+   },
+   "options_overrideServiceURL": {
+      "description": "Custom URL to use that will override both stage and production URLs.",
+      "message": "Ghi \u0111\u00E8 URL D\u1ECBch v\u1EE5"
+   },
+   "options_saving": {
+      "description": "Notifies the user that their changes to the options page are being saved",
+      "message": "\u0110ang l\u01B0u..."
+   },
+   "options_secureProto": {
+      "description": "Label specifying secure protocol option.",
+      "message": "Giao th\u1EE9c an to\u00E0n"
+   },
+   "options_selectionNudging": {
+      "description": "Label for selection nudging options",
+      "message": "V\u00F9ng ch\u1ECDn b\u00E0i vi\u1EBFt"
+   },
+   "options_selectionNudgingDescription": {
+      "description": "Description of selection nudging",
+      "message": "Khi \u0111\u01B0\u1EE3c l\u00E0m cho c\u00F3 hi\u1EC7u l\u1EF1c, b\u1EA1n c\u00F3 th\u1EC3 s\u1EEDa \u0111\u1ED5i v\u00F9ng ch\u1ECDn b\u00E0i vi\u1EBFt d\u00F9ng b\u00E0n ph\u00EDm c\u1EE7a b\u1EA1n tr\u01B0\u1EDBc khi t\u1EA1o clip. Hi\u1EC7u l\u1EF1c h\u00F3a v\u1EDBi t\u00F9y ch\u1ECDn &quot;kh\u00F4ng c\u00F3 m\u00E1ch n\u01B0\u1EDBc&quot; s\u1EBD ng\u0103n hi\u1EC3n th\u1ECB th\u00F4ng \u0111i\u1EC7p th\u00F4ng tin. Khi b\u1ECB v\u00F4 hi\u1EC7u - b\u1EA1n kh\u00F4ng th\u1EC3 \u0111i\u1EC1u ch\u1EC9nh v\u00F9ng ch\u1ECDn b\u00E0i vi\u1EBFt t\u1EF1 \u0111\u1ED9ng"
+   },
+   "options_selectionNudging_disabled": {
+      "description": "Label for disabled selection nudging",
+      "message": "B\u1ECB v\u00F4 hi\u1EC7u"
+   },
+   "options_selectionNudging_enabled": {
+      "description": "Label for enabled selection nudging",
+      "message": "C\u00F3 hi\u1EC7u l\u1EF1c"
+   },
+   "options_selectionNudging_enabledNoprompt": {
+      "description": "Label for enabled selection nudging, but without showing the hits",
+      "message": "C\u00F3 hi\u1EC7u l\u1EF1c (kh\u00F4ng c\u00F3 m\u00E1ch n\u01B0\u1EDBc)"
+   },
+   "options_simulateCheckVersionFailure": {
+      "description": "Label for developer option to simulate checkVersion failure",
+      "message": "M\u00F4 ph\u1ECFng checkVersion Th\u1EA5t b\u1EA1i"
+   },
+   "options_simulateSimplifiedChinese": {
+      "description": "Label for developer option to simulate checkVersion failure",
+      "message": "M\u00F4 ph\u1ECFng Ti\u1EBFng Trung Gi\u1EA3n th\u1EC3"
+   },
+   "options_simulateSimplifiedChineseDescription": {
+      "description": "Description for what it means to select this option",
+      "message": "Khi t\u00F9y ch\u1ECDn n\u00E0y \u0111\u01B0\u1EE3c hi\u1EC7u l\u1EF1c h\u00F3a, clipper s\u1EBD ng\u1EE5y t\u1EA1o l\u00E0 \u0111\u01B0\u1EE3c \u0111\u1EB7t l\u00E0 ng\u00F4n ng\u1EEF Ti\u1EBFng Hoa Gi\u1EA3n th\u1EC3 \u0111\u1EC3 ch\u1ECDn d\u1ECBch v\u1EE5 \u0111\u1EC3 k\u1EBFt n\u1ED1i t\u1EDBi."
+   },
+   "options_smartFilingBizDesc": {
+      "description": "Description of option to allow smart filing into business notebooks",
+      "message": "Cho ph\u00E9p X\u1EBFp Th\u00F4ng minh v\u00E0o S\u1ED5 tay Business"
+   },
+   "options_smartFilingEnabled": {
+      "description": "Label for option to enable automatic tagging and notebook selection for new notes.",
+      "message": "Hi\u1EC7u l\u1EF1c h\u00F3a X\u1EBFp Th\u00F4ng minh"
+   },
+   "options_smartFilingEnabledDescription": {
+      "description": "Description of the smart filing option",
+      "message": "X\u1EBFp Th\u00F4ng minh s\u1EBD t\u1EF1 \u0111\u1ED9ng ch\u1ECDn s\u1ED5 tay v\u00E0 danh s\u00E1ch c\u00E1c th\u1EBB \u0111\u1EC3 b\u1EA1n d\u1EF1a tr\u00EAn trang b\u1EA1n \u0111ang t\u1EA1o clip."
+   },
+   "options_smartFilingEnabled_all": {
+      "description": "",
+      "message": "Th\u1EBB v\u00E0 S\u1ED5 tay"
+   },
+   "options_smartFilingEnabled_none": {
+      "description": "",
+      "message": "V\u00F4 hi\u1EC7u X\u1EBFp Th\u00F4ng minh"
+   },
+   "options_smartFilingEnabled_notebooks": {
+      "description": "",
+      "message": "Ch\u1EC9 S\u1ED5 tay"
+   },
+   "options_smartFilingEnabled_tags": {
+      "description": "",
+      "message": "Ch\u1EC9 Th\u1EBB"
+   },
+   "options_storedCredentials": {
+      "description": "Label for a set of options controls enabling users to store their credentials",
+      "message": "Ch\u1EE9ng danh"
+   },
+   "options_storedCredentialsDescription": {
+      "description": "Educational message for users who wish to store their Evernote password. First sentence is the most critical one as it will be used in options_storedCredentialsShortDescription",
+      "message": "\u003Cb\u003EGHI CH\u00DA:\u003C/b\u003E Vi\u1EC7c c\u1EA5t gi\u1EEF m\u1EADt kh\u1EA9u c\u00F3 th\u1EC3 cho ph\u00E9p ng\u01B0\u1EDDi kh\u00E1c truy nh\u1EADp v\u00E0o tr\u01B0\u01A1ng m\u1EE5c Evernote c\u1EE7a b\u1EA1n khi s\u1EED d\u1EE5ng tr\u00ECnh duy\u1EC7t n\u00E0y. Lo\u1EA1i b\u1ECF ho\u1EB7c \u0111\u0103ng xu\u1EA5t kh\u1ECFi ph\u1EA7n m\u1EDF r\u1ED9ng T\u1EA1o clip v\u00E0o Evernote \u0111\u1EC3 v\u0129nh vi\u1EC5n lo\u1EA1i b\u1ECF t\u00EAn ng\u01B0\u1EDDi d\u00F9ng v\u00E0 m\u1EADt kh\u1EA9u \u0111\u01B0\u1EE3c c\u1EA5t gi\u1EEF trong ph\u1EA7n m\u1EDF r\u1ED9ng c\u1EE7a tr\u00ECnh duy\u1EC7t c\u1EE7a b\u1EA1n."
+   },
+   "options_title": {
+      "description": "Title of the options page",
+      "message": "T\u00F9y ch\u1ECDn"
+   },
+   "options_useContextMenu": {
+      "description": "Label for option to enable clipping via contextual menu",
+      "message": "Hi\u1EC7u l\u1EF1c h\u00F3a menu ng\u1EEF c\u1EA3nh"
+   },
+   "options_useContextMenuDescription": {
+      "description": "Description of the contextual menu option",
+      "message": "Khi \u0111\u01B0\u1EE3c hi\u1EC7u l\u1EF1c h\u00F3a, b\u1EA1n c\u00F3 th\u1EC3 t\u1EA1o clip trang web qua menu ng\u1EEF c\u1EA3nh. Vi\u1EC7c b\u1EA5m ph\u1EA3i chu\u1ED9t v\u00E0o h\u00ECnh \u1EA3nh, v\u0103n b\u1EA3n \u0111\u00E3 ch\u1ECDn ho\u1EB7c b\u1EA5t c\u1EE9 \u0111\u00E2u tr\u00EAn trang s\u1EBD hi\u1EC7n ra c\u00E1c t\u00F9y ch\u1ECDn t\u1EA1o clip th\u00EDch h\u1EE3p."
+   },
+   "options_useSearchHelper": {
+      "description": "Label for search-helper feature toggle",
+      "message": "C\u00E1c k\u1EBFt qu\u1EA3 Li\u00EAn quan"
+   },
+   "options_useSearchHelperDescription": {
+      "description": "Description of the search-helper feature as shown on the options page",
+      "message": "Khi \u0111\u01B0\u1EE3c hi\u1EC7u l\u1EF1c h\u00F3a, t\u00ECm ki\u1EBFm tr\u00EAn web v\u1EDBi c\u00E1c tr\u00ECnh duy\u1EC7t web \u0111\u01B0\u1EE3c h\u1ED7 tr\u1EE3 c\u0169ng s\u1EBD hi\u1EC3n th\u1ECB c\u00E1c k\u1EBFt qu\u1EA3 t\u1EEB tr\u01B0\u01A1ng m\u1EE5c Evernote c\u1EE7a b\u1EA1n."
+   },
+   "options_useStage": {
+      "description": "Label for developer option to simulate checkVersion failure",
+      "message": "D\u00F9ng Stage"
+   },
+   "options_useStageDescription": {
+      "description": "Description for what it means to select this option",
+      "message": "Ch\u1EC9 l\u1EC7nh cho clipper d\u00F9ng d\u1ECBch v\u1EE5 'stage' c\u00F3 s\u1EB5n c\u1EE7a d\u1ECBch v\u1EE5 s\u1EA3n ph\u1EA9m m\u00E0 th\u00F4ng th\u01B0\u1EDDng ch\u1EC9 d\u00E0nh cho m\u1EE5c \u0111\u00EDch ki\u1EC3m th\u1EED."
+   },
+   "pdfTip": {
+      "description": "Tooltip that appears on PDFs",
+      "message": "B\u1EA1n c\u00F3 bi\u1EBFt r\u1EB1ng b\u1EA1n c\u00F3 th\u1EC3 t\u1EA1o clip PDF tr\u1EF1c ti\u1EBFp v\u00E0o tr\u01B0\u01A1ng m\u1EE5c Evernote c\u1EE7a b\u1EA1n v\u1EDBi Web Clipper?"
+   },
+   "popup_couldntStart": {
+      "description": "Message that shows up when the clipper popup can't open.",
+      "message": "Clipper kh\u00F4ng th\u1EC3 kh\u1EDFi \u0111\u1ED9ng tr\u00EAn trang n\u00E0y. N\u1EA1p l\u1EA1i trang r\u1ED3i th\u1EED l\u1EA1i. N\u1EBFu vi\u1EC7c \u0111\u00F3 kh\u00F4ng gi\u00FAp g\u00EC \u0111\u01B0\u1EE3c, h\u00E3y li\u00EAn h\u1EC7 v\u1EDBi h\u1ED7 tr\u1EE3 kh\u00E1ch h\u00E0ng."
+   },
+   "popup_loadingNotebooks": {
+      "description": "Message shown while smart filing is running. Should *not* include trailing punctuation.",
+      "message": "\u0110ang n\u1EA1p S\u1ED5 tay..."
+   },
+   "popup_loginCheckTimeout": {
+      "description": "Message that displays if checking if the user is logged in takes too long.",
+      "message": "Vi\u1EC7c ki\u1EC3m tra ch\u1EE9ng danh di\u1EC5n ra qu\u00E1 l\u00E2u. B\u1EA3o \u0111\u1EA3m r\u1EB1ng b\u1EA1n \u0111\u00E3 k\u1EBFt n\u1ED1i t\u1EDBi internet r\u1ED3i th\u1EED l\u1EA1i."
+   },
+   "popup_moreNotesLink": {
+      "description": "Message showing how many more notes can be seen on the server.",
+      "message": "Xem $count$ ghi ch\u00FA n\u1EEFa\u2026",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "10"
+         }
+      }
+   },
+   "popup_oneMoreNoteLink": {
+      "description": "Message showing there is one more note on the server.",
+      "message": "Xem th\u00EAm m\u1ED9t ghi ch\u00FA\u2026"
+   },
+   "popup_unsupportedScheme": {
+      "description": "The error to display when the popup can't operate on a specific type of url.",
+      "message": "T\u1EA1o clip t\u1EEB v\u1ECB tr\u00ED n\u00E0y kh\u00F4ng \u0111\u01B0\u1EE3c h\u1ED7 tr\u1EE3."
+   },
+   "popup_waiting": {
+      "description": "Displays while the popup window waits for a page to finish loading.",
+      "message": "\u0110ang ch\u1EDD trang..."
+   },
+   "quickNote": {
+      "description": "Title for creating quick note",
+      "message": "Clip"
+   },
+   "quickNoteAction_clipArticle": {
+      "description": "Label for clipping article action",
+      "message": "L\u01B0u B\u00E0i vi\u1EBFt"
+   },
+   "quickNoteAction_clipFullPage": {
+      "description": "Label for clipping full page action",
+      "message": "L\u01B0u C\u1EA3 Trang"
+   },
+   "quickNoteAction_clipPDF": {
+      "description": "Label for clipping PDF action",
+      "message": "L\u01B0u PDF"
+   },
+   "quickNoteAction_clipSelection": {
+      "description": "Label for clipping selection action",
+      "message": "L\u01B0u L\u1EF1a ch\u1ECDn"
+   },
+   "quickNoteAction_clipUrl": {
+      "description": "Label for clipping URL action",
+      "message": "L\u01B0u URL"
+   },
+   "quickNote_addComment": {
+      "description": "Placeholder text for comment input",
+      "message": "Th\u00EAm ch\u00FA th\u00EDch"
+   },
+   "quickNote_addTags": {
+      "description": "Placeholder text for tag input",
+      "message": "Th\u00EAm th\u1EBB"
+   },
+   "quickNote_comment": {
+      "description": "Label for additional text to be added to the note",
+      "message": "Th\u00EAm v\u0103n b\u1EA3n"
+   },
+   "quickNote_notebook": {
+      "description": "Label for selection of note's notebook",
+      "message": "S\u1ED5 tay"
+   },
+   "quickNote_submit": {
+      "description": "Label for saving quick note",
+      "message": "L\u01B0u"
+   },
+   "quickNote_tagsDisabled": {
+      "description": "Message indicating that you can't use tags for shared notebooks.",
+      "message": "C\u00E1c th\u1EBB hi\u1EC7n th\u1EDDi kh\u00F4ng \u0111\u01B0\u1EE3c h\u1ED7 tr\u1EE3 cho c\u00E1c s\u1ED5 tay chia s\u1EBB."
+   },
+   "quickNote_title": {
+      "description": "Label for note title",
+      "message": "Ti\u00EAu \u0111\u1EC1"
+   },
+   "quickNote_untitledNote": {
+      "description": "Placeholder title for untitled note",
+      "message": "Ghi ch\u00FA ch\u01B0a c\u00F3 ti\u00EAu \u0111\u1EC1"
+   },
+   "regForm_cancel": {
+      "description": "Allows user to back out of registration when s/he's creating an account during account switching",
+      "message": "Hu\u1EF7 b\u1ECF"
+   },
+   "regForm_deactivated_username": {
+      "description": "User wanted to register with a deactivated username",
+      "message": "T\u00EAn ng\u01B0\u1EDDi d\u00F9ng \u0111\u00E3 b\u1ECB kh\u1EED ho\u1EA1t.  B\u1EA1n c\u00F3 mu\u1ED1n \u003Ca href='$url$'\u003Ek\u00EDch ho\u1EA1t l\u1EA1i\u003C/a\u003E tr\u01B0\u01A1ng m\u1EE5c kh\u00F4ng?",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "https://www.evernote.com/AccountReactivation.action"
+         }
+      }
+   },
+   "regForm_email_required": {
+      "description": "User didn't enter an email address",
+      "message": "\u0110\u1ECBa ch\u1EC9 th\u01B0 \u0111i\u1EC7n t\u1EED l\u00E0 tr\u01B0\u1EDDng b\u1EAFt bu\u1ED9c."
+   },
+   "regForm_goodUsername": {
+      "description": "The user entered a valid and available username into the registration form",
+      "message": "S\u1EB5n c\u00F3"
+   },
+   "regForm_invalid_captcha": {
+      "description": "User didn't fill out the captcha.",
+      "message": "G\u00F5 c\u00E1c k\u00FD t\u1EF1 b\u1EA1n th\u1EA5y trong h\u00ECnh \u1EA3nh d\u01B0\u1EDBi \u0111\u00E2y."
+   },
+   "regForm_invalid_email": {
+      "description": "User didn't enter a properly-formatted email address",
+      "message": "\u0110\u1ECBa ch\u1EC9 th\u01B0 \u0111i\u1EC7n t\u1EED c\u00F3 v\u1EBB kh\u00F4ng h\u1EE3p l\u1EC7."
+   },
+   "regForm_invalid_password": {
+      "description": "User entered an invalid password",
+      "message": "Ch\u1ECDn m\u1ED9t m\u1EADt kh\u1EA9u d\u00E0i 6-64 k\u00FD t\u1EF1, bao g\u1ED3m ch\u1EEF, s\u1ED1 v\u00E0 d\u1EA5u ch\u1EA5m."
+   },
+   "regForm_invalid_username": {
+      "description": "User entered an invalid username",
+      "message": "T\u00EAn ng\u01B0\u1EDDi d\u00F9ng ph\u1EA3i b\u1EAFt \u0111\u1EA7u v\u00E0 k\u1EBFt th\u00FAc v\u1EDBi m\u1ED9t ch\u1EEF ho\u1EB7c s\u1ED1, n\u00F3 c\u00F3 th\u1EC3 ch\u1EE9a d\u1EA5u g\u1EA1ch n\u1ED1i v\u00E0 g\u1EA1ch d\u01B0\u1EDBi."
+   },
+   "regForm_password_required": {
+      "description": "User didn't enter a password",
+      "message": "M\u1EADt kh\u1EA9u l\u00E0 tr\u01B0\u1EDDng b\u1EAFt bu\u1ED9c."
+   },
+   "regForm_taken_email": {
+      "description": "User entered a valid but unavailable email",
+      "message": "\u0110\u1ECBa ch\u1EC9 th\u01B0 \u0111i\u1EC7n t\u1EED n\u00E0y \u0111\u00E3 \u0111\u01B0\u1EE3c d\u00F9ng r\u1ED3i."
+   },
+   "regForm_taken_username": {
+      "description": "User entered a valid but unavailable username",
+      "message": "T\u00EAn ng\u01B0\u1EDDi d\u00F9ng b\u1EA1n ch\u1ECDn \u0111\u00E3 \u0111\u01B0\u1EE3c d\u00F9ng b\u1EDFi ng\u01B0\u1EDDi d\u00F9ng kh\u00E1c."
+   },
+   "register": {
+      "description": "Text on the submit button of the registration form",
+      "message": "\u0110\u0103ng k\u00FD"
+   },
+   "registrationForm_username": {
+      "description": "Text on the username field of the registration form",
+      "message": "T\u00EAn ng\u01B0\u1EDDi d\u00F9ng"
+   },
+   "registration_terms": {
+      "description": "Terms of Service and Privacy Policy agreement",
+      "message": "B\u1EB1ng vi\u1EC7c b\u1EA5m v\u00E0o \u0110\u0103ng k\u00FD, b\u1EA1n \u0111ang \u0111\u1ED3ng \u00FD v\u1EDBi \u003Ca href='$tos_url$'\u003E\u0110i\u1EC1u kho\u1EA3n D\u1ECBch v\u1EE5\u003C/a\u003E v\u00E0 \u003Ca href='$pp_url$'\u003ECh\u00EDnh s\u00E1ch v\u1EC1 Quy\u1EC1n ri\u00EAng t\u01B0\u003C/a\u003E c\u1EE7a ch\u00FAng t\u00F4i.",
+      "placeholders": {
+         "pp_url": {
+            "content": "$2",
+            "example": "http://www.evernote.com/privacy"
+         },
+         "tos_url": {
+            "content": "$1",
+            "example": "http://www.evernote.com/tos"
+         }
+      }
+   },
+   "relatedNotes": {
+      "description": "Label for the related notes button, and the title for the descriptive overlay.",
+      "message": "Ghi ch\u00FA Li\u00EAn quan"
+   },
+   "relatedNotesDescription": {
+      "description": "message describing what Related Notes do.",
+      "message": "Evernote t\u00ECm trong tr\u01B0\u01A1ng m\u1EE5c c\u1EE7a b\u1EA1n t\u1ED1i \u0111a ba ghi ch\u00FA li\u00EAn quan \u0111\u1EBFn trang m\u00E0 b\u1EA1n v\u1EEBa t\u1EA1o clip v\u00E0 hi\u1EC3n th\u1ECB ch\u00FAng \u1EDF \u0111\u00E2y."
+   },
+   "rememberFoodYouLove": {
+      "description": "Second part of the text for the Evernote Food cross promotion",
+      "message": "Ghi nh\u1EDB m\u00F3n \u0103n b\u1EA1n y\u00EAu th\u00EDch."
+   },
+   "safariContextClipImage": {
+      "description": "Label for right-click menu to clip an image in Safari.",
+      "message": "L\u01B0u \u1EA3nh v\u00E0o Evernote"
+   },
+   "safariContextClipPDF": {
+      "description": "Label for right-click menu to clip a PDF in Safari.",
+      "message": "L\u01B0u PDF v\u00E0o Evernote"
+   },
+   "safariContextClipPage": {
+      "description": "Label for right-click menu to clip the whole page in Safari.",
+      "message": "L\u01B0u c\u1EA3 trang v\u00E0o Evernote"
+   },
+   "safariContextClipSelection": {
+      "description": "Label for right-click menu to clip a selection in Safari.",
+      "message": "L\u01B0u v\u00F9ng ch\u1ECDn v\u00E0o Evernote"
+   },
+   "safariContextClipUrl": {
+      "description": "Label for right-click menu to clip a URL in Safari.",
+      "message": "L\u01B0u URL v\u00E0o Evernote"
+   },
+   "safariContextNewNote": {
+      "description": "Label for right-click menu to create a new note.",
+      "message": "T\u1EA1o ghi ch\u00FA m\u1EDBi trong Evernote"
+   },
+   "saveToEvernote": {
+      "description": "Label for button to save clip to Evernote",
+      "message": "L\u01B0u v\u00E0o Evernote"
+   },
+   "searchHelperFoundNotes": {
+      "description": "Message indicating that related notes were found",
+      "message": "\u003Cb\u003EC\u00E1c k\u1EBFt qu\u1EA3 h\u00E0ng \u0111\u1EA7u\u003C/b\u003E trong tr\u01B0\u01A1ng m\u1EE5c Evernote c\u1EE7a b\u1EA1n"
+   },
+   "searchHelperLoginMessage": {
+      "description": "Message injected into search-engine page indicating that the user must login prior to seeing results.",
+      "message": "\u003Cdiv class='grayText' id='login'\u003E\u003Ca target='_blank' href='$loginUrl$'\u003E\u0110\u0103ng nh\u1EADp\u003C/a\u003E v\u00E0o Web Clipper \u0111\u1EC3 xem C\u00E1c k\u1EBFt qu\u1EA3 Li\u00EAn quan\u003C/div\u003E",
+      "placeholders": {
+         "loginUrl": {
+            "content": "$1",
+            "example": "http://www.evernote.com/Login.action"
+         }
+      }
+   },
+   "searchHelperNoTransportError": {
+      "description": "Error message shown to user when there is a problem reaching the servers when doing simultaneous search.",
+      "message": "T\u00ECm ki\u1EBFm \u0111\u1ED3ng th\u1EDDi hi\u1EC7n kh\u00F4ng s\u1EB5n d\u00F9ng v\u00EC kh\u00F4ng th\u1EC3 n\u1ED1i t\u1EDBi h\u1EC7 ph\u1EE5c v\u1EE5 evernote."
+   },
+   "searchHelperNotesNotFoundBiz": {
+      "description": "Message injected into search-engine page indicating there were no related notes found in personal or business accounts",
+      "message": "Kh\u00F4ng c\u00F3 C\u00E1c k\u1EBFt qu\u1EA3 Li\u00EAn quan n\u00E0o trong c\u00E1c ghi ch\u00FA Business v\u00E0 C\u00E1 nh\u00E2n c\u1EE7a b\u1EA1n"
+   },
+   "searchHelperNotesNotFoundPers": {
+      "description": "Message injected into search-engine page indicating there were no related notes found in personal account",
+      "message": "Kh\u00F4ng c\u00F3 C\u00E1c k\u1EBFt qu\u1EA3 Li\u00EAn quan trong c\u00E1c ghi ch\u00FA c\u1EE7a b\u1EA1n"
+   },
+   "searchHelperTopBizLibraryMatches": {
+      "description": "Section heading for the simsearch notes found in the user's business account",
+      "message": "$num$ K\u1EBFt qu\u1EA3 Li\u00EAn quan trong c\u00E1c ghi ch\u00FA Business c\u1EE7a b\u1EA1n",
+      "placeholders": {
+         "num": {
+            "content": "$1",
+            "example": "2"
+         }
+      }
+   },
+   "searchHelperTopBizLibraryMatchesOne": {
+      "description": "Section heading for the simsearch notes found in the user's business account, if there was only one result",
+      "message": "1 K\u00EA\u0301t qua\u0309 Li\u00EAn quan trong ca\u0301c ghi chu\u0301 Business cu\u0309a ba\u0323n"
+   },
+   "searchHelperTopMatchesBiz": {
+      "description": "Section heading for the simsearch notes found in a business user's personal account",
+      "message": "$num$ K\u1EBFt qu\u1EA3 Li\u00EAn quan trong c\u00E1c ghi ch\u00FA C\u00E1 nh\u00E2n c\u1EE7a b\u1EA1n",
+      "placeholders": {
+         "num": {
+            "content": "$1",
+            "example": "3"
+         }
+      }
+   },
+   "searchHelperTopMatchesBizOne": {
+      "description": "Section heading for the simsearch notes found in a business user's personal account, if there was only one result",
+      "message": "1 K\u00EA\u0301t qua\u0309 Li\u00EAn quan trong ca\u0301c ghi chu\u0301 Ca\u0301 nh\u00E2n cu\u0309a ba\u0323n"
+   },
+   "searchHelperTopMatchesPers": {
+      "description": "Section heading for the simsearch notes found in a non-business user's personal account",
+      "message": "$num$ K\u1EBFt qu\u1EA3 Li\u00EAn quan trong c\u00E1c ghi ch\u00FA c\u1EE7a b\u1EA1n",
+      "placeholders": {
+         "num": {
+            "content": "$1",
+            "example": "3"
+         }
+      }
+   },
+   "searchHelperTopMatchesPersOne": {
+      "description": "Section heading for the simsearch notes found in a non-business user's personal account, if there was only one result",
+      "message": "1 K\u00EA\u0301t qua\u0309 Li\u00EAn quan trong ca\u0301c ghi chu\u0301 cu\u0309a ba\u0323n"
+   },
+   "searchHelperViewAll": {
+      "description": "Label for the link in simsearch to the web client to search for the user's search query.",
+      "message": "Xem t\u1EA5t c\u1EA3"
+   },
+   "searchHelper_hidePerm": {
+      "description": "Text for the option in the simsearch drop down menu to let user to disable simsearch in the options",
+      "message": "B\u1ECF V\u0129nh vi\u1EC5n"
+   },
+   "searchHelper_hideTemp": {
+      "description": "Text for the option in the simsearch drop down menu to let user temporarily close the simsearch box, but not disable in the options",
+      "message": "B\u1ECF"
+   },
+   "showRelatedNotes": {
+      "description": "text for the link in the 'related notes' overlay that will show this section.",
+      "message": "Hi\u1EC7n Ghi ch\u00FA Li\u00EAn quan"
+   },
+   "signInHelperText": {
+      "description": "message shown at the top of the login screen to tell them why they should sign in",
+      "message": "\u0110\u0103ng nh\u1EADp \u0111\u1EC3 b\u1EA3o \u0111\u1EA3m b\u1EA1n c\u00F3 th\u1EC3 t\u1EA1o clip ho\u1EB7c xem C\u00E1c k\u1EBFt qu\u1EA3 Li\u00EAn quan"
+   },
+   "signInPrompt": {
+      "description": "hover text on signed out state of the toolbar icon",
+      "message": "\u0110\u0103ng nh\u1EADp v\u00E0o Web Clipper"
+   },
+   "signOutAccount": {
+      "description": "menu item for logging out of the currently selected account.",
+      "message": "\u0110\u0103ng xu\u1EA5t $name$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "signOutAll": {
+      "description": "Label to click when a user wants to log in with multiple accounts.",
+      "message": "\u0110\u0103ng xu\u1EA5t m\u1ECDi tr\u01B0\u01A1ng m\u1EE5c"
+   },
+   "signout": {
+      "description": "Text on a link prompting for signing out currently logged in user",
+      "message": "\u0110\u0103ng xu\u1EA5t"
+   },
+   "stayLoggedInFree": {
+      "description": "Message indicating user should stay logged in as existing user.",
+      "message": "Gi\u1EEF tr\u1EA1ng th\u00E1i \u0111\u0103ng nh\u1EADp l\u00E0 $name$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "switchAnyMessage": {
+      "description": "Message shown when a user tries to add another user and is not already logged into a free account.",
+      "message": "Chuy\u1EC3n ng\u01B0\u1EDDi d\u00F9ng l\u00E0 m\u1ED9t t\u00EDnh n\u0103ng th\u01B0\u1EDFng cho ph\u00E9p b\u1EA1n di chuy\u1EC3n nhanh gi\u1EEFa nh\u1EEFng ng\u01B0\u1EDDi d\u00F9ng. B\u1EA1n c\u00F3 th\u1EC3 th\u00EAm m\u1ED9t ng\u01B0\u1EDDi d\u00F9ng th\u01B0\u1EDFng ho\u1EB7c mi\u1EC5n ph\u00ED."
+   },
+   "switchFreeAccount": {
+      "description": "Message indicating user should switch to newly logged in user.",
+      "message": "D\u00F9ng $name$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "switchPremiumMessage": {
+      "description": "Message shown when a user tries to add another user and is already logged into a free account.",
+      "message": "Chuy\u1EC3n ng\u01B0\u1EDDi d\u00F9ng l\u00E0 m\u1ED9t t\u00EDnh n\u0103ng th\u01B0\u1EDFng cho ph\u00E9p b\u1EA1n di chuy\u1EC3n nhanh gi\u1EEFa nh\u1EEFng ng\u01B0\u1EDDi d\u00F9ng. B\u1EA1n c\u00F3 th\u1EC3 th\u00EAm m\u1ED9t ng\u01B0\u1EDDi d\u00F9ng th\u01B0\u1EDFng."
+   },
+   "switchToAccount": {
+      "description": "Menu item indicating a user account that can be switched to.",
+      "message": "Chuy\u1EC3n sang $name$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "tagNamesNotInRange": {
+      "description": "Indicates that user entered an abnormal number of tags",
+      "message": "B\u1EA1n \u0111\u00E3 nh\u1EADp s\u1ED1 th\u1EBB t\u1ED1i \u0111a"
+   },
+   "tryItOut": {
+      "description": "text for button on pdf tooltip",
+      "message": "H\u00E3y th\u1EED n\u00F3"
+   },
+   "youHaveRelatedNotes": {
+      "description": "Text indicating that the user has other related notes.",
+      "message": "B\u1EA1n c\u00F3 c\u00E1c ghi ch\u00FA kh\u00E1c gi\u1ED1ng nh\u01B0 th\u1EBF n\u00E0y."
+   }
+}

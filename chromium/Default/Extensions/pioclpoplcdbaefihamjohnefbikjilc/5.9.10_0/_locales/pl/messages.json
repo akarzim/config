@@ -1,0 +1,1070 @@
+{
+   "April": {
+      "message": "Kwiecie\u0144"
+   },
+   "Aug": {
+      "message": "sie"
+   },
+   "BrowserActionTitle": {
+      "description": "Title for the browser action that's visible to the user of extension",
+      "message": "Wytnij do Evernote"
+   },
+   "Close": {
+      "description": "The string that shows up on a button used to close a window.",
+      "message": "Zamknij"
+   },
+   "Dec": {
+      "message": "gru"
+   },
+   "EDAMError_1": {
+      "description": "Used to describe an unknown EDAM error",
+      "message": "Nieznany b\u0142\u0105d"
+   },
+   "EDAMError_1_notebookGuid": {
+      "description": "Error message indicating unknown notebook",
+      "message": "Nieznany notatnik"
+   },
+   "EDAMError_3": {
+      "description": "Indicates that permission was denied for request by the server",
+      "message": "Dost\u0119p zabroniony"
+   },
+   "EDAMError_3_User_active": {
+      "description": "Indicates that a user tried to login but their account is inactive",
+      "message": "Brak dost\u0119pu poniewa\u017C u\u017Cytkownik jest nieaktywny"
+   },
+   "EDAMError_3_User_tooManyFailuresTryAgainLater": {
+      "description": "Indicates that a user tried to login way too many times with invalid credentials and needs to chill for a bit",
+      "message": "Zbyt wiele nieudanych pr\u00F3b logowania. Spr\u00F3buj ponownie p\u00F3\u017Aniej."
+   },
+   "Error_HTTP_Transport": {
+      "description": "Generic error indicating that the extension could not get a response from a server",
+      "message": "Problem w komunikacji z serwerem [$status$]. $errorText$",
+      "placeholders": {
+         "errorText": {
+            "content": "$2",
+            "example": "http error response"
+         },
+         "status": {
+            "content": "HTTP $1",
+            "example": "404"
+         }
+      }
+   },
+   "Error_Network_Unavailable": {
+      "description": "error message shown when we can't connect to the internet.",
+      "message": "Brak po\u0142\u0105czenia z internetem"
+   },
+   "ExtensionDescription": {
+      "description": "Description of the extension as it's visible to the outside world",
+      "message": "U\u017Cywaj rozszerzenie Evernote do zapisywania rzeczy kt\u00F3re zobaczysz w sieci na swoim koncie Evernote. Rozszerzenie pozwala r\u00F3wnie\u017C na przeszukiwanie notatek. "
+   },
+   "ExtensionName": {
+      "description": "Name of the extension as it's visible to the outside world",
+      "message": "Evernote Web Clipper"
+   },
+   "Feb": {
+      "message": "lut"
+   },
+   "Friday": {
+      "message": "pi\u0105tek"
+   },
+   "Jan": {
+      "message": "sty"
+   },
+   "July": {
+      "message": "Lipiec"
+   },
+   "June": {
+      "message": "Czerwiec"
+   },
+   "March": {
+      "message": "Marzec"
+   },
+   "May": {
+      "message": "maj"
+   },
+   "Monday": {
+      "message": "poniedzia\u0142ek"
+   },
+   "Nov": {
+      "message": "lis"
+   },
+   "Oct": {
+      "message": "pa\u017A"
+   },
+   "Saturday": {
+      "message": "sobota"
+   },
+   "Sept": {
+      "message": "wrzesie\u0144"
+   },
+   "Sunday": {
+      "message": "niedziela"
+   },
+   "Thursday": {
+      "message": "czwartek"
+   },
+   "Today": {
+      "message": "Dzi\u015B"
+   },
+   "Tuesday": {
+      "message": "wtorek"
+   },
+   "Wednesday": {
+      "message": "\u015Broda"
+   },
+   "accountChangedTo": {
+      "description": "message notifying the user that he's switched to a different account.",
+      "message": "Aktualnie u\u017Cywane konto to $name$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "addAnotherAccount": {
+      "description": "Label to click when a user wants to log in with multiple accounts.",
+      "message": "Dodaj kolejne konto..."
+   },
+   "articleClipFailure": {
+      "description": "Messages shown to user when the article of the page isn't clippable.",
+      "message": "Evernote nie mo\u017Ce wyci\u0105\u0107 tej strony jako artyku\u0142u. Zaznacz cz\u0119\u015B\u0107 kt\u00F3r\u0105 chcesz wyci\u0105\u0107."
+   },
+   "authPersistenceError": {
+      "description": "Error indicating that the browser fails to persist authentication.",
+      "message": "Ustawienia przegl\u0105darki koliduj\u0105 z rozszerzeniem Evernote. Spr\u00F3buj przywr\u00F3ci\u0107 ustawienia tre\u015Bci prywatnych do ustawie\u0144 domy\u015Blnych: zezw\u00F3l na przechowywanie danych lokalnie i NIE blokuj plik\u00F3w cookie innych firm. Rozwa\u017C wy\u0142\u0105czenie pozosta\u0142ych rozszerze\u0144 innych firm. "
+   },
+   "bizNotebookOptionText": {
+      "description": "text that shows up in the dropdown list used to select another user's business notebook.",
+      "message": "(udost\u0119pniony przez $creator$)",
+      "placeholders": {
+         "creator": {
+            "content": "$1",
+            "example": "Connie Chan"
+         }
+      }
+   },
+   "bizNotebooksOptGroupTitle": {
+      "description": "text that appears above the list of business notebooks in the dropdown list of notebooks.",
+      "message": "Notatniki s\u0142u\u017Cbowe"
+   },
+   "cancelAddAnotherAccount": {
+      "description": "The text for the control that cancels adding a new acconut to switch to.",
+      "message": "Anuluj"
+   },
+   "cancelSwitchFree": {
+      "description": "Message on button to cancel switching to a different free account.",
+      "message": "Nie, wr\u00F3\u0107"
+   },
+   "captcha_instruction": {
+      "description": "Instruction for captcha in the registration form.",
+      "message": "Wprowad\u017A liczby poni\u017Cej"
+   },
+   "checkVersionWarning": {
+      "description": "Warning message shown to user when the client doesn't pass version check",
+      "message": "Ta wersja No\u017Cyczek Sieciowych Evernote nie jest ju\u017C kompatybilna z us\u0142ug\u0105 Evernote. Zainstaluj najnowsz\u0105 wersj\u0119."
+   },
+   "clearFeatureDiscoveryTooltip": {
+      "description": "The message that pops up when you hover over the 'x' icon for the 'feature discovery' box.",
+      "message": "Nie pokazuj tego powiadomienia ponownie"
+   },
+   "clearTagsToolTip": {
+      "description": "The message that pops up when you hover over the 'x' icon that displays beside the tag list.",
+      "message": "Usu\u0144 wszystkie znaczniki"
+   },
+   "clipsFromThisSite": {
+      "description": "Label for the site search button.",
+      "message": "Inne wycinki ze strony $site$",
+      "placeholders": {
+         "site": {
+            "content": "$1",
+            "example": "71"
+         }
+      }
+   },
+   "contentPreview_clipArticle": {
+      "description": "Selection nudging legend for clipping article",
+      "message": "wytnij artyku\u0142"
+   },
+   "contentPreview_expandSelection": {
+      "description": "Selection nudging legend for expanding selection",
+      "message": "rozszerz zaznaczenie"
+   },
+   "contentPreview_moveSelection": {
+      "description": "Selection nudging legend for moving selection",
+      "message": "przenie\u015B zaznaczenie"
+   },
+   "contentPreview_shrinkSelection": {
+      "description": "Selection nudging legend for shrinking selection",
+      "message": "zmniejsz zaznaczenie"
+   },
+   "contentclipper_clipping": {
+      "description": "Message shown on content pages to notify users that the page is being scraped for clipping.",
+      "message": "\u003Cb\u003EWycinanie\u003C/b\u003E \u201C$clipTitle$\u201D",
+      "placeholders": {
+         "clipTitle": {
+            "content": "$1",
+            "example": "Sample clip title"
+         }
+      }
+   },
+   "contentclipper_clipping_no_title": {
+      "description": "Message shown on content pages to notify users that the page is being scraped for clipping when the title of the clip is unavailable.",
+      "message": "\u003Cb\u003EWycinanie...\u003C/b\u003E"
+   },
+   "contentclipper_syncing": {
+      "description": "Message shown on content pages to notify users that the page is being sent to the server.",
+      "message": "\u003Cb\u003ESynchronizacja\u003C/b\u003E \u201C$clipTitle$\u201D",
+      "placeholders": {
+         "clipTitle": {
+            "content": "$1",
+            "example": "Sample clip title"
+         }
+      }
+   },
+   "contextMenuClipImage": {
+      "description": "Context menu item for creating a new note with image",
+      "message": "Wytnij obraz"
+   },
+   "contextMenuClipPDF": {
+      "description": "Context menu item for creating a new note with PDF",
+      "message": "Wytnij PDF"
+   },
+   "contextMenuClipPage": {
+      "description": "Context menu item for clipping current page",
+      "message": "Wytnij t\u0119 stron\u0119"
+   },
+   "contextMenuClipSelection": {
+      "description": "Context menu item for clipping current selection",
+      "message": "Wytnij zaznaczenie"
+   },
+   "contextMenuClipUrl": {
+      "description": "Context menu item for creating a new note with just the URL of the current page",
+      "message": "Wytnij adres URL"
+   },
+   "contextMenuNewNote": {
+      "description": "Context menu item for creating new note",
+      "message": "Nowa notatka"
+   },
+   "contextMenuPleaseLogin": {
+      "description": "Help message shown to users when they try to clip content via contextual menu items but not being intially logged in",
+      "message": "Musisz si\u0119 zalogowa\u0107, aby m\u00F3c korzysta\u0107 z przycisku \"Wytnij do Evernote\"."
+   },
+   "copyright": {
+      "description": "Copyright statement",
+      "message": "Copyright 2009-2013 Evernote Corporation. Wszystkie prawa zastrze\u017Cone. \u003Ca href='$baseUrl$/privacy' target='_blank'\u003EPolityka prywatno\u015Bci\u003C/a\u003E | \u003Ca href='$baseUrl$/tos' target='_blank'\u003ERegulamin\u003C/a\u003E | \u003Ca href='#' id='legalLink'\u003ENotki prawne\u003C/a\u003E",
+      "placeholders": {
+         "baseUrl": {
+            "content": "$1",
+            "example": "https://www.evernote.com"
+         }
+      }
+   },
+   "deleting": {
+      "description": "Message indicating that the extension is deleting previously clipped note from the server",
+      "message": "Usuwanie wyci\u0119tej notatki..."
+   },
+   "desktopNotification_cancelFailedClip": {
+      "description": "Name of the action associated with cancelling the clip that failed to upload. Should be as short as possible",
+      "message": "Anuluj"
+   },
+   "desktopNotification_clipProcessorSignInMessage": {
+      "description": "Message shown to users inside desktop notification informing users that they clip could not be uploaded because they are not authenticated...",
+      "message": "Uwierzytelnianie wygas\u0142o lub jest niewa\u017Cne. Zaloguj si\u0119 za pomoc\u0105 przycisku na pasku narz\u0119dzi i spr\u00F3buj ponownie."
+   },
+   "desktopNotification_clipProcessorSignInTitle": {
+      "description": "Title for desktop notification informing user that there was an error with uploading a clip. This should be as short as possible",
+      "message": "Nie mo\u017Cna zapisa\u0107 \"$clipTitle$\"",
+      "placeholders": {
+         "clipTitle": {
+            "content": "$1",
+            "example": "Sample clip title"
+         }
+      }
+   },
+   "desktopNotification_clipProcessorTooManyRetries": {
+      "description": "Message indicating that we've tried too many times to clip this note.",
+      "message": "Wycinanie \"$title$\" nie powiod\u0142o si\u0119 zbyt wiele razy i nie mo\u017Ce zosta\u0107 ponowione.",
+      "placeholders": {
+         "title": {
+            "content": "$1",
+            "example": "Title of the clip."
+         }
+      }
+   },
+   "desktopNotification_clipUploaded": {
+      "description": "Headline for desktop notification indicating that clip was successfully uploaded",
+      "message": "\u003Cb\u003EWyci\u0119to\u003C/b\u003E \u201C$clipTitle$\u201D",
+      "placeholders": {
+         "clipTitle": {
+            "content": "$1",
+            "example": "Sample clip title"
+         }
+      }
+   },
+   "desktopNotification_clipUploadedMessage": {
+      "description": "Message indicating that clip was successfully uploaded",
+      "message": "Wycinek zosta\u0142 pomy\u015Blnie przes\u0142any."
+   },
+   "desktopNotification_editSuccessClip": {
+      "description": "Name of the action associated with editing clipped note",
+      "message": "Edytuj"
+   },
+   "desktopNotification_retryFailedClip": {
+      "description": "Name of the action associated with retrying the clip that failed to upload. Should be as short as possible",
+      "message": "Spr\u00F3buj ponownie"
+   },
+   "desktopNotification_unableToSaveClip": {
+      "description": "Headline for desktop notifications indicating there was a problem with saving the clip",
+      "message": "Nie mo\u017Cna zapisa\u0107 \"$clipTitle$\"",
+      "placeholders": {
+         "clipTitle": {
+            "content": "$1",
+            "example": "Sample clip title"
+         }
+      }
+   },
+   "desktopNotification_unableToSaveClipUnknown": {
+      "description": "Headline for desktop notification indicating that there was an unknown error while uploading a clip",
+      "message": "Nie mo\u017Cna zapisa\u0107 wycinka"
+   },
+   "desktopNotification_unableToSaveClipUnknownMessage": {
+      "description": "Description of the unknown error that may occur after the extension failed to upload a clip",
+      "message": "Wyst\u0105pi\u0142 nieznany b\u0142\u0105d zapisu jednego z wycink\u00F3w. Komunikat o b\u0142\u0119dzie: $details$",
+      "placeholders": {
+         "details": {
+            "content": "$1",
+            "example": "Error 503"
+         }
+      }
+   },
+   "desktopNotification_viewSuccessClip": {
+      "description": "Name of the actions associated with viewing clipped note",
+      "message": "Wy\u015Bwietl"
+   },
+   "dismiss": {
+      "description": "Message shown on buttons to dismiss a widget of some kind",
+      "message": "Porzu\u0107"
+   },
+   "email": {
+      "description": "Label for email field of registration form",
+      "message": "Adres e-mail"
+   },
+   "filing": {
+      "description": "Message indicating that the extension is filing changes made to previously clipped note on the server",
+      "message": "Mened\u017Cer notatek..."
+   },
+   "freeAccountLimit": {
+      "description": "",
+      "message": "Zalogowane jest bezp\u0142atne konto \u003Cb\u003E$name$\u003C/b\u003E. Mo\u017Cesz prze\u0142\u0105cza\u0107 si\u0119 mi\u0119dzy wieloma kontami Premium, ale tylko jednym kontem bezp\u0142atnym. Cz chcesz u\u017Cy\u0107 tego bezp\u0142atnego konta?",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "fullPageClipFailure": {
+      "description": "Message shown to user when full page clip wasn't possible",
+      "message": "Przepraszamy, ale Evernote nie mo\u017Ce przypi\u0105\u0107 ca\u0142ej strony. Prosimy wybra\u0107 cz\u0119\u015B\u0107 tekstu, kt\u00F3r\u0105 chcesz przypi\u0105\u0107. "
+   },
+   "getEvernoteFood": {
+      "description": "First part of the text for the Evernote Food cross promotion that appears in the clip result notification",
+      "message": "Pobierz Evernote Food"
+   },
+   "header_register": {
+      "description": "Registration link in header",
+      "message": "Za\u0142\u00F3\u017C konto Evernote"
+   },
+   "hideRelatedNotes": {
+      "description": "text for the link in the 'related notes' overlay that will hide this section.",
+      "message": "Ukryj powi\u0105zane notatki"
+   },
+   "illegalUrlClipFailure": {
+      "description": "Error message shown when you try to clip from pages that aren't scriptable by the browser. Such as the chrome gallery pages.",
+      "message": "Ze wzgl\u0119du na ograniczenia przegl\u0105darki, nie mo\u017Cesz wyci\u0105\u0107 tej strony"
+   },
+   "legalNoticesTitle": {
+      "description": "the title of the legal notices dialog in the options page where we list the licenses of all third party packages we use",
+      "message": "No\u017Cyczki Sieciowe wykorzystuj\u0105 nast\u0119puj\u0105ce oprogramowanie open source"
+   },
+   "linkedNotebookOptionText": {
+      "description": "Text that shows up inside the dropdown list used to select another user's shared notebook.",
+      "message": "$notebookName$ (nale\u017C\u0105cy do $owner$)",
+      "placeholders": {
+         "notebookName": {
+            "content": "$1",
+            "example": "recipes"
+         },
+         "owner": {
+            "content": "$2",
+            "example": "tylerkaraszewski"
+         }
+      }
+   },
+   "linkedNotebooksOptGroupTitle": {
+      "description": "the text that apeears above the list of linked notebooks in the dropdown list of notebooks.",
+      "message": "Wsp\u00F3\u0142dzielone notatniki"
+   },
+   "loading": {
+      "description": "Message shown when extension is loading...",
+      "message": "\u0141adowanie..."
+   },
+   "loggingIn": {
+      "description": "Message indicating that the extension is currently attempting to sign in user",
+      "message": "Logowanie do Evernote"
+   },
+   "loginForm_login": {
+      "description": "Sign in button label for login form",
+      "message": "Zaloguj si\u0119"
+   },
+   "loginForm_password": {
+      "description": "Label for entering password into login form",
+      "message": "Has\u0142o"
+   },
+   "loginForm_passwordError_5": {
+      "description": "",
+      "message": "Has\u0142o jest wymagane."
+   },
+   "loginForm_passwordInvalidError": {
+      "description": "",
+      "message": "Nieprawid\u0142owe has\u0142o"
+   },
+   "loginForm_rememberMe": {
+      "description": "Label for extending login session",
+      "message": "Zapami\u0119taj mnie"
+   },
+   "loginForm_searchHelper": {
+      "description": "Label for search helper option on the login view",
+      "message": "Wy\u015Bwietl powi\u0105zane wyniki, gdy przeszukuj\u0119 internet"
+   },
+   "loginForm_username": {
+      "description": "Label for entering email address or username into login form",
+      "message": "Adres e-mail lub login"
+   },
+   "loginForm_usernameError_5": {
+      "description": "",
+      "message": "Login jest wymagany."
+   },
+   "loginForm_usernameError_8": {
+      "description": "",
+      "message": "Login i has\u0142o nie pasuj\u0105 do istniej\u0105cych u\u017Cytkownik\u00F3w."
+   },
+   "loginForm_usernameInvalidChinaError": {
+      "description": "",
+      "message": "Nieznany login lub wypr\u00F3buj Evernote International"
+   },
+   "loginForm_usernameInvalidError": {
+      "description": "",
+      "message": "U\u017Cytkownik o tym loginie nie istnieje."
+   },
+   "login_searchHelperLongDescription": {
+      "description": "Description of the search-helper feature as shown on the options page",
+      "message": "Gdy w\u0142\u0105czone, zapytania kierowane do obs\u0142ugiwanych wyszukiwarek b\u0119d\u0105 wykonywane r\u00F3wnie\u017C na koncie Evernote. Obs\u0142ugiwane wyszukiwarki to: Google, Bing, Yahoo, Yandex, Baidu, Daum i Naver."
+   },
+   "logs_export": {
+      "description": "Title of the button for exporting all of the logs",
+      "message": "Eksportuj dzienniki"
+   },
+   "logs_follow": {
+      "description": "Label for an option to trail the logfile",
+      "message": "Obserwuj"
+   },
+   "logs_selectLogFile": {
+      "description": "Label for selecting log files for viewing",
+      "message": "Wybierz plik dziennika:"
+   },
+   "logs_title": {
+      "description": "The title of the logs page.",
+      "message": "Dzienniki zdarze\u0144"
+   },
+   "more": {
+      "description": "General purpose, capitalized word for More - as in - there's more to see/read etc.",
+      "message": "Wi\u0119cej"
+   },
+   "newFeatureDescription": {
+      "description": "The popover description of for the Smart Filing feature, including a link to the options page.",
+      "message": "No\u017Cyczki Sieciowe zasugeruj\u0105 znaczniki i notatniki w oparciu o zawarto\u015B\u0107 wycinka. Ustawieniami mo\u017Cna zarz\u0105dza\u0107 w \u003Cspan class='newFeatureOptionsPseudoLink'\u003EOpcjach\u003C/span\u003E rozszerzenia."
+   },
+   "newFeatureTitle": {
+      "description": "The title for any new feature we're showcasing in the current release.",
+      "message": "Smart filing"
+   },
+   "noteSizeExceededFree": {
+      "description": "Error message shown to free users who try to clip something over the maximum note size",
+      "message": "Tylko u\u017Cytkownicy Evernote Premium mog\u0105 wycina\u0107 notatki wi\u0119ksze ni\u017C 25MB. \u003Ca href='$baseUrl$/Checkout.action'\u003EUlepsz do Premium\u003C/a\u003E",
+      "placeholders": {
+         "baseUrl": {
+            "content": "$1",
+            "example": "http://www.evernote.com"
+         }
+      }
+   },
+   "noteSizeExceededPremium": {
+      "description": "Error message shown to premium users who try to clip something over the maximum note size",
+      "message": "Maksymalny rozmiar notatki to 100MB. Nie mo\u017Cna utworzy\u0107 notatki"
+   },
+   "notification_quotaExceededFree": {
+      "description": "Indicates that free user has exceeded their quota",
+      "message": "Nie mo\u017Cna przes\u0142a\u0107 wycinka z powodu niewystarczaj\u0105cego limitu transferu. \u003Ca href='$url$'\u003EUlepsz do Premium\u003C/a\u003E",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "https://www.evernote.com/Checkout.action"
+         }
+      }
+   },
+   "notification_quotaExceededPremium": {
+      "description": "Indicates that premium user has exceeded their quota",
+      "message": "Nie mo\u017Cna zapisa\u0107 wycinka z powodu niewystarczaj\u0105cego limitu transferu. \u003Ca href='$url$'\u003EZwi\u0119ksz limit\u003C/a\u003E",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "https://www.evernote.com/QuotaCheckout.action"
+         }
+      }
+   },
+   "options_buildId": {
+      "description": "The revison number of this build of the clipper, as pulled fro mSVN at the time the clipper was built.",
+      "message": "Build ID:"
+   },
+   "options_client": {
+      "description": "Label for the dropdown menu in Options where user can choose what client s/he wants to open and edit notes in",
+      "message": "Otwieraj notatki w"
+   },
+   "options_clientSelectionDescription": {
+      "description": "Description of the dropdown menu to select what client the user wants to open notes in. Only displayed when user selects the desktop client",
+      "message": "U\u017Cywaj\u0105c tego rozszerzenia po raz pierwszy, zobaczysz okno dialogowe \"\u017B\u0105danie protoko\u0142u zewn\u0119trznego\". Aby uzyska\u0107 jak najlepsze wyniki, zaznacz pole \"Zapami\u0119taj m\u00F3j wyb\u00F3r\", a nast\u0119pnie \"Uruchom aplikacj\u0119\"."
+   },
+   "options_client_desktop": {
+      "description": "Desktop client choice in the dropdown menu to select what client to open/edit a note in",
+      "message": "Aplikacji na komputerze"
+   },
+   "options_client_web": {
+      "description": "Web client choice in the dropdown menu to select what client to open/edit a note in",
+      "message": "Aplikacji internetowej"
+   },
+   "options_clipAction": {
+      "description": "Label for specifying default clipping action",
+      "message": "Akcja domy\u015Blna"
+   },
+   "options_clipAction_article": {
+      "description": "Label for article as the default clipping action",
+      "message": "Wytnij artyku\u0142"
+   },
+   "options_clipAction_fullPage": {
+      "description": "Label for full-page as the default clipping action",
+      "message": "Wytnij ca\u0142\u0105 stron\u0119"
+   },
+   "options_clipAction_url": {
+      "description": "Label for url as the default clipping action",
+      "message": "Wytnij adres URL"
+   },
+   "options_clipNotificationEnabled": {
+      "description": "Label for option to enable notification about successful clips",
+      "message": "W\u0142\u0105cz powiadomienia"
+   },
+   "options_clipNotificationEnabledDescription": {
+      "description": "Description of the notifications option",
+      "message": "Kiedy w\u0142\u0105czone, powiadomienie b\u0119dzie wy\u015Bwietlane zawsze kiedy zostanie przes\u0142any wycinek. Powiadomienia u\u0142atwiaj\u0105 wy\u015Bwietlanie, edytowanie i udost\u0119pnianie wycink\u00F3w. "
+   },
+   "options_clipStyle": {
+      "description": "Label for the option to keep the style of the page while clipping.",
+      "message": "Zachowaj style"
+   },
+   "options_clipStyleDescription": {
+      "description": "Description for the option to preserve styles with clips.",
+      "message": "Je\u015Bli w\u0142\u0105czone, w wycinkach zachowywane b\u0119d\u0105 informacje o formatowaniu, aby zachowa\u0107 uk\u0142ad jak najbardziej zbli\u017Cony do oryginalnego. Je\u015Bli wy\u0142\u0105czone, w wycinkach stosowane b\u0119dzie proste formatowanie, tzn. czysty tekst i brak dekoracji."
+   },
+   "options_developer_title": {
+      "description": "Title for developer options",
+      "message": "Opcje programistyczne"
+   },
+   "options_eventLogDescription": {
+      "description": "Describes the purpose of the event logs link in the options page.",
+      "message": "Departament Wsparcia Klienta Evernote, mo\u017Ce poprosi\u0107 o przes\u0142anie tych dziennik\u00F3w w celu prawid\u0142owego zdiagnozowania problemu."
+   },
+   "options_eventLogLink": {
+      "description": "the text for the link to the event logs page from the options page",
+      "message": "Wy\u015Bwietl dzienniki zdarze\u0144"
+   },
+   "options_insecureProto": {
+      "description": "Label for specifying insecure protocol option.",
+      "message": "Niezabezpieczony protok\u00F3\u0142 "
+   },
+   "options_overrideServiceURL": {
+      "description": "Custom URL to use that will override both stage and production URLs.",
+      "message": "Nadpisz URL serwisowy"
+   },
+   "options_saving": {
+      "description": "Notifies the user that their changes to the options page are being saved",
+      "message": "Zapisywanie..."
+   },
+   "options_secureProto": {
+      "description": "Label specifying secure protocol option.",
+      "message": "Zabezpieczony protok\u00F3\u0142"
+   },
+   "options_selectionNudging": {
+      "description": "Label for selection nudging options",
+      "message": "Wyb\u00F3r artyku\u0142u"
+   },
+   "options_selectionNudgingDescription": {
+      "description": "Description of selection nudging",
+      "message": "Gdy jest w\u0142\u0105czone, przed wyci\u0119ciem mo\u017Cna wybra\u0107 artyku\u0142 za pomoc\u0105 klawiatury. W\u0142\u0105czanie bez &quot;podpowiedzi&quot; spowoduje wy\u015Bwietlenie komunikatu informacyjnego. Je\u015Bli zostanie wy\u0142\u0105czone - nie b\u0119dzie mo\u017Cna dostosowa\u0107 automatycznego wyboru artyku\u0142u."
+   },
+   "options_selectionNudging_disabled": {
+      "description": "Label for disabled selection nudging",
+      "message": "Wy\u0142\u0105czone"
+   },
+   "options_selectionNudging_enabled": {
+      "description": "Label for enabled selection nudging",
+      "message": "W\u0142\u0105czone"
+   },
+   "options_selectionNudging_enabledNoprompt": {
+      "description": "Label for enabled selection nudging, but without showing the hits",
+      "message": "W\u0142\u0105czone (bez podpowiedzi)"
+   },
+   "options_simulateCheckVersionFailure": {
+      "description": "Label for developer option to simulate checkVersion failure",
+      "message": "Symulacja b\u0142\u0119du checkVersion"
+   },
+   "options_simulateSimplifiedChinese": {
+      "description": "Label for developer option to simulate checkVersion failure",
+      "message": "Symuluj uproszczony chi\u0144ski"
+   },
+   "options_simulateSimplifiedChineseDescription": {
+      "description": "Description for what it means to select this option",
+      "message": "Gdy opcja jest w\u0142\u0105czona, No\u017Cyczki przyjm\u0105 ustawienie, \u017Ce wybrany jest j\u0119zyk chi\u0144ski uproszczony, w celu wyboru us\u0142ugi do pod\u0142\u0105czenia."
+   },
+   "options_smartFilingBizDesc": {
+      "description": "Description of option to allow smart filing into business notebooks",
+      "message": "Pozw\u00F3l na Inteligentne Zapisywanie w notatnikach biznesowych"
+   },
+   "options_smartFilingEnabled": {
+      "description": "Label for option to enable automatic tagging and notebook selection for new notes.",
+      "message": "W\u0142\u0105cz Inteligentne Zapisywanie"
+   },
+   "options_smartFilingEnabledDescription": {
+      "description": "Description of the smart filing option",
+      "message": "Funkcja Inteligentne Zapisywanie automatycznie wybiera notatnik i list\u0119 znacznik\u00F3w bazuj\u0105c na stronie, z kt\u00F3rej tre\u015Bci s\u0105 wycinane."
+   },
+   "options_smartFilingEnabled_all": {
+      "description": "",
+      "message": "Znaczniki i notatniki"
+   },
+   "options_smartFilingEnabled_none": {
+      "description": "",
+      "message": "Wy\u0142\u0105cz inteligentne wype\u0142nianie"
+   },
+   "options_smartFilingEnabled_notebooks": {
+      "description": "",
+      "message": "Tylko notatniki"
+   },
+   "options_smartFilingEnabled_tags": {
+      "description": "",
+      "message": "Tylko znaczniki"
+   },
+   "options_storedCredentials": {
+      "description": "Label for a set of options controls enabling users to store their credentials",
+      "message": "Listy uwierzytelniaj\u0105ce"
+   },
+   "options_storedCredentialsDescription": {
+      "description": "Educational message for users who wish to store their Evernote password. First sentence is the most critical one as it will be used in options_storedCredentialsShortDescription",
+      "message": "\u003Cb\u003EUWAGA:\u003C/b\u003E Zapisanie has\u0142a mo\u017Ce umo\u017Cliwi\u0107 niepowo\u0142anym osobom dost\u0119p do Twojego konta Evernote. Odznacz to pole, lub wyloguj si\u0119 z rozszerzenia Wytnij do Evernote, aby ostatecznie usun\u0105\u0107 login i has\u0142o zapisane w pami\u0119ci rozszerzenia przegl\u0105darki."
+   },
+   "options_title": {
+      "description": "Title of the options page",
+      "message": "Opcje"
+   },
+   "options_useContextMenu": {
+      "description": "Label for option to enable clipping via contextual menu",
+      "message": "W\u0142\u0105cz menu kontekstowe"
+   },
+   "options_useContextMenuDescription": {
+      "description": "Description of the contextual menu option",
+      "message": "Gdy jest w\u0142\u0105czone, mo\u017Cna wycina\u0107 strony internetowe poprzez menu kontekstowe. Kliknij prawym przyciskiem na zdj\u0119ciach, zaznaczonym tek\u015Bcie lub gdziekolwiek wewn\u0105trz strony a pojawi\u0105 si\u0119 stosowne opcje wycinania."
+   },
+   "options_useSearchHelper": {
+      "description": "Label for search-helper feature toggle",
+      "message": "Powi\u0105zane wyniki"
+   },
+   "options_useSearchHelperDescription": {
+      "description": "Description of the search-helper feature as shown on the options page",
+      "message": "W\u0142\u0105czenie sprawia, \u017Ce wyszukiwanie w internecie (w obs\u0142ugiwanych przegl\u0105darkach) spowoduje r\u00F3wnie\u017C wy\u015Bwietlenie wynik\u00F3w z konta Evernote."
+   },
+   "options_useStage": {
+      "description": "Label for developer option to simulate checkVersion failure",
+      "message": "U\u017Cyj us\u0142ugi \"stage\""
+   },
+   "options_useStageDescription": {
+      "description": "Description for what it means to select this option",
+      "message": "Instruuje No\u017Cyczki, \u017Ce maj\u0105 wykorzysta\u0107 us\u0142ug\u0119 \"stage\" jako us\u0142ugi produkcyjnej, kt\u00F3ra normalnie przeznaczona jest tylko do test\u00F3w."
+   },
+   "pdfTip": {
+      "description": "Tooltip that appears on PDFs",
+      "message": "Czy wiesz, \u017Ce u\u017Cywaj\u0105c No\u017Cyczek Sieciowych mo\u017Cesz wycina\u0107 pliki PDF bezpo\u015Brednio do swojego konta Evernote?"
+   },
+   "popup_couldntStart": {
+      "description": "Message that shows up when the clipper popup can't open.",
+      "message": "Nie mo\u017Cna uruchomi\u0107 No\u017Cyczek na tej stronie. Od\u015Bwie\u017C stron\u0119 i spr\u00F3buj ponownie. Je\u015Bli to nie pomo\u017Ce, skontaktuj si\u0119 ze wsparciem klienta."
+   },
+   "popup_loadingNotebooks": {
+      "description": "Message shown while smart filing is running. Should *not* include trailing punctuation.",
+      "message": "Wczytywanie notatnik\u00F3w"
+   },
+   "popup_loginCheckTimeout": {
+      "description": "Message that displays if checking if the user is logged in takes too long.",
+      "message": "Sprawdzanie po\u015Bwiadcze\u0144 zaj\u0119\u0142o zbyt wiele czasu. Upewnij si\u0119, \u017Ce masz po\u0142\u0105czenie z internetem i spr\u00F3buj ponownie."
+   },
+   "popup_moreNotesLink": {
+      "description": "Message showing how many more notes can be seen on the server.",
+      "message": "Wy\u015Bwietl kolejne $count$ notatki/ek...",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "10"
+         }
+      }
+   },
+   "popup_oneMoreNoteLink": {
+      "description": "Message showing there is one more note on the server.",
+      "message": "Zobacz jeszcze jedn\u0105 notatk\u0119..."
+   },
+   "popup_unsupportedScheme": {
+      "description": "The error to display when the popup can't operate on a specific type of url.",
+      "message": "Wycinanie z tej lokalizacji nie jest obs\u0142ugiwane."
+   },
+   "popup_waiting": {
+      "description": "Displays while the popup window waits for a page to finish loading.",
+      "message": "Oczekiwanie na stron\u0119..."
+   },
+   "quickNote": {
+      "description": "Title for creating quick note",
+      "message": "Wycinek"
+   },
+   "quickNoteAction_clipArticle": {
+      "description": "Label for clipping article action",
+      "message": "Zapisz artyku\u0142"
+   },
+   "quickNoteAction_clipFullPage": {
+      "description": "Label for clipping full page action",
+      "message": "Zapisz ca\u0142\u0105 stron\u0119"
+   },
+   "quickNoteAction_clipPDF": {
+      "description": "Label for clipping PDF action",
+      "message": "Zapisz jako PDF"
+   },
+   "quickNoteAction_clipSelection": {
+      "description": "Label for clipping selection action",
+      "message": "Zapisz zaznaczenie"
+   },
+   "quickNoteAction_clipUrl": {
+      "description": "Label for clipping URL action",
+      "message": "Zapisz URL"
+   },
+   "quickNote_addComment": {
+      "description": "Placeholder text for comment input",
+      "message": "Dodaj komentarz"
+   },
+   "quickNote_addTags": {
+      "description": "Placeholder text for tag input",
+      "message": "Dodaj znaczniki"
+   },
+   "quickNote_comment": {
+      "description": "Label for additional text to be added to the note",
+      "message": "Dodaj tekst"
+   },
+   "quickNote_notebook": {
+      "description": "Label for selection of note's notebook",
+      "message": "Notatnik"
+   },
+   "quickNote_submit": {
+      "description": "Label for saving quick note",
+      "message": "Zapisz"
+   },
+   "quickNote_tagsDisabled": {
+      "description": "Message indicating that you can't use tags for shared notebooks.",
+      "message": "Znaczniki nie s\u0105 aktualnie obs\u0142ugiwane dla udost\u0119pnionych notatnik\u00F3w."
+   },
+   "quickNote_title": {
+      "description": "Label for note title",
+      "message": "Tytu\u0142"
+   },
+   "quickNote_untitledNote": {
+      "description": "Placeholder title for untitled note",
+      "message": "Notatka bez tytu\u0142u"
+   },
+   "regForm_cancel": {
+      "description": "Allows user to back out of registration when s/he's creating an account during account switching",
+      "message": "Anuluj"
+   },
+   "regForm_deactivated_username": {
+      "description": "User wanted to register with a deactivated username",
+      "message": "Login zosta\u0142 dezaktywowany.Czy chcesz \u003Ca href='$url$'\u003Ereaktywowa\u0107\u003C/a\u003E konto?",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "https://www.evernote.com/AccountReactivation.action"
+         }
+      }
+   },
+   "regForm_email_required": {
+      "description": "User didn't enter an email address",
+      "message": "Wymagane jest podanie adresu e-mail."
+   },
+   "regForm_goodUsername": {
+      "description": "The user entered a valid and available username into the registration form",
+      "message": "Dost\u0119pny"
+   },
+   "regForm_invalid_captcha": {
+      "description": "User didn't fill out the captcha.",
+      "message": "Wpisz znaki widoczne na poni\u017Cszym obrazku."
+   },
+   "regForm_invalid_email": {
+      "description": "User didn't enter a properly-formatted email address",
+      "message": "Adres e-mail jest nieprawid\u0142owy."
+   },
+   "regForm_invalid_password": {
+      "description": "User entered an invalid password",
+      "message": "Podaj has\u0142o sk\u0142adaj\u0105ce si\u0119 z 6 do 64 znak\u00F3w, zawieraj\u0105ce litery, cyfry i znaki specjalne."
+   },
+   "regForm_invalid_username": {
+      "description": "User entered an invalid username",
+      "message": "Login musi zaczyna\u0107 i ko\u0144czy\u0107 si\u0119 liter\u0105 lub cyfr\u0105, mo\u017Ce zawiera\u0107 my\u015Blniki i podkre\u015Blenia."
+   },
+   "regForm_password_required": {
+      "description": "User didn't enter a password",
+      "message": "Pole \"has\u0142o\" jest wymagane."
+   },
+   "regForm_taken_email": {
+      "description": "User entered a valid but unavailable email",
+      "message": "Ten adres e-mail jest ju\u017C w u\u017Cyciu."
+   },
+   "regForm_taken_username": {
+      "description": "User entered a valid but unavailable username",
+      "message": "Podana nazwa u\u017Cytkownika jest ju\u017C u\u017Cywana przez innego u\u017Cytkownika."
+   },
+   "register": {
+      "description": "Text on the submit button of the registration form",
+      "message": "Rejestracja"
+   },
+   "registrationForm_username": {
+      "description": "Text on the username field of the registration form",
+      "message": "Login"
+   },
+   "registration_terms": {
+      "description": "Terms of Service and Privacy Policy agreement",
+      "message": "Rejestruj\u0105c si\u0119 wyra\u017Casz zgod\u0119 na warunki \u003Ca href='$tos_url$'\u003ERegulaminu\u003C/a\u003E i \u003Ca href='$pp_url$'\u003EPolityk\u0119 prywatno\u015Bci\u003C/a\u003E.",
+      "placeholders": {
+         "pp_url": {
+            "content": "$2",
+            "example": "http://www.evernote.com/privacy"
+         },
+         "tos_url": {
+            "content": "$1",
+            "example": "http://www.evernote.com/tos"
+         }
+      }
+   },
+   "relatedNotes": {
+      "description": "Label for the related notes button, and the title for the descriptive overlay.",
+      "message": "Podobne notatki"
+   },
+   "relatedNotesDescription": {
+      "description": "message describing what Related Notes do.",
+      "message": "Evernote szuka maksymalnie trzech notatek na koncie, kt\u00F3re s\u0105 powi\u0105zane z w\u0142a\u015Bnie wyci\u0119t\u0105 stron\u0119 i prezentuje je tutaj."
+   },
+   "rememberFoodYouLove": {
+      "description": "Second part of the text for the Evernote Food cross promotion",
+      "message": "Zapami\u0119taj posi\u0142ek, kt\u00F3ry uwielbiasz."
+   },
+   "safariContextClipImage": {
+      "description": "Label for right-click menu to clip an image in Safari.",
+      "message": "Zapisz obraz w Evernote"
+   },
+   "safariContextClipPDF": {
+      "description": "Label for right-click menu to clip a PDF in Safari.",
+      "message": "Zapisz PDF w Evernote"
+   },
+   "safariContextClipPage": {
+      "description": "Label for right-click menu to clip the whole page in Safari.",
+      "message": "Zapisz ca\u0142\u0105 stron\u0119 w Evernote"
+   },
+   "safariContextClipSelection": {
+      "description": "Label for right-click menu to clip a selection in Safari.",
+      "message": "Zapisz zaznaczenie w Evernote"
+   },
+   "safariContextClipUrl": {
+      "description": "Label for right-click menu to clip a URL in Safari.",
+      "message": "Zapisz adres w Evernote"
+   },
+   "safariContextNewNote": {
+      "description": "Label for right-click menu to create a new note.",
+      "message": "Utw\u00F3rz now\u0105 notatk\u0119 w Evernote"
+   },
+   "saveToEvernote": {
+      "description": "Label for button to save clip to Evernote",
+      "message": "Zapisz w Evernote"
+   },
+   "searchHelperFoundNotes": {
+      "description": "Message indicating that related notes were found",
+      "message": "\u003Cb\u003ENajlepsze wyniki\u003C/b\u003E z Twojego konta Evernote"
+   },
+   "searchHelperLoginMessage": {
+      "description": "Message injected into search-engine page indicating that the user must login prior to seeing results.",
+      "message": "\u003Cdiv class='grayText' id='login'\u003E\u003Ca target='_blank' href='$loginUrl$'\u003EZaloguj si\u0119\u003C/a\u003E do No\u017Cyczek Sieciowych, aby zobaczy\u0107 powi\u0105zane wyniki.\u003C/div\u003E",
+      "placeholders": {
+         "loginUrl": {
+            "content": "$1",
+            "example": "http://www.evernote.com/Login.action"
+         }
+      }
+   },
+   "searchHelperNoTransportError": {
+      "description": "Error message shown to user when there is a problem reaching the servers when doing simultaneous search.",
+      "message": "Jednoczesne wyszukiwanie jest w tej chwili niedost\u0119pne poniewa\u017C serwery us\u0142ugi Evernote s\u0105 nieosi\u0105galne."
+   },
+   "searchHelperNotesNotFoundBiz": {
+      "description": "Message injected into search-engine page indicating there were no related notes found in personal or business accounts",
+      "message": "Brak powi\u0105zanych wynik\u00F3w w notatkach prywatnych lub biznesowych"
+   },
+   "searchHelperNotesNotFoundPers": {
+      "description": "Message injected into search-engine page indicating there were no related notes found in personal account",
+      "message": "Brak powi\u0105zanych wynik\u00F3w w notatkach"
+   },
+   "searchHelperTopBizLibraryMatches": {
+      "description": "Section heading for the simsearch notes found in the user's business account",
+      "message": "$num$ powi\u0105zanych wynik\u00F3w w notatkach biznesowych",
+      "placeholders": {
+         "num": {
+            "content": "$1",
+            "example": "2"
+         }
+      }
+   },
+   "searchHelperTopBizLibraryMatchesOne": {
+      "description": "Section heading for the simsearch notes found in the user's business account, if there was only one result",
+      "message": "1 powi\u0105zany wynik w notatkach biznesowych"
+   },
+   "searchHelperTopMatchesBiz": {
+      "description": "Section heading for the simsearch notes found in a business user's personal account",
+      "message": "$num$ powi\u0105zanych wynik\u00F3w w prywatnych notatkach",
+      "placeholders": {
+         "num": {
+            "content": "$1",
+            "example": "3"
+         }
+      }
+   },
+   "searchHelperTopMatchesBizOne": {
+      "description": "Section heading for the simsearch notes found in a business user's personal account, if there was only one result",
+      "message": "1 powi\u0105zany wynik w notatkach prywatnych"
+   },
+   "searchHelperTopMatchesPers": {
+      "description": "Section heading for the simsearch notes found in a non-business user's personal account",
+      "message": "$num$ powi\u0105zanych wynik\u00F3w w Twoich notatkach",
+      "placeholders": {
+         "num": {
+            "content": "$1",
+            "example": "3"
+         }
+      }
+   },
+   "searchHelperTopMatchesPersOne": {
+      "description": "Section heading for the simsearch notes found in a non-business user's personal account, if there was only one result",
+      "message": "1 powi\u0105zany wynik w Twoich notatkach"
+   },
+   "searchHelperViewAll": {
+      "description": "Label for the link in simsearch to the web client to search for the user's search query.",
+      "message": "Wy\u015Bwietl wszystko"
+   },
+   "searchHelper_hidePerm": {
+      "description": "Text for the option in the simsearch drop down menu to let user to disable simsearch in the options",
+      "message": "Odrzu\u0107 na zawsze"
+   },
+   "searchHelper_hideTemp": {
+      "description": "Text for the option in the simsearch drop down menu to let user temporarily close the simsearch box, but not disable in the options",
+      "message": "Porzu\u0107"
+   },
+   "showRelatedNotes": {
+      "description": "text for the link in the 'related notes' overlay that will show this section.",
+      "message": "Wy\u015Bwietl powi\u0105zane notatki"
+   },
+   "signInHelperText": {
+      "description": "message shown at the top of the login screen to tell them why they should sign in",
+      "message": "Zaloguj si\u0119, aby m\u00F3c wycina\u0107 tre\u015Bci i przegl\u0105da\u0107 powi\u0105zane wyniki"
+   },
+   "signInPrompt": {
+      "description": "hover text on signed out state of the toolbar icon",
+      "message": "Zaloguj si\u0119 do No\u017Cyczek Sieciowych"
+   },
+   "signOutAccount": {
+      "description": "menu item for logging out of the currently selected account.",
+      "message": "Wyloguj $name$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "signOutAll": {
+      "description": "Label to click when a user wants to log in with multiple accounts.",
+      "message": "Wyloguj ze wszystkich kont"
+   },
+   "signout": {
+      "description": "Text on a link prompting for signing out currently logged in user",
+      "message": "Wyloguj"
+   },
+   "stayLoggedInFree": {
+      "description": "Message indicating user should stay logged in as existing user.",
+      "message": "Zostaw zalogowane konto $name$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "switchAnyMessage": {
+      "description": "Message shown when a user tries to add another user and is not already logged into a free account.",
+      "message": "Prze\u0142\u0105czanie u\u017Cytkownik\u00F3w to funkcja Premium, kt\u00F3ra pozwala na szybkie prze\u0142\u0105czanie mi\u0119dzy kontami. Mo\u017Cesz doda\u0107 konto bezp\u0142atne lub konto Premium."
+   },
+   "switchFreeAccount": {
+      "description": "Message indicating user should switch to newly logged in user.",
+      "message": "U\u017Cyj $name$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "switchPremiumMessage": {
+      "description": "Message shown when a user tries to add another user and is already logged into a free account.",
+      "message": "Prze\u0142\u0105czanie u\u017Cytkownik\u00F3w to funkcja Premium, kt\u00F3ra pozwala na szybkie prze\u0142\u0105czanie mi\u0119dzy kontami. Mo\u017Cesz doda\u0107 konto Premium."
+   },
+   "switchToAccount": {
+      "description": "Menu item indicating a user account that can be switched to.",
+      "message": "Prze\u0142\u0105cz do $name$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "tagNamesNotInRange": {
+      "description": "Indicates that user entered an abnormal number of tags",
+      "message": "Wprowadzono maksymaln\u0105 ilo\u015B\u0107 znacznik\u00F3w."
+   },
+   "tryItOut": {
+      "description": "text for button on pdf tooltip",
+      "message": "Wypr\u00F3buj"
+   },
+   "youHaveRelatedNotes": {
+      "description": "Text indicating that the user has other related notes.",
+      "message": "Masz notatki podobne do tej."
+   }
+}

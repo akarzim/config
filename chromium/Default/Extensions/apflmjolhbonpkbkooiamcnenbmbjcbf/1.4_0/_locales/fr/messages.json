@@ -1,0 +1,52 @@
+{
+   "chrome_extension_description": {
+      "message": "Affiche le nombre d'\u00E9l\u00E9ments non lus dans votre compte Google\u00A0Reader. Cliquez dessus pour ouvrir une fen\u00EAtre pop-up d'aper\u00E7u ou votre compte Google\u00A0Reader."
+   },
+   "chrome_extension_name": {
+      "message": "Syst\u00E8me d'alerte Google\u00A0Reader (par Google)"
+   },
+   "clickaction": {
+      "message": "En cas de clic\u00A0:"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "intervaltext": {
+      "message": "Mettre \u00E0 jour toutes les\u00A0:"
+   },
+   "loadingtext": {
+      "message": "Chargement..."
+   },
+   "minutes": {
+      "message": "$1\u00A0minutes",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "nosummary": {
+      "message": "Aucun r\u00E9sum\u00E9 disponible"
+   },
+   "openreaderlink": {
+      "message": "Ouvrir Google\u00A0Reader"
+   },
+   "refreshlink": {
+      "message": "Actualiser"
+   },
+   "savebutton": {
+      "message": "Enregistrer"
+   },
+   "savedmessage": {
+      "message": "Pr\u00E9f\u00E9rences enregistr\u00E9es"
+   },
+   "showmodule": {
+      "message": "Afficher une fen\u00EAtre pop-up"
+   },
+   "showreader": {
+      "message": "Ouvrir Google\u00A0Reader"
+   },
+   "title": {
+      "message": "Options du syst\u00E8me d'alerte Google\u00A0Reader"
+   }
+}

@@ -1,0 +1,1070 @@
+{
+   "April": {
+      "message": "\u00C1prilis"
+   },
+   "Aug": {
+      "message": "Aug"
+   },
+   "BrowserActionTitle": {
+      "description": "Title for the browser action that's visible to the user of extension",
+      "message": "Kiv\u00E1g\u00E1s az Evernote-ba"
+   },
+   "Close": {
+      "description": "The string that shows up on a button used to close a window.",
+      "message": "Bez\u00E1r"
+   },
+   "Dec": {
+      "message": "Dec"
+   },
+   "EDAMError_1": {
+      "description": "Used to describe an unknown EDAM error",
+      "message": "Ismeretlen hiba"
+   },
+   "EDAMError_1_notebookGuid": {
+      "description": "Error message indicating unknown notebook",
+      "message": "Ismeretlen jegyzett\u00F6mb"
+   },
+   "EDAMError_3": {
+      "description": "Indicates that permission was denied for request by the server",
+      "message": "Enged\u00E9ly megtagadva"
+   },
+   "EDAMError_3_User_active": {
+      "description": "Indicates that a user tried to login but their account is inactive",
+      "message": "Enged\u00E9ly megtagadva, mert a felhaszn\u00E1l\u00F3 inakt\u00EDv."
+   },
+   "EDAMError_3_User_tooManyFailuresTryAgainLater": {
+      "description": "Indicates that a user tried to login way too many times with invalid credentials and needs to chill for a bit",
+      "message": "T\u00FAl sok bejelentkez\u00E9si k\u00EDs\u00E9rlet. Pr\u00F3b\u00E1lja meg k\u00E9s\u0151bb."
+   },
+   "Error_HTTP_Transport": {
+      "description": "Generic error indicating that the extension could not get a response from a server",
+      "message": "Probl\u00E9ma l\u00E9pett fel a szerverrel val\u00F3 kommunik\u00E1ci\u00F3ban [$status$]. $errorText$",
+      "placeholders": {
+         "errorText": {
+            "content": "$2",
+            "example": "http error response"
+         },
+         "status": {
+            "content": "HTTP $1",
+            "example": "404"
+         }
+      }
+   },
+   "Error_Network_Unavailable": {
+      "description": "error message shown when we can't connect to the internet.",
+      "message": "Nincs internet kapcsolat"
+   },
+   "ExtensionDescription": {
+      "description": "Description of the extension as it's visible to the outside world",
+      "message": "Haszn\u00E1lja az Evernote b\u0151v\u00EDtm\u00E9nyt, ha a weben l\u00E1tott dolgokat el akarja menteni Evernote fi\u00F3kj\u00E1ba. S\u0151t, a b\u0151v\u00EDtm\u00E9nnyel kereshet is a jegyzetei k\u00F6z\u00F6tt."
+   },
+   "ExtensionName": {
+      "description": "Name of the extension as it's visible to the outside world",
+      "message": "Evernote Web Clipper"
+   },
+   "Feb": {
+      "message": "Feb"
+   },
+   "Friday": {
+      "message": "P\u00E9ntek"
+   },
+   "Jan": {
+      "message": "Jan"
+   },
+   "July": {
+      "message": "J\u00FAlius"
+   },
+   "June": {
+      "message": "J\u00FAnius"
+   },
+   "March": {
+      "message": "M\u00E1rcius"
+   },
+   "May": {
+      "message": "M\u00E1jus"
+   },
+   "Monday": {
+      "message": "H\u00E9tf\u0151"
+   },
+   "Nov": {
+      "message": "Nov"
+   },
+   "Oct": {
+      "message": "Okt"
+   },
+   "Saturday": {
+      "message": "Szombat"
+   },
+   "Sept": {
+      "message": "Szep"
+   },
+   "Sunday": {
+      "message": "Vas\u00E1rnap"
+   },
+   "Thursday": {
+      "message": "Cs\u00FCt\u00F6rt\u00F6k"
+   },
+   "Today": {
+      "message": "Ma"
+   },
+   "Tuesday": {
+      "message": "Kedd"
+   },
+   "Wednesday": {
+      "message": "Szerda"
+   },
+   "accountChangedTo": {
+      "description": "message notifying the user that he's switched to a different account.",
+      "message": "Aktu\u00E1lis fi\u00F3k: $name$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "addAnotherAccount": {
+      "description": "Label to click when a user wants to log in with multiple accounts.",
+      "message": "M\u00E1sik fi\u00F3k hozz\u00E1ad\u00E1sa..."
+   },
+   "articleClipFailure": {
+      "description": "Messages shown to user when the article of the page isn't clippable.",
+      "message": "Sajnos az Evernote nem tudja az eg\u00E9sz lapot cikk\u00E9nt kiv\u00E1gni. Jel\u00F6lje ki a kiv\u00E1gand\u00F3 ter\u00FCletet."
+   },
+   "authPersistenceError": {
+      "description": "Error indicating that the browser fails to persist authentication.",
+      "message": "B\u00F6ng\u00E9sz\u0151j\u00E9nek be\u00E1ll\u00EDt\u00E1sai nem megfelel\u0151ek az Evernote kiterjeszt\u00E9s futtat\u00E1s\u00E1hoz. Pr\u00F3b\u00E1lja vissza\u00E1ll\u00EDtani a Chrome Adatv\u00E9delmi be\u00E1ll\u00EDt\u00E1sait az alap\u00E9rtelmez\u00E9sre: Enged\u00E9lyezze a helyi adatok ment\u00E9s\u00E9t, \u00E9s NE tiltsa le a harmadik f\u00E9lt\u0151l sz\u00E1rmaz\u00F3 cookie-kat. Pr\u00F3b\u00E1lja meg kikapcsolni a t\u00F6bbi harmadik f\u00E9lt\u0151l sz\u00E1rmaz\u00F3 kiterjeszt\u00E9st."
+   },
+   "bizNotebookOptionText": {
+      "description": "text that shows up in the dropdown list used to select another user's business notebook.",
+      "message": " (megosztotta: $creator$)",
+      "placeholders": {
+         "creator": {
+            "content": "$1",
+            "example": "Connie Chan"
+         }
+      }
+   },
+   "bizNotebooksOptGroupTitle": {
+      "description": "text that appears above the list of business notebooks in the dropdown list of notebooks.",
+      "message": "\u00DCzleti jegyzett\u00F6mb\u00F6k"
+   },
+   "cancelAddAnotherAccount": {
+      "description": "The text for the control that cancels adding a new acconut to switch to.",
+      "message": "M\u00E9gsem"
+   },
+   "cancelSwitchFree": {
+      "description": "Message on button to cancel switching to a different free account.",
+      "message": "Nem, vissza"
+   },
+   "captcha_instruction": {
+      "description": "Instruction for captcha in the registration form.",
+      "message": "Adja meg a lenti sz\u00E1mokat"
+   },
+   "checkVersionWarning": {
+      "description": "Warning message shown to user when the client doesn't pass version check",
+      "message": "Az Evernote Web Clipper ezen verzi\u00F3ja m\u00E1r nem kompatibilis az Evernote Service-szel. Telep\u00EDtse a legfrissebb verzi\u00F3t."
+   },
+   "clearFeatureDiscoveryTooltip": {
+      "description": "The message that pops up when you hover over the 'x' icon for the 'feature discovery' box.",
+      "message": "Ez az \u00E9rtes\u00EDt\u00E9s ne jelenjen meg \u00FAjra"
+   },
+   "clearTagsToolTip": {
+      "description": "The message that pops up when you hover over the 'x' icon that displays beside the tag list.",
+      "message": "Minden c\u00EDmke t\u00F6rl\u00E9se"
+   },
+   "clipsFromThisSite": {
+      "description": "Label for the site search button.",
+      "message": "M\u00E1s klippek innen: $site$",
+      "placeholders": {
+         "site": {
+            "content": "$1",
+            "example": "71"
+         }
+      }
+   },
+   "contentPreview_clipArticle": {
+      "description": "Selection nudging legend for clipping article",
+      "message": "cikk kiv\u00E1g\u00E1sa"
+   },
+   "contentPreview_expandSelection": {
+      "description": "Selection nudging legend for expanding selection",
+      "message": "kijel\u00F6l\u00E9s kiterjeszt\u00E9se"
+   },
+   "contentPreview_moveSelection": {
+      "description": "Selection nudging legend for moving selection",
+      "message": "kijel\u00F6l\u00E9s \u00E1thelyez\u00E9se"
+   },
+   "contentPreview_shrinkSelection": {
+      "description": "Selection nudging legend for shrinking selection",
+      "message": "kijel\u00F6l\u00E9s zsugor\u00EDt\u00E1sa"
+   },
+   "contentclipper_clipping": {
+      "description": "Message shown on content pages to notify users that the page is being scraped for clipping.",
+      "message": "\u003Cb\u003EKiv\u00E1g\u00E1s\u003C/b\u003E \u201C$clipTitle$\u201D",
+      "placeholders": {
+         "clipTitle": {
+            "content": "$1",
+            "example": "Sample clip title"
+         }
+      }
+   },
+   "contentclipper_clipping_no_title": {
+      "description": "Message shown on content pages to notify users that the page is being scraped for clipping when the title of the clip is unavailable.",
+      "message": "\u003Cb\u003EKiv\u00E1g\u00E1s\u2026\u003C/b\u003E"
+   },
+   "contentclipper_syncing": {
+      "description": "Message shown on content pages to notify users that the page is being sent to the server.",
+      "message": "\u003Cb\u003ESzinkroniz\u00E1l\u00E1s\u003C/b\u003E \u201C$clipTitle$\u201D",
+      "placeholders": {
+         "clipTitle": {
+            "content": "$1",
+            "example": "Sample clip title"
+         }
+      }
+   },
+   "contextMenuClipImage": {
+      "description": "Context menu item for creating a new note with image",
+      "message": "K\u00E9p kiv\u00E1g\u00E1sa"
+   },
+   "contextMenuClipPDF": {
+      "description": "Context menu item for creating a new note with PDF",
+      "message": "PDF kiv\u00E1g\u00E1sa"
+   },
+   "contextMenuClipPage": {
+      "description": "Context menu item for clipping current page",
+      "message": "Oldal kiv\u00E1g\u00E1sa"
+   },
+   "contextMenuClipSelection": {
+      "description": "Context menu item for clipping current selection",
+      "message": "Kijel\u00F6l\u00E9s kiv\u00E1g\u00E1sa"
+   },
+   "contextMenuClipUrl": {
+      "description": "Context menu item for creating a new note with just the URL of the current page",
+      "message": "URL kiv\u00E1g\u00E1sa"
+   },
+   "contextMenuNewNote": {
+      "description": "Context menu item for creating new note",
+      "message": "\u00DAj jegyzet"
+   },
+   "contextMenuPleaseLogin": {
+      "description": "Help message shown to users when they try to clip content via contextual menu items but not being intially logged in",
+      "message": "Be kell jelentkeznie az Evernote Web Clipper haszn\u00E1lat\u00E1hoz  az eszk\u00F6zt\u00E1r gombj\u00E1t haszn\u00E1lva"
+   },
+   "copyright": {
+      "description": "Copyright statement",
+      "message": "Copyright 2009-2013 Evernote Corporation. All rights reserved. \u003Ca href='$baseUrl$/privacy' target='_blank'\u003EPrivacy Policy\u003C/a\u003E | \u003Ca href='$baseUrl$/tos' target='_blank'\u003ETerms of Service\u003C/a\u003E | \u003Ca href='#' id='legalLink'\u003ELegal Notices\u003C/a\u003E",
+      "placeholders": {
+         "baseUrl": {
+            "content": "$1",
+            "example": "https://www.evernote.com"
+         }
+      }
+   },
+   "deleting": {
+      "description": "Message indicating that the extension is deleting previously clipped note from the server",
+      "message": "Kiv\u00E1gott jegyzet t\u00F6rl\u00E9se..."
+   },
+   "desktopNotification_cancelFailedClip": {
+      "description": "Name of the action associated with cancelling the clip that failed to upload. Should be as short as possible",
+      "message": "M\u00E9gsem"
+   },
+   "desktopNotification_clipProcessorSignInMessage": {
+      "description": "Message shown to users inside desktop notification informing users that they clip could not be uploaded because they are not authenticated...",
+      "message": "\u00C9rv\u00E9nytelen vagy lej\u00E1rt hiteles\u00EDt\u00E9s. Jelentkezzen be az eszk\u00F6zt\u00E1r-gomb seg\u00EDts\u00E9g\u00E9vel \u00E9s pr\u00F3b\u00E1lja \u00FAjra"
+   },
+   "desktopNotification_clipProcessorSignInTitle": {
+      "description": "Title for desktop notification informing user that there was an error with uploading a clip. This should be as short as possible",
+      "message": "Nem lehet menteni: \"$clipTitle$\"",
+      "placeholders": {
+         "clipTitle": {
+            "content": "$1",
+            "example": "Sample clip title"
+         }
+      }
+   },
+   "desktopNotification_clipProcessorTooManyRetries": {
+      "description": "Message indicating that we've tried too many times to clip this note.",
+      "message": "A \"$title$\" c\u00EDm\u0171 kiv\u00E1g\u00E1ssal t\u00FAl sokszor pr\u00F3b\u00E1lkoztunk \u00E9s t\u00F6bbsz\u00F6r m\u00E1r nem lehet.",
+      "placeholders": {
+         "title": {
+            "content": "$1",
+            "example": "Title of the clip."
+         }
+      }
+   },
+   "desktopNotification_clipUploaded": {
+      "description": "Headline for desktop notification indicating that clip was successfully uploaded",
+      "message": "\u003Cb\u003EKiv\u00E1gva\u003C/b\u003E \u201C$clipTitle$\u201D",
+      "placeholders": {
+         "clipTitle": {
+            "content": "$1",
+            "example": "Sample clip title"
+         }
+      }
+   },
+   "desktopNotification_clipUploadedMessage": {
+      "description": "Message indicating that clip was successfully uploaded",
+      "message": "A kiv\u00E1g\u00E1s felt\u00F6lt\u00E9se siker\u00FClt."
+   },
+   "desktopNotification_editSuccessClip": {
+      "description": "Name of the action associated with editing clipped note",
+      "message": "Szerkeszt\u00E9s"
+   },
+   "desktopNotification_retryFailedClip": {
+      "description": "Name of the action associated with retrying the clip that failed to upload. Should be as short as possible",
+      "message": "\u00DAjra"
+   },
+   "desktopNotification_unableToSaveClip": {
+      "description": "Headline for desktop notifications indicating there was a problem with saving the clip",
+      "message": "Nem lehet menteni: \"$clipTitle$\"",
+      "placeholders": {
+         "clipTitle": {
+            "content": "$1",
+            "example": "Sample clip title"
+         }
+      }
+   },
+   "desktopNotification_unableToSaveClipUnknown": {
+      "description": "Headline for desktop notification indicating that there was an unknown error while uploading a clip",
+      "message": "A kiv\u00E1g\u00E1st nem lehet menteni"
+   },
+   "desktopNotification_unableToSaveClipUnknownMessage": {
+      "description": "Description of the unknown error that may occur after the extension failed to upload a clip",
+      "message": "Ismeretlen hiba az egyik kiv\u00E1gott r\u00E9sz ment\u00E9se k\u00F6zben. Hiba\u00FCzenet: $details$",
+      "placeholders": {
+         "details": {
+            "content": "$1",
+            "example": "Error 503"
+         }
+      }
+   },
+   "desktopNotification_viewSuccessClip": {
+      "description": "Name of the actions associated with viewing clipped note",
+      "message": "N\u00E9zet"
+   },
+   "dismiss": {
+      "description": "Message shown on buttons to dismiss a widget of some kind",
+      "message": "M\u00E9gsem"
+   },
+   "email": {
+      "description": "Label for email field of registration form",
+      "message": "Email c\u00EDm"
+   },
+   "filing": {
+      "description": "Message indicating that the extension is filing changes made to previously clipped note on the server",
+      "message": "Jegyzet elt\u00E1rol\u00E1sa..."
+   },
+   "freeAccountLimit": {
+      "description": "",
+      "message": "M\u00E1r bejelentkezett egy ingyenes fi\u00F3kba, \u003Cb\u003E$name$\u003C/b\u003E. T\u00F6bb Premium fi\u00F3k k\u00F6z\u00F6tt v\u00E1ltogathat, de csak egy ingyenest haszn\u00E1lhat. Ezt az ingyenes fi\u00F3kot k\u00EDv\u00E1nja haszn\u00E1lni?",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "fullPageClipFailure": {
+      "description": "Message shown to user when full page clip wasn't possible",
+      "message": "Sajnos, ezt az oldalt az Evernote nem tudja teljes eg\u00E9sz\u00E9ben kiv\u00E1gni. K\u00E9rj\u00FCk, v\u00E1lassza ki az oldal kiv\u00E1gand\u00F3 r\u00E9sz\u00E9t!"
+   },
+   "getEvernoteFood": {
+      "description": "First part of the text for the Evernote Food cross promotion that appears in the clip result notification",
+      "message": "Get Evernote Food"
+   },
+   "header_register": {
+      "description": "Registration link in header",
+      "message": "\u00DAj Evernote fi\u00F3k l\u00E9trehoz\u00E1sa"
+   },
+   "hideRelatedNotes": {
+      "description": "text for the link in the 'related notes' overlay that will hide this section.",
+      "message": "Hasonl\u00F3 jegyzett\u00F6mb\u00F6k rejt\u00E9se"
+   },
+   "illegalUrlClipFailure": {
+      "description": "Error message shown when you try to clip from pages that aren't scriptable by the browser. Such as the chrome gallery pages.",
+      "message": "A b\u00F6ng\u00E9sz\u0151 be\u00E1ll\u00EDtott korl\u00E1toz\u00E1sai miatt err\u0151l az oldalr\u00F3l nem tud kiv\u00E1gni"
+   },
+   "legalNoticesTitle": {
+      "description": "the title of the legal notices dialog in the options page where we list the licenses of all third party packages we use",
+      "message": "Web Clipper uses the following open source software"
+   },
+   "linkedNotebookOptionText": {
+      "description": "Text that shows up inside the dropdown list used to select another user's shared notebook.",
+      "message": "$notebookName$ (tulajdonos: $owner$)",
+      "placeholders": {
+         "notebookName": {
+            "content": "$1",
+            "example": "recipes"
+         },
+         "owner": {
+            "content": "$2",
+            "example": "tylerkaraszewski"
+         }
+      }
+   },
+   "linkedNotebooksOptGroupTitle": {
+      "description": "the text that apeears above the list of linked notebooks in the dropdown list of notebooks.",
+      "message": "Megosztott jegyzett\u00F6mb\u00F6k"
+   },
+   "loading": {
+      "description": "Message shown when extension is loading...",
+      "message": "Belt\u00F6lt\u00E9s..."
+   },
+   "loggingIn": {
+      "description": "Message indicating that the extension is currently attempting to sign in user",
+      "message": "Bejelentkez\u00E9s az Evernote-ba"
+   },
+   "loginForm_login": {
+      "description": "Sign in button label for login form",
+      "message": "Bejelentkez\u00E9s"
+   },
+   "loginForm_password": {
+      "description": "Label for entering password into login form",
+      "message": "Jelsz\u00F3"
+   },
+   "loginForm_passwordError_5": {
+      "description": "",
+      "message": "Jelsz\u00F3 sz\u00FCks\u00E9ges."
+   },
+   "loginForm_passwordInvalidError": {
+      "description": "",
+      "message": "\u00C9rv\u00E9nytelen jelsz\u00F3"
+   },
+   "loginForm_rememberMe": {
+      "description": "Label for extending login session",
+      "message": "Eml\u00E9kezzen r\u00E1m"
+   },
+   "loginForm_searchHelper": {
+      "description": "Label for search helper option on the login view",
+      "message": "Hasonl\u00F3 tal\u00E1latok megjelen\u00EDt\u00E9se b\u00F6ng\u00E9sz\u00E9s k\u00F6zben"
+   },
+   "loginForm_username": {
+      "description": "Label for entering email address or username into login form",
+      "message": "Email c\u00EDm vagy felhaszn\u00E1l\u00F3n\u00E9v"
+   },
+   "loginForm_usernameError_5": {
+      "description": "",
+      "message": "Felhaszn\u00E1l\u00F3i n\u00E9v sz\u00FCks\u00E9ges."
+   },
+   "loginForm_usernameError_8": {
+      "description": "",
+      "message": "Ehhez a felhaszn\u00E1l\u00F3i n\u00E9vhez \u00E9s jelsz\u00F3hoz nem tartozik \u00E9rv\u00E9nyes felhaszn\u00E1l\u00F3."
+   },
+   "loginForm_usernameInvalidChinaError": {
+      "description": "",
+      "message": "Ismeretlen felhaszn\u00E1l\u00F3 vagy pr\u00F3b\u00E1lja az Evernote International verzi\u00F3t"
+   },
+   "loginForm_usernameInvalidError": {
+      "description": "",
+      "message": "Ilyen felhaszn\u00E1l\u00F3 nem l\u00E9tezik."
+   },
+   "login_searchHelperLongDescription": {
+      "description": "Description of the search-helper feature as shown on the options page",
+      "message": "When enabled, your searches on supported search engines will also be performed on your Evernote account. Supported search engines are: Google, Bing, Yahoo, Yandex, Baidu, Daum, and Naver."
+   },
+   "logs_export": {
+      "description": "Title of the button for exporting all of the logs",
+      "message": "Napl\u00F3k export\u00E1l\u00E1sa"
+   },
+   "logs_follow": {
+      "description": "Label for an option to trail the logfile",
+      "message": "Follow"
+   },
+   "logs_selectLogFile": {
+      "description": "Label for selecting log files for viewing",
+      "message": "Napl\u00F3f\u00E1jl kiv\u00E1laszt\u00E1sa: "
+   },
+   "logs_title": {
+      "description": "The title of the logs page.",
+      "message": "Esem\u00E9nynapl\u00F3k"
+   },
+   "more": {
+      "description": "General purpose, capitalized word for More - as in - there's more to see/read etc.",
+      "message": "Tov\u00E1bb"
+   },
+   "newFeatureDescription": {
+      "description": "The popover description of for the Smart Filing feature, including a link to the options page.",
+      "message": "A Web Clipper a kiv\u00E1gand\u00F3 tartalom alapj\u00E1n c\u00EDmk\u00E9ket \u00E9s jegyzett\u00F6mb\u00F6ket fog javasolni. Ennek \u00E9s m\u00E1s opci\u00F3knak a be\u00E1ll\u00EDt\u00E1sa a Web Clipperben: \u003Cspan class='newFeatureOptionsPseudoLink'\u003EBe\u00E1ll\u00EDt\u00E1sok\u003C/span\u003E."
+   },
+   "newFeatureTitle": {
+      "description": "The title for any new feature we're showcasing in the current release.",
+      "message": "Intelligens iratt\u00E1roz\u00E1s"
+   },
+   "noteSizeExceededFree": {
+      "description": "Error message shown to free users who try to clip something over the maximum note size",
+      "message": "Only Evernote Premium users can clip notes over 25mb in size. \u003Ca href='$baseUrl$/Checkout.action'\u003EUpgrade to Premium\u003C/a\u003E",
+      "placeholders": {
+         "baseUrl": {
+            "content": "$1",
+            "example": "http://www.evernote.com"
+         }
+      }
+   },
+   "noteSizeExceededPremium": {
+      "description": "Error message shown to premium users who try to clip something over the maximum note size",
+      "message": "Maximum note size is 100mb, cannot create note"
+   },
+   "notification_quotaExceededFree": {
+      "description": "Indicates that free user has exceeded their quota",
+      "message": "You don't have enough upload allowance to save this clip. \u003Ca href='$url$'\u003EUpgrading to Premium\u003C/a\u003E",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "https://www.evernote.com/Checkout.action"
+         }
+      }
+   },
+   "notification_quotaExceededPremium": {
+      "description": "Indicates that premium user has exceeded their quota",
+      "message": "You don't have enough upload allowance to save this clip. \u003Ca href='$url$'\u003EIncrease upload allowance\u003C/a\u003E",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "https://www.evernote.com/QuotaCheckout.action"
+         }
+      }
+   },
+   "options_buildId": {
+      "description": "The revison number of this build of the clipper, as pulled fro mSVN at the time the clipper was built.",
+      "message": "Build ID:"
+   },
+   "options_client": {
+      "description": "Label for the dropdown menu in Options where user can choose what client s/he wants to open and edit notes in",
+      "message": "Jegyzetek megnyit\u00E1sa"
+   },
+   "options_clientSelectionDescription": {
+      "description": "Description of the dropdown menu to select what client the user wants to open notes in. Only displayed when user selects the desktop client",
+      "message": "Els\u0151 haszn\u00E1latkor egy 'K\u00FCls\u0151 Protokoll K\u00E9r\u00E9s' dial\u00F3gust fog l\u00E1tni. A k\u00F6nnyebb haszn\u00E1lhat\u00F3s\u00E1g \u00E9rdek\u00E9ben jel\u00F6lje be az 'Eml\u00E9kezzen a d\u00F6nt\u00E9semre' jel\u00F6l\u0151n\u00E9gyzetet majd kattintson az 'Alkalmaz\u00E1s ind\u00EDt\u00E1s\u00E1'-ra."
+   },
+   "options_client_desktop": {
+      "description": "Desktop client choice in the dropdown menu to select what client to open/edit a note in",
+      "message": "Asztali kliens"
+   },
+   "options_client_web": {
+      "description": "Web client choice in the dropdown menu to select what client to open/edit a note in",
+      "message": "Web kliens"
+   },
+   "options_clipAction": {
+      "description": "Label for specifying default clipping action",
+      "message": "Alap\u00E9rtelmezett m\u0171velet"
+   },
+   "options_clipAction_article": {
+      "description": "Label for article as the default clipping action",
+      "message": "Cikk kiv\u00E1g\u00E1sa"
+   },
+   "options_clipAction_fullPage": {
+      "description": "Label for full-page as the default clipping action",
+      "message": "Teljes oldal kiv\u00E1g\u00E1sa"
+   },
+   "options_clipAction_url": {
+      "description": "Label for url as the default clipping action",
+      "message": "URL kiv\u00E1g\u00E1sa"
+   },
+   "options_clipNotificationEnabled": {
+      "description": "Label for option to enable notification about successful clips",
+      "message": "\u00C9rtes\u00EDt\u00E9sek enged\u00E9lyez\u00E9se"
+   },
+   "options_clipNotificationEnabledDescription": {
+      "description": "Description of the notifications option",
+      "message": "Ha enged\u00E9lyezve van, akkor \u00E9rtes\u00EDt\u00E9st kap arr\u00F3l, ha a kiv\u00E1g\u00E1s fel lett t\u00F6ltve. Az \u00E9rtes\u00EDt\u00E9sek megk\u00F6nny\u00EDtik a kiv\u00E1g\u00E1sok megtekint\u00E9s\u00E9t, szerkeszt\u00E9s\u00E9t \u00E9s megoszt\u00E1s\u00E1t."
+   },
+   "options_clipStyle": {
+      "description": "Label for the option to keep the style of the page while clipping.",
+      "message": "St\u00EDlus megtart\u00E1sa"
+   },
+   "options_clipStyleDescription": {
+      "description": "Description for the option to preserve styles with clips.",
+      "message": "Ha enged\u00E9lyezve van, akkor a kiv\u00E1gott r\u00E9sz st\u00EDlusinform\u00E1ci\u00F3it a program a lehets\u00E9ges m\u00E9rt\u00E9kig meg\u0151rzi. Ha tiltva, akkor a kiv\u00E1g\u00E1s egyszer\u0171, form\u00E1zatlan sz\u00F6veg lesz."
+   },
+   "options_developer_title": {
+      "description": "Title for developer options",
+      "message": "Fejleszt\u0151i opci\u00F3k"
+   },
+   "options_eventLogDescription": {
+      "description": "Describes the purpose of the event logs link in the options page.",
+      "message": "Ha kapcsolatba l\u00E9p az Evernote T\u00E1mogat\u00E1ssal, megk\u00E9rhetik arra, hogy tanulm\u00E1nyozza ezeket a napl\u00F3kat a probl\u00E9ma diagnosztiz\u00E1l\u00E1sa \u00E9rdek\u00E9ben."
+   },
+   "options_eventLogLink": {
+      "description": "the text for the link to the event logs page from the options page",
+      "message": "Esem\u00E9nynapl\u00F3k megtekint\u00E9se"
+   },
+   "options_insecureProto": {
+      "description": "Label for specifying insecure protocol option.",
+      "message": "Nem biztons\u00E1gos protokoll"
+   },
+   "options_overrideServiceURL": {
+      "description": "Custom URL to use that will override both stage and production URLs.",
+      "message": "Override Service URL"
+   },
+   "options_saving": {
+      "description": "Notifies the user that their changes to the options page are being saved",
+      "message": "Ment\u00E9s..."
+   },
+   "options_secureProto": {
+      "description": "Label specifying secure protocol option.",
+      "message": "Biztons\u00E1gos protokoll"
+   },
+   "options_selectionNudging": {
+      "description": "Label for selection nudging options",
+      "message": "Cikk kijel\u00F6l\u00E9se"
+   },
+   "options_selectionNudgingDescription": {
+      "description": "Description of selection nudging",
+      "message": "Ha enged\u00E9lyezve van, akkor kiv\u00E1g\u00E1s el\u0151tt a billenty\u0171zettel megv\u00E1ltoztathatja a cikk kijel\u00F6lt ter\u00FClet\u00E9t. Az &quot;Enged\u00E9lyezve (nincs javaslat)&quot; eset\u00E9n nem jelennek meg kieg\u00E9sz\u00EDt\u0151 inform\u00E1ci\u00F3k. Ha le van tiltva, akkor az automatikus kijel\u00F6l\u00E9sen nem v\u00E1ltoztathat."
+   },
+   "options_selectionNudging_disabled": {
+      "description": "Label for disabled selection nudging",
+      "message": "Letiltva"
+   },
+   "options_selectionNudging_enabled": {
+      "description": "Label for enabled selection nudging",
+      "message": "Enged\u00E9lyezve"
+   },
+   "options_selectionNudging_enabledNoprompt": {
+      "description": "Label for enabled selection nudging, but without showing the hits",
+      "message": "Enged\u00E9lyezve (nincs javaslat)"
+   },
+   "options_simulateCheckVersionFailure": {
+      "description": "Label for developer option to simulate checkVersion failure",
+      "message": "Simulate checkVersion Failure"
+   },
+   "options_simulateSimplifiedChinese": {
+      "description": "Label for developer option to simulate checkVersion failure",
+      "message": "Egyszer\u0171s\u00EDtett k\u00EDnai nyelv szimul\u00E1l\u00E1sa"
+   },
+   "options_simulateSimplifiedChineseDescription": {
+      "description": "Description for what it means to select this option",
+      "message": "Ha enged\u00E9lyezve van, akkor a program \u00FAgy viselkedik, mintha egyszer\u0171s\u00EDtett k\u00EDnai nyelvre lenne \u00E1ll\u00EDtva."
+   },
+   "options_smartFilingBizDesc": {
+      "description": "Description of option to allow smart filing into business notebooks",
+      "message": "Intelligens iratt\u00E1roz\u00E1s enged\u00E9lyez\u00E9se Business jegyzett\u00F6mb\u00F6kh\u00F6z"
+   },
+   "options_smartFilingEnabled": {
+      "description": "Label for option to enable automatic tagging and notebook selection for new notes.",
+      "message": "Intelligens iratt\u00E1roz\u00E1s enged\u00E9lyez\u00E9se"
+   },
+   "options_smartFilingEnabledDescription": {
+      "description": "Description of the smart filing option",
+      "message": "Az intelligens iratt\u00E1roz\u00E1s automatikusan kiv\u00E1laszt egy, a kiv\u00E1gand\u00F3 tartalomhoz ill\u0151 jegyzett\u00F6mb\u00F6t \u00E9s n\u00E9h\u00E1ny c\u00EDmk\u00E9t."
+   },
+   "options_smartFilingEnabled_all": {
+      "description": "",
+      "message": "C\u00EDmk\u00E9k \u00E9s jegyzett\u00F6mb\u00F6k"
+   },
+   "options_smartFilingEnabled_none": {
+      "description": "",
+      "message": "Intelligens iratt\u00E1roz\u00E1s tilt\u00E1sa"
+   },
+   "options_smartFilingEnabled_notebooks": {
+      "description": "",
+      "message": "Csak jegyzett\u00F6mb\u00F6k"
+   },
+   "options_smartFilingEnabled_tags": {
+      "description": "",
+      "message": "Csak c\u00EDmk\u00E9k"
+   },
+   "options_storedCredentials": {
+      "description": "Label for a set of options controls enabling users to store their credentials",
+      "message": "Felhaszn\u00E1l\u00F3i adatok"
+   },
+   "options_storedCredentialsDescription": {
+      "description": "Educational message for users who wish to store their Evernote password. First sentence is the most critical one as it will be used in options_storedCredentialsShortDescription",
+      "message": "\u003Cb\u003EFIGYELEM:\u003C/b\u003E A jelszavak t\u00E1rol\u00E1sa lehet\u0151v\u00E9 teszi m\u00E1s felhaszn\u00E1l\u00F3 r\u00E9sz\u00E9re, hogy hozz\u00E1f\u00E9rjen Evernote fi\u00F3kj\u00E1hoz a b\u00F6ng\u00E9sz\u0151 haszn\u00E1latakor. T\u00E1vol\u00EDtsa el, vagy jelentkezzen ki a \"Kiv\u00E1g\u00E1s az Evernote-ba\" b\u0151v\u00EDtm\u00E9nyb\u0151l a felhaszn\u00E1l\u00F3n\u00E9v \u00E9s a jelsz\u00F3 v\u00E9gleges t\u00F6rl\u00E9s\u00E9hez."
+   },
+   "options_title": {
+      "description": "Title of the options page",
+      "message": "Be\u00E1ll\u00EDt\u00E1sok"
+   },
+   "options_useContextMenu": {
+      "description": "Label for option to enable clipping via contextual menu",
+      "message": "K\u00F6rnyezetf\u00FCgg\u0151 men\u00FCk enged\u00E9lyez\u00E9se"
+   },
+   "options_useContextMenuDescription": {
+      "description": "Description of the contextual menu option",
+      "message": "Ha enged\u00E9lyezve van, akkor a tartalomnak megfelel\u0151 men\u00FC jelenik meg jobb eg\u00E9rgomb kattint\u00E1sra."
+   },
+   "options_useSearchHelper": {
+      "description": "Label for search-helper feature toggle",
+      "message": "Hasonl\u00F3 tal\u00E1latok"
+   },
+   "options_useSearchHelperDescription": {
+      "description": "Description of the search-helper feature as shown on the options page",
+      "message": "Ha enged\u00E9lyezve van, akkor t\u00E1mogatott b\u00F6ng\u00E9sz\u0151k haszn\u00E1latakor a keres\u00E9si eredm\u00E9nyek k\u00F6z\u00F6tt megjelennek vonatkoz\u00F3 jegyzetei is."
+   },
+   "options_useStage": {
+      "description": "Label for developer option to simulate checkVersion failure",
+      "message": "Use Stage"
+   },
+   "options_useStageDescription": {
+      "description": "Description for what it means to select this option",
+      "message": "Instructs the clipper to use the 'stage' service in place of the production service, which is normal only for testing."
+   },
+   "pdfTip": {
+      "description": "Tooltip that appears on PDFs",
+      "message": "Did you know that you can clip PDF's directly to your Evernote account with the Web Clipper?"
+   },
+   "popup_couldntStart": {
+      "description": "Message that shows up when the clipper popup can't open.",
+      "message": "A Web Clipper szolg\u00E1ltat\u00E1s nem m\u0171k\u00F6dik ezzel az oldallal. T\u00F6ltse be \u00FAjra az oldalt \u00E9s pr\u00F3b\u00E1lja meg ism\u00E9telten a kiv\u00E1g\u00E1st. Ha ez sem seg\u00EDt, akkor l\u00E9pjen kapcsolatba az \u00FCgyf\u00E9lszolg\u00E1lattal."
+   },
+   "popup_loadingNotebooks": {
+      "description": "Message shown while smart filing is running. Should *not* include trailing punctuation.",
+      "message": "Jegyzett\u00F6mb\u00F6k bet\u00F6lt\u00E9se"
+   },
+   "popup_loginCheckTimeout": {
+      "description": "Message that displays if checking if the user is logged in takes too long.",
+      "message": "A felhaszn\u00E1l\u00F3i adatok ellen\u0151rz\u00E9se t\u00FAl sok id\u0151t vett ig\u00E9nybe. Gy\u0151z\u0151dj\u00F6n meg r\u00F3la, hogy kapcsol\u00F3dik az internethez \u00E9s pr\u00F3b\u00E1lja meg \u00FAjra."
+   },
+   "popup_moreNotesLink": {
+      "description": "Message showing how many more notes can be seen on the server.",
+      "message": "M\u00E9g $count$ jegyzet megtekint\u00E9se\u2026",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "10"
+         }
+      }
+   },
+   "popup_oneMoreNoteLink": {
+      "description": "Message showing there is one more note on the server.",
+      "message": "M\u00E9g egy jegyzet megtekint\u00E9se..."
+   },
+   "popup_unsupportedScheme": {
+      "description": "The error to display when the popup can't operate on a specific type of url.",
+      "message": "Err\u0151l a helyr\u0151l a kiv\u00E1g\u00E1s nem lehets\u00E9ges."
+   },
+   "popup_waiting": {
+      "description": "Displays while the popup window waits for a page to finish loading.",
+      "message": "V\u00E1rakoz\u00E1s az oldalra..."
+   },
+   "quickNote": {
+      "description": "Title for creating quick note",
+      "message": "Kiv\u00E1g\u00E1s"
+   },
+   "quickNoteAction_clipArticle": {
+      "description": "Label for clipping article action",
+      "message": "Cikk ment\u00E9se"
+   },
+   "quickNoteAction_clipFullPage": {
+      "description": "Label for clipping full page action",
+      "message": "Teljes oldal ment\u00E9se"
+   },
+   "quickNoteAction_clipPDF": {
+      "description": "Label for clipping PDF action",
+      "message": "PDF ment\u00E9se"
+   },
+   "quickNoteAction_clipSelection": {
+      "description": "Label for clipping selection action",
+      "message": "Kijel\u00F6l\u00E9s ment\u00E9se"
+   },
+   "quickNoteAction_clipUrl": {
+      "description": "Label for clipping URL action",
+      "message": "URL ment\u00E9se"
+   },
+   "quickNote_addComment": {
+      "description": "Placeholder text for comment input",
+      "message": "Megjegyz\u00E9s hozz\u00E1f\u0171z\u00E9se"
+   },
+   "quickNote_addTags": {
+      "description": "Placeholder text for tag input",
+      "message": "C\u00EDmk\u00E9k hozz\u00E1ad\u00E1sa"
+   },
+   "quickNote_comment": {
+      "description": "Label for additional text to be added to the note",
+      "message": "Megjegyz\u00E9s hozz\u00E1ad\u00E1sa"
+   },
+   "quickNote_notebook": {
+      "description": "Label for selection of note's notebook",
+      "message": "Jegyzett\u00F6mb"
+   },
+   "quickNote_submit": {
+      "description": "Label for saving quick note",
+      "message": "Ment\u00E9s"
+   },
+   "quickNote_tagsDisabled": {
+      "description": "Message indicating that you can't use tags for shared notebooks.",
+      "message": "Megosztott jegyzett\u00F6mb\u00F6kn\u00E9l a c\u00EDmk\u00E9k jelenleg nem t\u00E1mogatottak."
+   },
+   "quickNote_title": {
+      "description": "Label for note title",
+      "message": "C\u00EDm"
+   },
+   "quickNote_untitledNote": {
+      "description": "Placeholder title for untitled note",
+      "message": "N\u00E9vtelen jegyzet"
+   },
+   "regForm_cancel": {
+      "description": "Allows user to back out of registration when s/he's creating an account during account switching",
+      "message": "M\u00E9gsem"
+   },
+   "regForm_deactivated_username": {
+      "description": "User wanted to register with a deactivated username",
+      "message": "A felhaszn\u00E1l\u00F3n\u00E9v nem akt\u00EDv.   Szeretn\u00E9 \u00FAjra \u003Ca href='$url$'\u003Eaktiv\u00E1lni\u003C/a\u003E a fi\u00F3kot?",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "https://www.evernote.com/AccountReactivation.action"
+         }
+      }
+   },
+   "regForm_email_required": {
+      "description": "User didn't enter an email address",
+      "message": "Az email c\u00EDmet k\u00F6telez\u0151 megadni."
+   },
+   "regForm_goodUsername": {
+      "description": "The user entered a valid and available username into the registration form",
+      "message": "El\u00E9rhet\u0151"
+   },
+   "regForm_invalid_captcha": {
+      "description": "User didn't fill out the captcha.",
+      "message": "G\u00E9pelje be a fenti k\u00E9pen l\u00E1that\u00F3 karaktereket."
+   },
+   "regForm_invalid_email": {
+      "description": "User didn't enter a properly-formatted email address",
+      "message": "Az email c\u00EDm \u00E9rv\u00E9nytelennek t\u0171nik."
+   },
+   "regForm_invalid_password": {
+      "description": "User entered an invalid password",
+      "message": "V\u00E1lasszon egy 6 \u00E9s 64 karakterhossz k\u00F6z\u00F6tti jelsz\u00F3t, ami \u00E9kezet n\u00E9lk\u00FCli bet\u0171ket, sz\u00E1mokat \u00E9s egyes \u00EDr\u00E1sjeleket tartalmaz."
+   },
+   "regForm_invalid_username": {
+      "description": "User entered an invalid username",
+      "message": "A felhaszn\u00E1l\u00F3i n\u00E9vnek bet\u0171vel vagy sz\u00E1mmal kell kezd\u0151dnie \u00E9s v\u00E9gz\u0151dnie, de tartalmazhat v\u00E1laszt\u00F3jeleket \u00E9s al\u00E1h\u00FAz\u00E1sokat."
+   },
+   "regForm_password_required": {
+      "description": "User didn't enter a password",
+      "message": "A jelsz\u00F3t k\u00F6telez\u0151 megadni."
+   },
+   "regForm_taken_email": {
+      "description": "User entered a valid but unavailable email",
+      "message": "Ez az email c\u00EDm m\u00E1r haszn\u00E1latban van."
+   },
+   "regForm_taken_username": {
+      "description": "User entered a valid but unavailable username",
+      "message": "Az \u00D6n \u00E1ltal v\u00E1lasztott felhaszn\u00E1l\u00F3i n\u00E9v m\u00E1r foglalt."
+   },
+   "register": {
+      "description": "Text on the submit button of the registration form",
+      "message": "Regisztr\u00E1ci\u00F3"
+   },
+   "registrationForm_username": {
+      "description": "Text on the username field of the registration form",
+      "message": "Felhaszn\u00E1l\u00F3i n\u00E9v"
+   },
+   "registration_terms": {
+      "description": "Terms of Service and Privacy Policy agreement",
+      "message": "By clicking Register, you are agreeing to our \u003Ca href='$tos_url$'\u003ETerms of Service\u003C/a\u003E and \u003Ca href='$pp_url$'\u003EPrivacy Policy\u003C/a\u003E.",
+      "placeholders": {
+         "pp_url": {
+            "content": "$2",
+            "example": "http://www.evernote.com/privacy"
+         },
+         "tos_url": {
+            "content": "$1",
+            "example": "http://www.evernote.com/tos"
+         }
+      }
+   },
+   "relatedNotes": {
+      "description": "Label for the related notes button, and the title for the descriptive overlay.",
+      "message": "Hasonl\u00F3 jegyzetek"
+   },
+   "relatedNotesDescription": {
+      "description": "message describing what Related Notes do.",
+      "message": "Az Evernote megkeresi az els\u0151 h\u00E1rom jegyzetet, melyek tartalom szempontj\u00E1b\u00F3l kapcsol\u00F3dhatnak az oldalhoz."
+   },
+   "rememberFoodYouLove": {
+      "description": "Second part of the text for the Evernote Food cross promotion",
+      "message": "Remember the food you love."
+   },
+   "safariContextClipImage": {
+      "description": "Label for right-click menu to clip an image in Safari.",
+      "message": "K\u00E9p ment\u00E9se az Evernote-ba"
+   },
+   "safariContextClipPDF": {
+      "description": "Label for right-click menu to clip a PDF in Safari.",
+      "message": "PDF ment\u00E9se az Evernote-ba"
+   },
+   "safariContextClipPage": {
+      "description": "Label for right-click menu to clip the whole page in Safari.",
+      "message": "Teljes oldal ment\u00E9se az Evernote-ba"
+   },
+   "safariContextClipSelection": {
+      "description": "Label for right-click menu to clip a selection in Safari.",
+      "message": "Save selection to Evernote"
+   },
+   "safariContextClipUrl": {
+      "description": "Label for right-click menu to clip a URL in Safari.",
+      "message": "Save URL to Evernote"
+   },
+   "safariContextNewNote": {
+      "description": "Label for right-click menu to create a new note.",
+      "message": "\u00DAj jegyzet l\u00E9trehoz\u00E1sa az Evernote-ban"
+   },
+   "saveToEvernote": {
+      "description": "Label for button to save clip to Evernote",
+      "message": "Ment\u00E9s az Evernote-ba"
+   },
+   "searchHelperFoundNotes": {
+      "description": "Message indicating that related notes were found",
+      "message": "\u003Cb\u003EEls\u0151dleges tal\u00E1latok\u003C/b\u003E Evernote fi\u00F3kj\u00E1ban"
+   },
+   "searchHelperLoginMessage": {
+      "description": "Message injected into search-engine page indicating that the user must login prior to seeing results.",
+      "message": "\u003Cdiv class='grayText' id='login'\u003E\u003Ca target='_blank' href='$loginUrl$'\u003EJelentkezzen be\u003C/a\u003E a Web Clipper szolg\u00E1ltat\u00E1sba a hasonl\u00F3 tal\u00E1latok megtekint\u00E9s\u00E9hez\u003C/div\u003E",
+      "placeholders": {
+         "loginUrl": {
+            "content": "$1",
+            "example": "http://www.evernote.com/Login.action"
+         }
+      }
+   },
+   "searchHelperNoTransportError": {
+      "description": "Error message shown to user when there is a problem reaching the servers when doing simultaneous search.",
+      "message": "A t\u00F6bbsz\u00E1lon v\u00E9gzett keres\u00E9s jelenleg nem v\u00E9gezhet\u0151 el, mert az Evernote szervereket nem lehet el\u00E9rni."
+   },
+   "searchHelperNotesNotFoundBiz": {
+      "description": "Message injected into search-engine page indicating there were no related notes found in personal or business accounts",
+      "message": "Nincsenek hasonl\u00F3 jegyzetek szem\u00E9lyes vagy Business fi\u00F3kj\u00E1ban"
+   },
+   "searchHelperNotesNotFoundPers": {
+      "description": "Message injected into search-engine page indicating there were no related notes found in personal account",
+      "message": "Nincsenek hasonl\u00F3 jegyzetek"
+   },
+   "searchHelperTopBizLibraryMatches": {
+      "description": "Section heading for the simsearch notes found in the user's business account",
+      "message": "$num$ hasonl\u00F3 Business jegyzete van",
+      "placeholders": {
+         "num": {
+            "content": "$1",
+            "example": "2"
+         }
+      }
+   },
+   "searchHelperTopBizLibraryMatchesOne": {
+      "description": "Section heading for the simsearch notes found in the user's business account, if there was only one result",
+      "message": "1 Related Result in your Business notes"
+   },
+   "searchHelperTopMatchesBiz": {
+      "description": "Section heading for the simsearch notes found in a business user's personal account",
+      "message": "$num$ hasonl\u00F3 szem\u00E9lyes jegyzete van",
+      "placeholders": {
+         "num": {
+            "content": "$1",
+            "example": "3"
+         }
+      }
+   },
+   "searchHelperTopMatchesBizOne": {
+      "description": "Section heading for the simsearch notes found in a business user's personal account, if there was only one result",
+      "message": "1 Related Result in your Personal notes"
+   },
+   "searchHelperTopMatchesPers": {
+      "description": "Section heading for the simsearch notes found in a non-business user's personal account",
+      "message": "$num$ hasonl\u00F3 jegyzete van",
+      "placeholders": {
+         "num": {
+            "content": "$1",
+            "example": "3"
+         }
+      }
+   },
+   "searchHelperTopMatchesPersOne": {
+      "description": "Section heading for the simsearch notes found in a non-business user's personal account, if there was only one result",
+      "message": "1 Related Result in your notes"
+   },
+   "searchHelperViewAll": {
+      "description": "Label for the link in simsearch to the web client to search for the user's search query.",
+      "message": "Mind megn\u00E9z"
+   },
+   "searchHelper_hidePerm": {
+      "description": "Text for the option in the simsearch drop down menu to let user to disable simsearch in the options",
+      "message": "Soha ne jelenjen meg"
+   },
+   "searchHelper_hideTemp": {
+      "description": "Text for the option in the simsearch drop down menu to let user temporarily close the simsearch box, but not disable in the options",
+      "message": "M\u00E9gsem"
+   },
+   "showRelatedNotes": {
+      "description": "text for the link in the 'related notes' overlay that will show this section.",
+      "message": "Show Related Notes"
+   },
+   "signInHelperText": {
+      "description": "message shown at the top of the login screen to tell them why they should sign in",
+      "message": "Sign in to make sure you can clip or view Related Results"
+   },
+   "signInPrompt": {
+      "description": "hover text on signed out state of the toolbar icon",
+      "message": "Sign in to Web Clipper"
+   },
+   "signOutAccount": {
+      "description": "menu item for logging out of the currently selected account.",
+      "message": "Kijelentkez\u00E9s: $name$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "signOutAll": {
+      "description": "Label to click when a user wants to log in with multiple accounts.",
+      "message": "Kijelentkez\u00E9s minden fi\u00F3kb\u00F3l"
+   },
+   "signout": {
+      "description": "Text on a link prompting for signing out currently logged in user",
+      "message": "Kijelentkez\u00E9s"
+   },
+   "stayLoggedInFree": {
+      "description": "Message indicating user should stay logged in as existing user.",
+      "message": "Maradjon bejelentkezve mint $name$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "switchAnyMessage": {
+      "description": "Message shown when a user tries to add another user and is not already logged into a free account.",
+      "message": "A felhaszn\u00E1l\u00F3v\u00E1lt\u00E1s egy Premium szolg\u00E1ltat\u00E1s, ami lehet\u0151v\u00E9 teszi a gyors v\u00E1ltogat\u00E1st a fi\u00F3kok k\u00F6z\u00F6tt. Premium \u00E9s ingyenes felhaszn\u00E1l\u00F3t is hozz\u00E1 lehet adni."
+   },
+   "switchFreeAccount": {
+      "description": "Message indicating user should switch to newly logged in user.",
+      "message": "$name$ haszn\u00E1lata",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "switchPremiumMessage": {
+      "description": "Message shown when a user tries to add another user and is already logged into a free account.",
+      "message": "A felhaszn\u00E1l\u00F3v\u00E1lt\u00E1s egy Premium szolg\u00E1ltat\u00E1s, ami lehet\u0151v\u00E9 teszi a gyors v\u00E1ltogat\u00E1st a fi\u00F3kok k\u00F6z\u00F6tt. Premium felhaszn\u00E1l\u00F3t adhat hozz\u00E1."
+   },
+   "switchToAccount": {
+      "description": "Menu item indicating a user account that can be switched to.",
+      "message": "V\u00E1lt\u00E1s erre: $name$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "tagNamesNotInRange": {
+      "description": "Indicates that user entered an abnormal number of tags",
+      "message": "El\u00E9rte a maxim\u00E1lis c\u00EDmkesz\u00E1mot."
+   },
+   "tryItOut": {
+      "description": "text for button on pdf tooltip",
+      "message": "Try it out"
+   },
+   "youHaveRelatedNotes": {
+      "description": "Text indicating that the user has other related notes.",
+      "message": "Vannak ehhez hasonl\u00F3 jegyzetei."
+   }
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xfburn-settings>
+	<setting name="vpaned-position" type="int" value="200"/>
+	<setting name="hpaned-position" type="int" value="250"/>
+	<setting name="main-window-width" type="int" value="850"/>
+	<setting name="main-window-height" type="int" value="700"/>
+</xfburn-settings>

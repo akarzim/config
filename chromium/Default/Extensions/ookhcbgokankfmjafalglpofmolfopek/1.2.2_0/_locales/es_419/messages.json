@@ -1,0 +1,62 @@
+{
+   "days": {
+      "message": "$1d",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "description": {
+      "message": "F\u00EDjate r\u00E1pidamente cu\u00E1nto tiempo falta para tu pr\u00F3xima reuni\u00F3n en alguno de tus calendarios. Haz clic en el bot\u00F3n para que te lleve hasta tu calendario."
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "extensionname": {
+      "message": "Google Calendar Checker"
+   },
+   "hours": {
+      "message": "$1\u00A0h",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "imagetooltip": {
+      "message": "Google Calendar"
+   },
+   "minutes": {
+      "message": "$1\u00A0m",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "multicalendartext": {
+      "message": "Ayuda de Multi Calendar"
+   },
+   "multicalendartooltip": {
+      "message": "Marca el casillero para habilitar la ayuda del calendario m\u00FAltiple."
+   },
+   "name": {
+      "message": "Google Calendar Checker (de Google)"
+   },
+   "notitle": {
+      "message": "(Sin t\u00EDtulo)"
+   },
+   "optionstitle": {
+      "message": "Google Calendar Checker"
+   },
+   "status_saved": {
+      "message": "Configuraciones guardadas"
+   },
+   "status_saving": {
+      "message": "Guardando...."
+   },
+   "title": {
+      "message": "Google Calendar Checker"
+   }
+}

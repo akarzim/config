@@ -1,0 +1,201 @@
+{
+   "about": {
+      "message": "\u00C0 propos"
+   },
+   "add_to_all_contexts": {
+      "message": "ajouter l'extension \u00E0 tous les contexts"
+   },
+   "add_to_always_enabled": {
+      "message": "ajouter \u00E0 \u2018toujours activ\u00E9es\u2019"
+   },
+   "add_to_contexts": {
+      "message": "Ajoutez-la aux contexts suivants"
+   },
+   "additional_options": {
+      "message": "Options suppl\u00E9mentaires"
+   },
+   "all_extensions": {
+      "message": "Toutes les extensions"
+   },
+   "always_enabled_extensions": {
+      "message": "Extensions toujours activ\u00E9es"
+   },
+   "application_description": {
+      "message": "Organisez vos extensions dans des groupes et basculez facilement entre eux."
+   },
+   "ask_what_to_do": {
+      "message": "demander ce qu'il faut faire"
+   },
+   "available_extensions": {
+      "message": "Extensions disponibles"
+   },
+   "cancel": {
+      "message": "Annuler"
+   },
+   "clone": {
+      "message": "Dupliquer"
+   },
+   "close": {
+      "message": "Fermer"
+   },
+   "configuration_export_description": {
+      "message": "Pour exporter tous vos param\u00E8tres, copiez la cha\u00EEne de configuration cod\u00E9e \u00E0 partir de la bo\u00EEte ci-dessous."
+   },
+   "configuration_import": {
+      "message": "Importer la configuration"
+   },
+   "configuration_import_description": {
+      "message": "Collez la cha\u00EEne de configuration dans la bo\u00EEte ci-dessous et cliquez sur \"Importer\" pour restaurer votre configuration."
+   },
+   "configuration_import_export": {
+      "message": "Import/Export de la configuration"
+   },
+   "configuration_string_is_invalid": {
+      "message": "D\u00E9sol\u00E9, la cha\u00EEne de configuration fournie n'est pas valide. \u00C9chec de l'importation."
+   },
+   "configuration_was_imported_successfuly": {
+      "message": "La configuration a \u00E9t\u00E9 import\u00E9e avec succ\u00E8s."
+   },
+   "confirm_configuration_import": {
+      "message": "L'importation remplacera votre configuration actuelle. Pensez \u00E0 faire une sauvegarde si vous ne voulez pas la perdre."
+   },
+   "context_options": {
+      "message": "Context - Options"
+   },
+   "context_will_be_deleted": {
+      "message": "Ce context sera supprim\u00E9. \u00CAtes-vous s\u00FBr ?"
+   },
+   "create": {
+      "message": "Cr\u00E9er"
+   },
+   "create_new_context": {
+      "message": "Cr\u00E9er un nouveau context"
+   },
+   "delay_after_enabling_extension": {
+      "message": "d\u00E9lai en millisecondes apr\u00E8s l'activation de chaque extension"
+   },
+   "delete": {
+      "message": "Supprimer"
+   },
+   "do_nothing": {
+      "message": "ne rien faire"
+   },
+   "edit": {
+      "message": "Editer"
+   },
+   "edit_context": {
+      "message": "Editer le context"
+   },
+   "enable_apps_support": {
+      "message": "Activer le support des applications (par d\u00E9faut, seules les extensions sont support\u00E9es)"
+   },
+   "extension_installed_1": {
+      "message": "Nouvelle extension"
+   },
+   "extension_installed_2": {
+      "message": "install\u00E9e"
+   },
+   "extension_is_loading": {
+      "message": "Chargement de l\u2019extension..."
+   },
+   "font": {
+      "message": "Police"
+   },
+   "highlight_ungrouped_extensions": {
+      "message": "Mettre en \u00E9vidence les extensions non group\u00E9es"
+   },
+   "icon": {
+      "message": "Ic\u00F4ne"
+   },
+   "icon_flip_animation": {
+      "message": "Ic\u00F4ne de rotation anim\u00E9e"
+   },
+   "icons": {
+      "message": "Ic\u00F4nes"
+   },
+   "import": {
+      "message": "Importer"
+   },
+   "import_failed": {
+      "message": "\u00C9chec de l'importation"
+   },
+   "locale": {
+      "description": "There is build in @@_ui_locale variable but it shows language variations like en_GB, en_US etc. We don't want that.",
+      "message": "en"
+   },
+   "move": {
+      "message": "D\u00E9placer"
+   },
+   "name": {
+      "message": "Nom"
+   },
+   "name_field_is_required": {
+      "message": "Le champ Nom est obligatoire."
+   },
+   "new_context": {
+      "message": "Nouveau Context"
+   },
+   "new_extension_installed_action": {
+      "message": "apr\u00E8s l\u2019installation d\u2019une nouvelle extension"
+   },
+   "next": {
+      "message": "Suivant"
+   },
+   "options": {
+      "message": "Options"
+   },
+   "or_add_it_to": {
+      "message": "ou ajoutez-la \u00E0"
+   },
+   "override_current_settings": {
+      "message": "Remplacer les param\u00E8tres actuels ?"
+   },
+   "pick_an_icon": {
+      "message": "Choisissez une ic\u00F4ne."
+   },
+   "previous": {
+      "message": "Pr\u00E9c\u00E9dent"
+   },
+   "programmer": {
+      "message": "Programmeur"
+   },
+   "remove_context": {
+      "message": "Supprimer le context ?"
+   },
+   "save": {
+      "message": "Sauvegarder"
+   },
+   "show_all_extensions_button": {
+      "message": "Afficher le bouton \u2018Toutes les extensions\u2019 dans le popup"
+   },
+   "some_extensions_were_ignored": {
+      "message": "Certaines extensions ont \u00E9t\u00E9 ignor\u00E9es lors de l'importation de la configuration, car elles ne sont pas install\u00E9es:"
+   },
+   "source_code": {
+      "message": "Code source"
+   },
+   "successful_import": {
+      "message": "Importation r\u00E9ussie"
+   },
+   "this_name_is_already_in_use": {
+      "message": "Ce nom est d\u00E9j\u00E0 utilis\u00E9."
+   },
+   "translations": {
+      "message": "Traductions"
+   },
+   "welcome": {
+      "message": "Bienvenue"
+   },
+   "welcome_step_1": {
+      "message": "Bienvenue ! Pour commencer \u00E0 travailler avec cette extension, cr\u00E9ez des contexts (groupes d'extensions). Pour chaque context, choisissez un nom et une ic\u00F4ne."
+   },
+   "welcome_step_2": {
+      "message": "Pour connecter des extensions aux diff\u00E9rents contexts, glissez-les depuis la liste alphab\u00E9tique sup\u00E9rieure jusqu'\u00E0 la bo\u00EEte repr\u00E9sentant le context de votre choix."
+   },
+   "welcome_step_3": {
+      "message": "D\u00E9placez, de la bo\u00EEte \u2018Extensions disponibles\u2019 \u00E0 la bo\u00EEte \u2018Extensions toujours activ\u00E9es\u2019, les extensions que vous souhaitez activer dans tous les contexts."
+   },
+   "welcome_step_4": {
+      "message": "Sauvegardez votre configuration et vous avez termin\u00E9 ! Vous pouvez facilement basculer d'un context \u00E0 un autre en utilisant l'ic\u00F4ne dans la barre d'outils. La s\u00E9lection d'un context s'effectue en cliquant sur son nom ou son ic\u00F4ne dans le menu. Un clic sur le bouton plus/moins (activer/d\u00E9sactiver) permet de m\u00E9langer les contexts entre eux."
+   }
+}

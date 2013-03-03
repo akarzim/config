@@ -1,0 +1,52 @@
+{
+   "chrome_extension_description": {
+      "message": "\u986F\u793A\u60A8\u7684\u300CGoogle \u95B1\u8B80\u5668\u300D\u5E33\u6236\u4E2D\u672A\u8B80\u9805\u76EE\u7684\u6578\u91CF\u3002\u6309\u4E00\u4E0B\u6ED1\u9F20\u5373\u53EF\u986F\u793A\u5F48\u51FA\u5F0F\u9810\u89BD\u8996\u7A97\u6216\u958B\u555F\u60A8\u7684\u300CGoogle \u95B1\u8B80\u5668\u300D\u5E33\u6236\u3002"
+   },
+   "chrome_extension_name": {
+      "message": "Google \u95B1\u8B80\u5668\u901A\u77E5\u7A0B\u5F0F (\u7531 Google \u63D0\u4F9B)"
+   },
+   "clickaction": {
+      "message": "\u6ED1\u9F20\u6309\u9375\u52D5\u4F5C\uFF1A"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "intervaltext": {
+      "message": "\u66F4\u65B0\u983B\u7387\uFF1A"
+   },
+   "loadingtext": {
+      "message": "\u8F09\u5165\u4E2D..."
+   },
+   "minutes": {
+      "message": "$1 \u5206\u9418",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "nosummary": {
+      "message": "\u6C92\u6709\u4EFB\u4F55\u6458\u8981"
+   },
+   "openreaderlink": {
+      "message": "\u958B\u555F Google \u95B1\u8B80\u5668"
+   },
+   "refreshlink": {
+      "message": "\u91CD\u65B0\u6574\u7406"
+   },
+   "savebutton": {
+      "message": "\u5132\u5B58"
+   },
+   "savedmessage": {
+      "message": "\u5DF2\u5132\u5B58"
+   },
+   "showmodule": {
+      "message": "\u986F\u793A\u5F48\u51FA\u5F0F\u8996\u7A97"
+   },
+   "showreader": {
+      "message": "\u958B\u555F Google \u95B1\u8B80\u5668"
+   },
+   "title": {
+      "message": "Google \u95B1\u8B80\u5668\u901A\u77E5\u7A0B\u5F0F\u9078\u9805"
+   }
+}

@@ -1,0 +1,18 @@
+{
+   "background_page": "background.html",
+   "content_scripts": [ {
+      "js": [ "jquery-1.6.4.min.js", "content_script.js" ],
+      "matches": [ "\u003Call_urls\u003E" ]
+   } ],
+   "description": "Right click on a text field or textarea to insert the 'lorem ipsum' text.",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC9wagAsXaYTfP8Yjs9J2xzRa0WIG72RxNBmryOijiQITuEJ9uM2XztsTrjiWNY6QBGYc+LNb7ABFV8mQW1Kwrs9lfKZ99lTkG5pJaX5lSj9XPTYI9YtDgDfzJDw6qtrreoQfU6CoCif13+CEMEkZjJ+KtQX2laTsTV5XO8k4MPnQIDAQAB",
+   "name": "Right click lorem ipsum",
+   "permissions": [ "contextMenus" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.2.1"
+}

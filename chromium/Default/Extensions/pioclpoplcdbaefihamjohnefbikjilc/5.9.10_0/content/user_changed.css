@@ -1,0 +1,21 @@
+#evernote_clipper_user_changed {
+  z-index: 65535;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 450px;
+  height: 100px;
+  border: 0;
+  background-color: transparent;
+  opacity: 0;
+}
+#evernote_clipper_user_changed.hidden {
+  -webkit-transition-property: opacity;
+  -webkit-transition-duration: 250ms;
+  opacity: 0;
+}
+#evernote_clipper_user_changed.visible {
+  -webkit-transition-property: opacity;
+  -webkit-transition-duration: 250ms;
+  opacity: 1;
+}

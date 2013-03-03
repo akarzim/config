@@ -1,0 +1,62 @@
+{
+   "days": {
+      "message": "$1 d",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "description": {
+      "message": "V \u013Eubovo\u013Enom z va\u0161ich kalend\u00E1rov si v r\u00FDchlosti si zobrazte, ko\u013Eko \u010Dasu m\u00E1te do \u010Fal\u0161ej sch\u00F4dzky. Kliknut\u00EDm na tla\u010Didlo prejdete do svojho kalend\u00E1ra."
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "extensionname": {
+      "message": "Kontrola Kalend\u00E1ra Google"
+   },
+   "hours": {
+      "message": "$1 h",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "imagetooltip": {
+      "message": "Kalend\u00E1r Google"
+   },
+   "minutes": {
+      "message": "$1 min",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "multicalendartext": {
+      "message": "Podpora viacer\u00FDch Kalend\u00E1rov"
+   },
+   "multicalendartooltip": {
+      "message": "Ak chcete povoli\u0165 podporu viacer\u00FDch kalend\u00E1rov, za\u010Diarknite toto pol\u00ED\u010Dko"
+   },
+   "name": {
+      "message": "Kontrola Kalend\u00E1ra Google (od spolo\u010Dnosti Google)"
+   },
+   "notitle": {
+      "message": "(Bez n\u00E1zvu)"
+   },
+   "optionstitle": {
+      "message": "Kontrola Kalend\u00E1ra Google"
+   },
+   "status_saved": {
+      "message": "Nastavenia boli ulo\u017Een\u00E9."
+   },
+   "status_saving": {
+      "message": "Prebieha ukladanie...."
+   },
+   "title": {
+      "message": "Kontrola Kalend\u00E1ra Google"
+   }
+}

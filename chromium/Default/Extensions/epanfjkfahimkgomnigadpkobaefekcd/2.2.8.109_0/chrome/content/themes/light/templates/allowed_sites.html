@@ -1,0 +1,96 @@
+<? if (parameters.toggledOff) { ?>
+<div id="DNTPreport" class="clearfix block highlight">
+    <b><?=DNTP._('dntp.now.disabled', controller.host)?></b><br/><br/>
+    <span style="color:red;"><?=DNTP._("dntp.webkit.pleasewait")?></span><br/><br/>
+    <?=DNTP._('dntp.helpothers')?><br/><br/>
+    <div id=reasons><ul style="padding-left:20px;">
+    <? for (var i=1;i<5;i++) {
+        var desc = DNTP._('off.reason.'+i);
+        if (i == 4) {
+            controller.observe('reason'+i, 'click', function(){controller.$('reasons').style.display = 'none';controller.$('other').style.display = '';controller.$('DNTPdesc').focus();});
+        } else {
+            controller.observe('reason'+i, 'click', function(e){
+                var e = e||event;
+                var target=e.target||e.srcElement;
+                controller.$('DNTPdesc').value = target.textContent||target.innerText;
+                controller.reportIssue();
+            });
+        }
+    ?>
+        <li id=reason<?=i?>><?=desc?></li>
+    <? } ?>
+    </ul></div>
+    <div id=other style="display:none">
+        <textarea id="DNTPdesc" style="width:90%;height:50px;resize:none;" name="description"></textarea>
+        <div class="am"><input type="submit" id="DNTPreportissueform" class="DNTPbutton2"
+                               style="padding: 5px; display: block; float: left"
+                           value="<?=DNTP._('dntp.submit')?>" />
+        </div>
+    </div>
+</div>
+<?
+    // increase autoclose duration to 15secs.
+    if (controller.fadeTimer < 15000) controller.fadeTimer = 15000;
+
+    if (parameters.toggledOff)
+        controller.docElement.toggledOff = false;
+
+}
+?>
+
+<div id="DNTPonOffAtSite">
+    <? if (parameters.disabledSites.length > 0) { ?>
+    <div class=fl style="margin-top:8px;"><?=DNTP._("allowed.sites")?></div><br class=cb />
+    <? } ?>
+</div>
+<? if (parameters.removedSite) {?>
+  <div class=block style="padding:5px;"><span style="color:green;"><?DNTP._("now.blocking")?> <?=parameters.removedSite?></span></div>
+  <? parameters.removedSite = null;
+}
+
+if (parameters.reloadRequired) {
+  parameters.reloadRequired = false;?>
+  <div class="block" style="background-color: #ffffcc; padding: 5px"><span>
+    <?=DNTP._("dntp.webkit.pleasewait")?></span>
+  </div>
+<? } ?>
+
+<div class="block">
+    <ul class=allowedSites>
+<?
+if (parameters.disabledSites.length == 0) { ?>
+    <li><?=DNTP._('none.disabled.sites')?><br/><br/></li>
+<?} else {
+?>
+    <? for (var i=parameters.disabledSites.length-1,first=true;i>=0;i--) {
+        var site = parameters.disabledSites[i];
+        (function(site) {
+            controller.observe(site, 'click', function(){
+                DNTP.toggle_tracker(controller.parentDoc, controller.doc, false, "*", site);
+                parameters.removedSite = site;
+                if (controller.host == site) {
+                    parameters.abineDisabled = false;
+                    parameters.reloadRequired = true;
+                    DNTP.update_toolbar_icon(controller.parentDoc);
+                }
+                controller.show();
+            });
+        })(site);
+
+        ?>
+        <li <?=(!first?'style="border-top: solid 1px #e5e5e5;"':'')?>>
+            <img class=fr src="<?=DNTP.getImageUrl('cross.gif')?>" id="<?=site?>"/>
+            <div style="<?=(site in parameters.reasons?'':'padding-top: 4px;')?>"><?=site?>
+            <? if (site in parameters.reasons) { ?>
+                <br/><small><?=parameters.reasons[site]?></small>
+            <? } ?>
+            </div>
+        </li>
+        <? first = false;
+    }?>
+<?} ?>
+    </ul>
+</div>
+<?
+    controller.observe("DNTPreportissueform", 'click', controller.bind(controller.reportIssue));
+?>

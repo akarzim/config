@@ -1,0 +1,52 @@
+{
+   "chrome_extension_description": {
+      "message": "\u0644\u0639\u0631\u0636 \u0639\u062F\u062F \u0627\u0644\u0639\u0646\u0627\u0635\u0631 \u063A\u064A\u0631 \u0627\u0644\u0645\u0642\u0631\u0648\u0621\u0629 \u0641\u064A \u062D\u0633\u0627\u0628\u0643 \u0641\u064A Google Reader. \u064A\u0645\u0643\u0646 \u0623\u0646 \u064A\u0624\u062F\u064A \u0627\u0644\u0646\u0642\u0631 \u0625\u0644\u0649 \u0639\u0631\u0636 \u0646\u0627\u0641\u0630\u0629 \u0645\u0646\u0628\u062B\u0642\u0629 \u0644\u0644\u0645\u0639\u0627\u064A\u0646\u0629 \u0623\u0648 \u0641\u062A\u062D \u062D\u0633\u0627\u0628\u0643 \u0641\u064A Reader."
+   },
+   "chrome_extension_name": {
+      "message": "Google Reader Notifier (\u062A\u062F\u0639\u0645\u0647\u0627 Google)"
+   },
+   "clickaction": {
+      "message": "\u0639\u0646\u062F \u0627\u0644\u0646\u0642\u0631:"
+   },
+   "direction": {
+      "message": "rtl"
+   },
+   "intervaltext": {
+      "message": "\u062A\u062D\u062F\u064A\u062B \u0643\u0644:"
+   },
+   "loadingtext": {
+      "message": "\u062C\u0627\u0631\u064D \u0627\u0644\u062A\u062D\u0645\u064A\u0644..."
+   },
+   "minutes": {
+      "message": "$1 \u062F\u0642\u064A\u0642\u0629",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "nosummary": {
+      "message": "\u0644\u064A\u0633 \u0647\u0646\u0627\u0643 \u0645\u0644\u062E\u0635."
+   },
+   "openreaderlink": {
+      "message": "\u0641\u062A\u062D Google Reader"
+   },
+   "refreshlink": {
+      "message": "\u062A\u062D\u062F\u064A\u062B"
+   },
+   "savebutton": {
+      "message": "\u062D\u0641\u0638"
+   },
+   "savedmessage": {
+      "message": "\u062A\u0645 \u0627\u0644\u062D\u0641\u0638."
+   },
+   "showmodule": {
+      "message": "\u0639\u0631\u0636 \u0646\u0627\u0641\u0630\u0629 \u0645\u0646\u0628\u062B\u0642\u0629"
+   },
+   "showreader": {
+      "message": "\u0641\u062A\u062D Google Reader"
+   },
+   "title": {
+      "message": "\u062E\u064A\u0627\u0631\u0627\u062A Google Reader Notifier"
+   }
+}

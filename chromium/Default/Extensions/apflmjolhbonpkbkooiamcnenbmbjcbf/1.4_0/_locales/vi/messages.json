@@ -1,0 +1,52 @@
+{
+   "chrome_extension_description": {
+      "message": "Hi\u1EC3n th\u1ECB s\u1ED1 m\u1EE5c ch\u01B0a \u0111\u1ECDc trong t\u00E0i kho\u1EA3n Google Reader c\u1EE7a b\u1EA1n. Thao t\u00E1c nh\u1EA5p c\u00F3 th\u1EC3 hi\u1EC3n th\u1ECB c\u1EEDa s\u1ED5 b\u1EADt l\u00EAn \u0111\u1EC3 xem tr\u01B0\u1EDBc ho\u1EB7c m\u1EDF t\u00E0i kho\u1EA3n Reader c\u1EE7a b\u1EA1n."
+   },
+   "chrome_extension_name": {
+      "message": "Tr\u00ECnh th\u00F4ng b\u00E1o Google Reader (c\u1EE7a Google)"
+   },
+   "clickaction": {
+      "message": "Khi nh\u1EA5p:"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "intervaltext": {
+      "message": "C\u1EADp nh\u1EADt:"
+   },
+   "loadingtext": {
+      "message": "\u0110ang t\u1EA3i..."
+   },
+   "minutes": {
+      "message": "$1 ph\u00FAt",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "nosummary": {
+      "message": "Kh\u00F4ng c\u00F3 th\u00F4ng tin t\u00F3m t\u1EAFt"
+   },
+   "openreaderlink": {
+      "message": "M\u1EDF Google Reader"
+   },
+   "refreshlink": {
+      "message": "L\u00E0m m\u1EDBi"
+   },
+   "savebutton": {
+      "message": "L\u01B0u"
+   },
+   "savedmessage": {
+      "message": "\u0110\u00E3 l\u01B0u"
+   },
+   "showmodule": {
+      "message": "Hi\u1EC3n th\u1ECB c\u1EEDa s\u1ED5 b\u1EADt l\u00EAn"
+   },
+   "showreader": {
+      "message": "M\u1EDF Google Reader"
+   },
+   "title": {
+      "message": "T\u00F9y ch\u1ECDn c\u1EE7a Tr\u00ECnh th\u00F4ng b\u00E1o Google Reader"
+   }
+}

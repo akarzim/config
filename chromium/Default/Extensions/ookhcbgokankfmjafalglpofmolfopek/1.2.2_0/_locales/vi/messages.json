@@ -1,0 +1,62 @@
+{
+   "days": {
+      "message": "$1d",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "description": {
+      "message": "Xem nhanh th\u1EDDi gian tr\u01B0\u1EDBc khi \u0111\u1EBFn cu\u1ED9c h\u1ECDp ti\u1EBFp theo t\u1EEB b\u1EA5t k\u1EF3 l\u1ECBch n\u00E0o c\u1EE7a b\u1EA1n. H\u00E3y nh\u1EA5p v\u00E0o n\u00FAt \u0111\u1EC3 \u0111\u01B0\u1EE3c \u0111\u01B0a \u0111\u1EBFn l\u1ECBch c\u1EE7a b\u1EA1n."
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "extensionname": {
+      "message": "Google Calendar Checker"
+   },
+   "hours": {
+      "message": "$1h",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "imagetooltip": {
+      "message": "L\u1ECBch Google"
+   },
+   "minutes": {
+      "message": "$1m",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "multicalendartext": {
+      "message": "H\u1ED7 tr\u1EE3 nhi\u1EC1u l\u1ECBch"
+   },
+   "multicalendartooltip": {
+      "message": "Vui l\u00F2ng ch\u1ECDn h\u1ED9p n\u00E0y \u0111\u1EC3 b\u1EADt t\u00EDnh n\u0103ng h\u1ED7 tr\u1EE3 nhi\u1EC1u l\u1ECBch"
+   },
+   "name": {
+      "message": "Google Calendar Checker (c\u1EE7a Google)"
+   },
+   "notitle": {
+      "message": "(Kh\u00F4ng c\u00F3 ti\u00EAu \u0111\u1EC1)"
+   },
+   "optionstitle": {
+      "message": "Google Calendar Checker"
+   },
+   "status_saved": {
+      "message": "\u0110\u00E3 l\u01B0u c\u00E0i \u0111\u1EB7t."
+   },
+   "status_saving": {
+      "message": "\u0110ang l\u01B0u...."
+   },
+   "title": {
+      "message": "Google Calendar Checker"
+   }
+}

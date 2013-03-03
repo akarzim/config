@@ -1,0 +1,180 @@
+: 1355491875:0;cd dev/geniustrade
+: 1355491882:0;git st
+: 1355491884:0;git status
+: 1355491896:0;git pull origin develop
+: 1355492131:0;cd
+: 1355492135:0;vim .zshrc
+: 1355492462:0;cd ~/.fonts
+: 1355492471:0;mkdir ~/.fonts
+: 1355492476:0;cd ~/.fonts
+: 1355492485:0;cp ../Téléchargements/*.otf .
+: 1355492486:0;ll
+: 1355492517:0;fc-cache -vf
+: 1355492535:0;vim ~/.Xresources
+: 1355492622:0;sudo fc-cache -vf
+: 1355492855:0;cd 
+: 1355492880:0;cd .vim/bundle
+: 1355492888:0;git clone git://github.com/Lokaltog/vim-powerline.git
+: 1355493310:0;cd dev/geniustrade
+: 1355493342:0;git st
+: 1355493351:0;git status
+: 1355493361:0;vim
+: 1355493377:0;cd
+: 1355493389:0;vim .vimrc
+: 1355493487:0;ll
+: 1355493521:0;rm toto
+: 1355493557:0;vim .vimrc
+: 1355493644:0;mv Téléchargements/*.otf .fonts
+: 1355493647:0;ll Téléchargements
+: 1355493658:0;mv Téléchargements/*.ttf .fonts
+: 1355493660:0;ll Téléchargements
+: 1355493667:0;rm Téléchargements/pkg.crx
+: 1355493684:0;vim .vimrc
+: 1355493828:0;cd dev/geniustrade
+: 1355493834:0;vim app/models/request_for_quote.rb
+: 1355494120:0;rails c
+: 1355494126:0;bundle install
+: 1355494231:0;rails c
+: 1355494338:0;bundle exec guard
+: 1355495057:0;cd dev/geniustrade
+: 1355495061:0;rails s
+: 1355495077:0;rails c
+: 1355495291:0;sudo aptitude install imagemagick
+: 1355495750:0;sudo aptitude install autojump
+: 1355495765:0;cd dev/geniustrade
+: 1355495769:0;cd -
+: 1355495784:0;j gen
+: 1355495802:0;vim .zshrc
+: 1355495817:0;cd dev/geniustrade
+: 1355495820:0;cd -
+: 1355495832:0;j /home/francois/dev/geniustrade
+: 1355496128:0;gss
+: 1355496138:0;gst
+: 1355496200:0;git extra -v
+: 1355496208:0;git extras -v
+: 1355496235:0;sudo aptitude install git-extras
+: 1355496249:0;git effort
+: 1355496278:0;git summary
+: 1355496638:0;j /home/francois/dev/geniustrade
+: 1355496665:0;ggpull
+: 1355496730:0;gss
+: 1355496734:0;gst
+: 1355496776:0;gdv
+: 1355496911:0;vim Gemfile
+: 1355497042:0;rake db:schema:dump
+: 1355497231:0;vim Gemfile
+: 1355497368:0;...
+: 1355497376:0;cd
+: 1355497431:0;vim Téléchargements/906_git.zsh Téléchargements/998_cd.zsh Téléchargements/prompt
+: 1355497495:0;Téléchargements
+: 1355498174:0;j /home/francois/dev/geniustrade
+: 1355498180:0;vim spec/factories/user.rb
+: 1355498890:0;vim
+: 1355499092:0;vi
+: 1355499120:0;vim --version
+: 1355499127:0;vim --version | grep ruby
+: 1355499136:0;vi --version | grep ruby
+: 1355499140:0;which vi
+: 1355499142:0;which vim
+: 1355499151:0;which vim.basic
+: 1355499158:0;which vim.basic | grep ruby
+: 1355499165:0;which vim.basic --version | grep ruby
+: 1355499171:0;vim.basic --version | grep ruby
+: 1355499178:0;vim.gnome --version | grep ruby
+: 1355499209:0;sudo update alternatives
+: 1355499227:0;sudo update-alternatives
+: 1355499234:0;sudo update-alternatives --all
+: 1355499350:0;vim --version | grep ruby
+: 1355499354:0;vim
+: 1355499501:0;cd
+: 1355499507:0;cd .vim/bundle/Command-T
+: 1355499509:0;ll
+: 1355499546:0;ll bin
+: 1355499556:0;ll plugin
+: 1355499650:0;cd ruby/command-t
+: 1355499664:0;ruby extconf.rb
+: 1355499672:0;bundle install
+: 1355499692:0;ruby extconf.rb
+: 1355499698:0;make
+: 1355499738:0;vim
+: 1355499808:0;j /home/francois/dev/geniustrade
+: 1355499812:0;vim
+: 1355499888:0;vim ~/.vimrc
+: 1355499974:0;vim
+: 1355499994:0;vim ~/.vimrc
+: 1355500061:0;vim
+: 1355500207:0;cd
+: 1355500211:0;cd .vim/bundle
+: 1355500212:0;ll
+: 1355500220:0;rmdir -rf bufexpl.vim
+: 1355500228:0;rm -rf bufexpl.vim
+: 1355500230:0;ll
+: 1355500237:0;../..
+: 1355500240:0;vim .vimrc
+: 1355500301:0;vim
+: 1355500345:0;vim .vim/config/bundle/minibufexpl.vim
+: 1355500385:0;cd .vim/config/bundle
+: 1355500386:0;ll
+: 1355500389:0;vim solarized.vim
+: 1355500775:0;vim commandT.vim
+: 1355500911:0;ll
+: 1355500925:0;vim
+: 1355500953:0;rm minibufexpl.vim
+: 1355500957:0;vim
+: 1355500972:0;ll
+: 1355500974:0;..
+: 1355500975:0;ll
+: 1355501009:0;..
+: 1355501010:0;ll
+: 1355501025:0;tree
+: 1355501036:0;sudo aptitude install tree
+: 1355501047:0;tree
+: 1355501148:0;ll
+: 1355501149:0;ll bundle
+: 1355501186:0;rm -rf bundle/minibufexpl.vim
+: 1355501189:0;vim
+: 1355501318:0;git st
+: 1355501321:0;gst
+: 1355501324:0;gss
+: 1355501396:0;cd
+: 1355501406:0;vim .gitconfig
+: 1355501482:0;gss
+: 1355501490:0;j /home/francois/dev/geniustrade
+: 1355501493:0;gss
+: 1355501496:0;gst
+: 1355501500:0;cd
+: 1355501510:0;cd .vim
+: 1355501513:0;gst
+: 1355501535:0;git config --global --add color.ui true
+: 1355501536:0;gst
+: 1355501556:0;j /home/francois/dev/geniustrade
+: 1355501563:0;cd
+: 1355501567:0;vim .gitconfig
+: 1355501653:0;gss
+: 1355501655:0;gst
+: 1355501664:0;cd 
+: 1355501666:0;cd .vim
+: 1355501680:0;gst
+: 1355502052:0;j /home/francois/dev/geniustrade
+: 1355502744:0;cd
+: 1355502748:0;ls
+: 1355502749:0;ll
+: 1355502760:0;ls -ali
+: 1355502774:0;cat .pgpass
+: 1355502887:0;rm .zshrc.pre-oh-my-zsh
+: 1355502896:0;cat .zsh-update
+: 1355503843:0;sudo aptitude install xscreensaver-extras
+: 1355503871:0;sudo aptitude install xscreensaver-gl-extra
+: 1355504810:0;mkdir .config/zsh
+: 1355504826:0;cp .zshrc .config/zsh/zshrc
+: 1355504835:0;rm .zshrc
+: 1355504849:0;ln -s .config/zsh/zshrc .zshrc
+: 1355504851:0;ll
+: 1355504854:0;ls -ali
+: 1355504895:0;cp .zsh_history .config/zsh/zsh_history
+: 1355505091:0;ls -ali
+: 1355505122:0;mkdir .config/git
+: 1355505135:0;cp .gitconfig .config/git/gitconfig
+: 1355505159:0;rm .gitconfig && ln -s .config/git/gitconfig .gitconfig
+: 1355505163:0;ls -ali
+: 1355505207:0;cat .pgadmin3

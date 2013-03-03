@@ -1,0 +1,62 @@
+{
+   "days": {
+      "message": "$1 d",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "description": {
+      "message": "Snel in al uw agenda's bekijken hoe lang het nog duurt voordat uw volgende vergadering begint. Klik op de knop om naar uw agenda te gaan."
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "extensionname": {
+      "message": "Google Calendar Checker"
+   },
+   "hours": {
+      "message": "$1 u",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "imagetooltip": {
+      "message": "Google Agenda"
+   },
+   "minutes": {
+      "message": "$1 m",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "multicalendartext": {
+      "message": "Ondersteuning voor meerdere agenda's"
+   },
+   "multicalendartooltip": {
+      "message": "Vink het selectievakje aan om de ondersteuning voor meerdere agenda's in te schakelen"
+   },
+   "name": {
+      "message": "Google Calendar Checker (van Google)"
+   },
+   "notitle": {
+      "message": "(Naamloos)"
+   },
+   "optionstitle": {
+      "message": "Google Calendar Checker"
+   },
+   "status_saved": {
+      "message": "Instellingen zijn opgeslagen."
+   },
+   "status_saving": {
+      "message": "Opslaan..."
+   },
+   "title": {
+      "message": "Google Calendar Checker"
+   }
+}

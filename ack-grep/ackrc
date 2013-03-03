@@ -1,0 +1,59 @@
+# General Ack Settings
+####################################################################
+
+# only search with case sensitivity if there is mixed case
+--smart-case
+
+# follow symlinks
+--follow
+
+--sort-files
+
+# Always color, even if piping to another program
+--color
+
+# Ack Type Settings
+####################################################################
+
+# plain text CSV files
+--type-set=csv=.csv,.tsv
+
+# HAML & SASS
+--type-set=haml=.haml
+--type-set=sass=.sass,.scss
+--type-add=ruby=.haml,.sass,.scss
+--type-add=html=.haml
+--type-add=css=.sass,.scss
+
+# Ruby
+--type-add=ruby=Rakefile,Capfile,Gemfile
+
+# Cucumber
+--type-set=cucumber=.feature
+
+# CoffeeScript
+--type-set=coffee=.coffee
+--type-add=js=.coffee
+
+# JSON
+--type-set=json=.json
+--type-add=yaml=.json
+
+# Conf
+--type-set=conf=.conf,.config
+
+# Markdown, reStructuredText, Textile, Rdoc & POD
+--type-set=markdown=.markdown,.md,.mdown,.mkd,.mkdn,.rst
+--type-set=rst=.rst
+--type-set=textile=.textile
+--type-set=rdoc=.rdoc
+--type-set=pod=.pod
+
+# documentation
+--type-set=doc=.markdown,.md,.mdown,.mkd,.mkdn,.rst,.textile,.rdoc,.pod,.txt
+
+
+# Ack Ignore Directory
+####################################################################
+--ignore-dir=log
+--ignore-dir=coverage

@@ -1,0 +1,62 @@
+{
+   "days": {
+      "message": "$1d",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "description": {
+      "message": "Veja rapidamente quanto tempo voc\u00EA tem at\u00E9 seu pr\u00F3ximo compromisso. Clique no bot\u00E3o para abrir sua agenda."
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "extensionname": {
+      "message": "Google Calendar Checker"
+   },
+   "hours": {
+      "message": "$1h",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "imagetooltip": {
+      "message": "Google Agenda"
+   },
+   "minutes": {
+      "message": "$1m",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "multicalendartext": {
+      "message": "Suporte para v\u00E1rias agendas"
+   },
+   "multicalendartooltip": {
+      "message": "Marque a caixa para ativar o suporte para v\u00E1rias agendas"
+   },
+   "name": {
+      "message": "Google Calendar Checker (do Google)"
+   },
+   "notitle": {
+      "message": "(Sem t\u00EDtulo)"
+   },
+   "optionstitle": {
+      "message": "Google Calendar Checker"
+   },
+   "status_saved": {
+      "message": "Configura\u00E7\u00F5es salvas."
+   },
+   "status_saving": {
+      "message": "Salvando..."
+   },
+   "title": {
+      "message": "Google Calendar Checker"
+   }
+}

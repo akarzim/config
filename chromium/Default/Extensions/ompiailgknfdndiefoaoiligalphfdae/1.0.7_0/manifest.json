@@ -1,0 +1,23 @@
+{
+   "background_page": "background.html",
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "chromeipass.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_idle"
+   } ],
+   "description": "Chrome and KeePass integration using KeePassHttp",
+   "icons": {
+      "16": "keepass.png",
+      "48": "keepass-big.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC/QycATuaK8oWiutp5Q965M/1zUNMyCQDY8f6uwumE5uaPdtwtFEnHT/n47HJNjxjKeGK1PT+bncEy6zFuykszIm9BciUwN6eZKQa4KaCtZySDyRgVdVnmbnBYe5CutsM5Lx/vzdg0O0rJfKyq72SRMqMaG+yPiLsG1j3Nqb3lIwIDAQAB",
+   "name": "ChromeIPass",
+   "page_action": {
+      "default_icon": "keepass.png",
+      "popup": "popup.html"
+   },
+   "permissions": [ "contextMenus", "tabs", "http://localhost/" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.0.7"
+}

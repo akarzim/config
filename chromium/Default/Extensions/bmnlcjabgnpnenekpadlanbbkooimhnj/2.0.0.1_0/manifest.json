@@ -1,0 +1,25 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "js/bg.js" ]
+   },
+   "content_scripts": [ {
+      "css": [ "css/pns_CH.css" ],
+      "js": [ "js/mutation_summary.js", "js/jquery-1.8.1.min.js", "js/jquery.mutation-summary.js", "js/jquery.base64.min.js", "js/tmpl.js", "js/ga.js", "js/content.js" ],
+      "matches": [ "*://*/*" ]
+   } ],
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "description": "Automatically find and try coupon codes with 1-click.  Works at over 100 top stores in the US, Canada and UK.",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC79mayLyuCYY/dyT7Ycr1sVBp9yHrY4mnogVEgu+sDT6+/A121Na+aTw6mFLD6LHgbgHt4fnQ2V/QwcfBSXRTSkGpgNsZAjnYs4/XzZQYKGltWT93EP9zXN1kGbtzfkPGzTakquCfOjbKtbAQKWh8ppzqLhWcRUn9g/PhU99F29QIDAQAB",
+   "manifest_version": 2,
+   "name": "Honey",
+   "permissions": [ "tabs", "http://*/*", "https://*/*", "storage" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "2.0.0.1",
+   "web_accessible_resources": [ "img/honey_logo2.png", "img/close4.png", "img/facebook6.png", "img/twitter3.png", "img/settings2.png", "img/h_button2.png", "img/loading2.gif" ]
+}

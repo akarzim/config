@@ -1,0 +1,39 @@
+<?
+    var newTrackers = parameters.newTrackers;
+    newTrackers.sort();
+    var cleanTrackers = {}, newRules='';
+    for (var i=0;i<newTrackers.length;i++) {
+        cleanTrackers[newTrackers[i]] = 1;
+    }
+
+    controller.observe('back', 'click', DNTP.showPopupBlue);
+
+    controller.doNotAutoRefresh = true;  // prevent reload of page when new trackers are found
+
+?>
+<div style="padding: 10px 10px 0;font-weight: normal;">
+    <div style='font-size:120%;font-weight:bold;margin-bottom:8px;'>
+        <?=DNTP._("dntp.new.trackers")?>
+    </div>
+    <?=DNTP._("dntp.new.trackers.details")?>
+</div>
+<div class="block" style="margin: 10px;font-size: 14px;border: 1px solid #eee;">
+    <div id="DNTPtrackers" style="max-height:150px;overflow:auto;border-bottom-width: 0;" class="cb">
+        <ul class=DNTPtrackerList>
+            <? for (var rule in cleanTrackers) {
+                  if (newRules != '') newRules += ',';
+                  newRules += rule;
+            ?>
+            <li style="color:#888;"><?=rule?></li>
+            <? }?>
+        </ul>
+    </div>
+</div>
+<div style="padding: 10px;font-weight: normal" class=clearfix>
+    <a class="externalLink" target="_blank" href="<?=DNTP.getLinkUrl('newTrackers', {'new': newRules})?>" >
+        <?=DNTP._("dntp.new.trackers.link")?>
+    </a>
+    <a class="fr" href="#" id=back><?=DNTP._("dntp.global.back")?></a>
+</div>
+
+

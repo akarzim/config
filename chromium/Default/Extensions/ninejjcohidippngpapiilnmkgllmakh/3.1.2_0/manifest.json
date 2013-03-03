@@ -1,0 +1,24 @@
+{
+   "background_page": "background.html",
+   "browser_action": {
+      "default_icon": "icon.png",
+      "name": "YSlow"
+   },
+   "content_scripts": [ {
+      "js": [ "content.js", "yslow-chrome.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "description": "Make your pages faster with Yahoo!'s page performance tool",
+   "icons": {
+      "128": "128.png",
+      "16": "16.png",
+      "32": "32.png",
+      "48": "48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDRNg9Yw2+0MeiuqE4aDXWicL46yILo3cf8YMwZvPvtQPvD76csVkLwN3LOcVwsZmBKHREfWM50oa5GfnLuOTX1L7Usk0VmC5DXrZUkdV9ouaF47eMTiXHpgZsLc04COMdW3rskGgv8srL1LQCKn+YZE3AY/2TQ60dplC0X16n2mQIDAQAB",
+   "name": "YSlow",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "cookies", "http://*/*", "https://*/*" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "3.1.2"
+}

@@ -1,0 +1,62 @@
+{
+   "days": {
+      "message": "$1d",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "description": {
+      "message": "Se snabbt i dina kalendrar hur l\u00E4nge det \u00E4r till n\u00E4sta m\u00F6te. Klicka p\u00E5 knappen s\u00E5 kommer du till kalendern."
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "extensionname": {
+      "message": "Google Calendar Checker"
+   },
+   "hours": {
+      "message": "$1tim",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "imagetooltip": {
+      "message": "Google Kalender"
+   },
+   "minutes": {
+      "message": "$1min",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "multicalendartext": {
+      "message": "Support f\u00F6r flera kalendrar"
+   },
+   "multicalendartooltip": {
+      "message": "Aktivera support f\u00F6r flera kalendrar genom att markera rutan"
+   },
+   "name": {
+      "message": "Google Calendar Checker (fr\u00E5n Google)"
+   },
+   "notitle": {
+      "message": "(Namnl\u00F6s)"
+   },
+   "optionstitle": {
+      "message": "Google Calendar Checker"
+   },
+   "status_saved": {
+      "message": "Inst\u00E4llningarna har sparats."
+   },
+   "status_saving": {
+      "message": "Sparar..."
+   },
+   "title": {
+      "message": "Google Calendar Checker"
+   }
+}

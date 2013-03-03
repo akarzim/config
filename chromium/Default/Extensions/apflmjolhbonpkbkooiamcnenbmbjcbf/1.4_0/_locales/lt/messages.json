@@ -1,0 +1,52 @@
+{
+   "chrome_extension_description": {
+      "message": "Pateikiamas neperskaityt\u0173 element\u0173 \u201EGoogle\u201C skaitytojo paskyroje skai\u010Dius. Spustel\u0117jus gali b\u016Bti parodytas i\u0161\u0161okantysis per\u017Ei\u016Bros langas arba atidaryta Skaitytojo paskyra."
+   },
+   "chrome_extension_name": {
+      "message": "\u201EGoogle\u201C skaitytojo prane\u0161im\u0173 programa (\u201EGoogle\u201C)"
+   },
+   "clickaction": {
+      "message": "Spustel\u0117jus:"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "intervaltext": {
+      "message": "Atnaujinti kas:"
+   },
+   "loadingtext": {
+      "message": "\u012Ekeliama..."
+   },
+   "minutes": {
+      "message": "$1 min.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "nosummary": {
+      "message": "N\u0117ra suvestin\u0117s"
+   },
+   "openreaderlink": {
+      "message": "Atidaryti \u201EGoogle\u201C skaitytoj\u0105"
+   },
+   "refreshlink": {
+      "message": "Atnaujinti"
+   },
+   "savebutton": {
+      "message": "I\u0161saugoti"
+   },
+   "savedmessage": {
+      "message": "I\u0161saugota"
+   },
+   "showmodule": {
+      "message": "Rodyti i\u0161\u0161okant\u012Fj\u012F lang\u0105"
+   },
+   "showreader": {
+      "message": "Atidaryti \u201EGoogle\u201C skaitytoj\u0105"
+   },
+   "title": {
+      "message": "\u201EGoogle\u201C skaitytojo prane\u0161im\u0173 programos parinktys"
+   }
+}

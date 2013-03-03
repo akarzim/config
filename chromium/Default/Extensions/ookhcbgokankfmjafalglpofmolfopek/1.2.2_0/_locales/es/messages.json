@@ -1,0 +1,62 @@
+{
+   "days": {
+      "message": "$1d",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "description": {
+      "message": "Consulta r\u00E1pidamente cu\u00E1nto tiempo falta para tu pr\u00F3xima reuni\u00F3n en cualquiera de tus calendarios. Haz clic en el bot\u00F3n para acceder al calendario."
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "extensionname": {
+      "message": "Google Calendar Checker"
+   },
+   "hours": {
+      "message": "$1h",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "imagetooltip": {
+      "message": "Google Calendar"
+   },
+   "minutes": {
+      "message": "$1min",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "multicalendartext": {
+      "message": "Compatibilidad con varios calendarios"
+   },
+   "multicalendartooltip": {
+      "message": "Selecciona la casilla para habilitar la compatibilidad con varios calendarios"
+   },
+   "name": {
+      "message": "Google Calendar Checker (de Google)"
+   },
+   "notitle": {
+      "message": "(Sin t\u00EDtulo)"
+   },
+   "optionstitle": {
+      "message": "Google Calendar Checker"
+   },
+   "status_saved": {
+      "message": "Se ha guardado la configuraci\u00F3n."
+   },
+   "status_saving": {
+      "message": "Guardando...."
+   },
+   "title": {
+      "message": "Google Calendar Checker"
+   }
+}

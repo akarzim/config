@@ -1,0 +1,64 @@
+<? if (parameters.toggledOff || parameters.abineMessage ||
+        (parameters.firstPartySocial && parameters.trackers.length == 0)) {?><? DIE ?><? } ?>
+<?
+	var trackers = parameters.trackers;
+	var blocked = parameters.blocked;
+	var trackersBlocked = parameters.trackersBlocked;
+
+    var textColor = controller.getTextColor(blocked, trackers);
+
+    var trackerImg = controller.getTrackerImage(blocked, trackers)
+
+?>
+<div class="block clearfix" id="trackerBlock">
+	<div class="header clearfix <?=trackers.length==0?'empty':''?>" id="trackerTop">
+		<div class=title style="letter-spacing:.051em;" id="DNTPtrackerText">
+			<? if (trackers.length > 0) {?>
+		        <?=_("dntp.trackingcompany",trackers.length, DNTP._(DNTP.plural("dntp.company", trackers.length)))?>
+                <span class=count style='letter-spacing:normal;color:<?=textColor?>'>
+	                <?=trackersBlocked?> <?=_(DNTP.plural("dntp.Fblocked",trackersBlocked))?>
+                </span>
+				<? controller.observe('trackerTop', 'click', controller.bind(controller.toggleBlock, 'DNTPtrackers'));?>
+			<? } else { ?>
+                <?=_("dntp.notrackingcompanies")?>
+            <? } ?>
+        </div>
+		<img src="<?=DNTP.getImageUrl(trackerImg)?>" id="DNTPtrackerIcon" height="36px" width="36px" />
+	</div>
+	<? if (trackers.length > 0) {
+	    var companies = "&c=";
+	    var anyAllow = false; ?>
+        <div id="DNTPtrackers" style="display:none;max-height:150px;overflow:auto;" class="cb">
+            <ul id="DNTPtrackerList">
+            <? for ( var ruleName in trackers) {
+                if (ruleName == "length") continue;
+	            companies += ruleName+"~";
+                var rec = (trackers[ruleName] == 2)?".recommended":"";
+		        var cls = (trackers[ruleName] == 2)?"suggested":"";
+	            if (rec!="") anyAllow=true;
+                var nospace = ruleName.replace(" ", "");?>
+
+                <li id="<?=nospace?>"
+                     class="tracker clearfix <? if (ruleName in blocked) {?>on<?}else{?>off<?}?>">
+                    <div class="fl name"><?=ruleName?></div>
+                    <div class="fr onMsg <?=cls?>"><?=_("dntp.capblockedhere"+rec)?></div>
+                    <div class="fr offMsg <?=cls?>"><?=_("dntp.notblockedhere"+rec)?></div>
+                    <div class="fr button" style="background-image: url(<?=DNTP.getImageUrl('on-off.png')?>);">
+                        <img class=skip src="<?=DNTP.getImageUrl('on-off-knob.png')?>"/>
+                    </div>
+                </li>
+                <? controller.observe(nospace, 'click', controller.bind(controller.toggleTracker, ruleName, false)); ?>
+            <? } ?>
+            <li class=nohover>
+              <? if(!anyAllow) {?>
+                  <a class=externalLink href='<?=DNTP.getLinkUrl('who-they-are')?>' target='_blank'>
+                    <?=_("dntp.whoarethey")?></a>
+              <? } else {?>
+                  <a class=externalLink href='<?=DNTP.getLinkUrl('recommended')?>' target='_blank'>
+                    <?=_("dntp.recommended")?></a></li>
+              <? } ?>
+            </li>
+	        </ul>
+        </div>
+    <? } ?>
+</div>

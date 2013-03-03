@@ -1,0 +1,90 @@
+<?
+	var badges = parameters.badges;
+	var newBadge = parameters.newBadge;
+?>
+
+<ul id="reportTabs" class="tabs">
+	<li id="trackingTab" class="selected" style="margin-left: 5px;"><a id="DNTPshowTracking" href="#"><?=_('dntp.whoarethey')?></a></li>
+	<li id="badgeTab" class=""><a id="DNTPshowBadges" href="#"><?=_('dntp.badges.mybadges')?></a></li>
+</ul>
+
+<div id="badgeTabContent" style="display:none;" class="tabContent">
+
+<? for (var i=0;i<badges.length;i++) {
+	var badge = badges[i];
+	?>
+	<? if (i > 0) {?><div class="badgeSep">&nbsp;</div><?}?>
+	<div class="badgeBlock">
+		<?=_(badge.title)?>
+
+    <? if (badge.name == "None") {?>
+	    <div class="" style="margin:10px auto;text-align:center;height:50px;"><?=_('dntp.no.badge')?></div>
+    <? } else {?>
+        <div class="badgeText badgeIconSmall badge<?=badge.cssClass?> badge<?=badge.cssClass?>Img">
+	        <div class=badgeCountSmall><?=DNTP.addCommas(badges[i].limit)?></div>
+	        <div class=badgeTextSmall><?=_(badge.badgeText)?></div>
+        </div>
+    <? } ?>
+		<div>
+	<?  if(badge.nextBadge.name == 'None') { ?>
+        <?=_('dntp.badges.maxlevel')?>
+    <? } else { ?>
+            <?=_('dntp.badges.levelup',DNTP.addCommas(badge.nextBadge.limit),(badge.nextBadge.level?'<br/>'+badge.nextBadge.level+controller.getNumberSuffix(badge.nextBadge.level)+' ':'')+_(badge.nextBadge.name))?>
+    <? } ?>
+		</div>
+
+    </div>
+<? } ?>
+
+    <div class="cb clearfix" style="padding:5px;font-size:10px;">
+    <? if (badges.length > 0 && badges[0].name != "None") {
+        var badge = badges[0];
+        var badgeName = (badge.level?badge.level+controller.getNumberSuffix(badge.level)+' ':'')+_(badge.name);
+        ?>
+        <div class=fl>
+        <?=_('dntp.badge.share')?>:
+
+        <a class="externalLink" target="_blank" href="<?=DNTP.getLinkUrl('badgeShare', {'where':'fb', name:badgeName, limit:badge.limit}) ?>">
+            <img class=vm src="<?=DNTP.getImageUrl('fb_sm.png')?>" height="16px"/>
+        </a>
+        <a class="externalLink" target="_blank" href="<?=DNTP.getLinkUrl('badgeShare', {'where':'tw', name:badgeName, limit:badge.limit}) ?>">
+            <img class=vm src="<?=DNTP.getImageUrl('tw_sm.png')?>" height="16px"/>
+        </a>
+        </div>
+    <?}?>
+        <div class="fr" style="margin-top: 3px;">
+            <a class=externalLink href="<?=DNTP.getLinkUrl('read-about-medals')?>" target="_blank">
+                <?=_("dntp.readbadges")?>
+            </a>
+        </div>
+    </div>
+	<br style="clear:both;"/>
+</div>
+
+<div id="trackingTabContent" style="display:block;padding: 0 10px;" class="tabContent">
+	<table class="cb detailTable" style="margin-top: 10px;" cellspacing=0 cellpadding=3 width=100%>
+		<tr><th align=left><?=_('dntp.whostried')?></th><th align=right><?=_('dntp.numblocked')?></th></tr>
+		<tr>
+			<td align=left><?=_('dntp.socialbuttons')?></td>
+			<td style="font-weight:normal;" align=right><?=DNTP.addCommas(parameters.globalSocialTotal)?></td>
+		</tr>
+		<tr>
+			<td align=left><?=_('dntp.trackingcompanies')?></td>
+			<td style="font-weight:normal;" align=right><?=DNTP.addCommas(parameters.globalTrackerTotal)?></td>
+		</tr>
+	</table><br/>
+
+	<div class=am style="font-size:100%;font-weight:normal;">
+		<?=_('dntp.intotalstart')?>
+		<span style="font-weight:700;"><?=DNTP.addCommas(parameters.globalTotal)?></span>
+		<?=_('dntp.intotalend', _(DNTP.plural('dntp.attempt', parameters.globalTotal)))?>
+        <a class="externalLink" target="_blank" href="<?=DNTP.getLinkUrl('totalShare', {'where':'fb', total:parameters.globalTotal}) ?>">
+            <img class=vm src="<?=DNTP.getImageUrl('fb_sm.png')?>" height="16px"/>
+        </a>
+        <a class="externalLink" target="_blank" href="<?=DNTP.getLinkUrl('totalShare', {'where':'tw', total:parameters.globalTotal}) ?>">
+            <img class=vm src="<?=DNTP.getImageUrl('tw_sm.png')?>" height="16px"/>
+        </a>
+
+	</div><br/>
+</div>
+<? controller.addOnLoad(controller.bind(controller.tabs, 'reportTabs', parameters.newBadge?'badgeTab':null)); ?>

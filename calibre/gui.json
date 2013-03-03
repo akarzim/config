@@ -1,0 +1,45 @@
+{
+  "quick_start_guide_added": true, 
+  "preferences_window_geometry": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywABAAAAAAAAAAAAAAAABj8AAANvAAAAAAAAAAD////+/////gAAAAACAA=="
+  }, 
+  "library_usage_stats": {
+    "/home/francois/Books": 5
+  }, 
+  "plugin config dialog:Type de fichier:Kindle and Mobipocket DeDRM": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywABAAD////uAAABhgAAAmsAAAKL////7wAAAaAAAAJqAAACigAAAAAAAA=="
+  }, 
+  "book_details_splitter_horizontal_state": [
+    true, 
+    200
+  ], 
+  "convert_single_dialog_geom": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywABAAAAAAAAAAAAAAAABj8AAANvAAAAAAAAABQAAAKsAAABPwAAAAACAA=="
+  }, 
+  "replace_scene_breaks_history": [
+    "", 
+    "<hr />", 
+    "\u2217 \u2217 \u2217", 
+    "\u2022 \u2022 \u2022", 
+    "\u2666 \u2666 \u2666", 
+    "\u2020 \u2020", 
+    "\u2021 \u2021 \u2021", 
+    "\u221e \u221e \u221e", 
+    "\u00a4 \u00a4 \u00a4"
+  ], 
+  "cover_browser_splitter_vertical_state": [
+    false, 
+    300
+  ], 
+  "tag_browser_splitter_horizontal_state": [
+    true, 
+    200
+  ], 
+  "plugin config dialog:Type de fichier:Ignoble Epub DeDRM": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywABAAAAAAJuAAAA7AAAA9EAAAKDAAACbwAAAQYAAAPQAAACggAAAAAAAA=="
+  }
+}

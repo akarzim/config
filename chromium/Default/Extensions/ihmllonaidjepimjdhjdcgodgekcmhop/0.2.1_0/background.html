@@ -1,0 +1,9 @@
+<script type="text/javascript">
+    chrome.contextMenus.create({"title": "Insert lorem ipsum",
+        "contexts": ["editable"], "onclick": function(info, tab){
+            chrome.tabs.sendRequest(tab.id, {"insertLoremIpsum": true}, function(response){
+
+            }
+        );
+    }})
+</script>

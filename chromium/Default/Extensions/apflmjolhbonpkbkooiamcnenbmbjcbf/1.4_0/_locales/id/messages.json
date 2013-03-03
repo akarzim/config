@@ -1,0 +1,52 @@
+{
+   "chrome_extension_description": {
+      "message": "Menampilkan jumlah item tak terbaca dalam akun Pustaka Google Anda. Mengeklik dapat menampilkan munculan pratinjau atau membuka akun Pustaka Anda."
+   },
+   "chrome_extension_name": {
+      "message": "Pemberi Tahu Pustaka Google (oleh Google)"
+   },
+   "clickaction": {
+      "message": "Sewaktu diklik:"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "intervaltext": {
+      "message": "Mutakhirkan setiap:"
+   },
+   "loadingtext": {
+      "message": "Memuat..."
+   },
+   "minutes": {
+      "message": "$1 menit",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "nosummary": {
+      "message": "Tanpa Ringkasan"
+   },
+   "openreaderlink": {
+      "message": "Buka Pustaka Google"
+   },
+   "refreshlink": {
+      "message": "Segarkan"
+   },
+   "savebutton": {
+      "message": "Simpan"
+   },
+   "savedmessage": {
+      "message": "Tersimpan"
+   },
+   "showmodule": {
+      "message": "Tampilkan munculan"
+   },
+   "showreader": {
+      "message": "Buka Pustaka Google"
+   },
+   "title": {
+      "message": "Opsi Pemberi Tahu Pustaka Google"
+   }
+}

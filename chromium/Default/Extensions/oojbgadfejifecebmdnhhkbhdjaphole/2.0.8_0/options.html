@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Options</title>
+        <link type="text/css" rel="stylesheet" href="css/basic.css">
+        <link type="text/css" rel="stylesheet" href="css/options.css">
+        <script src="js/jquery.js"></script>
+        <script src="js/utils2.js"></script>
+        <script src="js/options.js"></script>
+
+	
+    </head>
+    <body>
+        <!--# begin "HTML_NOTICE" #-->
+        <div class="diigolet notice" id="diigolet-notice" style="display:none;">
+            <span><b>&nbsp;</b><span>Ok, done!</span></span>
+            <span class="info"><b>&nbsp;</b><span>Information</span></span>
+            <span class="alert"><b>&nbsp;</b><span>Error!!!</span></span>
+        </div>
+        <!--# end "HTML_NOTICE" #-->
+    <div id="main">
+	<header>
+    	<h1>Extension Options</h1>
+    </header>
+    <div id="content">
+	<fieldset>
+		<legend><b>Bookmarking</b></legend>
+		<input id="check-bmPrivateAsDefault" type="checkbox"><label for="check-bmPrivateAsDefault">Private as default while saving</label>
+        <br/><input id="check-autoCloseReadLater" type="checkbox"><label for="check-autoCloseReadLater">Automatically close a page when it is marked to "read later"</label>
+        <br/><input id="check-autoloadBookmarkStatus" type="checkbox"><label for="check-autoloadBookmarkStatus">Show bookmarking status automatically</label>
+        <div class="tip">.<div><span>Load bookmark info from diigo.com for every page you visit.</span></div></div>
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;<input id="check-autoload" type="checkbox"><label for="check-autoload">Show highlights and sticky notes automatically</label>
+        <div class="tip">.<div><span>Launch the extension and display highlights automatically</span></div></div>
+        
+	</fieldset>
+    <fieldset>
+        <legend><b>Options when the annotation toolbar is not enabled</b></legend>
+        <input id="check-autoImageClipper" type="checkbox"><label for="check-autoImageClipper">Show Diigo icon to collect an image when mouse-over it</label>
+        <br/><input id="check-autoshowicon" type="checkbox"><label for="check-autoshowicon">Automatically show highlight and search mini-menu when selecting any text</label>
+        <div class="tip">.<div><span>Pop up highlight button when there is text selection on any page even you don't click the diigo button. It's more connivence if you use highlight heavily.</span></div></div>
+    </fieldset>
+    <fieldset>
+        <legend><b>Search</b></legend>
+        <input id="check-contextMenu" type="checkbox"><label for="check-contextMenu">Enable Diigo+Google search in right click menu items</label>
+        <div class="tip">.<div><span>Search Diigo+Google for selected text.</span></div></div>
+        <br/><input id="check-comboSearch" type="checkbox"><label for="check-comboSearch">Search your Diigo library when searching Google</label>
+        <div class="tip">.<div><span>Item count found in your Diigo library will be shown in the Google search result page</span></div></div>
+	<!-- <br/><input id="check-searcho" type="checkbox"><label for="check-searcho">Try other search engines</label>
+        <div class="tip">.<div><span>Enable you to try different search engines easily in search result page.</span></div></div> -->
+    </fieldset>
+    <fieldset>
+        <legend><b>Keyboard Shortcuts</b></legend>
+        <div id="shortcut-quicksave" class="shortcut"><input id="check-shortcut-quicksave" type="checkbox"><label for="check-shortcut-quicksave">Quick Bookmark(one click)</label>
+        <input id="check-shortcut-quicksave-ctrl" type="checkbox"><label for="check-shortcut-quicksave-ctrl">Ctrl+</label>
+        <input id="check-shortcut-quicksave-alt" type="checkbox"><label for="check-shortcut-quicksave-alt">Alt+</label>
+        <!-- <select id="shortcut-quicksave-key"></select> -->
+        </div>
+        <div id="shortcut-annotate" class="shortcut"><input id="check-shortcut-annotate" type="checkbox"><label for="check-shortcut-annotate">Annotate</label>
+        <input id="check-shortcut-annotate-ctrl" type="checkbox"><label for="check-shortcut-annotate-ctrl">Ctrl+</label>
+        <input id="check-shortcut-annotate-alt" type="checkbox"><label for="check-shortcut-annotate-alt">Alt+</label>
+        <!-- <select id="shortcut-bookmark-key"></select> -->
+        </div>
+        <div id="shortcut-bookmark" class="shortcut"><input id="check-shortcut-bookmark" type="checkbox"><label for="check-shortcut-bookmark">Tag</label>
+        <input id="check-shortcut-bookmark-ctrl" type="checkbox"><label for="check-shortcut-bookmark-ctrl">Ctrl+</label>
+        <input id="check-shortcut-bookmark-alt" type="checkbox"><label for="check-shortcut-bookmark-alt">Alt+</label>
+        <!-- <select id="shortcut-bookmark-key"></select> -->
+        </div>
+        
+    </fieldset>
+    </div>
+    <div id="buttonRow">
+        <b id="noticeSaved" style="display:none">Saved!</b>
+        <input id="btnSave" type="submit" value="Save" />
+        <input id="btnCancel" type="button" value="Cancel" />
+    </div>
+    </div><!--main-->
+    </body>
+</html>

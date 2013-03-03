@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<!-- Copyright 2009 Google Inc. All Rights Reserved. -->
+<head>
+  <title></title>
+  <style type="text/css">
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    #outer-container {
+      padding: 0;
+      margin: 0;
+      display: none;
+      font-family: Arial, sans-serif;
+      font-size: 12px;
+      width: 320px;
+    }
+
+    .link {
+      color: #68d;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+
+    #header {
+      padding: 5px;
+      border-bottom: solid 1px #eee;
+    }
+
+    #container {
+      position: relative;
+    }
+
+    #placeholder,
+    #module {
+      min-width: 320px;
+      min-height: 410px;
+      height: auto;
+    }
+
+    #loading {
+      position: absolute;
+      width: 320px;
+      top: 180px;
+      text-align: center;
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      font-weight: bold;
+      color: #aaa;
+    }
+
+    #module {
+      position: absolute;
+      top: 0;
+      left: 0;
+      border: 0;
+      overflow: hidden;
+    }
+  </style>
+  <script src="closure.js"></script>
+  <script src="prefs.js"></script>
+  <script src="util.js"></script>
+  <script src="main.js"></script>
+</head>
+<body>
+  <!--
+    The outer-container holds the body content and we manipulate the style of
+    outer-container instead of the body to avoid pop-up flashing caused by
+    switching between LTR and RTL at run time.
+  -->
+  <div id="outer-container">
+    <div id="header">
+      <span class="link" id='open-reader-link'></span>
+      |
+      <span class="link" id='refresh-link'></span>
+    </div>
+    <div id="container">
+      <!--
+        Use a placeholder so that Chrome renders the popup immediately, and we
+        can then initialize the iframe onload.
+      -->
+      <div id="placeholder">
+        <div id="loading"></div>
+      </div>
+
+      <iframe id="module" src="about:blank" scrolling="no"></iframe>
+    </div>
+  </div>
+  <script src="module.js"></script>
+</body>
+</html>

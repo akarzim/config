@@ -1,0 +1,21 @@
+{
+   "app": {
+      "launch": {
+         "container": "tab",
+         "urls": [ "http://chrome.angrybirds.com" ],
+         "web_url": "http://chrome.angrybirds.com"
+      }
+   },
+   "default_locale": "en",
+   "description": "__MSG_desc__",
+   "icons": {
+      "128": "128.png",
+      "16": "16.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC6PeQTq1pwDNiqFlcp7UsUUUJQBsjUBcSiboI/+WSmsE93IF5xyd3e6erYAPW7DRBdrCJVDqPW0kv0APgTaCGOhVTBjvYO/1IbBBX86j+1pE58f4slTybPxklVQw04gXEkxe2fLBFriVf1bH20b+X9tagRS+6oqz2glinagc7FVwIDAQAB",
+   "name": "Angry Birds",
+   "offline_enabled": true,
+   "permissions": [ "unlimitedStorage" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.5.0.7"
+}

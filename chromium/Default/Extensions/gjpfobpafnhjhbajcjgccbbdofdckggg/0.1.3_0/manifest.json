@@ -1,0 +1,19 @@
+{
+   "background": {
+      "scripts": [ "vendor/assets/javascripts/jquery-1.8.3.min.js", "assets/javascripts/background.js" ]
+   },
+   "description": "Devtools panel for Rails development",
+   "devtools_page": "devtools.html",
+   "icons": {
+      "128": "assets/images/Rails_Logo_128x128.png",
+      "16": "assets/images/Rails_Logo_16x16.png",
+      "48": "assets/images/Rails_Logo_48x48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC8z0f35eYf+JwiWg34L36PkAj3JL/Jv3zpMZG1YGEbQwCFBMUsaUi3q9fLApWblu/TOp23o7hoWQZ4YrTZyKY9WyjLUbgI5/bXVMb1fObQFS6Rlu3q2xDdPLfQb2er2JGWbFPHUy0drOy698+SYr7QLwzMXeGTmAaAX0N3/n0z/QIDAQAB",
+   "manifest_version": 2,
+   "name": "RailsPanel",
+   "options_page": "options.html",
+   "permissions": [ "http://*/*", "https://*/*" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.1.3"
+}

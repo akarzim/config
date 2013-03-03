@@ -1,0 +1,127 @@
+<?
+var useGlobalAllow = parameters.useGlobalAllow;
+var ruleArray = parameters.ruleArray;
+var lastUpdateDateString = parameters.lastUpdateDateString;
+var globalSettings = parameters.globalSettings;
+var globalBlocked = DNTP.Config.get('global.blocked', DNTP.DEFAULT_TRACKER_STATE?'1':'0');
+
+var chkd = "";
+if (useGlobalAllow == 1)
+    chkd= "checked='checked'";
+
+function toggleGlobalTracker(e) {
+    e = e || event;
+    var target = e.target || e.srcElement;
+    while (!target.className || target.className.indexOf('tracker') == -1) {
+        target = target.parentNode;
+    }
+    if (target.getAttribute('animateProgress')) return false;
+
+    var ruleName = null, child = target.firstChild;
+    while (child && (!child.className || child.className.indexOf('name') == -1)) {
+        child = child.nextSibling;
+    }
+
+    if (!child) return false;
+
+    ruleName = child.textContent || child.innerText;
+
+    var blocked = (target.className.indexOf('off') == -1);
+    var newBlocked = !blocked;
+    var self = this;
+    controller.animateButton(target, newBlocked?1:-1, function(){
+        target.className = target.className.replace(/on|off/, newBlocked?'on':'off');
+        DNTP.toggle_tracker(controller.parentDoc, controller.doc, newBlocked, ruleName, "*", false);
+    });
+}
+
+?>
+<div id='DNTPglobalTrackers' style="padding: 0px 2px;">
+    <div style='font-size:120%;font-weight:bold;margin-bottom:8px;'>
+        <img src="<?=DNTP.getImageUrl('gear.png')?>" class=vm height=18px style="margin-top:-3px;padding: 0 3px 0 5px;"/>
+        <?=DNTP._("dntp.footer.settings")?>
+    </div>
+    <div class="clearfix">
+        <div id="toggleSite" class="clearfix fl tracker <?=globalBlocked==1?'on':'off'?>" style="margin: 8px 0 10px 13px;text-align: left;">
+            <div class="fr onMsg"><?=_('dntp.global.all.blockedeverywhere')?></div>
+            <div class="fr offMsg"><?=_('dntp.global.all.allowedeverywhere')?></div>
+            <div class="fr button" style="background-image: url(<?=DNTP.getImageUrl('on-off.png')?>);">
+                <img src="<?=DNTP.getImageUrl('on-off-knob.png')?>"/>
+            </div>
+        </div>
+        <? controller.observe('toggleSite', 'click', function(e){
+            var target = controller.$('toggleSite')
+            if (target.getAttribute('animateProgress')) return false;
+            controller.animateButton(target, globalBlocked==1?-1:1, function(){
+                var target = controller.$('toggleSite');
+                target.className = target.className.replace(/on|off/, globalBlocked==1?'off':'on');
+                if (globalBlocked == 1) {
+                    controller.allowAll();
+                    globalBlocked = 0;
+                } else {
+                    controller.blockAll();
+                    globalBlocked = 1;
+                }
+            });
+           }); ?>
+    </div>
+    <br class=cb />
+    <div class=block>
+        <ul id='DNTPtrackerList' class="trackers" style='height:200px;overflow-y:scroll;overflow-x:hidden;border:1px solid #eee;border-width: 1px 0px;margin-top: 5px;'>
+<?
+    var allBlocked = true;
+    var noneBlocked = true;
+    var noDupes = {};
+
+    for (var i =0;i<ruleArray.length;i++){
+        var ruleName = ruleArray[i];
+        if (noDupes[ruleName]) continue;
+        noDupes[ruleName] = 1;
+        var nospace = 'g'+ruleName.replace(" ", "");
+        ?>
+            <li id="<?=nospace?>"
+                 class="tracker clearfix <? if (globalSettings[ruleName] == 1) {?>on<?}else{?>off<?}?>">
+                <div class="fl name"><?=ruleName?></div>
+                <div class="fr onMsg"><?=_("dntp.global.blockedeverywhere")?></div>
+                <div class="fr offMsg"><?=_("dntp.global.notblocked")?></div>
+                <div class="fr button" style="background-image: url(<?=DNTP.getImageUrl('on-off.png')?>);">
+                    <img class=skip src="<?=DNTP.getImageUrl('on-off-knob.png')?>"/>
+                </div>
+            </li>
+        <?
+    }
+?>
+        </ul>
+    </div>
+
+    <span class="am" style='display:block;width:100%;padding:0px !important;font-size:85%;'>
+        <?=DNTP._("dntp.global.tpl")?> <?=lastUpdateDateString?>
+        <br/>
+        <input type="checkbox" <?=chkd?> id='DNTPuseRecs'/> <?=DNTP._('dntp.global.useglobalallow')?>
+    </span>
+</div>
+<div class="cb am" style="margin-top: 5px;">
+    <a href='#' class="button" id='DNTPallowedSites'><?=DNTP._("dntp.global.allowedSites")?></a>
+    <? if (controller.canShowOldUI()) {?>
+      <? if (DNTP.Config.get('theme', 'light') == 'light') {?>
+        <a href='#' class="button" id='darkUi'><?=DNTP._("dntp.dark.ui")?></a>
+      <? } else { ?>
+        <a href='#' class="button" id='lightUi'><?=DNTP._("dntp.light.ui")?></a>
+      <? } ?>
+    <? } ?>
+    <a href='#' class="button" id='DNTPbackToPopup'><?=DNTP._("dntp.global.back")?></a>
+</div>
+<?
+
+    controller.observe('DNTPtrackerList', 'click', controller.bind(toggleGlobalTracker));
+
+    controller.observe('DNTPuseRecs', 'click', controller.bind(controller.toggleUseRecs));
+    controller.observe('DNTPbackToPopup', 'click', DNTP.showPopupBlue);
+
+    controller.observe("DNTPallowedSites", 'click', DNTP.showAllowedSites);
+
+    controller.observe('DNTPdntSignalDisplay', 'click', DNTP.openPreferences);
+
+    controller.observe('darkUi', 'click', function(){controller.changeTheme('default');});
+    controller.observe('lightUi', 'click', function(){controller.changeTheme('light');});
+?>

@@ -1,0 +1,62 @@
+{
+   "days": {
+      "message": "$1d",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "description": {
+      "message": "Veja rapidamente quanto tempo falta para a sua pr\u00F3xima reuni\u00E3o a partir de qualquer um dos seus calend\u00E1rios. Clique no bot\u00E3o para aceder ao calend\u00E1rio."
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "extensionname": {
+      "message": "Google Calendar Checker"
+   },
+   "hours": {
+      "message": "$1h",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "imagetooltip": {
+      "message": "Calend\u00E1rio Google"
+   },
+   "minutes": {
+      "message": "$1m",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "multicalendartext": {
+      "message": "Suporte para v\u00E1rios calend\u00E1rios"
+   },
+   "multicalendartooltip": {
+      "message": "Marque a caixa para permitir o suporte de v\u00E1rios calend\u00E1rios."
+   },
+   "name": {
+      "message": "Google Calendar Checker (do Google)"
+   },
+   "notitle": {
+      "message": "(Sem t\u00EDtulo)"
+   },
+   "optionstitle": {
+      "message": "Google Calendar Checker"
+   },
+   "status_saved": {
+      "message": "Defini\u00E7\u00F5es guardadas."
+   },
+   "status_saving": {
+      "message": "A guardar..."
+   },
+   "title": {
+      "message": "Google Calendar Checker"
+   }
+}

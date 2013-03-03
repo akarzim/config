@@ -1,0 +1,71 @@
+*, html, body, div, ul, ol, li, span, img {
+    border: 0;
+    padding: 0;
+    margin: 0 !important;
+    -webkit-padding-start: 0; /* are you kidding me? */
+    font-family: Palatino, Georgia, 'Times New Roman', serif;
+    font-size: 0.975em;
+}
+
+    ul#buttons {
+        list-style: none;
+        margin: 2px;
+        padding: 1px;
+        width: 215px;
+    }
+
+        ul#buttons > li {
+            display: block;
+            background-color: white;
+            padding: 5px;
+            margin: 4px 0;
+            border: 1px solid #DCD9D5;
+            border-bottom-width: 0;
+            cursor: pointer !important;
+        }
+
+        ul#buttons > li:hover {
+            background: #EFF5FC;
+        }
+
+        ul#buttons > li:last-child {
+            border-bottom-width: 1px;
+        }
+
+            span.icon {
+                display: inline-block;
+                width: 16px;
+                height: 16px;
+                padding-right: 4px;
+                background: transparent none no-repeat;
+            }
+
+            ul li#read span.icon {       background-image: url('../img/read-small.png'); }
+            ul li#read:hover span.icon { background-image: url('../img/read-small-hover.png'); }
+
+            ul li#save span.icon {       background-image: url('../img/save-small.png'); }
+            ul li#save:hover span.icon { background-image: url('../img/save-small-hover.png'); }
+
+            ul li#kindle span.icon {       background-image: url('../img/icon-kindle-small.png'); }
+            ul li#kindle:hover span.icon { background-image: url('../img/icon-kindle-small-hover.png'); }
+
+            ul li span.title {
+                position: relative;
+                top: -2px;
+            }
+
+            ul.keyboard-shortcut {
+                list-style: none;
+                color: #666;
+                font-size: 0.75em;
+                text-align: right;
+                float: right;
+                margin-right: 2px;
+                position: relative;
+                top: 4px;
+            }
+
+                ul.keyboard-shortcut > li {
+                    display: inline-block;
+                    padding-right: 2px;
+                }

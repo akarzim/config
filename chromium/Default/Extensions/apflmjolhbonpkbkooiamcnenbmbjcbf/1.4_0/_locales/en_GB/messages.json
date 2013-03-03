@@ -1,0 +1,52 @@
+{
+   "chrome_extension_description": {
+      "message": "Displays the number of unread items in your Google Reader account. Clicking can show a preview pop-up or open your Reader account."
+   },
+   "chrome_extension_name": {
+      "message": "Google Reader Notifier (by Google)"
+   },
+   "clickaction": {
+      "message": "On click:"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "intervaltext": {
+      "message": "Update every:"
+   },
+   "loadingtext": {
+      "message": "Loading..."
+   },
+   "minutes": {
+      "message": "$1 minutes",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "nosummary": {
+      "message": "No Summary"
+   },
+   "openreaderlink": {
+      "message": "Open Google Reader"
+   },
+   "refreshlink": {
+      "message": "Refresh"
+   },
+   "savebutton": {
+      "message": "Save"
+   },
+   "savedmessage": {
+      "message": "Saved"
+   },
+   "showmodule": {
+      "message": "Show pop-up"
+   },
+   "showreader": {
+      "message": "Open Google Reader"
+   },
+   "title": {
+      "message": "Google Reader Notifier Options"
+   }
+}

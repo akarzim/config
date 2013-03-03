@@ -1,0 +1,73 @@
+<!DOCTYPE html> 
+<html>
+<head>
+  <script type="text/javascript" src="../third_party/port.js"></script>
+  <script type="text/javascript" src="../js/common/Browser.js"></script>
+  <script type="text/javascript" src="user_changed.js"></script>
+  <script type="text/javascript" src="../js/common/retina.js"></script>
+  <style type="text/css">
+    html{
+      width: 100%;
+      font-family: Helvetica, sans-serif;
+      font-size: 12px;
+    }
+
+    body {
+      margin: 0;
+      float: right;
+    }
+
+    body > div{ 
+      padding: 6px;
+      border-radius: 6px;
+      background-color: rgba(0, 0, 0, 0.56);
+    }
+
+    #main {
+      border-radius: 4px;
+      background-color: #333;
+      color: white;
+      padding: 6px;
+    }
+
+    /* The main container for the status notification area. */
+    #status {
+      position: relative;
+      padding: 6px;
+      padding-right: 10px;
+      background-color: #262626;
+      border-radius: 4px;
+      border: 1px inset #444;
+      font-size: 12px;
+      height: 32px;
+    }
+
+    #status > img {
+      float: left;
+    }
+
+    #status > div {
+      float: left;
+      display: inline-block;
+      padding-top: 10px;
+      padding-left: 6px;
+      white-space: nowrap;
+      overflow-x: hidden;
+      max-width: 370px;
+      text-overflow: ellipsis;
+      -webkit-font-smoothing: antialiased;
+    }
+  </style>
+  <title></title>
+</head>
+<body>
+  <div>
+    <div id="main">
+      <div id="status">
+        <img src="../images/searchLogo.png" width="32" height="32"/>
+        <div> </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

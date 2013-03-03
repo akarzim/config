@@ -1,0 +1,62 @@
+{
+   "days": {
+      "message": "$1d",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "description": {
+      "message": "\u5FEB\u901F\u67E5\u770B\u79BB\u60A8\u7684\u4EFB\u610F\u65E5\u5386\u4E2D\u4E0B\u4E00\u6B21\u4F1A\u8BAE\u8FD8\u6709\u591A\u957F\u65F6\u95F4\u3002\u60A8\u53EA\u9700\u70B9\u51FB\u8BE5\u6309\u94AE\u5373\u53EF\u8FDB\u5165\u81EA\u5DF1\u7684\u65E5\u5386\u3002"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "extensionname": {
+      "message": "Google Calendar Checker"
+   },
+   "hours": {
+      "message": "$1h",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "imagetooltip": {
+      "message": "Google \u65E5\u5386"
+   },
+   "minutes": {
+      "message": "$1m",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "multicalendartext": {
+      "message": "\u591A\u65E5\u5386\u652F\u6301"
+   },
+   "multicalendartooltip": {
+      "message": "\u8BF7\u9009\u4E2D\u6B64\u6846\u4EE5\u542F\u7528\u591A\u65E5\u5386\u652F\u6301"
+   },
+   "name": {
+      "message": "Google Calendar Checker\uFF08\u7531 Google \u63D0\u4F9B\uFF09"
+   },
+   "notitle": {
+      "message": "\uFF08\u65E0\u6807\u9898\uFF09"
+   },
+   "optionstitle": {
+      "message": "Google Calendar Checker"
+   },
+   "status_saved": {
+      "message": "\u8BBE\u7F6E\u5DF2\u4FDD\u5B58\u3002"
+   },
+   "status_saving": {
+      "message": "\u6B63\u5728\u4FDD\u5B58..."
+   },
+   "title": {
+      "message": "Google Calendar Checker"
+   }
+}

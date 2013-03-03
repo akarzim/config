@@ -1,0 +1,52 @@
+{
+   "chrome_extension_description": {
+      "message": "N\u00E4ytt\u00E4\u00E4 Google-sy\u00F6tteenlukijatilisi lukemattomien kohteiden lukum\u00E4\u00E4r\u00E4n. Napsauttamalla tuodaan n\u00E4kyviin joko esikatselu ponnahdusikkunassa tai Sy\u00F6tteenlukija-tilisi."
+   },
+   "chrome_extension_name": {
+      "message": "Google-sy\u00F6tteenlukijan ilmoitukset (Googlen palvelu)"
+   },
+   "clickaction": {
+      "message": "Napsautuksella:"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "intervaltext": {
+      "message": "P\u00E4ivit\u00E4 joka"
+   },
+   "loadingtext": {
+      "message": "Ladataan..."
+   },
+   "minutes": {
+      "message": "$1. minuutti",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "nosummary": {
+      "message": "Ei yhteenvetoa"
+   },
+   "openreaderlink": {
+      "message": "Avaa Google-sy\u00F6tteenlukija"
+   },
+   "refreshlink": {
+      "message": "P\u00E4ivit\u00E4"
+   },
+   "savebutton": {
+      "message": "Tallenna"
+   },
+   "savedmessage": {
+      "message": "Tallennettu"
+   },
+   "showmodule": {
+      "message": "N\u00E4yt\u00E4 ponnahdusikkuna"
+   },
+   "showreader": {
+      "message": "Avaa Google-sy\u00F6tteenlukija"
+   },
+   "title": {
+      "message": "Google-sy\u00F6tteenlukijan ilmoituksien asetukset"
+   }
+}

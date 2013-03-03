@@ -1,0 +1,52 @@
+{
+   "chrome_extension_description": {
+      "message": "Apresenta o n\u00FAmero de itens n\u00E3o lidos na sua conta do Google Reader. Ao clicar, ser\u00E1 apresentado um pop-up de pr\u00E9-visualiza\u00E7\u00E3o ou abre a sua conta do Google Reader."
+   },
+   "chrome_extension_name": {
+      "message": "Notificador do Google Reader (da Google)"
+   },
+   "clickaction": {
+      "message": "Ao clicar:"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "intervaltext": {
+      "message": "Actualizar a cada:"
+   },
+   "loadingtext": {
+      "message": "A carregar..."
+   },
+   "minutes": {
+      "message": "$1 minutos",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "nosummary": {
+      "message": "Sem resumo"
+   },
+   "openreaderlink": {
+      "message": "Abrir o Google Reader"
+   },
+   "refreshlink": {
+      "message": "Actualizar"
+   },
+   "savebutton": {
+      "message": "Guardar"
+   },
+   "savedmessage": {
+      "message": "Guardada"
+   },
+   "showmodule": {
+      "message": "Mostrar pop-up"
+   },
+   "showreader": {
+      "message": "Abrir o Google Reader"
+   },
+   "title": {
+      "message": "Op\u00E7\u00F5es do Notificador do Google Reader"
+   }
+}

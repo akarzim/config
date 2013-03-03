@@ -1,0 +1,1070 @@
+{
+   "April": {
+      "message": "April"
+   },
+   "Aug": {
+      "message": "Aug"
+   },
+   "BrowserActionTitle": {
+      "description": "Title for the browser action that's visible to the user of extension",
+      "message": "Klip til Evernote"
+   },
+   "Close": {
+      "description": "The string that shows up on a button used to close a window.",
+      "message": "Luk"
+   },
+   "Dec": {
+      "message": "Dec"
+   },
+   "EDAMError_1": {
+      "description": "Used to describe an unknown EDAM error",
+      "message": "Ukendt fejl"
+   },
+   "EDAMError_1_notebookGuid": {
+      "description": "Error message indicating unknown notebook",
+      "message": "Ukendt notesbog"
+   },
+   "EDAMError_3": {
+      "description": "Indicates that permission was denied for request by the server",
+      "message": "Ikke adgang"
+   },
+   "EDAMError_3_User_active": {
+      "description": "Indicates that a user tried to login but their account is inactive",
+      "message": "Ingen adgang, brugeren er inaktiv"
+   },
+   "EDAMError_3_User_tooManyFailuresTryAgainLater": {
+      "description": "Indicates that a user tried to login way too many times with invalid credentials and needs to chill for a bit",
+      "message": "For mange login-fors\u00F8g. Pr\u00F8v venligst igen senere"
+   },
+   "Error_HTTP_Transport": {
+      "description": "Generic error indicating that the extension could not get a response from a server",
+      "message": "Problem ved kommunikation med server [$status$]. $errorText$",
+      "placeholders": {
+         "errorText": {
+            "content": "$2",
+            "example": "http error response"
+         },
+         "status": {
+            "content": "HTTP $1",
+            "example": "404"
+         }
+      }
+   },
+   "Error_Network_Unavailable": {
+      "description": "error message shown when we can't connect to the internet.",
+      "message": "Ingen internetforbindelse"
+   },
+   "ExtensionDescription": {
+      "description": "Description of the extension as it's visible to the outside world",
+      "message": "Brug Evernote-udvidelsen til at gemme ting, du ser p\u00E5 nettet til din Evernote-bruger. Du kan selv s\u00F8ge efter noter."
+   },
+   "ExtensionName": {
+      "description": "Name of the extension as it's visible to the outside world",
+      "message": "Evernote Web Clipper"
+   },
+   "Feb": {
+      "message": "Feb"
+   },
+   "Friday": {
+      "message": "Fredag"
+   },
+   "Jan": {
+      "message": "Jan"
+   },
+   "July": {
+      "message": "Juli"
+   },
+   "June": {
+      "message": "Juni"
+   },
+   "March": {
+      "message": "Marts"
+   },
+   "May": {
+      "message": "Maj"
+   },
+   "Monday": {
+      "message": "Mandag"
+   },
+   "Nov": {
+      "message": "Nov"
+   },
+   "Oct": {
+      "message": "Okt"
+   },
+   "Saturday": {
+      "message": "L\u00F8rdag"
+   },
+   "Sept": {
+      "message": "Sept."
+   },
+   "Sunday": {
+      "message": "S\u00F8ndag"
+   },
+   "Thursday": {
+      "message": "Torsdag"
+   },
+   "Today": {
+      "message": "I dag"
+   },
+   "Tuesday": {
+      "message": "Tirsdag"
+   },
+   "Wednesday": {
+      "message": "Onsdag"
+   },
+   "accountChangedTo": {
+      "description": "message notifying the user that he's switched to a different account.",
+      "message": "Nu bruges kontoen $name$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "addAnotherAccount": {
+      "description": "Label to click when a user wants to log in with multiple accounts.",
+      "message": "Tilf\u00F8j en anden konto..."
+   },
+   "articleClipFailure": {
+      "description": "Messages shown to user when the article of the page isn't clippable.",
+      "message": "Beklager, Evernote kan ikke klippe denne side som en artikel. V\u00E6lg venligst hvilken del du \u00F8nsker at klippe."
+   },
+   "authPersistenceError": {
+      "description": "Error indicating that the browser fails to persist authentication.",
+      "message": "Dine browser-indstillinger er i konflikt med Evernote-udvidelsen. Pr\u00F8ve at gendanne Chrome's Privacy-indstillinger til standardindstillingerne: Tillad lokale data, og bloker ikke tredjeparts-cookies. Overvej at deaktivere andre 3. parts udvidelser."
+   },
+   "bizNotebookOptionText": {
+      "description": "text that shows up in the dropdown list used to select another user's business notebook.",
+      "message": " (delt af $creator$)",
+      "placeholders": {
+         "creator": {
+            "content": "$1",
+            "example": "Connie Chan"
+         }
+      }
+   },
+   "bizNotebooksOptGroupTitle": {
+      "description": "text that appears above the list of business notebooks in the dropdown list of notebooks.",
+      "message": "Notesb\u00F8ger til virksomheder"
+   },
+   "cancelAddAnotherAccount": {
+      "description": "The text for the control that cancels adding a new acconut to switch to.",
+      "message": "Annuller"
+   },
+   "cancelSwitchFree": {
+      "description": "Message on button to cancel switching to a different free account.",
+      "message": "Nej, g\u00E5 tilbage"
+   },
+   "captcha_instruction": {
+      "description": "Instruction for captcha in the registration form.",
+      "message": "Indtast tallene herunder"
+   },
+   "checkVersionWarning": {
+      "description": "Warning message shown to user when the client doesn't pass version check",
+      "message": "Denne version af Evernote Web Clipper er ikke l\u00E6ngere kompatibel med Evernote Service. Du skal installere den nyeste version."
+   },
+   "clearFeatureDiscoveryTooltip": {
+      "description": "The message that pops up when you hover over the 'x' icon for the 'feature discovery' box.",
+      "message": "Vis ikke denne meddelelse igen"
+   },
+   "clearTagsToolTip": {
+      "description": "The message that pops up when you hover over the 'x' icon that displays beside the tag list.",
+      "message": "Ryd alle m\u00E6rker"
+   },
+   "clipsFromThisSite": {
+      "description": "Label for the site search button.",
+      "message": "Andre klip fra $site$",
+      "placeholders": {
+         "site": {
+            "content": "$1",
+            "example": "71"
+         }
+      }
+   },
+   "contentPreview_clipArticle": {
+      "description": "Selection nudging legend for clipping article",
+      "message": "klip artikel"
+   },
+   "contentPreview_expandSelection": {
+      "description": "Selection nudging legend for expanding selection",
+      "message": "udvid markering"
+   },
+   "contentPreview_moveSelection": {
+      "description": "Selection nudging legend for moving selection",
+      "message": "flyt markering"
+   },
+   "contentPreview_shrinkSelection": {
+      "description": "Selection nudging legend for shrinking selection",
+      "message": "formindsk markering"
+   },
+   "contentclipper_clipping": {
+      "description": "Message shown on content pages to notify users that the page is being scraped for clipping.",
+      "message": "\u003Cb\u003EKlipper\u003C/b\u003E \u201C$clipTitle$\u201D",
+      "placeholders": {
+         "clipTitle": {
+            "content": "$1",
+            "example": "Sample clip title"
+         }
+      }
+   },
+   "contentclipper_clipping_no_title": {
+      "description": "Message shown on content pages to notify users that the page is being scraped for clipping when the title of the clip is unavailable.",
+      "message": "\u003Cb\u003EKlipper \u2026\u003C/b\u003E"
+   },
+   "contentclipper_syncing": {
+      "description": "Message shown on content pages to notify users that the page is being sent to the server.",
+      "message": "\u003Cb\u003ESynkroniserer\u003C/b\u003E \u201C$clipTitle$\u201D",
+      "placeholders": {
+         "clipTitle": {
+            "content": "$1",
+            "example": "Sample clip title"
+         }
+      }
+   },
+   "contextMenuClipImage": {
+      "description": "Context menu item for creating a new note with image",
+      "message": "Klip billede"
+   },
+   "contextMenuClipPDF": {
+      "description": "Context menu item for creating a new note with PDF",
+      "message": "Klip PDF"
+   },
+   "contextMenuClipPage": {
+      "description": "Context menu item for clipping current page",
+      "message": "Klip denne side"
+   },
+   "contextMenuClipSelection": {
+      "description": "Context menu item for clipping current selection",
+      "message": "Klip markering"
+   },
+   "contextMenuClipUrl": {
+      "description": "Context menu item for creating a new note with just the URL of the current page",
+      "message": "Klip URL"
+   },
+   "contextMenuNewNote": {
+      "description": "Context menu item for creating new note",
+      "message": "Ny note"
+   },
+   "contextMenuPleaseLogin": {
+      "description": "Help message shown to users when they try to clip content via contextual menu items but not being intially logged in",
+      "message": "Du skal logge ind p\u00E5 Klip til Evernote-v\u00E6rkt\u00F8jslinien, f\u00F8r du kan foretage klip"
+   },
+   "copyright": {
+      "description": "Copyright statement",
+      "message": "Copyright 2009-2013 Evernote Corporation. Alle rettigheder forbeholdes. \u003Ca href='$baseUrl$/privacy' target='_blank'\u003EPolitik om beskyttelse af personlige oplysninger\u003C/a\u003E | \u003Ca href='$baseUrl$/tos' target='_blank'\u003EServicevilk\u00E5r\u003C/a\u003E | \u003Ca href='#' id='legalLink'\u003EJuridisk meddelelse\u003C/a\u003E",
+      "placeholders": {
+         "baseUrl": {
+            "content": "$1",
+            "example": "https://www.evernote.com"
+         }
+      }
+   },
+   "deleting": {
+      "description": "Message indicating that the extension is deleting previously clipped note from the server",
+      "message": "Sletter klippet note..."
+   },
+   "desktopNotification_cancelFailedClip": {
+      "description": "Name of the action associated with cancelling the clip that failed to upload. Should be as short as possible",
+      "message": "Annuller"
+   },
+   "desktopNotification_clipProcessorSignInMessage": {
+      "description": "Message shown to users inside desktop notification informing users that they clip could not be uploaded because they are not authenticated...",
+      "message": "Ugyldig eller udl\u00F8bet godkendelse. Venligst log ind med toolbar knappen, og pr\u00F8v igen."
+   },
+   "desktopNotification_clipProcessorSignInTitle": {
+      "description": "Title for desktop notification informing user that there was an error with uploading a clip. This should be as short as possible",
+      "message": "Kunne ikke gemme \"$clipTitle$\"",
+      "placeholders": {
+         "clipTitle": {
+            "content": "$1",
+            "example": "Sample clip title"
+         }
+      }
+   },
+   "desktopNotification_clipProcessorTooManyRetries": {
+      "description": "Message indicating that we've tried too many times to clip this note.",
+      "message": "Klippet \"$title$\" er mislykkedes for mange gange og kan ikke hentes.",
+      "placeholders": {
+         "title": {
+            "content": "$1",
+            "example": "Title of the clip."
+         }
+      }
+   },
+   "desktopNotification_clipUploaded": {
+      "description": "Headline for desktop notification indicating that clip was successfully uploaded",
+      "message": "\u003Cb\u003EKlippede\u003C/b\u003E \u201C$clipTitle$\u201D",
+      "placeholders": {
+         "clipTitle": {
+            "content": "$1",
+            "example": "Sample clip title"
+         }
+      }
+   },
+   "desktopNotification_clipUploadedMessage": {
+      "description": "Message indicating that clip was successfully uploaded",
+      "message": "Klippet blev uploadet."
+   },
+   "desktopNotification_editSuccessClip": {
+      "description": "Name of the action associated with editing clipped note",
+      "message": "Rediger"
+   },
+   "desktopNotification_retryFailedClip": {
+      "description": "Name of the action associated with retrying the clip that failed to upload. Should be as short as possible",
+      "message": "Pr\u00F8v igen"
+   },
+   "desktopNotification_unableToSaveClip": {
+      "description": "Headline for desktop notifications indicating there was a problem with saving the clip",
+      "message": "Kunne ikke gemme \"$clipTitle$\"",
+      "placeholders": {
+         "clipTitle": {
+            "content": "$1",
+            "example": "Sample clip title"
+         }
+      }
+   },
+   "desktopNotification_unableToSaveClipUnknown": {
+      "description": "Headline for desktop notification indicating that there was an unknown error while uploading a clip",
+      "message": "Kunne ikke gemme klip"
+   },
+   "desktopNotification_unableToSaveClipUnknownMessage": {
+      "description": "Description of the unknown error that may occur after the extension failed to upload a clip",
+      "message": "Der opstod en ukendt fejl under fors\u00F8g p\u00E5 at gemme en af \u200B\u200Bdine klip. Fejlmeddelelse: $details$",
+      "placeholders": {
+         "details": {
+            "content": "$1",
+            "example": "Error 503"
+         }
+      }
+   },
+   "desktopNotification_viewSuccessClip": {
+      "description": "Name of the actions associated with viewing clipped note",
+      "message": "Vis"
+   },
+   "dismiss": {
+      "description": "Message shown on buttons to dismiss a widget of some kind",
+      "message": "Afvis"
+   },
+   "email": {
+      "description": "Label for email field of registration form",
+      "message": "Email-adresse"
+   },
+   "filing": {
+      "description": "Message indicating that the extension is filing changes made to previously clipped note on the server",
+      "message": "Gemmer note..."
+   },
+   "freeAccountLimit": {
+      "description": "",
+      "message": "Du er allerede logget p\u00E5 en gratis konto, \u003Cb\u003E$name$\u003C/b\u003E. Du kan skifte mellem flere Premium-konti, men kun bruge \u00E9n gratis konto. Vil du bruge denne gratis konto i stedet for?",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "fullPageClipFailure": {
+      "description": "Message shown to user when full page clip wasn't possible",
+      "message": "Beklager, Evernote kan ikke klippe hele denne side. V\u00E6lg den del du vil klippe."
+   },
+   "getEvernoteFood": {
+      "description": "First part of the text for the Evernote Food cross promotion that appears in the clip result notification",
+      "message": "Hent Evernote Food"
+   },
+   "header_register": {
+      "description": "Registration link in header",
+      "message": "Opret en Evernote-konto"
+   },
+   "hideRelatedNotes": {
+      "description": "text for the link in the 'related notes' overlay that will hide this section.",
+      "message": "Skjul relaterede noter"
+   },
+   "illegalUrlClipFailure": {
+      "description": "Error message shown when you try to clip from pages that aren't scriptable by the browser. Such as the chrome gallery pages.",
+      "message": "P\u00E5 grund af de begr\u00E6nsninger, der er i browseren, kan du ikke klippe denne side"
+   },
+   "legalNoticesTitle": {
+      "description": "the title of the legal notices dialog in the options page where we list the licenses of all third party packages we use",
+      "message": "Web Clipper bruger f\u00F8lgende open source-software"
+   },
+   "linkedNotebookOptionText": {
+      "description": "Text that shows up inside the dropdown list used to select another user's shared notebook.",
+      "message": "$notebookName$ (ejet af $owner$)",
+      "placeholders": {
+         "notebookName": {
+            "content": "$1",
+            "example": "recipes"
+         },
+         "owner": {
+            "content": "$2",
+            "example": "tylerkaraszewski"
+         }
+      }
+   },
+   "linkedNotebooksOptGroupTitle": {
+      "description": "the text that apeears above the list of linked notebooks in the dropdown list of notebooks.",
+      "message": "Delte notesb\u00F8ger"
+   },
+   "loading": {
+      "description": "Message shown when extension is loading...",
+      "message": "Henter..."
+   },
+   "loggingIn": {
+      "description": "Message indicating that the extension is currently attempting to sign in user",
+      "message": "Logger ind"
+   },
+   "loginForm_login": {
+      "description": "Sign in button label for login form",
+      "message": "Log ind"
+   },
+   "loginForm_password": {
+      "description": "Label for entering password into login form",
+      "message": "Adgangskode"
+   },
+   "loginForm_passwordError_5": {
+      "description": "",
+      "message": "Adgangskode kr\u00E6ves."
+   },
+   "loginForm_passwordInvalidError": {
+      "description": "",
+      "message": "Ugyldig adgangskode"
+   },
+   "loginForm_rememberMe": {
+      "description": "Label for extending login session",
+      "message": "Husk mig"
+   },
+   "loginForm_searchHelper": {
+      "description": "Label for search helper option on the login view",
+      "message": "Vis relaterede resultater, n\u00E5r du s\u00F8ger p\u00E5 Google"
+   },
+   "loginForm_username": {
+      "description": "Label for entering email address or username into login form",
+      "message": "E-mailadresse eller brugernavn"
+   },
+   "loginForm_usernameError_5": {
+      "description": "",
+      "message": "Brugernavn kr\u00E6ves."
+   },
+   "loginForm_usernameError_8": {
+      "description": "",
+      "message": "Brugernavn og adgangskode passer ikke til en eksisterende bruger."
+   },
+   "loginForm_usernameInvalidChinaError": {
+      "description": "",
+      "message": "Ukendt log-ind, eller pr\u00F8v Evernote International"
+   },
+   "loginForm_usernameInvalidError": {
+      "description": "",
+      "message": "Der findes ingen bruger med det navn."
+   },
+   "login_searchHelperLongDescription": {
+      "description": "Description of the search-helper feature as shown on the options page",
+      "message": "N\u00E5r denne funktion er aktiveret, foretages dine s\u00F8gninger p\u00E5 underst\u00F8ttede s\u00F8gemaskiner ogs\u00E5 p\u00E5 din Evernote-konto. Underst\u00F8ttede s\u00F8gemaskiner: Google, Bing, Yahoo, Yandex, Baidu, Daum og Naver."
+   },
+   "logs_export": {
+      "description": "Title of the button for exporting all of the logs",
+      "message": "Eksport\u00E9r logfiler"
+   },
+   "logs_follow": {
+      "description": "Label for an option to trail the logfile",
+      "message": "F\u00F8lg"
+   },
+   "logs_selectLogFile": {
+      "description": "Label for selecting log files for viewing",
+      "message": "V\u00E6lg logfil:"
+   },
+   "logs_title": {
+      "description": "The title of the logs page.",
+      "message": "H\u00E6ndelseslogfiler"
+   },
+   "more": {
+      "description": "General purpose, capitalized word for More - as in - there's more to see/read etc.",
+      "message": "Mere"
+   },
+   "newFeatureDescription": {
+      "description": "The popover description of for the Smart Filing feature, including a link to the options page.",
+      "message": "Web Clipper vil foresl\u00E5 m\u00E6rker og notesb\u00F8ger ud fra indholdet i klippet. Du kan administrere denne funktion og andre indstillinger i Web Clipper \u003Cspan class='newFeatureOptionsPseudoLink'\u003EIndstillinger\u003C/span\u003E."
+   },
+   "newFeatureTitle": {
+      "description": "The title for any new feature we're showcasing in the current release.",
+      "message": "Smart arkivering"
+   },
+   "noteSizeExceededFree": {
+      "description": "Error message shown to free users who try to clip something over the maximum note size",
+      "message": "Kun Evernote Premium-brugere kan klippe noter, der er over 25\u00A0MB. \u003Ca href='$baseUrl$/Checkout.action'\u003EOpgrader til Premium\u003C/a\u003E",
+      "placeholders": {
+         "baseUrl": {
+            "content": "$1",
+            "example": "http://www.evernote.com"
+         }
+      }
+   },
+   "noteSizeExceededPremium": {
+      "description": "Error message shown to premium users who try to clip something over the maximum note size",
+      "message": "Noten kan ikke oprettes. Maksimal notest\u00F8rrelse er 100 MB."
+   },
+   "notification_quotaExceededFree": {
+      "description": "Indicates that free user has exceeded their quota",
+      "message": "Du har ikke nok uploadkapacitet til at gemme dette klip. \u003Ca href='$url$'\u003EOpgraderer til Premium\u003C/a\u003E",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "https://www.evernote.com/Checkout.action"
+         }
+      }
+   },
+   "notification_quotaExceededPremium": {
+      "description": "Indicates that premium user has exceeded their quota",
+      "message": "Du har ikke nok uploadkapacitet til at gemme dette klip. \u003Ca href='$url$'\u003E\u00D8g uploadkapaciteten\u003C/a\u003E",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "https://www.evernote.com/QuotaCheckout.action"
+         }
+      }
+   },
+   "options_buildId": {
+      "description": "The revison number of this build of the clipper, as pulled fro mSVN at the time the clipper was built.",
+      "message": "Build-id:"
+   },
+   "options_client": {
+      "description": "Label for the dropdown menu in Options where user can choose what client s/he wants to open and edit notes in",
+      "message": "\u00C5bn noter i"
+   },
+   "options_clientSelectionDescription": {
+      "description": "Description of the dropdown menu to select what client the user wants to open notes in. Only displayed when user selects the desktop client",
+      "message": "Ved f\u00F8rste brug med denne indstilling f\u00E5r du vist dialogboksen \"Anmodning om ekstern protokol\". Du f\u00E5r den bedste oplevelse ved at markere afkrydsningsfeltet \"Husk mit valg\" og derefter \"Start program\"."
+   },
+   "options_client_desktop": {
+      "description": "Desktop client choice in the dropdown menu to select what client to open/edit a note in",
+      "message": "Station\u00E6r pc"
+   },
+   "options_client_web": {
+      "description": "Web client choice in the dropdown menu to select what client to open/edit a note in",
+      "message": "Webklient"
+   },
+   "options_clipAction": {
+      "description": "Label for specifying default clipping action",
+      "message": "Standardhandling"
+   },
+   "options_clipAction_article": {
+      "description": "Label for article as the default clipping action",
+      "message": "Klip artikel"
+   },
+   "options_clipAction_fullPage": {
+      "description": "Label for full-page as the default clipping action",
+      "message": "Klip hele siden"
+   },
+   "options_clipAction_url": {
+      "description": "Label for url as the default clipping action",
+      "message": "Klip URL"
+   },
+   "options_clipNotificationEnabled": {
+      "description": "Label for option to enable notification about successful clips",
+      "message": "Aktiver meddelser"
+   },
+   "options_clipNotificationEnabledDescription": {
+      "description": "Description of the notifications option",
+      "message": "N\u00E5r den er aktiveret, vil du blive underrettet, n\u00E5r et klip er uploadet. Meddelelser g\u00F8r det lettere for dig at se, redigere og dele dine klip."
+   },
+   "options_clipStyle": {
+      "description": "Label for the option to keep the style of the page while clipping.",
+      "message": "Bevar stilen"
+   },
+   "options_clipStyleDescription": {
+      "description": "Description for the option to preserve styles with clips.",
+      "message": "N\u00E5r funktionen er aktiveret, bevares oplysninger om stilen i klippene, s\u00E5 de ligner den oprindelige side s\u00E5 meget som muligt. N\u00E5r funktionen er deaktiveret, f\u00E5r klippene en enkel stil med almindelig tekst og ingen dekoration."
+   },
+   "options_developer_title": {
+      "description": "Title for developer options",
+      "message": "Udvikler-indstillinger"
+   },
+   "options_eventLogDescription": {
+      "description": "Describes the purpose of the event logs link in the options page.",
+      "message": "Hvis du kontakter Evernote-kundeservice, beder de dig muligvis om at se i disse logfiler for at kunne diagnosticere problemet."
+   },
+   "options_eventLogLink": {
+      "description": "the text for the link to the event logs page from the options page",
+      "message": "Se h\u00E6ndelseslogfiler"
+   },
+   "options_insecureProto": {
+      "description": "Label for specifying insecure protocol option.",
+      "message": "Usikker protokol"
+   },
+   "options_overrideServiceURL": {
+      "description": "Custom URL to use that will override both stage and production URLs.",
+      "message": "Tilsides\u00E6t URL-adresse til tjenesten"
+   },
+   "options_saving": {
+      "description": "Notifies the user that their changes to the options page are being saved",
+      "message": "Gemmer..."
+   },
+   "options_secureProto": {
+      "description": "Label specifying secure protocol option.",
+      "message": "Sikker protokol"
+   },
+   "options_selectionNudging": {
+      "description": "Label for selection nudging options",
+      "message": "Artikelvalg"
+   },
+   "options_selectionNudgingDescription": {
+      "description": "Description of selection nudging",
+      "message": "N\u00E5r funktionen er aktiveret, kan du \u00E6ndre artikelvalg ved hj\u00E6lp af tastaturet, f\u00F8r du laver et klip. Aktivering med &quot;ingen hints&quot; vil forhindre visning af den oplysende meddelelse. Hvis deaktiveret, kan du ikke foretage eventuelle tilpasninger af det automatiske artikelvalg."
+   },
+   "options_selectionNudging_disabled": {
+      "description": "Label for disabled selection nudging",
+      "message": "Deaktiveret"
+   },
+   "options_selectionNudging_enabled": {
+      "description": "Label for enabled selection nudging",
+      "message": "Aktiveret"
+   },
+   "options_selectionNudging_enabledNoprompt": {
+      "description": "Label for enabled selection nudging, but without showing the hits",
+      "message": "Aktiveret (ingen hints)"
+   },
+   "options_simulateCheckVersionFailure": {
+      "description": "Label for developer option to simulate checkVersion failure",
+      "message": "Simulate checkVersion Failure"
+   },
+   "options_simulateSimplifiedChinese": {
+      "description": "Label for developer option to simulate checkVersion failure",
+      "message": "Simulerer forenklet kinesisk"
+   },
+   "options_simulateSimplifiedChineseDescription": {
+      "description": "Description for what it means to select this option",
+      "message": "N\u00E5r denne indstilling er valgt, vil Clipper foregive at v\u00E6re indstillet til forenklet kinesisk for at g\u00F8re det muligt at v\u00E6lge en tjeneste, der skal oprettes forbindelse til."
+   },
+   "options_smartFilingBizDesc": {
+      "description": "Description of option to allow smart filing into business notebooks",
+      "message": "Tillad Smart arkivering i Business-notesb\u00F8ger"
+   },
+   "options_smartFilingEnabled": {
+      "description": "Label for option to enable automatic tagging and notebook selection for new notes.",
+      "message": "Aktiv\u00E9r Smart arkivering"
+   },
+   "options_smartFilingEnabledDescription": {
+      "description": "Description of the smart filing option",
+      "message": "Ved hj\u00E6lp af Smart arkivering v\u00E6lges der automatisk en notesbog og en oversigt over m\u00E6rker for dig p\u00E5 baggrund af den side, du klipper fra."
+   },
+   "options_smartFilingEnabled_all": {
+      "description": "",
+      "message": "M\u00E6rker og notesb\u00F8ger"
+   },
+   "options_smartFilingEnabled_none": {
+      "description": "",
+      "message": "Deaktiver Smart arkivering"
+   },
+   "options_smartFilingEnabled_notebooks": {
+      "description": "",
+      "message": "Kun notesb\u00F8ger"
+   },
+   "options_smartFilingEnabled_tags": {
+      "description": "",
+      "message": "Kun m\u00E6rker"
+   },
+   "options_storedCredentials": {
+      "description": "Label for a set of options controls enabling users to store their credentials",
+      "message": "Legitimationsoplysninger"
+   },
+   "options_storedCredentialsDescription": {
+      "description": "Educational message for users who wish to store their Evernote password. First sentence is the most critical one as it will be used in options_storedCredentialsShortDescription",
+      "message": "\u003Cb\u003EBEM\u00C6RK:\u003C/b\u003E Hvis du gemmer adgangskoden, kan andre der bruger denne browser logge ind p\u00E5 din bruger. Log ud af Klip til Evernote-udvidelsen, for permanent at fjerne brugernavn og adgangskoden, der er gemt i din browsers udvidelse."
+   },
+   "options_title": {
+      "description": "Title of the options page",
+      "message": "Indstillinger"
+   },
+   "options_useContextMenu": {
+      "description": "Label for option to enable clipping via contextual menu",
+      "message": "Aktiver kontekstafh\u00E6ngige menuer"
+   },
+   "options_useContextMenuDescription": {
+      "description": "Description of the contextual menu option",
+      "message": "N\u00E5r den er aktiveret, kan du klippe websider via genvejsmenuen. Hvis du h\u00F8jreklikker p\u00E5 billeder, markeret tekst eller et andet sted p\u00E5 siden, vil du se klippemuligheder, der passer til din situation."
+   },
+   "options_useSearchHelper": {
+      "description": "Label for search-helper feature toggle",
+      "message": "Relaterede resultater"
+   },
+   "options_useSearchHelperDescription": {
+      "description": "Description of the search-helper feature as shown on the options page",
+      "message": "N\u00E5r s\u00F8gning p\u00E5 internettet med underst\u00F8ttede webbrowsere er aktiveret, vises der ogs\u00E5 resultater fra din Evernote-konto."
+   },
+   "options_useStage": {
+      "description": "Label for developer option to simulate checkVersion failure",
+      "message": "Brug trin"
+   },
+   "options_useStageDescription": {
+      "description": "Description for what it means to select this option",
+      "message": "Instruerer Clipper til at bruge 'trin'-tjenesten i stedet for produktionstjenesten, som normalt bruge i forbindelse med test."
+   },
+   "pdfTip": {
+      "description": "Tooltip that appears on PDFs",
+      "message": "Vidste du, at du kan klippe pdf-filer direkte til din Evernote-konto med Web Clipper?"
+   },
+   "popup_couldntStart": {
+      "description": "Message that shows up when the clipper popup can't open.",
+      "message": "Klipperen kunne ikke starte p\u00E5 denne side. Opdater siden, og pr\u00F8v igen. Hvis det ikke hj\u00E6lper, skal du kontakte kundeservice."
+   },
+   "popup_loadingNotebooks": {
+      "description": "Message shown while smart filing is running. Should *not* include trailing punctuation.",
+      "message": "Loader notesb\u00F8ger"
+   },
+   "popup_loginCheckTimeout": {
+      "description": "Message that displays if checking if the user is logged in takes too long.",
+      "message": "Det tog for lang tid at kontrollere legitimationsoplysningerne. Kontroll\u00E9r, at du har forbindelse til internettet, og pr\u00F8v igen."
+   },
+   "popup_moreNotesLink": {
+      "description": "Message showing how many more notes can be seen on the server.",
+      "message": "Se yderligere $count$ noter \u2026",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "10"
+         }
+      }
+   },
+   "popup_oneMoreNoteLink": {
+      "description": "Message showing there is one more note on the server.",
+      "message": "Se en note mere \u2026"
+   },
+   "popup_unsupportedScheme": {
+      "description": "The error to display when the popup can't operate on a specific type of url.",
+      "message": "Klipning fra denne placering underst\u00F8ttes ikke."
+   },
+   "popup_waiting": {
+      "description": "Displays while the popup window waits for a page to finish loading.",
+      "message": "Venter p\u00E5 siden \u2026"
+   },
+   "quickNote": {
+      "description": "Title for creating quick note",
+      "message": "Klip"
+   },
+   "quickNoteAction_clipArticle": {
+      "description": "Label for clipping article action",
+      "message": "Gem artikel"
+   },
+   "quickNoteAction_clipFullPage": {
+      "description": "Label for clipping full page action",
+      "message": "Gem hel side"
+   },
+   "quickNoteAction_clipPDF": {
+      "description": "Label for clipping PDF action",
+      "message": "Gem PDF"
+   },
+   "quickNoteAction_clipSelection": {
+      "description": "Label for clipping selection action",
+      "message": "Gem markering"
+   },
+   "quickNoteAction_clipUrl": {
+      "description": "Label for clipping URL action",
+      "message": "Gem URL"
+   },
+   "quickNote_addComment": {
+      "description": "Placeholder text for comment input",
+      "message": "Tilf\u00F8j kommentar"
+   },
+   "quickNote_addTags": {
+      "description": "Placeholder text for tag input",
+      "message": "Tilf\u00F8j m\u00E6rker"
+   },
+   "quickNote_comment": {
+      "description": "Label for additional text to be added to the note",
+      "message": "Tilf\u00F8j tekst"
+   },
+   "quickNote_notebook": {
+      "description": "Label for selection of note's notebook",
+      "message": "Notesbog"
+   },
+   "quickNote_submit": {
+      "description": "Label for saving quick note",
+      "message": "Gem"
+   },
+   "quickNote_tagsDisabled": {
+      "description": "Message indicating that you can't use tags for shared notebooks.",
+      "message": "I \u00F8jeblikket underst\u00F8ttes m\u00E6rker ikke i forbindelse med delte notesb\u00F8ger."
+   },
+   "quickNote_title": {
+      "description": "Label for note title",
+      "message": "Titel"
+   },
+   "quickNote_untitledNote": {
+      "description": "Placeholder title for untitled note",
+      "message": "Unavngiven note"
+   },
+   "regForm_cancel": {
+      "description": "Allows user to back out of registration when s/he's creating an account during account switching",
+      "message": "Annuller"
+   },
+   "regForm_deactivated_username": {
+      "description": "User wanted to register with a deactivated username",
+      "message": "Brugernavnet er blevet deaktiveret.  Vil du gerne \u003Ca href='$url$'\u003Egenaktivere\u003C/a\u003E kontoen?",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "https://www.evernote.com/AccountReactivation.action"
+         }
+      }
+   },
+   "regForm_email_required": {
+      "description": "User didn't enter an email address",
+      "message": "Email-adresse er et obligatorisk felt."
+   },
+   "regForm_goodUsername": {
+      "description": "The user entered a valid and available username into the registration form",
+      "message": "Tilg\u00E6ngelig"
+   },
+   "regForm_invalid_captcha": {
+      "description": "User didn't fill out the captcha.",
+      "message": "Skriv de tegn du ser i billedet herover."
+   },
+   "regForm_invalid_email": {
+      "description": "User didn't enter a properly-formatted email address",
+      "message": "Email-adressen ser ud til at v\u00E6re ugyldig."
+   },
+   "regForm_invalid_password": {
+      "description": "User entered an invalid password",
+      "message": "V\u00E6lg en adgangskode p\u00E5 mellem 6 og 64 tegn best\u00E5ende af bogstaver, tal og tegn."
+   },
+   "regForm_invalid_username": {
+      "description": "User entered an invalid username",
+      "message": "Dit brugernavn skal starte og slutte med et bogstav eller tal, og kan indeholde bindestreger og underscores."
+   },
+   "regForm_password_required": {
+      "description": "User didn't enter a password",
+      "message": "Kodeord skal udfyldes."
+   },
+   "regForm_taken_email": {
+      "description": "User entered a valid but unavailable email",
+      "message": "Denne e-mailadresse er allerede i brug."
+   },
+   "regForm_taken_username": {
+      "description": "User entered a valid but unavailable username",
+      "message": "Det brugernavn, du har valgt er allerede i brug af en anden bruger."
+   },
+   "register": {
+      "description": "Text on the submit button of the registration form",
+      "message": "Opret bruger"
+   },
+   "registrationForm_username": {
+      "description": "Text on the username field of the registration form",
+      "message": "Brugernavn"
+   },
+   "registration_terms": {
+      "description": "Terms of Service and Privacy Policy agreement",
+      "message": "N\u00E5r du klikker p\u00E5 Registrer, accepterer du samtidig vores \u003Ca href='$tos_url$'\u003Eservicevilk\u00E5r\u003C/a\u003E og \u003Ca href='$pp_url$'\u003Epolitik om beskyttelse af personlige oplysninger\u003C/a\u003E.",
+      "placeholders": {
+         "pp_url": {
+            "content": "$2",
+            "example": "http://www.evernote.com/privacy"
+         },
+         "tos_url": {
+            "content": "$1",
+            "example": "http://www.evernote.com/tos"
+         }
+      }
+   },
+   "relatedNotes": {
+      "description": "Label for the related notes button, and the title for the descriptive overlay.",
+      "message": "Relaterede noter"
+   },
+   "relatedNotesDescription": {
+      "description": "message describing what Related Notes do.",
+      "message": "Evernote finder op til tre noter p\u00E5 din konto, som er relateret til den side, du lige har klippet ud, og viser dem her."
+   },
+   "rememberFoodYouLove": {
+      "description": "Second part of the text for the Evernote Food cross promotion",
+      "message": "Husk den mad, du elsker."
+   },
+   "safariContextClipImage": {
+      "description": "Label for right-click menu to clip an image in Safari.",
+      "message": "Gem billede til Evernote"
+   },
+   "safariContextClipPDF": {
+      "description": "Label for right-click menu to clip a PDF in Safari.",
+      "message": "Gem PDF til Evernote"
+   },
+   "safariContextClipPage": {
+      "description": "Label for right-click menu to clip the whole page in Safari.",
+      "message": "Gem hele siden til Evernote"
+   },
+   "safariContextClipSelection": {
+      "description": "Label for right-click menu to clip a selection in Safari.",
+      "message": "Gem valgte til Evernote"
+   },
+   "safariContextClipUrl": {
+      "description": "Label for right-click menu to clip a URL in Safari.",
+      "message": "Gem URL-adresse til Evernote"
+   },
+   "safariContextNewNote": {
+      "description": "Label for right-click menu to create a new note.",
+      "message": "Opret en ny note i Evernote"
+   },
+   "saveToEvernote": {
+      "description": "Label for button to save clip to Evernote",
+      "message": "Gem til Evernote"
+   },
+   "searchHelperFoundNotes": {
+      "description": "Message indicating that related notes were found",
+      "message": "\u003Cb\u003EBedste resultater\u003C/b\u003E under din Evernote-konto"
+   },
+   "searchHelperLoginMessage": {
+      "description": "Message injected into search-engine page indicating that the user must login prior to seeing results.",
+      "message": "\u003Cdiv class='grayText' id='login'\u003E\u003Ca target='_blank' href='$loginUrl$'\u003ELog p\u00E5\u003C/a\u003E Web Clipper for at se relaterede resultater\u003C/div\u003E",
+      "placeholders": {
+         "loginUrl": {
+            "content": "$1",
+            "example": "http://www.evernote.com/Login.action"
+         }
+      }
+   },
+   "searchHelperNoTransportError": {
+      "description": "Error message shown to user when there is a problem reaching the servers when doing simultaneous search.",
+      "message": "Samtidig s\u00F8gning er ikke tilg\u00E6ngelig i \u00F8jeblikket, fordi Evernote-serverne ikke kan n\u00E5s."
+   },
+   "searchHelperNotesNotFoundBiz": {
+      "description": "Message injected into search-engine page indicating there were no related notes found in personal or business accounts",
+      "message": "Der er ingen relaterede resultater i dine Personlige noter eller Business-noter."
+   },
+   "searchHelperNotesNotFoundPers": {
+      "description": "Message injected into search-engine page indicating there were no related notes found in personal account",
+      "message": "Der er ingen relaterede resultater i dine noter."
+   },
+   "searchHelperTopBizLibraryMatches": {
+      "description": "Section heading for the simsearch notes found in the user's business account",
+      "message": "Der er $num$ relaterede resultater i dine Business-noter.",
+      "placeholders": {
+         "num": {
+            "content": "$1",
+            "example": "2"
+         }
+      }
+   },
+   "searchHelperTopBizLibraryMatchesOne": {
+      "description": "Section heading for the simsearch notes found in the user's business account, if there was only one result",
+      "message": "1 relateret resultat i dine Business-noter"
+   },
+   "searchHelperTopMatchesBiz": {
+      "description": "Section heading for the simsearch notes found in a business user's personal account",
+      "message": "Der er $num$ relaterede resultater i dine Personlige noter.",
+      "placeholders": {
+         "num": {
+            "content": "$1",
+            "example": "3"
+         }
+      }
+   },
+   "searchHelperTopMatchesBizOne": {
+      "description": "Section heading for the simsearch notes found in a business user's personal account, if there was only one result",
+      "message": "1 relateret resultat i dine personlige noter"
+   },
+   "searchHelperTopMatchesPers": {
+      "description": "Section heading for the simsearch notes found in a non-business user's personal account",
+      "message": "Der er $num$ relaterede resultater i dine noter.",
+      "placeholders": {
+         "num": {
+            "content": "$1",
+            "example": "3"
+         }
+      }
+   },
+   "searchHelperTopMatchesPersOne": {
+      "description": "Section heading for the simsearch notes found in a non-business user's personal account, if there was only one result",
+      "message": "1 relateret resultat i dine noter"
+   },
+   "searchHelperViewAll": {
+      "description": "Label for the link in simsearch to the web client to search for the user's search query.",
+      "message": "Vis alle"
+   },
+   "searchHelper_hidePerm": {
+      "description": "Text for the option in the simsearch drop down menu to let user to disable simsearch in the options",
+      "message": "Afvis for altid"
+   },
+   "searchHelper_hideTemp": {
+      "description": "Text for the option in the simsearch drop down menu to let user temporarily close the simsearch box, but not disable in the options",
+      "message": "Afvis"
+   },
+   "showRelatedNotes": {
+      "description": "text for the link in the 'related notes' overlay that will show this section.",
+      "message": "Vis relaterede noter"
+   },
+   "signInHelperText": {
+      "description": "message shown at the top of the login screen to tell them why they should sign in",
+      "message": "Log p\u00E5, s\u00E5 du er sikker p\u00E5, du kan klippe eller se Relaterede resultater"
+   },
+   "signInPrompt": {
+      "description": "hover text on signed out state of the toolbar icon",
+      "message": "Log p\u00E5 Web Clipper"
+   },
+   "signOutAccount": {
+      "description": "menu item for logging out of the currently selected account.",
+      "message": "Log af $name$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "signOutAll": {
+      "description": "Label to click when a user wants to log in with multiple accounts.",
+      "message": "Log af alle konti"
+   },
+   "signout": {
+      "description": "Text on a link prompting for signing out currently logged in user",
+      "message": "Log ud"
+   },
+   "stayLoggedInFree": {
+      "description": "Message indicating user should stay logged in as existing user.",
+      "message": "Forbliv logget p\u00E5 som $name$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "switchAnyMessage": {
+      "description": "Message shown when a user tries to add another user and is not already logged into a free account.",
+      "message": "Skift mellem bruger er en Premium-funktion, som du kan bruge til hurtigt at skifte mellem brugere. Du kan tilf\u00F8je en Premium- eller gratis bruger."
+   },
+   "switchFreeAccount": {
+      "description": "Message indicating user should switch to newly logged in user.",
+      "message": "Brug $name$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "switchPremiumMessage": {
+      "description": "Message shown when a user tries to add another user and is already logged into a free account.",
+      "message": "Skift af bruger er en Premium-funktion, som giver dig mulighed for at skifte hurtigt mellem brugere. Du kan tilf\u00F8je en Premium-bruger."
+   },
+   "switchToAccount": {
+      "description": "Menu item indicating a user account that can be switched to.",
+      "message": "Skift til $name$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "tagNamesNotInRange": {
+      "description": "Indicates that user entered an abnormal number of tags",
+      "message": "Du har angivet det maksimale antal m\u00E6rker."
+   },
+   "tryItOut": {
+      "description": "text for button on pdf tooltip",
+      "message": "Pr\u00F8v selv"
+   },
+   "youHaveRelatedNotes": {
+      "description": "Text indicating that the user has other related notes.",
+      "message": "Du har andre noter som denne."
+   }
+}

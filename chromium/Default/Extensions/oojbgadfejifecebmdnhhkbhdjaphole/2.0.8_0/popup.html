@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>popup</title>
+<link rel="stylesheet" href="css/popup.css">
+<link rel="stylesheet" href="css/jquery.tagit.css">
+<!--<link rel="stylesheet" href="css/tagit.ui-zendesk.css">-->
+<!--<link rel="stylesheet" href="css/tagit-stylish-yellow.css">-->
+
+<script type="text/javascript" src="js/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="js/popup.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.9.0.custom.min.js"></script>
+<script type="text/javascript" src="js/tag-it.js"></script>
+</head>
+<body>
+<div id="sign-in">
+Already have a Diigo account?
+<div class="button" id="sign-in-btn"></div>
+New to Diigo? Connect to Diigo.com via
+<div class="button" id="sign-up-btn"></div>
+</div>
+<div id="main">
+<ul>
+<!--<li id="bm">
+<span class="icon"></span><span id="bookmark">Save this link</span><span id="quick-bookmark" title="quick save" class="unsaved"></span>
+</li>-->
+<li id="annotate-tag">
+<div id="annotate">Annotate</div>
+<div id="sep1"></div>
+<div id="tag">Tag</div>
+</li>
+<li id="read-later">
+<span class="icon"></span>Read Later
+</li>
+<li id="screenshot">
+<span class="icon"></span>Screenshot
+</li>
+<li id="share">
+	<span class="icon"></span>Share This Page
+</li>
+</ul>
+<div id="sep"></div>
+<div id="action">
+<a id="home" href="javascript:void(0)">My Library</a>
+<a id="unread" href="javascript:void(0)">Unread</a>
+<a id="more" title="more diigo links" href="javascript:void(0)"></a>
+<div id="more-link">
+<a id="my-network" href="javascript:void(0)">My Network</a>
+<a id="my-groups" href="javascript:void(0)">My Groups</a>
+<a id="option" href="javascript:void(0)">Options</a>
+<a id="changelog" href="javascript:void(0)">Changelog</a>
+<a id="sign-out-btn" href="javascript:void(0)">Sign Out</a>
+</div>
+</div>
+</div>
+
+<div id="bm-main">
+<div id="top">
+<div id="icon"></div>
+<span>Save this link</span>
+</div>
+<div id="middle">
+<div id="title-url">
+<div id="Diigo-Bookmark-Title"><input type="text" id="title-input"><span id="show-title" title="Click to edit"></span></div>
+<div id="Diigo-Bookmark-Url">
+<div id="url"><input type="text" id="url-input"><span id="show-url" title="Click to edit"></span></div>
+<div id="option">
+<div class="option-item unselected" id="permission" title="private"></div>
+<div class="option-item unselected" id="readlater" title="readlater"></div>
+<div class="option-item unselected" id="cache" title="cache"></div>
+</div>
+</div>
+</div>
+<div id="description" ><textarea id="des-input"></textarea><span id="show-des" title="Click to edit">Add a description</span></div>
+<!--<div id="description"><div id="description-box" title="click to edit" class="show">Add a description</div></div>-->
+<div id="tags">
+<div id="tag-container"><ul id="myTags"></ul></div>
+<div id="last-used-tag">
+<div id="lu-tag" title="Click to select all" class="tagListHeader">Used last time:</div>
+<div class="tag-box">
+<!--put last used tags here-->
+</div>
+</div>
+
+<div id="recommanded-tag">
+<div id="r-tag" title="Click to select all" class="tagListHeader">Recommended:</div>
+<div class="tag-box">
+<div class="loading"></div>
+<!--put recomended tags here-->
+</div>
+</div>
+
+<div id="group-tag">
+<div id="g-tag" title="Click to select all" class="tagListHeader">Group dictionary:</div>
+<div class="tag-box">
+<div class="loading"></div>
+<!--put group tags here-->
+</div>
+</div>
+
+</div>
+ <div id="list-and-group">
+ <div id="diigo-list" class="select-box">
+ <span>Add to list</span>
+ <span id="list-arrow" class="arrow unexpand"></span>
+ </div>
+ 
+<div id="diigo-group" class="select-box">
+ <span>Share to group</span>
+ <span id="group-arrow" class="arrow unexpand"></span>
+ </div>
+</div> 
+<div id="list-container" class="diigo-container hide">
+<div id="list-triangle" class="triangle"></div>
+<div class="diigo-items" id="diigo-list-items">
+
+</div>
+<div class="tools">
+<input id="create-list" type="text" placeholder="Create a list">
+<span id="create-list-addbtn"></span>
+<!--<div class="select-all" id="list-selectall"><input name="select all" id="select-all-checkbox" type="checkbox" value="select all">select all</div>-->
+</div>
+</div>
+
+<div id="group-container" class="diigo-container hide">
+<div id="group-triangle" class="triangle"></div>
+<div class="diigo-items" id="diigo-group-items">
+
+</div>
+<div class="tools">
+<a href="javascript:void(0)" id="create-group">Create a new group</a>
+<div class="select-all" id="group-selectall"><input name="select all" id="share-annotations" type="checkbox" value="select all">Share annotations</div>
+</div>
+</div>
+
+</div>
+<div id="bottom">
+<div id="aas">
+<input type="checkbox" id="annotate-after-saving">
+<label id="alabel" for="annotate-after-saving">Annotate after saving</label>
+</div>
+<span id="bm-cancelBtn">cancel</span>
+<div id="bm-saveBtn"></div>
+</div>
+</div>
+</body>
+</html>

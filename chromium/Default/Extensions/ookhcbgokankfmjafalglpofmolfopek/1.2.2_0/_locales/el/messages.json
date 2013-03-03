@@ -1,0 +1,62 @@
+{
+   "days": {
+      "message": "$1\u03B7",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "description": {
+      "message": "\u0394\u03B5\u03AF\u03C4\u03B5 \u03B3\u03C1\u03AE\u03B3\u03BF\u03C1\u03B1 \u03C0\u03CC\u03C4\u03B5 \u03B5\u03AF\u03BD\u03B1\u03B9 \u03B7 \u03B5\u03C0\u03CC\u03BC\u03B5\u03BD\u03B7 \u03C3\u03C5\u03BD\u03AC\u03BD\u03C4\u03B7\u03C3\u03AE \u03C3\u03B1\u03C2 \u03B1\u03C0\u03CC \u03BF\u03C0\u03BF\u03B9\u03BF\u03B4\u03AE\u03C0\u03BF\u03C4\u03B5 \u03B1\u03C0\u03CC \u03C4\u03B1 \u03B7\u03BC\u03B5\u03C1\u03BF\u03BB\u03CC\u03B3\u03B9\u03AC \u03C3\u03B1\u03C2. \u039A\u03AC\u03BD\u03C4\u03B5 \u03BA\u03BB\u03B9\u03BA \u03C3\u03C4\u03BF \u03BA\u03BF\u03C5\u03BC\u03C0\u03AF \u03B3\u03B9\u03B1 \u03BD\u03B1 \u03BC\u03B5\u03C4\u03B1\u03C6\u03B5\u03C1\u03B8\u03B5\u03AF\u03C4\u03B5 \u03C3\u03C4\u03BF \u03B7\u03BC\u03B5\u03C1\u03BF\u03BB\u03CC\u03B3\u03B9\u03CC \u03C3\u03B1\u03C2."
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "extensionname": {
+      "message": "Google Calendar Checker"
+   },
+   "hours": {
+      "message": "$1\u03C9",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "imagetooltip": {
+      "message": "\u0397\u03BC\u03B5\u03C1\u03BF\u03BB\u03CC\u03B3\u03B9\u03BF Google"
+   },
+   "minutes": {
+      "message": "$1\u03BB",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "multicalendartext": {
+      "message": "\u03A5\u03C0\u03BF\u03C3\u03C4\u03AE\u03C1\u03B9\u03BE\u03B7 \u03C0\u03BF\u03BB\u03BB\u03CE\u03BD \u03B7\u03BC\u03B5\u03C1\u03BF\u03BB\u03BF\u03B3\u03AF\u03C9\u03BD"
+   },
+   "multicalendartooltip": {
+      "message": "\u0395\u03C0\u03B9\u03BB\u03AD\u03BE\u03C4\u03B5 \u03C4\u03BF \u03C0\u03BB\u03B1\u03AF\u03C3\u03B9\u03BF \u03B3\u03B9\u03B1 \u03BD\u03B1 \u03B5\u03BD\u03B5\u03C1\u03B3\u03BF\u03C0\u03BF\u03B9\u03AE\u03C3\u03B5\u03C4\u03B5 \u03C4\u03B7\u03BD \u03C5\u03C0\u03BF\u03C3\u03C4\u03AE\u03C1\u03B9\u03BE\u03B7 \u03C0\u03BF\u03BB\u03BB\u03CE\u03BD \u03B7\u03BC\u03B5\u03C1\u03BF\u03BB\u03BF\u03B3\u03AF\u03C9\u03BD"
+   },
+   "name": {
+      "message": "Google Calendar Checker (\u03B1\u03C0\u03CC \u03C4\u03B7\u03BD Google)"
+   },
+   "notitle": {
+      "message": "(\u03A7\u03C9\u03C1\u03AF\u03C2 \u03C4\u03AF\u03C4\u03BB\u03BF)"
+   },
+   "optionstitle": {
+      "message": "Google Calendar Checker"
+   },
+   "status_saved": {
+      "message": "\u039F\u03B9 \u03C1\u03C5\u03B8\u03BC\u03AF\u03C3\u03B5\u03B9\u03C2 \u03B1\u03C0\u03BF\u03B8\u03B7\u03BA\u03B5\u03CD\u03C4\u03B7\u03BA\u03B1\u03BD."
+   },
+   "status_saving": {
+      "message": "\u0391\u03C0\u03BF\u03B8\u03AE\u03BA\u03B5\u03C5\u03C3\u03B7...."
+   },
+   "title": {
+      "message": "Google Calendar Checker"
+   }
+}

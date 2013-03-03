@@ -1,0 +1,2143 @@
+*PPD-Adobe: "4.3"
+
+*% Adobe Systems PostScript(R) Printer Description File
+*% Copyright 2009 Xerox Corporation.
+
+*% PPD File Info
+
+*FileVersion: "1.0.7"
+*FormatVersion: "4.3"
+*LanguageEncoding: ISOLatin1
+*LanguageVersion: English
+
+*% Device Info
+
+*Manufacturer: "Xerox"
+*ModelName: "Xerox ColorQube 9201"
+*ShortNickName: "Xerox ColorQube 9201"
+*NickName: "Xerox ColorQube 9201"
+*PCFileName: "Xerox ColorQube 9201.PPD"
+*Product: "(Xerox ColorQube 9201)"
+*Product: "(.1.3.6.1.4.1.253.8.62.1.24.1.1.1.1)"
+*XRXHasPS: True
+*XRXHasAdvancedFax: False
+*XRXHasBooklet: False
+*PSVersion: "(3010.106) 3000"
+*ColorDevice: True
+*DefaultColorSpace: CMYK
+*FileSystem: True
+*?FileSystem: "
+    save false
+        (%disk?%)
+        { currentdevparams dup /Writeable known
+             {  /Writeable get {pop true} if }  { pop } ifelse
+        }  10 string /IODevice resourceforall
+    restore"
+*End
+*LanguageLevel: "3"
+*Throughput: "75"
+*ADHasEuro: True
+*TTRasterizer: Type42
+*DefaultGuaranteedMaxSeparations: 1
+*1284Modes Parallel: Compat
+*FreeVM: "15003225"
+*VMOption None/Standard: "15003225"
+*FCacheSize None: 2631384
+
+
+
+*% JCL Begin/End & JCL features (banner)
+*Protocols: BCP PJL TBCP
+*Emulators: hplj
+*StartEmulator_hplj: ""
+*StopEmulator_hplj:""
+*JCLBegin:"<1B>%-12345X@PJL JOB<0A>@PJL<0A>@PJL COMMENT XRXbegin<0A>"
+
+*%				Banner Sheet
+
+*JCLOpenUI *JCLBanner/Banner Sheet: Boolean
+*OrderDependency: 10.0 JCLSetup *JCLBanner
+*DefaultJCLBanner: True
+*JCLBanner False/Off: "@PJL COMMENT OID_ATT_START_SHEET OID_VAL_JOB_SHEET_NONE<0A>"
+*JCLBanner True/On: "@PJL COMMENT OID_ATT_START_SHEET OID_VAL_JOB_SHEET_FULL<0A>"
+*JCLCloseUI: *JCLBanner
+
+*%				Generic Accounting
+
+*JCLOpenUI *JCLAccounting/Accounting: Boolean
+*OrderDependency: 10.1 JCLSetup *JCLAccounting
+*DefaultJCLAccounting: False
+*JCLAccounting False/Off: ""
+*JCLAccounting True/On: "@PJL COMMENT OID_ATT_ACCOUNTING_INFORMATION <22>__GenericPPDAccount|042__GenericPPDUser<22><0A>"
+*JCLCloseUI: *JCLAccounting
+*JCLToPSInterpreter:"@PJL COMMENT XRXend<0A>@PJL ENTER LANGUAGE = POSTSCRIPT<0A>"
+*JCLEnd:"<1B>%-12345X@PJL EOJ<0A><1B>%-12345X<0A>"
+*% Installable Options 
+*OpenGroup: InstallableOptions/Options Installed
+*OpenUI *Option1/Paper Trays: PickOne
+*DefaultOption1: FourTrays
+*Option1 FourTrays/4 Trays: ""
+*Option1 FiveTrays/5 Trays: ""
+*?Option1: "
+  save
+   currentpagedevice /PFPInstalled known
+   {(True)}{(False)}ifelse = flush
+  restore
+"
+*End
+*CloseUI: *Option1
+
+*%   Finisher
+*OpenUI *Option2/Finisher/Output Tray: PickOne
+*DefaultOption2: OCT
+*Option2 OCT/OCT (Offset Catch Tray): ""
+*Option2 OF/Office Finisher: ""
+*Option2 HVF/High Volume Finisher: ""
+*Option2 HVF_BK/High Volume Finisher With Booklet Maker: ""
+
+*?Option2: "
+    save
+    currentpagedevice /BrunelFinisher known
+    {
+        currentpagedevice /BrunelFinisher get
+        /conf exch def
+        conf (OCT) eq
+        {(OCT)}
+        {
+            conf (1KLCSS) eq
+            {(1KLCSS)}
+            {
+                conf (HCSS_BK) eq
+                {(HCSS_BK)}
+                {
+                    conf (HVF) eq
+                    {(HVF)}
+                    {
+                        conf (HVF_BK) eq
+                        {(HVF_BK)}
+                        {
+								conf (HVF_BK_FOLD) eq
+								{(HVF_BK_FOLD)}
+								{(OCT)} ifelse
+                        } ifelse
+                    } ifelse
+                } ifelse
+            } ifelse
+        } ifelse
+    }
+    {(OCT)} ifelse
+    = flush
+
+    restore
+"
+*End
+*CloseUI: *Option2
+
+*OpenUI *Option3/Hole Punch Unit: PickOne
+*DefaultOption3: False
+*Option3 True/Installed: ""
+*Option3 False/Not Installed: ""
+*?Option3: "
+  save
+   currentpagedevice /PPISupport known
+   {(True)}{(False)}ifelse = flush
+  restore
+"
+*End
+*CloseUI: *Option3
+
+
+*OpenUI *Option9/Post Process Inserter: PickOne
+*DefaultOption9: False
+*Option9 True/Installed: ""
+*Option9 False/Not Installed: ""
+*?Option9: "
+"
+*End
+*CloseUI: *Option9
+
+*OpenUI *Option10/Z-Fold / C-Fold Unit: PickOne
+*DefaultOption10: False
+*Option10 True/Installed: ""
+*Option10 False/Not Installed: ""
+*?Option10: "
+save
+   currentpagedevice /PPISupport known
+   {(True)}{(False)}ifelse = flush
+  restore
+"
+*End
+*CloseUI: *Option10
+
+
+*OpenUI *Option8/Job Storage: PickOne
+*DefaultOption8: True
+*Option8 True/Installed: ""
+*Option8 False/Not Installed: ""
+*?Option8: "
+  save
+   currentpagedevice /SaveJobFeature known
+   {(True)}{(False)}ifelse = flush
+  restore
+"
+*End
+*CloseUI: *Option8
+
+*OpenUI *Option5/LAN Fax: PickOne
+*DefaultOption5: False
+*Option5 True/Installed: ""
+*Option5 False/Not Installed: ""
+*?Option5: "
+  save
+   currentpagedevice /FaxSupport known
+   {(True)}{(False)}ifelse = flush
+  restore
+"
+*End
+*CloseUI: *Option5
+
+*CloseGroup: InstallableOptions
+
+*%sRGB Neutral Gray
+
+*OpenUI *XRXGrayline/sRGB Neutral Grays: PickOne
+*OrderDependency: 50.0 AnySetup *XRXGrayline
+*DefaultXRXGrayline: PrinterDefault
+*XRXGrayline PrinterDefault/Printer Default: ""
+*XRXGrayline Automatic/Automatic Black: "
+   userdict /xerox$grayline /Automatic put
+   userdict /xerox$VCDOptions <<
+     /Grayline /Automatic
+   >> put
+"
+*End
+*XRXGrayline PureBlack/Pure Black: "
+   userdict /xerox$grayline /PureBlack put
+   userdict /xerox$VCDOptions <<
+     /Grayline /PureBlack
+   >> put
+"
+*End
+*XRXGrayline Composite/Composite Black: "
+   userdict /xerox$grayline /Composite put
+   userdict /xerox$VCDOptions <<
+     /Grayline /Composite
+   >> put
+"
+*End
+*CloseUI: *XRXGrayline
+
+
+*% UI Constraints
+
+*% Constraints Based on Installable Options
+
+*UIConstraints : *Option2 OCT *Option3 True
+*UIConstraints : *Option2 OCT *OutputBin Top
+*UIConstraints : *Option2 OCT *OutputBin Stacker
+*UIConstraints : *Option2 OCT *OutputBin Booklet
+*UIConstraints : *Option2 OCT *StapleLocation SinglePortrait
+*UIConstraints : *Option2 OCT *StapleLocation DualLandscape
+*UIConstraints : *Option2 OCT *StapleLocation MultipleStaples
+*UIConstraints : *Option2 OCT *XRPunch HolePunch
+*UIConstraints : *Option2 OCT *XRFold BiFold
+*UIConstraints : *Option2 OCT *XRFold BiFoldStaple
+
+*UIConstraints : *Option2 OF *OutputBin Middle
+*UIConstraints : *Option2 OF *OutputBin Booklet
+*UIConstraints : *Option2 HVF *OutputBin Middle
+*UIConstraints : *Option2 HVF *OutputBin Booklet
+*UIConstraints : *Option2 HVF_BK *OutputBin Middle
+
+*UIConstraints : *Option9 True *Option2 OCT
+*UIConstraints : *Option9 True *Option2 OF
+
+*UIConstraints : *Option10 True *Option2 OCT
+*UIConstraints : *Option2 OCT *Option10 True
+*UIConstraints : *Option10 True *Option2 OF
+*UIConstraints : *Option2 OF *Option10 True
+*UIConstraints : *Option10 True *Option2 HVF
+*UIConstraints : *Option2 HVF *Option10 True
+
+*UIConstraints : *Option1 FourTrays *InputSlot Tray5
+*UIConstraints : *InputSlot Tray5 *Option1 FourTrays
+
+*UIConstraints : *Option9 False *InputSlot Tray6 
+*UIConstraints : *InputSlot Tray6 *Option9 False
+
+
+*UIConstraints : *Option3 False *XRPunch HolePunch
+*UIConstraints : *Option2 HVF *XRPunch HolePunch
+
+*%      Constraints Based on Media Size
+
+
+*%UIConstraints : *PageSize Letter *OutputBin Stacker
+*UIConstraints : *PageSize Letter *StapleLocation DualLandscape
+
+*UIConstraints : *PageSize Legal *InputSlot Tray3
+*UIConstraints : *PageSize Legal *InputSlot Tray4
+*UIConstraints : *PageSize Legal *StapleLocation DualLandscape
+
+*UIConstraints : *PageSize Tabloid *InputSlot Tray3
+*UIConstraints : *PageSize Tabloid *InputSlot Tray4
+ 
+
+*UIConstraints : *PageSize Statement *InputSlot Tray3
+*UIConstraints : *PageSize Statement *InputSlot Tray4
+*UIConstraints : *PageSize Statement *InputSlot Tray5
+*UIConstraints : *PageSize Statement *XRPunch HolePunch
+*UIConstraints : *PageSize Statement *XRFold BiFold
+*UIConstraints : *PageSize Statement *XRFold BiFoldStaple
+ 
+
+
+*UIConstraints : *PageSize Executive *InputSlot Tray3
+*UIConstraints : *PageSize Executive *InputSlot Tray4
+*UIConstraints : *PageSize Executive *InputSlot Tray5
+*%UIConstraints : *PageSize Executive *XRPunch HolePunch
+*UIConstraints : *PageSize Executive *XRFold BiFold
+*UIConstraints : *PageSize Executive *XRFold BiFoldStaple
+*UIConstraints : *PageSize Executive *StapleLocation SinglePortrait
+*UIConstraints : *PageSize Executive *StapleLocation DualLandscape
+*UIConstraints : *PageSize Executive *StapleLocation MultipleStaples
+
+
+*UIConstraints : *PageSize FanFoldGermanLegal *InputSlot Tray3
+*UIConstraints : *PageSize FanFoldGermanLegal *InputSlot Tray4
+*UIConstraints : *PageSize FanFoldGermanLegal *InputSlot Tray5
+*UIConstraints : *PageSize FanFoldGermanLegal *StapleLocation DualLandscape
+
+
+
+*UIConstraints : *PageSize TabloidExtra *OutputBin Stacker
+*UIConstraints : *PageSize TabloidExtra *XRPunch HolePunch
+*UIConstraints : *PageSize TabloidExtra *StapleLocation SinglePortrait
+*UIConstraints : *PageSize TabloidExtra *StapleLocation DualLandscape
+
+*UIConstraints : *PageSize 9x11 *InputSlot Tray3
+*UIConstraints : *PageSize 9x11 *InputSlot Tray4
+*UIConstraints : *PageSize 9x11 *InputSlot Tray5
+*UIConstraints : *PageSize 9x11 *XRFold BiFold
+*UIConstraints : *PageSize 9x11 *XRFold BiFoldStaple
+*UIConstraints : *PageSize 9x11 *StapleLocation DualLandscape
+
+
+*UIConstraints : *PageSize A3 *InputSlot Tray3
+*UIConstraints : *PageSize A3 *InputSlot Tray4
+
+
+*UIConstraints : *PageSize A4 *XRPunch HolePunch
+
+*UIConstraints : *PageSize A4Tab *StapleLocation DualLandscape
+
+*UIConstraints : *PageSize B4 *StapleLocation DualLandscape
+*UIConstraints : *PageSize B4 *OutputBin Booklet
+*UIConstraints : *PageSize B4 *XRPunch HolePunch
+
+*UIConstraints : *PageSize B5 *XRPunch HolePunch
+*UIConstraints : *PageSize B5 *StapleLocation SinglePortrait
+*UIConstraints : *PageSize B5 *StapleLocation DualLandscape
+
+*UIConstraints : *PageSize A5 *InputSlot Tray3
+*UIConstraints : *PageSize A5 *InputSlot Tray4
+*UIConstraints : *PageSize A5 *InputSlot Tray5
+*UIConstraints : *PageSize A5 *XRPunch HolePunch
+*UIConstraints : *PageSize A5 *XRFold BiFold
+*UIConstraints : *PageSize A5 *XRFold BiFoldStaple
+
+*UIConstraints : *PageSize JISB4 *InputSlot Tray3
+*UIConstraints : *PageSize JISB4 *InputSlot Tray4
+*UIConstraints : *PageSize JISB4 *InputSlot Tray5
+*UIConstraints : *PageSize JISB4 *XRPunch HolePunch
+*UIConstraints : *PageSize JISB4 *XRFold BiFold
+*UIConstraints : *PageSize JISB4 *XRFold BiFoldStaple
+*UIConstraints : *PageSize JISB4 *StapleLocation DualLandscape
+*UIConstraints : *PageSize JISB4 *OutputBin Booklet
+
+
+*UIConstraints : *PageSize JISB5 *InputSlot Tray3
+*UIConstraints : *PageSize JISB5 *InputSlot Tray4
+*UIConstraints : *PageSize JISB5 *InputSlot Tray5
+*UIConstraints : *PageSize JISB5 *XRPunch HolePunch
+*UIConstraints : *PageSize JISB5 *XRFold BiFold
+*UIConstraints : *PageSize JISB5 *XRFold BiFoldStaple
+*UIConstraints : *PageSize JISB5 *OutputBin Stacker
+*UIConstraints : *PageSize JISB5 *StapleLocation SinglePortrait
+*UIConstraints : *PageSize JISB5 *StapleLocation DualLandscape
+
+
+*%UIConstraints : *PageSize A4Cover *InputSlot Tray3
+*%UIConstraints : *PageSize A4Cover *InputSlot Tray4
+*%UIConstraints : *PageSize A4Cover *InputSlot Tray5
+*%UIConstraints : *PageSize A4Cover *XRFold BiFold
+*%UIConstraints : *PageSize A4Cover *XRFold BiFoldStaple
+
+*UIConstraints : *PageSize EnvC5 *InputSlot Tray3
+*UIConstraints : *PageSize EnvC5 *InputSlot Tray4
+*UIConstraints : *PageSize EnvC5 *InputSlot Tray5
+*UIConstraints : *PageSize EnvC5 *Duplex DuplexNoTumble
+*UIConstraints : *PageSize EnvC5 *Duplex DuplexTumble
+*UIConstraints : *PageSize EnvC5 *XRPunch HolePunch
+*UIConstraints : *PageSize EnvC5 *StapleLocation SinglePortrait
+*UIConstraints : *PageSize EnvC5 *StapleLocation DualLandscape
+*UIConstraints : *PageSize EnvC5 *StapleLocation MultipleStaples
+*UIConstraints : *PageSize EnvC5 *XRFold BiFold
+*UIConstraints : *PageSize EnvC5 *XRFold BiFoldStaple
+*UIConstraints : *PageSize EnvC5 *OutputBin Stacker
+
+*UIConstraints : *PageSize Env9x12 *InputSlot Tray3
+*UIConstraints : *PageSize Env9x12 *InputSlot Tray4
+*UIConstraints : *PageSize Env9x12 *InputSlot Tray5
+*UIConstraints : *PageSize Env9x12 *Duplex DuplexNoTumble
+*UIConstraints : *PageSize Env9x12 *Duplex DuplexTumble
+*UIConstraints : *PageSize Env9x12 *XRPunch HolePunch
+*UIConstraints : *PageSize Env9x12 *StapleLocation SinglePortrait
+*UIConstraints : *PageSize Env9x12 *StapleLocation DualLandscape
+*UIConstraints : *PageSize Env9x12 *StapleLocation MultipleStaples
+*UIConstraints : *PageSize Env9x12 *XRFold BiFold
+*UIConstraints : *PageSize Env9x12 *XRFold BiFoldStaple
+*UIConstraints : *PageSize Env9x12 *OutputBin Stacker
+
+*UIConstraints : *PageSize Env10 *InputSlot Tray3
+*UIConstraints : *PageSize Env10 *InputSlot Tray4
+*UIConstraints : *PageSize Env10 *InputSlot Tray5
+*UIConstraints : *PageSize Env10 *Duplex DuplexNoTumble
+*UIConstraints : *PageSize Env10 *Duplex DuplexTumble
+*UIConstraints : *PageSize Env10 *XRPunch HolePunch
+*UIConstraints : *PageSize Env10 *StapleLocation SinglePortrait
+*UIConstraints : *PageSize Env10 *StapleLocation DualLandscape
+*UIConstraints : *PageSize Env10 *StapleLocation MultipleStaples
+*UIConstraints : *PageSize Env10 *XRFold BiFold
+*UIConstraints : *PageSize Env10 *XRFold BiFoldStaple
+*UIConstraints : *PageSize Env10 *OutputBin Stacker
+
+
+
+*UIConstraints : *PageSize EnvDL *InputSlot Tray3
+*UIConstraints : *PageSize EnvDL *InputSlot Tray4
+*UIConstraints : *PageSize EnvDL *InputSlot Tray5
+*UIConstraints : *PageSize EnvDL *Duplex DuplexNoTumble
+*UIConstraints : *PageSize EnvDL *Duplex DuplexTumble
+*UIConstraints : *PageSize EnvDL *XRPunch HolePunch
+*UIConstraints : *PageSize EnvDL *StapleLocation SinglePortrait
+*UIConstraints : *PageSize EnvDL *StapleLocation DualLandscape
+*UIConstraints : *PageSize EnvDL *StapleLocation MultipleStaples
+*UIConstraints : *PageSize EnvDL *XRFold BiFold
+*UIConstraints : *PageSize EnvDL *XRFold BiFoldStaple
+*UIConstraints : *PageSize EnvDL *OutputBin Stacker
+
+
+*UIConstraints : *PageRegion Letter *OutputBin Stacker
+*UIConstraints : *PageRegion Letter *StapleLocation DualLandscape
+
+*UIConstraints : *PageRegion Legal *InputSlot Tray3
+*UIConstraints : *PageRegion Legal *InputSlot Tray4
+*UIConstraints : *PageRegion Legal *StapleLocation DualLandscape
+
+
+
+*UIConstraints : *PageRegion Tabloid *InputSlot Tray3
+*UIConstraints : *PageRegion Tabloid *InputSlot Tray4
+
+*UIConstraints : *PageRegion Statement *InputSlot Tray3
+*UIConstraints : *PageRegion Statement *InputSlot Tray4
+*UIConstraints : *PageRegion Statement *InputSlot Tray5
+*UIConstraints : *PageRegion Statement *XRFold BiFold
+*UIConstraints : *PageRegion Statement *XRFold BiFoldStaple
+*UIConstraints : *PageRegion Statement *XRPunch HolePunch
+
+*UIConstraints : *PageRegion TabloidExtra *OutputBin Stacker
+*UIConstraints : *PageRegion TabloidExtra *XRPunch HolePunch
+*UIConstraints : *PageRegion TabloidExtra *StapleLocation SinglePortrait
+*UIConstraints : *PageRegion TabloidExtra *StapleLocation DualLandscape
+
+
+*UIConstraints : *PageRegion Executive *InputSlot Tray3
+*UIConstraints : *PageRegion Executive *InputSlot Tray4
+*UIConstraints : *PageRegion Executive *InputSlot Tray5
+*UIConstraints : *PageRegion Executive *XRPunch HolePunch
+*UIConstraints : *PageRegion Executive *XRFold BiFold
+*UIConstraints : *PageRegion Executive *XRFold BiFoldStaple
+*UIConstraints : *PageRegion Executive *StapleLocation SinglePortrait
+*UIConstraints : *PageRegion Executive *StapleLocation DualLandscape
+
+*UIConstraints : *PageRegion FanFoldGermanLegal *InputSlot Tray3
+*UIConstraints : *PageRegion FanFoldGermanLegal *InputSlot Tray4
+*UIConstraints : *PageRegion FanFoldGermanLegal *InputSlot Tray5
+*UIConstraints : *PageRegion FanFoldGermanLegal *StapleLocation DualLandscape
+
+*UIConstraints : *PageRegion 9x11 *InputSlot Tray3
+*UIConstraints : *PageRegion 9x11 *InputSlot Tray4
+*UIConstraints : *PageRegion 9x11 *InputSlot Tray5
+*UIConstraints : *PageRegion 9x11 *XRFold BiFold
+*UIConstraints : *PageRegion 9x11 *XRFold BiFoldStaple
+*UIConstraints : *PageRegion 9x11 *StapleLocation DualLandscape
+
+*UIConstraints : *PageRegion A3 *InputSlot Tray3
+*UIConstraints : *PageRegion A3 *InputSlot Tray4
+
+*UIConstraints : *PageRegion A4 *XRPunch HolePunch
+*UIConstraints : *PageRegion A4Tab *StapleLocation DualLandscape
+
+
+*UIConstraints : *PageRegion B4 *StapleLocation DualLandscape
+*UIConstraints : *PageRegion B4 *OutputBin Booklet
+*UIConstraints : *PageRegion B4 *XRPunch HolePunch
+
+*UIConstraints : *PageRegion B5 *XRPunch HolePunch
+*UIConstraints : *PageRegion B5 *StapleLocation SinglePortrait
+*UIConstraints : *PageRegion B5 *StapleLocation DualLandscape
+
+
+*UIConstraints : *PageRegion A5 *InputSlot Tray3
+*UIConstraints : *PageRegion A5 *InputSlot Tray4
+*UIConstraints : *PageRegion A5 *InputSlot Tray5
+*UIConstraints : *PageRegion A5 *XRPunch HolePunch
+*UIConstraints : *PageRegion A5 *XRFold BiFold
+*UIConstraints : *PageRegion A5 *XRFold BiFoldStaple
+
+*UIConstraints : *PageRegion JISB4 *InputSlot Tray3
+*UIConstraints : *PageRegion JISB4 *InputSlot Tray4
+*UIConstraints : *PageRegion JISB4 *InputSlot Tray5
+*UIConstraints : *PageRegion JISB4 *XRPunch HolePunch
+*UIConstraints : *PageRegion JISB4 *XRFold BiFold
+*UIConstraints : *PageRegion JISB4 *XRFold BiFoldStaple
+*UIConstraints : *PageRegion JISB4 *StapleLocation DualLandscape
+*UIConstraints : *PageRegion JISB4 *OutputBin Booklet
+
+*UIConstraints : *PageRegion JISB5 *InputSlot Tray3
+*UIConstraints : *PageRegion JISB5 *InputSlot Tray4
+*UIConstraints : *PageRegion JISB5 *InputSlot Tray5
+*UIConstraints : *PageRegion JISB5 *XRPunch HolePunch
+*UIConstraints : *PageRegion JISB5 *XRFold BiFold
+*UIConstraints : *PageRegion JISB5 *XRFold BiFoldStaple
+*UIConstraints : *PageRegion JISB5 *OutputBin Stacker
+*UIConstraints : *PageRegion JISB5 *StapleLocation SinglePortrait
+*UIConstraints : *PageRegion JISB5 *StapleLocation DualLandscape
+
+*%UIConstraints : *PageRegion A4Cover *InputSlot Tray3
+*%UIConstraints : *PageRegion A4Cover *InputSlot Tray4
+*%UIConstraints : *PageRegion A4Cover *InputSlot Tray5
+*%UIConstraints : *PageRegion A4Cover *XRFold BiFold
+*%UIConstraints : *PageRegion A4Cover *XRFold BiFoldStaple
+
+*UIConstraints : *PageRegion EnvC5 *InputSlot Tray3
+*UIConstraints : *PageRegion EnvC5 *InputSlot Tray4
+*UIConstraints : *PageRegion EnvC5 *InputSlot Tray5
+*UIConstraints : *PageRegion EnvC5 *Duplex DuplexNoTumble
+*UIConstraints : *PageRegion EnvC5 *Duplex DuplexTumble
+*UIConstraints : *PageRegion EnvC5 *XRPunch HolePunch
+*UIConstraints : *PageRegion EnvC5 *StapleLocation SinglePortrait
+*UIConstraints : *PageRegion EnvC5 *StapleLocation DualLandscape
+*UIConstraints : *PageRegion EnvC5 *StapleLocation MultipleStaples
+*UIConstraints : *PageRegion EnvC5 *XRFold BiFold
+*UIConstraints : *PageRegion EnvC5 *XRFold BiFoldStaple
+*UIConstraints : *PageRegion EnvC5 *OutputBin Stacker
+
+*UIConstraints : *PageRegion Env9x12 *InputSlot Tray3
+*UIConstraints : *PageRegion Env9x12 *InputSlot Tray4
+*UIConstraints : *PageRegion Env9x12 *InputSlot Tray5
+*UIConstraints : *PageRegion Env9x12 *Duplex DuplexNoTumble
+*UIConstraints : *PageRegion Env9x12 *Duplex DuplexTumble
+*UIConstraints : *PageRegion Env9x12 *XRPunch HolePunch
+*UIConstraints : *PageRegion Env9x12 *StapleLocation SinglePortrait
+*UIConstraints : *PageRegion Env9x12 *StapleLocation DualLandscape
+*UIConstraints : *PageRegion Env9x12 *StapleLocation MultipleStaples
+*UIConstraints : *PageRegion Env9x12 *XRFold BiFold
+*UIConstraints : *PageRegion Env9x12 *XRFold BiFoldStaple
+*UIConstraints : *PageRegion Env9x12 *OutputBin Stacker
+
+*UIConstraints : *PageRegion Env10 *InputSlot Tray3
+*UIConstraints : *PageRegion Env10 *InputSlot Tray4
+*UIConstraints : *PageRegion Env10 *InputSlot Tray5
+*UIConstraints : *PageRegion Env10 *Duplex DuplexNoTumble
+*UIConstraints : *PageRegion Env10 *Duplex DuplexTumble
+*UIConstraints : *PageRegion Env10 *XRPunch HolePunch
+*UIConstraints : *PageRegion Env10 *StapleLocation SinglePortrait
+*UIConstraints : *PageRegion Env10 *StapleLocation DualLandscape
+*UIConstraints : *PageRegion Env10 *StapleLocation MultipleStaples
+*UIConstraints : *PageRegion Env10 *XRFold BiFold
+*UIConstraints : *PageRegion Env10 *XRFold BiFoldStaple
+*UIConstraints : *PageRegion Env10 *OutputBin Stacker
+
+
+
+*UIConstraints : *PageRegion EnvDL *InputSlot Tray3
+*UIConstraints : *PageRegion EnvDL *InputSlot Tray4
+*UIConstraints : *PageRegion EnvDL *InputSlot Tray5
+*UIConstraints : *PageRegion EnvDL *Duplex DuplexNoTumble
+*UIConstraints : *PageRegion EnvDL *Duplex DuplexTumble
+*UIConstraints : *PageRegion EnvDL *XRPunch HolePunch
+*UIConstraints : *PageRegion EnvDL *StapleLocation SinglePortrait
+*UIConstraints : *PageRegion EnvDL *StapleLocation DualLandscape
+*UIConstraints : *PageRegion EnvDL *StapleLocation MultipleStaples
+*UIConstraints : *PageRegion EnvDL *XRFold BiFold
+*UIConstraints : *PageRegion EnvDL *XRFold BiFoldStaple
+*UIConstraints : *PageRegion EnvDL *OutputBin Stacker
+
+*NonUIConstraints : *CustomPageSize True *XRPunch HolePunch
+*NonUIConstraints : *CustomPageSize True *StapleLocation MultipleStaples
+*NonUIConstraints : *CustomPageSize True *XRFold BiFold
+*NonUIConstraints : *CustomPageSize True *XRFold BiFoldStaple
+
+*%      Constraints Based on Media Type
+
+*UIConstraints : *MediaType Punched *XRPunch HolePunch
+*UIConstraints : *MediaType Punched *XRFold BiFold
+*UIConstraints : *MediaType Punched *XRFold BiFoldStaple
+
+*UIConstraints : *MediaType Transparency *InputSlot Tray3
+*UIConstraints : *MediaType Transparency *InputSlot Tray5
+*UIConstraints : *MediaType Transparency *Duplex DuplexNoTumble
+*UIConstraints : *MediaType Transparency *Duplex DuplexTumble
+*UIConstraints : *MediaType Transparency *XRPunch HolePunch
+*UIConstraints : *MediaType Transparency *StapleLocation SinglePortrait
+*UIConstraints : *MediaType Transparency *StapleLocation DualLandscape
+*UIConstraints : *MediaType Transparency *StapleLocation MultipleStaples
+*UIConstraints : *MediaType Transparency *XRFold BiFold
+*UIConstraints : *MediaType Transparency *XRFold BiFoldStaple
+
+*UIConstraints : *MediaType TabStock *InputSlot Tray3
+*UIConstraints : *MediaType TabStock *InputSlot Tray4
+*UIConstraints : *MediaType TabStock *InputSlot Tray5
+*UIConstraints : *MediaType TabStock *Duplex DuplexNoTumble
+*UIConstraints : *MediaType TabStock *Duplex DuplexTumble
+*UIConstraints : *MediaType TabStock *XRFold BiFold
+*UIConstraints : *MediaType TabStock *XRFold BiFoldStaple
+*UIConstraints : *MediaType TabStock *Collate False
+
+
+*UIConstraints : *MediaType LightGlossy *InputSlot Tray1
+*UIConstraints : *MediaType LightGlossy *InputSlot Tray2
+*UIConstraints : *MediaType LightGlossy *InputSlot Tray3
+*UIConstraints : *MediaType LightGlossy *InputSlot Tray5
+*UIConstraints : *MediaType LightGlossy *OutputBin Stacker
+*UIConstraints : *MediaType LightGlossy *OutputBin Booklet
+*UIConstraints : *MediaType LightGlossy *XRPunch HolePunch
+*UIConstraints : *MediaType LightGlossy *StapleLocation SinglePortrait
+*UIConstraints : *MediaType LightGlossy *StapleLocation DualLandscape
+*UIConstraints : *MediaType LightGlossy *StapleLocation MultipleStaples
+*UIConstraints : *MediaType LightGlossy *Option10
+
+*UIConstraints : *MediaType Labels *InputSlot Tray1
+*UIConstraints : *MediaType Labels *InputSlot Tray2
+*UIConstraints : *MediaType Labels *InputSlot Tray3
+*%UIConstraints : *MediaType Labels *InputSlot Tray4
+*UIConstraints : *MediaType Labels *InputSlot Tray5
+*UIConstraints : *MediaType Labels *Duplex DuplexNoTumble
+*UIConstraints : *MediaType Labels *Duplex DuplexTumble
+*UIConstraints : *MediaType Labels *XRPunch HolePunch
+*UIConstraints : *MediaType Labels *StapleLocation SinglePortrait
+*UIConstraints : *MediaType Labels *StapleLocation DualLandscape
+*UIConstraints : *MediaType Labels *StapleLocation MultipleStaples
+*UIConstraints : *MediaType Labels *XRFold BiFold
+*UIConstraints : *MediaType Labels *XRFold BiFoldStaple
+*UIConstraints : *MediaType Labels *OutputBin Stacker
+
+*UIConstraints : *MediaType Envelopes *InputSlot Tray3
+*UIConstraints : *MediaType Envelopes *InputSlot Tray4
+*UIConstraints : *MediaType Envelopes *InputSlot Tray5
+*UIConstraints : *MediaType Envelopes *Duplex DuplexNoTumble
+*UIConstraints : *MediaType Envelopes *Duplex DuplexTumble
+*UIConstraints : *MediaType Envelopes *XRPunch HolePunch
+*UIConstraints : *MediaType Envelopes *StapleLocation SinglePortrait
+*UIConstraints : *MediaType Envelopes *StapleLocation DualLandscape
+*UIConstraints : *MediaType Envelopes *StapleLocation MultipleStaples
+*UIConstraints : *MediaType Envelopes *XRFold BiFold
+*UIConstraints : *MediaType Envelopes *XRFold BiFoldStaple
+*UIConstraints : *MediaType Envelopes *OutputBin Stacker
+*UIConstraints : *MediaType Envelopes *OutputBin Booklet
+
+*UIConstraints : *MediaType Custom1 *OutputBin Booklet
+*UIConstraints : *MediaType Custom1 *XRPunch HolePunch
+*UIConstraints : *MediaType Custom1 *StapleLocation SinglePortrait
+*UIConstraints : *MediaType Custom1 *StapleLocation DualLandscape
+*UIConstraints : *MediaType Custom1 *StapleLocation MultipleStaples
+*UIConstraints : *MediaType Custom1 *Option10
+
+*UIConstraints : *MediaType Custom2 *OutputBin Booklet
+*UIConstraints : *MediaType Custom2 *XRPunch HolePunch
+*UIConstraints : *MediaType Custom2 *StapleLocation SinglePortrait
+*UIConstraints : *MediaType Custom2 *StapleLocation DualLandscape
+*UIConstraints : *MediaType Custom2 *StapleLocation MultipleStaples
+*UIConstraints : *MediaType Custom2 *Option10
+
+*UIConstraints : *MediaType Custom3 *OutputBin Booklet
+*UIConstraints : *MediaType Custom3 *XRPunch HolePunch
+*UIConstraints : *MediaType Custom3 *StapleLocation SinglePortrait
+*UIConstraints : *MediaType Custom3 *StapleLocation DualLandscape
+*UIConstraints : *MediaType Custom3 *StapleLocation MultipleStaples
+*UIConstraints : *MediaType Custom3 *Option10
+
+*UIConstraints : *MediaType Custom4 *OutputBin Booklet
+*UIConstraints : *MediaType Custom4 *XRPunch HolePunch
+*UIConstraints : *MediaType Custom4 *StapleLocation SinglePortrait
+*UIConstraints : *MediaType Custom4 *StapleLocation DualLandscape
+*UIConstraints : *MediaType Custom4 *StapleLocation MultipleStaples
+*UIConstraints : *MediaType Custom4 *Option10
+
+*UIConstraints : *MediaType Custom5 *OutputBin Booklet
+*UIConstraints : *MediaType Custom5 *XRPunch HolePunch
+*UIConstraints : *MediaType Custom5 *StapleLocation SinglePortrait
+*UIConstraints : *MediaType Custom5 *StapleLocation DualLandscape
+*UIConstraints : *MediaType Custom5 *StapleLocation MultipleStaples
+*UIConstraints : *MediaType Custom5 *Option10
+
+*UIConstraints : *MediaType Custom6 *OutputBin Booklet
+*UIConstraints : *MediaType Custom6 *XRPunch HolePunch
+*UIConstraints : *MediaType Custom6 *StapleLocation SinglePortrait
+*UIConstraints : *MediaType Custom6 *StapleLocation DualLandscape
+*UIConstraints : *MediaType Custom6 *StapleLocation MultipleStaples
+*UIConstraints : *MediaType Custom6 *Option10
+
+*UIConstraints : *MediaType Custom7 *OutputBin Booklet
+*UIConstraints : *MediaType Custom7 *XRPunch HolePunch
+*UIConstraints : *MediaType Custom7 *StapleLocation SinglePortrait
+*UIConstraints : *MediaType Custom7 *StapleLocation DualLandscape
+*UIConstraints : *MediaType Custom7 *StapleLocation MultipleStaples
+*UIConstraints : *MediaType Custom7 *Option10
+
+
+*%      Constraints Based on Finishing
+
+*UIConstraints : *StapleLocation SinglePortrait *OutputBin Middle
+*UIConstraints : *StapleLocation SinglePortrait *OutputBin Top
+*UIConstraints : *StapleLocation SinglePortrait *OutputBin Booklet
+*UIConstraints : *StapleLocation SinglePortrait *XRFold BiFold
+*UIConstraints : *StapleLocation SinglePortrait *XRFold BiFoldStaple
+
+*UIConstraints : *StapleLocation DualLandscape *OutputBin Middle
+*UIConstraints : *StapleLocation DualLandscape *OutputBin Top
+*UIConstraints : *StapleLocation DualLandscape *OutputBin Booklet
+*UIConstraints : *StapleLocation DualLandscape *XRFold BiFold
+*UIConstraints : *StapleLocation DualLandscape *XRFold BiFoldStaple
+
+*UIConstraints : *StapleLocation MultipleStaples *OutputBin Middle
+*UIConstraints : *StapleLocation MultipleStaples *OutputBin Top
+*UIConstraints : *StapleLocation MultipleStaples *OutputBin Booklet
+*UIConstraints : *StapleLocation MultipleStaples *XRFold BiFold
+*UIConstraints : *StapleLocation MultipleStaples *XRFold BiFoldStaple
+
+*UIConstraints : *XRFold BiFold *OutputBin Middle
+*UIConstraints : *XRFold BiFold *OutputBin Top
+*UIConstraints : *XRFold BiFold *OutputBin Stacker
+
+
+*UIConstraints : *XRFold BiFoldStaple *OutputBin Middle
+*UIConstraints : *XRFold BiFoldStaple *OutputBin Top
+*UIConstraints : *XRFold BiFoldStaple *OutputBin Stacker
+
+
+*UIConstraints : *XRPunch HolePunch *OutputBin Stacker
+*UIConstraints : *OutputBin Stacker *XRPunch HolePunch
+
+*UIConstraints : *XRPunch HolePunch *OutputBin Middle
+*UIConstraints : *XRPunch HolePunch *OutputBin Booklet
+*UIConstraints : *XRPunch HolePunch *StapleLocation MultipleStaples
+*UIConstraints : *XRPunch HolePunch *XRFold BiFold
+*UIConstraints : *XRPunch HolePunch *XRFold BiFoldStaple
+
+*UIConstraints : *XRPunch HolePunch *OutputBin Middle
+
+*UIConstraints : *PageSize TabloidExtra *OutputBin Stacker
+*UIConstraints : *OutputBin Stacker *PageSize TabloidExtra
+*UIConstraints : *PageSize TabloidExtra *XRPunch HolePunch 
+*UIConstraints : *XRPunch HolePunch *PageSize TabloidExtra
+
+*UIConstraints : *PageSize A5 *OutputBin Stacker
+*UIConstraints : *OutputBin Stacker *PageSize A5
+*UIConstraints : *PageSize A5 *XRPunch HolePunch 
+*UIConstraints : *XRPunch HolePunch *PageSize A5
+
+*UIConstraints : *PageSize Env10 *OutputBin Stacker
+*UIConstraints : *OutputBin Stacker *PageSize Env10
+*UIConstraints : *PageSize Env10 *XRPunch HolePunch 
+*UIConstraints : *XRPunch HolePunch *PageSize Env10
+
+
+*% AUTOGENERATED CONSTRAINTS BEGIN
+
+*UIConstraints :  *Option3 True *Option2 OCT 
+*UIConstraints :  *OutputBin Top *Option2 OCT 
+*UIConstraints :  *OutputBin Stacker *Option2 OCT 
+*UIConstraints :  *OutputBin Booklet *Option2 OCT 
+*UIConstraints :  *StapleLocation SinglePortrait *Option2 OCT 
+*UIConstraints :  *StapleLocation DualLandscape *Option2 OCT 
+*UIConstraints :  *StapleLocation MultipleStaples *Option2 OCT 
+*UIConstraints :  *XRPunch HolePunch *Option2 OCT 
+*UIConstraints :  *XRFold BiFold *Option2 OCT 
+*UIConstraints :  *XRFold BiFoldStaple *Option2 OCT 
+*UIConstraints :  *XRPunch HolePunch *Option3 False 
+*%UIConstraints : *OutputBin Stacker *PageSize Letter 
+*UIConstraints : *StapleLocation DualLandscape *PageSize Letter
+*UIConstraints :  *InputSlot Tray3 *PageSize Legal 
+*UIConstraints :  *InputSlot Tray4 *PageSize Legal 
+*UIConstraints : *StapleLocation DualLandscape *PageSize Legal 
+
+*UIConstraints :  *InputSlot Tray3 *PageSize Tabloid 
+*UIConstraints :  *InputSlot Tray4 *PageSize Tabloid 
+*UIConstraints :  *InputSlot Tray3 *PageSize Statement 
+*UIConstraints :  *InputSlot Tray4 *PageSize Statement 
+*UIConstraints :  *InputSlot Tray5 *PageSize Statement 
+*UIConstraints :  *XRFold BiFold *PageSize Statement 
+*UIConstraints :  *XRFold BiFoldStaple *PageSize Statement 
+*UIConstraints : *XRPunch HolePunch *PageSize Statement 
+*UIConstraints :  *InputSlot Tray3 *PageSize Executive 
+*UIConstraints :  *InputSlot Tray4 *PageSize Executive 
+*UIConstraints :  *InputSlot Tray5 *PageSize Executive 
+*UIConstraints :  *XRPunch HolePunch *PageSize Executive 
+*UIConstraints :  *XRFold BiFold *PageSize Executive 
+*UIConstraints :  *XRFold BiFoldStaple *PageSize Executive 
+*UIConstraints : *StapleLocation SinglePortrait *PageSize Executive
+*UIConstraints : *StapleLocation DualLandscape *PageSize Executive
+
+*UIConstraints :  *InputSlot Tray3 *PageSize FanFoldGermanLegal 
+*UIConstraints :  *InputSlot Tray4 *PageSize FanFoldGermanLegal 
+*UIConstraints :  *InputSlot Tray5 *PageSize FanFoldGermanLegal 
+*UIConstraints : *StapleLocation DualLandscape *PageSize FanFoldGermanLegal 
+
+
+*UIConstraints :  *InputSlot Tray3 *PageSize 9x11 
+*UIConstraints :  *InputSlot Tray4 *PageSize 9x11 
+*UIConstraints :  *InputSlot Tray5 *PageSize 9x11 
+*UIConstraints :  *XRFold BiFold *PageSize 9x11 
+*UIConstraints :  *XRFold BiFoldStaple *PageSize 9x11 
+*UIConstraints : *StapleLocation DualLandscape *PageSize 9x11 
+*UIConstraints :  *InputSlot Tray3 *PageSize A3 
+*UIConstraints :  *InputSlot Tray4 *PageSize A3 
+*UIConstraints : *XRPunch HolePunch *PageSize A4 
+*UIConstraints : *StapleLocation DualLandscape *PageSize A4Tab 
+*UIConstraints : *StapleLocation DualLandscape *PageSize B4
+*UIConstraints : *XRPunch HolePunch *PageSize B5
+*UIConstraints : *StapleLocation SinglePortrait *PageSize B5
+*UIConstraints : *StapleLocation DualLandscape *PageSize B5
+*UIConstraints :  *InputSlot Tray3 *PageSize A5 
+*UIConstraints :  *InputSlot Tray4 *PageSize A5 
+*UIConstraints :  *InputSlot Tray5 *PageSize A5 
+*UIConstraints :  *XRPunch HolePunch *PageSize A5 
+*UIConstraints :  *XRFold BiFold *PageSize A5 
+*UIConstraints :  *XRFold BiFoldStaple *PageSize A5 
+*UIConstraints :  *InputSlot Tray3 *PageSize JISB4 
+*UIConstraints :  *InputSlot Tray4 *PageSize JISB4 
+*UIConstraints :  *InputSlot Tray5 *PageSize JISB4 
+*UIConstraints :  *XRPunch HolePunch *PageSize JISB4 
+*UIConstraints :  *XRFold BiFold *PageSize JISB4 
+*UIConstraints :  *XRFold BiFoldStaple *PageSize JISB4 
+*UIConstraints : *StapleLocation DualLandscape *PageSize JISB4
+*UIConstraints : *OutputBin Booklet *PageSize JISB4
+
+*UIConstraints :  *InputSlot Tray3 *PageSize JISB5 
+*UIConstraints :  *InputSlot Tray4 *PageSize JISB5 
+*UIConstraints :  *InputSlot Tray5 *PageSize JISB5 
+*UIConstraints :  *XRPunch HolePunch *PageSize JISB5 
+*UIConstraints :  *XRFold BiFold *PageSize JISB5 
+*UIConstraints :  *XRFold BiFoldStaple *PageSize JISB5 
+*UIConstraints : *OutputBin Stacker *PageSize JISB5
+*UIConstraints : *StapleLocation SinglePortrait *PageSize JISB5
+*UIConstraints : *StapleLocation DualLandscape *PageSize JISB5
+*%UIConstraints :  *InputSlot Tray3 *PageSize A4Cover 
+*%UIConstraints :  *InputSlot Tray4 *PageSize A4Cover 
+*%UIConstraints :  *InputSlot Tray5 *PageSize A4Cover 
+*%UIConstraints :  *XRFold BiFold *PageSize A4Cover 
+*%UIConstraints :  *XRFold BiFoldStaple *PageSize A4Cover 
+*UIConstraints :  *InputSlot Tray3 *PageSize EnvC5 
+*UIConstraints :  *InputSlot Tray4 *PageSize EnvC5 
+*UIConstraints :  *InputSlot Tray5 *PageSize EnvC5 
+*UIConstraints :  *Duplex DuplexNoTumble *PageSize EnvC5 
+*UIConstraints :  *Duplex DuplexTumble *PageSize EnvC5 
+*UIConstraints :  *XRPunch HolePunch *PageSize EnvC5 
+*UIConstraints :  *StapleLocation SinglePortrait *PageSize EnvC5 
+*UIConstraints :  *StapleLocation DualLandscape *PageSize EnvC5 
+*UIConstraints :  *StapleLocation MultipleStaples *PageSize EnvC5 
+*UIConstraints :  *XRFold BiFold *PageSize EnvC5 
+*UIConstraints :  *XRFold BiFoldStaple *PageSize EnvC5 
+*UIConstraints :  *OutputBin Stacker *PageSize EnvC5 
+*UIConstraints :  *InputSlot Tray3 *PageSize Env9x12 
+*UIConstraints :  *InputSlot Tray4 *PageSize Env9x12 
+*UIConstraints :  *InputSlot Tray5 *PageSize Env9x12 
+*UIConstraints :  *Duplex DuplexNoTumble *PageSize Env9x12 
+*UIConstraints :  *Duplex DuplexTumble *PageSize Env9x12 
+*UIConstraints :  *XRPunch HolePunch *PageSize Env9x12 
+*UIConstraints :  *StapleLocation SinglePortrait *PageSize Env9x12 
+*UIConstraints :  *StapleLocation DualLandscape *PageSize Env9x12 
+*UIConstraints :  *StapleLocation MultipleStaples *PageSize Env9x12 
+*UIConstraints :  *XRFold BiFold *PageSize Env9x12 
+*UIConstraints :  *XRFold BiFoldStaple *PageSize Env9x12 
+*UIConstraints :  *OutputBin Stacker *PageSize Env9x12 
+*UIConstraints :  *InputSlot Tray3 *PageSize Env10 
+*UIConstraints :  *InputSlot Tray4 *PageSize Env10 
+*UIConstraints :  *InputSlot Tray5 *PageSize Env10 
+*UIConstraints :  *Duplex DuplexNoTumble *PageSize Env10 
+*UIConstraints :  *Duplex DuplexTumble *PageSize Env10 
+*UIConstraints :  *XRPunch HolePunch *PageSize Env10 
+*UIConstraints :  *StapleLocation SinglePortrait *PageSize Env10 
+*UIConstraints :  *StapleLocation DualLandscape *PageSize Env10 
+*UIConstraints :  *StapleLocation MultipleStaples *PageSize Env10 
+*UIConstraints :  *XRFold BiFold *PageSize Env10 
+*UIConstraints :  *XRFold BiFoldStaple *PageSize Env10 
+*UIConstraints :  *OutputBin Stacker *PageSize Env10 
+*UIConstraints :  *InputSlot Tray3 *PageSize EnvDL 
+*UIConstraints :  *InputSlot Tray4 *PageSize EnvDL 
+*UIConstraints :  *InputSlot Tray5 *PageSize EnvDL 
+*UIConstraints :  *Duplex DuplexNoTumble *PageSize EnvDL 
+*UIConstraints :  *Duplex DuplexTumble *PageSize EnvDL 
+*UIConstraints :  *XRPunch HolePunch *PageSize EnvDL 
+*UIConstraints :  *StapleLocation SinglePortrait *PageSize EnvDL 
+*UIConstraints :  *StapleLocation DualLandscape *PageSize EnvDL 
+*UIConstraints :  *StapleLocation MultipleStaples *PageSize EnvDL 
+*UIConstraints :  *XRFold BiFold *PageSize EnvDL 
+*UIConstraints :  *XRFold BiFoldStaple *PageSize EnvDL 
+*UIConstraints :  *OutputBin Stacker *PageSize EnvDL 
+
+*UIConstraints : *OutputBin Stacker *PageRegion Letter
+*UIConstraints : *StapleLocation DualLandscape *PageRegion Letter
+*UIConstraints :  *InputSlot Tray3 *PageRegion Legal 
+*UIConstraints :  *InputSlot Tray4 *PageRegion Legal 
+*UIConstraints : *StapleLocation DualLandscape *PageRegion Legal 
+
+
+*UIConstraints :  *InputSlot Tray3 *PageRegion Tabloid 
+*UIConstraints :  *InputSlot Tray4 *PageRegion Tabloid 
+*UIConstraints :  *InputSlot Tray3 *PageRegion Statement 
+*UIConstraints :  *InputSlot Tray4 *PageRegion Statement 
+*UIConstraints :  *InputSlot Tray5 *PageRegion Statement 
+*UIConstraints :  *XRFold BiFold *PageRegion Statement 
+*UIConstraints :  *XRFold BiFoldStaple *PageRegion Statement 
+*UIConstraints :  *XRPunch HolePunch *PageRegion Statement 
+*UIConstraints :  *InputSlot Tray3 *PageRegion Executive 
+*UIConstraints :  *InputSlot Tray4 *PageRegion Executive 
+*UIConstraints :  *InputSlot Tray5 *PageRegion Executive 
+*UIConstraints :  *XRPunch HolePunch *PageRegion Executive 
+*UIConstraints :  *XRFold BiFold *PageRegion Executive 
+*UIConstraints :  *XRFold BiFoldStaple *PageRegion Executive 
+*UIConstraints : *StapleLocation SinglePortrait *PageRegion Executive 
+*UIConstraints : *StapleLocation DualLandscape *PageRegion Executive
+
+*UIConstraints :  *InputSlot Tray3 *PageRegion FanFoldGermanLegal 
+*UIConstraints :  *InputSlot Tray4 *PageRegion FanFoldGermanLegal 
+*UIConstraints :  *InputSlot Tray5 *PageRegion FanFoldGermanLegal 
+*UIConstraints : *StapleLocation DualLandscape *PageRegion FanFoldGermanLegal
+
+*UIConstraints :  *InputSlot Tray3 *PageRegion 9x11 
+*UIConstraints :  *InputSlot Tray4 *PageRegion 9x11 
+*UIConstraints :  *InputSlot Tray5 *PageRegion 9x11 
+*UIConstraints :  *XRFold BiFold *PageRegion 9x11 
+*UIConstraints :  *XRFold BiFoldStaple *PageRegion 9x11 
+*UIConstraints : *StapleLocation DualLandscape *PageRegion 9x11
+
+*UIConstraints :  *InputSlot Tray3 *PageRegion A3 
+*UIConstraints :  *InputSlot Tray4 *PageRegion A3 
+*UIConstraints : *XRPunch HolePunch *PageRegion A4
+*UIConstraints : *StapleLocation DualLandscape *PageRegion A4Tab
+*UIConstraints : *StapleLocation DualLandscape *PageRegion B4
+*UIConstraints : *XRPunch HolePunch *PageRegion B5
+*UIConstraints : *StapleLocation SinglePortrait *PageRegion B5
+*UIConstraints : *StapleLocation DualLandscape *PageRegion B5
+*UIConstraints :  *InputSlot Tray3 *PageRegion A5 
+*UIConstraints :  *InputSlot Tray4 *PageRegion A5 
+*UIConstraints :  *InputSlot Tray5 *PageRegion A5 
+*UIConstraints :  *XRPunch HolePunch *PageRegion A5 
+*UIConstraints :  *XRFold BiFold *PageRegion A5 
+*UIConstraints :  *XRFold BiFoldStaple *PageRegion A5 
+*UIConstraints :  *InputSlot Tray3 *PageRegion JISB4 
+*UIConstraints :  *InputSlot Tray4 *PageRegion JISB4 
+*UIConstraints :  *InputSlot Tray5 *PageRegion JISB4 
+*UIConstraints :  *XRPunch HolePunch *PageRegion JISB4 
+*UIConstraints :  *XRFold BiFold *PageRegion JISB4 
+*UIConstraints :  *XRFold BiFoldStaple *PageRegion JISB4 
+*UIConstraints : *StapleLocation DualLandscape *PageRegion JISB4
+*UIConstraints : *OutputBin Booklet *PageRegion JISB4
+*UIConstraints :  *InputSlot Tray3 *PageRegion JISB5 
+*UIConstraints :  *InputSlot Tray4 *PageRegion JISB5 
+*UIConstraints :  *InputSlot Tray5 *PageRegion JISB5 
+*UIConstraints :  *XRPunch HolePunch *PageRegion JISB5 
+*UIConstraints :  *XRFold BiFold *PageRegion JISB5 
+*UIConstraints :  *XRFold BiFoldStaple *PageRegion JISB5 
+*UIConstraints : *OutputBin Stacker *PageRegion JISB5
+*UIConstraints : *StapleLocation SinglePortrait *PageRegion JISB5
+*UIConstraints : *StapleLocation DualLandscape *PageRegion JISB5
+
+*%UIConstraints :  *InputSlot Tray3 *PageRegion A4Cover 
+*%UIConstraints :  *InputSlot Tray4 *PageRegion A4Cover 
+*%UIConstraints :  *InputSlot Tray5 *PageRegion A4Cover 
+*%UIConstraints :  *XRFold BiFold *PageRegion A4Cover 
+*%UIConstraints :  *XRFold BiFoldStaple *PageRegion A4Cover 
+*UIConstraints :  *InputSlot Tray3 *PageRegion EnvC5 
+*UIConstraints :  *InputSlot Tray4 *PageRegion EnvC5 
+*UIConstraints :  *InputSlot Tray5 *PageRegion EnvC5 
+*UIConstraints :  *Duplex DuplexNoTumble *PageRegion EnvC5 
+*UIConstraints :  *Duplex DuplexTumble *PageRegion EnvC5 
+*UIConstraints :  *XRPunch HolePunch *PageRegion EnvC5 
+*UIConstraints :  *StapleLocation SinglePortrait *PageRegion EnvC5 
+*UIConstraints :  *StapleLocation DualLandscape *PageRegion EnvC5 
+*UIConstraints :  *StapleLocation MultipleStaples *PageRegion EnvC5 
+*UIConstraints :  *XRFold BiFold *PageRegion EnvC5 
+*UIConstraints :  *XRFold BiFoldStaple *PageRegion EnvC5 
+*UIConstraints :  *OutputBin Stacker *PageRegion EnvC5 
+*UIConstraints :  *InputSlot Tray3 *PageRegion Env9x12 
+*UIConstraints :  *InputSlot Tray4 *PageRegion Env9x12 
+*UIConstraints :  *InputSlot Tray5 *PageRegion Env9x12 
+*UIConstraints :  *Duplex DuplexNoTumble *PageRegion Env9x12 
+*UIConstraints :  *Duplex DuplexTumble *PageRegion Env9x12 
+*UIConstraints :  *XRPunch HolePunch *PageRegion Env9x12 
+*UIConstraints :  *StapleLocation SinglePortrait *PageRegion Env9x12 
+*UIConstraints :  *StapleLocation DualLandscape *PageRegion Env9x12 
+*UIConstraints :  *StapleLocation MultipleStaples *PageRegion Env9x12 
+*UIConstraints :  *XRFold BiFold *PageRegion Env9x12 
+*UIConstraints :  *XRFold BiFoldStaple *PageRegion Env9x12 
+*UIConstraints :  *OutputBin Stacker *PageRegion Env9x12 
+*UIConstraints :  *InputSlot Tray3 *PageRegion Env10 
+*UIConstraints :  *InputSlot Tray4 *PageRegion Env10 
+*UIConstraints :  *InputSlot Tray5 *PageRegion Env10 
+*UIConstraints :  *Duplex DuplexNoTumble *PageRegion Env10 
+*UIConstraints :  *Duplex DuplexTumble *PageRegion Env10 
+*UIConstraints :  *XRPunch HolePunch *PageRegion Env10 
+*UIConstraints :  *StapleLocation SinglePortrait *PageRegion Env10 
+*UIConstraints :  *StapleLocation DualLandscape *PageRegion Env10 
+*UIConstraints :  *StapleLocation MultipleStaples *PageRegion Env10 
+*UIConstraints :  *XRFold BiFold *PageRegion Env10 
+*UIConstraints :  *XRFold BiFoldStaple *PageRegion Env10 
+*UIConstraints :  *OutputBin Stacker *PageRegion Env10
+
+*UIConstraints :  *InputSlot Tray3 *PageRegion EnvDL 
+*UIConstraints :  *InputSlot Tray4 *PageRegion EnvDL 
+*UIConstraints :  *InputSlot Tray5 *PageRegion EnvDL 
+*UIConstraints :  *Duplex DuplexNoTumble *PageRegion EnvDL 
+*UIConstraints :  *Duplex DuplexTumble *PageRegion EnvDL 
+*UIConstraints :  *XRPunch HolePunch *PageRegion EnvDL 
+*UIConstraints :  *StapleLocation SinglePortrait *PageRegion EnvDL 
+*UIConstraints :  *StapleLocation DualLandscape *PageRegion EnvDL 
+*UIConstraints :  *StapleLocation MultipleStaples *PageRegion EnvDL 
+*UIConstraints :  *XRFold BiFold *PageRegion EnvDL 
+*UIConstraints :  *XRFold BiFoldStaple *PageRegion EnvDL 
+*UIConstraints :  *OutputBin Stacker *PageRegion EnvDL 
+*NonUIConstraints :  *XRPunch HolePunch *CustomPageSize True 
+*NonUIConstraints :  *StapleLocation MultipleStaples *CustomPageSize True 
+*NonUIConstraints :  *XRFold BiFold *CustomPageSize True 
+*NonUIConstraints :  *XRFold BiFoldStaple *CustomPageSize True 
+*UIConstraints :  *XRPunch HolePunch *MediaType Punched 
+*UIConstraints :  *XRFold BiFold *MediaType Punched 
+*UIConstraints :  *XRFold BiFoldStaple *MediaType Punched 
+*UIConstraints :  *InputSlot Tray3 *MediaType Transparency 
+*UIConstraints :  *InputSlot Tray4 *MediaType Transparency 
+*UIConstraints :  *InputSlot Tray5 *MediaType Transparency 
+*UIConstraints :  *Duplex DuplexNoTumble *MediaType Transparency 
+*UIConstraints :  *Duplex DuplexTumble *MediaType Transparency 
+*UIConstraints :  *XRPunch HolePunch *MediaType Transparency 
+*UIConstraints :  *StapleLocation SinglePortrait *MediaType Transparency 
+*UIConstraints :  *StapleLocation DualLandscape *MediaType Transparency 
+*UIConstraints :  *StapleLocation MultipleStaples *MediaType Transparency 
+*UIConstraints :  *XRFold BiFold *MediaType Transparency 
+*UIConstraints :  *XRFold BiFoldStaple *MediaType Transparency 
+*UIConstraints :  *InputSlot Tray3 *MediaType TabStock 
+*UIConstraints :  *InputSlot Tray4 *MediaType TabStock 
+*UIConstraints :  *InputSlot Tray5 *MediaType TabStock 
+*UIConstraints :  *Duplex DuplexNoTumble *MediaType TabStock 
+*UIConstraints :  *Duplex DuplexTumble *MediaType TabStock 
+*UIConstraints :  *XRFold BiFold *MediaType TabStock 
+*UIConstraints :  *XRFold BiFoldStaple *MediaType TabStock 
+*UIConstraints :  *Collate False *MediaType TabStock 
+
+
+
+
+*UIConstraints :  *InputSlot Tray3 *MediaType Labels 
+*UIConstraints :  *InputSlot Tray4 *MediaType Labels 
+*UIConstraints :  *InputSlot Tray5 *MediaType Labels 
+*UIConstraints :  *Duplex DuplexNoTumble *MediaType Labels 
+*UIConstraints :  *Duplex DuplexTumble *MediaType Labels 
+*UIConstraints :  *XRPunch HolePunch *MediaType Labels 
+*UIConstraints :  *StapleLocation SinglePortrait *MediaType Labels 
+*UIConstraints :  *StapleLocation DualLandscape *MediaType Labels 
+*UIConstraints :  *StapleLocation MultipleStaples *MediaType Labels 
+*UIConstraints :  *XRFold BiFold *MediaType Labels 
+*UIConstraints :  *XRFold BiFoldStaple *MediaType Labels 
+*UIConstraints :  *OutputBin Stacker *MediaType Labels 
+
+*UIConstraints : *InputSlot Tray1 *MediaType LightGlossy
+*UIConstraints : *InputSlot Tray2 *MediaType LightGlossy
+*UIConstraints : *InputSlot Tray3 *MediaType LightGlossy
+*UIConstraints : *InputSlot Tray5 *MediaType LightGlossy
+*UIConstraints : *OutputBin Stacker *MediaType LightGlossy
+*UIConstraints : *OutputBin Booklet *MediaType LightGlossy
+*UIConstraints : *XRPunch HolePunch *MediaType LightGlossy
+*UIConstraints : *StapleLocation SinglePortrait *MediaType LightGlossy
+*UIConstraints : *StapleLocation DualLandscape *MediaType LightGlossy
+*UIConstraints : *StapleLocation MultipleStaples *MediaType LightGlossy
+*UIConstraints : *Option10 *MediaType LightGlossy
+
+*UIConstraints :  *InputSlot Tray3 *MediaType Envelopes 
+*UIConstraints :  *InputSlot Tray4 *MediaType Envelopes 
+*UIConstraints :  *InputSlot Tray5 *MediaType Envelopes 
+*UIConstraints :  *Duplex DuplexNoTumble *MediaType Envelopes 
+*UIConstraints :  *Duplex DuplexTumble *MediaType Envelopes 
+*UIConstraints :  *XRPunch HolePunch *MediaType Envelopes 
+*UIConstraints :  *StapleLocation SinglePortrait *MediaType Envelopes 
+*UIConstraints :  *StapleLocation DualLandscape *MediaType Envelopes 
+*UIConstraints :  *StapleLocation MultipleStaples *MediaType Envelopes 
+*UIConstraints :  *XRFold BiFold *MediaType Envelopes 
+*UIConstraints :  *XRFold BiFoldStaple *MediaType Envelopes 
+*UIConstraints :  *OutputBin Stacker *MediaType Envelopes 
+*UIConstraints :  *OutputBin Booklet *MediaType Envelopes 
+
+*UIConstraints : *OutputBin Booklet *MediaType Custom1
+*UIConstraints : *XRPunch HolePunch *MediaType Custom1
+*UIConstraints : *StapleLocation SinglePortrait *MediaType Custom1
+*UIConstraints : *StapleLocation DualLandscape *MediaType Custom1
+*UIConstraints : *StapleLocation MultipleStaples *MediaType Custom1
+*UIConstraints : *Option10 *MediaType Custom1
+
+*UIConstraints : *OutputBin Booklet *MediaType Custom2
+*UIConstraints : *XRPunch HolePunch *MediaType Custom2
+*UIConstraints : *StapleLocation SinglePortrait *MediaType Custom2
+*UIConstraints : *StapleLocation DualLandscape *MediaType Custom2
+*UIConstraints : *StapleLocation MultipleStaples *MediaType Custom2
+*UIConstraints : *Option10 *MediaType Custom2
+
+*UIConstraints : *OutputBin Booklet *MediaType Custom3
+*UIConstraints : *XRPunch HolePunch *MediaType Custom3
+*UIConstraints : *StapleLocation SinglePortrait *MediaType Custom3
+*UIConstraints : *StapleLocation DualLandscape *MediaType Custom3
+*UIConstraints : *StapleLocation MultipleStaples *MediaType Custom3
+*UIConstraints : *Option10 *MediaType Custom3
+
+*UIConstraints : *OutputBin Booklet *MediaType Custom4
+*UIConstraints : *XRPunch HolePunch *MediaType Custom4
+*UIConstraints : *StapleLocation SinglePortrait *MediaType Custom4
+*UIConstraints : *StapleLocation DualLandscape *MediaType Custom4
+*UIConstraints : *StapleLocation MultipleStaples *MediaType Custom4
+*UIConstraints : *Option10 *MediaType Custom4
+
+*UIConstraints : *OutputBin Booklet *MediaType Custom5
+*UIConstraints : *XRPunch HolePunch *MediaType Custom5
+*UIConstraints : *StapleLocation SinglePortrait *MediaType Custom5
+*UIConstraints : *StapleLocation DualLandscape *MediaType Custom5
+*UIConstraints : *StapleLocation MultipleStaples *MediaType Custom5
+*UIConstraints : *Option10 *MediaType Custom5
+
+*UIConstraints : *OutputBin Booklet *MediaType Custom6
+*UIConstraints : *XRPunch HolePunch *MediaType Custom6
+*UIConstraints : *StapleLocation SinglePortrait *MediaType Custom6
+*UIConstraints : *StapleLocation DualLandscape *MediaType Custom6
+*UIConstraints : *StapleLocation MultipleStaples *MediaType Custom6
+*UIConstraints : *Option10 *MediaType Custom6
+
+*UIConstraints : *OutputBin Booklet *MediaType Custom7
+*UIConstraints : *XRPunch HolePunch *MediaType Custom7
+*UIConstraints : *StapleLocation SinglePortrait *MediaType Custom7
+*UIConstraints : *StapleLocation DualLandscape *MediaType Custom7
+*UIConstraints : *StapleLocation MultipleStaples *MediaType Custom7
+*UIConstraints : *Option10 *MediaType Custom7
+
+
+*UIConstraints :  *OutputBin Middle *StapleLocation SinglePortrait 
+*UIConstraints :  *OutputBin Top *StapleLocation SinglePortrait 
+*UIConstraints :  *OutputBin Booklet *StapleLocation SinglePortrait 
+*UIConstraints :  *XRFold BiFold *StapleLocation SinglePortrait 
+*UIConstraints :  *XRFold BiFoldStaple *StapleLocation SinglePortrait 
+*UIConstraints :  *OutputBin Middle *StapleLocation DualLandscape 
+*UIConstraints :  *OutputBin Top *StapleLocation DualLandscape 
+*UIConstraints :  *OutputBin Booklet *StapleLocation DualLandscape 
+*UIConstraints :  *XRFold BiFold *StapleLocation DualLandscape 
+*UIConstraints :  *XRFold BiFoldStaple *StapleLocation DualLandscape 
+*UIConstraints :  *OutputBin Middle *StapleLocation MultipleStaples 
+*UIConstraints :  *OutputBin Top *StapleLocation MultipleStaples 
+*UIConstraints :  *OutputBin Booklet *StapleLocation MultipleStaples 
+*UIConstraints :  *XRFold BiFold *StapleLocation MultipleStaples 
+*UIConstraints :  *XRFold BiFoldStaple *StapleLocation MultipleStaples 
+*UIConstraints :  *OutputBin Middle *XRFold BiFold 
+*UIConstraints :  *OutputBin Top *XRFold BiFold 
+*UIConstraints :  *OutputBin Stacker *XRFold BiFold 
+
+*UIConstraints :  *OutputBin Middle *XRFold BiFoldStaple 
+*UIConstraints :  *OutputBin Top *XRFold BiFoldStaple 
+*UIConstraints :  *OutputBin Stacker *XRFold BiFoldStaple 
+
+*UIConstraints :  *OutputBin Middle *XRPunch HolePunch 
+*UIConstraints :  *OutputBin Booklet *XRPunch HolePunch 
+*UIConstraints :  *StapleLocation MultipleStaples *XRPunch HolePunch 
+*UIConstraints :  *XRFold BiFold *XRPunch HolePunch 
+*UIConstraints :  *XRFold BiFoldStaple *XRPunch HolePunch 
+
+*UIConstraints : *OutputBin Stacker *PageRegion TabloidExtra
+*UIConstraints : *XRPunch HolePunch *PageRegion TabloidExtra
+*UIConstraints : *StapleLocation SinglePortrait *PageRegion TabloidExtra
+*UIConstraints : *StapleLocation DualLandscape *PageRegion TabloidExtra
+
+*UIConstraints : *OutputBin Booklet *PageRegion B4 
+*UIConstraints : *XRPunch HolePunch *PageRegion B4 
+*UIConstraints : *OutputBin Booklet *PageSize B4 
+*UIConstraints : *XRPunch HolePunch *PageSize B4 
+
+
+*% AUTOGENERATED CONSTRAINTS END
+*% Input Slot
+*OpenUI *InputSlot/Paper Tray: PickOne
+*OrderDependency: 46.5 AnySetup *InputSlot
+*DefaultInputSlot: Tray1
+*InputSlot Tray1/Tray 1: "
+        (<<) cvx exec /ManualFeed false (>>) cvx exec setpagedevice
+    	(<<) cvx exec /MediaPosition 1 (>>) cvx exec setpagedevice
+		(<<) cvx exec /MediaType (Unspecified) (>>) cvx exec setpagedevice
+		(<<) cvx exec /MediaColor (Unspecified) (>>) cvx exec setpagedevice"
+*End
+*InputSlot Tray2/Tray 2: "
+        (<<) cvx exec /ManualFeed false (>>) cvx exec setpagedevice
+        (<<) cvx exec /MediaPosition 2 (>>) cvx exec setpagedevice
+		(<<) cvx exec /MediaType (Unspecified) (>>) cvx exec setpagedevice
+		(<<) cvx exec /MediaColor (Unspecified) (>>) cvx exec setpagedevice"
+*End
+*InputSlot Tray3/Tray 3: "
+        (<<) cvx exec /ManualFeed false (>>) cvx exec setpagedevice
+        (<<) cvx exec /MediaPosition 3 (>>) cvx exec setpagedevice
+		(<<) cvx exec /MediaType (Unspecified) (>>) cvx exec setpagedevice
+		(<<) cvx exec /MediaColor (Unspecified) (>>) cvx exec setpagedevice"
+*End
+*InputSlot Tray4/Tray 4(Bypass): "
+         (<<) cvx exec /ManualFeed true (>>) cvx exec setpagedevice
+        (<<) cvx exec /MediaType (Unspecified) (>>) cvx exec setpagedevice
+		(<<) cvx exec /MediaColor (Unspecified) (>>) cvx exec setpagedevice"
+
+*End
+*InputSlot Tray5/Tray 5: "
+        (<<) cvx exec /ManualFeed false (>>) cvx exec setpagedevice
+        (<<) cvx exec /MediaPosition 5 (>>) cvx exec setpagedevice
+		(<<) cvx exec /MediaType (Unspecified) (>>) cvx exec setpagedevice
+		(<<) cvx exec /MediaColor (Unspecified) (>>) cvx exec setpagedevice"
+*End
+*InputSlot Tray6/Tray 6 (Inserter): "
+        (<<) cvx exec /ManualFeed false (>>) cvx exec setpagedevice
+        (<<) cvx exec /MediaPosition 6 (>>) cvx exec setpagedevice
+		(<<) cvx exec /MediaType (Unspecified) (>>) cvx exec setpagedevice
+		(<<) cvx exec /MediaColor (Unspecified) (>>) cvx exec setpagedevice"
+*End
+*CloseUI: *InputSlot
+
+*OpenGroup: PrintQuality/Print Quality/Color				
+*OpenUI *XRXColor/Color Correction: PickOne
+*OrderDependency: 48.0 AnySetup *XRXColor
+*DefaultXRXColor: Automatic
+*XRXColor Automatic/Automatic: "
+   xerox$VirtualColorDevice begin
+     /Type 3 def
+     /ColorTransform /Automatic def
+   end
+"
+*End
+
+*XRXColor BW/Black and White: "
+   xerox$VirtualColorDevice begin
+     /Type 1 def
+     /ColorTransform /Gray def
+   end
+   <<
+     /ProcessColorModel /DeviceGray
+   >> xerox$pagedevice copy pop
+"
+*End
+
+*CloseUI: *XRXColor
+
+
+*% === Image Smoothing =====================
+*OpenUI *XRXImageSmoothing/Image Smoothing: Boolean
+*OrderDependency: 68.99 AnySetup *XRXImageSmoothing
+*DefaultXRXImageSmoothing: False
+*XRXImageSmoothing False/Off: "
+   false /RRCustomProcs /ProcSet findresource /setforceinterpolate get exec
+   xerox$pageSizeDone {xerox$pagedevice xerox$setpagedevice} if
+   userdict /xerox$smoothingDone true put
+"
+*End
+*XRXImageSmoothing True/On: "
+   true /RRCustomProcs /ProcSet findresource /setforceinterpolate get exec
+   xerox$pageSizeDone {xerox$pagedevice xerox$setpagedevice} if
+   userdict /xerox$smoothingDone true put
+"
+*End
+*CloseUI: *XRXImageSmoothing
+
+*% === Use Printer Halftones =====================
+*OpenUI *XRXUsePrinterHalftones/Use Printer Halftones: Boolean
+*OrderDependency: 52.0 AnySetup *XRXUsePrinterHalftones
+*DefaultXRXUsePrinterHalftones: True
+*XRXUsePrinterHalftones False/Off: "
+   <</HalftoneMode 0>> setuserparams
+"
+*End
+*XRXUsePrinterHalftones True/On: "
+   <</HalftoneMode 1>> setuserparams
+"
+*End
+*CloseUI: *XRXUsePrinterHalftones
+
+*% === Print Settings On Page =====================
+*OpenUI *XRXPrintSettingsOnPage/Print Settings On Page: Boolean
+*OrderDependency: 52.0 AnySetup *XRXPrintSettingsOnPage
+*DefaultXRXPrintSettingsOnPage: False
+*XRXPrintSettingsOnPage False/Off: "
+"
+*End
+*XRXPrintSettingsOnPage True/On: "
+   /SideBar1 /DocBox findresource exec
+"
+*End
+*CloseUI: *XRXPrintSettingsOnPage
+*CloseGroup: PrintQuality
+
+*OpenGroup:MediaOptions/Media Options
+*% Page Size
+*OpenUI *PageSize/Page Size: PickOne
+*OrderDependency: 47.0 AnySetup *PageSize
+*DefaultPageSize: Letter
+*PageSize Letter/Letter (8.5 x 11"): "
+    (<<) cvx exec /PageSize [612 791] /ImagingBBox null (>>) cvx exec setpagedevice"
+*End
+*PageSize Legal/Legal (8.5 x 14"): "
+    (<<) cvx exec /PageSize [612 1009] /ImagingBBox null (>>) cvx exec setpagedevice"
+*End
+*PageSize Tabloid/Tabloid (11 x 17"): "
+    (<<) cvx exec /PageSize [792 1225] /ImagingBBox null (>>) cvx exec setpagedevice"
+*End
+*PageSize Statement/Statement (5.5 x 8.5"): "
+    (<<) cvx exec /PageSize [396 612] /ImagingBBox null (>>) cvx exec setpagedevice"
+*End
+*PageSize Executive/Executive (7.25 x 10.5"): "
+    (<<) cvx exec /PageSize [522 756] /ImagingBBox null (>>) cvx exec setpagedevice"
+*End
+*PageSize FanFoldGermanLegal/8.5 x 13": "
+    (<<) cvx exec /PageSize [612 935] /ImagingBBox null (>>) cvx exec setpagedevice"
+*End
+*PageSize 9x11/LetterTab (9 x 11"): "
+    (<<) cvx exec /PageSize [649 791] /ImagingBBox null (>>) cvx exec setpagedevice"
+*End
+*PageSize TabloidExtra/Oversized Tabloid (12 x 18"): "
+    (<<) cvx exec /PageSize [864 1296] /ImagingBBox null (>>) cvx exec setpagedevice"
+*End
+*PageSize A4/A4 (210 x 297 mm): "
+    (<<) cvx exec /PageSize [595 842] /ImagingBBox null (>>) cvx exec setpagedevice"
+*End
+*PageSize A3/A3 (297 x 420 mm): "
+    (<<) cvx exec /PageSize [842 1191] /ImagingBBox null (>>) cvx exec setpagedevice"
+*End
+*PageSize A5/A5 (148 x 210 mm): "
+    (<<) cvx exec /PageSize [425 595] /ImagingBBox null (>>) cvx exec setpagedevice"
+*End
+*PageSize B4/B4 (250 x 353 mm): "
+    (<<) cvx exec /PageSize [709 1001] /ImagingBBox null (>>) cvx exec setpagedevice"
+*End
+*PageSize B5/B5 (176 x 250 mm): "
+    (<<) cvx exec /PageSize [499 709] /ImagingBBox null (>>) cvx exec setpagedevice"
+*End
+*PageSize JISB4/JIS B4 (257 x 364 mm): "
+    (<<) cvx exec /PageSize [729 1032] /ImagingBBox null (>>) cvx exec setpagedevice"
+*End
+*PageSize JISB5/JIS B5 (182 x 257 mm): "
+    (<<) cvx exec /PageSize [516 729] /ImagingBBox null (>>) cvx exec setpagedevice"
+*End
+*PageSize A4Tab/A4 Tab (225 x 297 mm): "
+    (<<) cvx exec /PageSize [638 842] /ImagingBBox null (>>) cvx exec setpagedevice"
+*End
+*PageSize SRA3/SRA3 (320 x 450 mm): "
+    (<<) cvx exec /PageSize [907 1276] /ImagingBBox null (>>) cvx exec setpagedevice"
+*End
+*PageSize EnvC4/C4 Envelope(229 x 324): "
+    (<<) cvx exec /PageSize [649 919] /ImagingBBox null (>>) cvx exec setpagedevice
+    (<<) cvx exec /MediaType (Envelopes) (>>) cvx exec setpagedevice
+    (<<) cvx exec /OutputFaceUp true (>>) cvx exec setpagedevice"
+*End
+
+*PageSize EnvC5/C5 Envelope (162 x 229 mm): "
+    (<<) cvx exec /PageSize [459 649] /ImagingBBox null (>>) cvx exec setpagedevice"
+*End
+*PageSize EnvDL/DL Envelope(110 x 220 mm): "
+    (<<) cvx exec /PageSize [312 624] /ImagingBBox null (>>) cvx exec setpagedevice"
+*End
+*PageSize Env6x9/Envelope (6 x 9"): "
+    (<<) cvx exec /PageSize [432 648] /ImagingBBox null (>>) cvx exec setpagedevice"
+*End
+*PageSize Env9x12/Envelope (9 x 12"): "
+    (<<) cvx exec /PageSize [648 864] /ImagingBBox null (>>) cvx exec setpagedevice"
+*End
+*PageSize Env10/No. 10 Envelope  (4.125 x 9.5"): "
+    (<<) cvx exec /PageSize [297 684] /ImagingBBox null (>>) cvx exec setpagedevice"
+*End
+*CloseUI: *PageSize
+*% Page Region
+*OpenUI *PageRegion/Page Region: PickOne
+*OrderDependency: 48.0 AnySetup *PageRegion
+*DefaultPageRegion: Letter
+*PageRegion Letter/Letter (8.5 x 11"): "
+    (<<) cvx exec /PageSize [612 792] /ImagingBBox null (>>) cvx exec setpagedevice"
+*End
+*PageRegion Legal/Legal (8.5 x 14"): "
+    (<<) cvx exec /PageSize [612 1008] /ImagingBBox null (>>) cvx exec setpagedevice"
+*End
+*PageRegion Tabloid/Tabloid (11 x 17"): "
+    (<<) cvx exec /PageSize [792 1224] /ImagingBBox null (>>) cvx exec setpagedevice"
+*End
+*PageRegion Statement/Statement (5.5 x 8.5"): "
+    (<<) cvx exec /PageSize [396 612] /ImagingBBox null (>>) cvx exec setpagedevice"
+*End
+*PageRegion Executive/Executive (7.25 x 10.5"): "
+    (<<) cvx exec /PageSize [522 756] /ImagingBBox null (>>) cvx exec setpagedevice"
+*End
+*PageRegion FanFoldGermanLegal/8.5 x 13": "
+    (<<) cvx exec /PageSize [612 936] /ImagingBBox null (>>) cvx exec setpagedevice"
+*End
+*PageRegion 9x11/Letter Tab (9 x 11"): "
+    (<<) cvx exec /PageSize [648 792] /ImagingBBox null (>>) cvx exec setpagedevice"
+*End
+*PageRegion TabloidExtra/Oversized Tabloid (12 x 18"): "
+    (<<) cvx exec /PageSize [864 1296] /ImagingBBox null (>>) cvx exec setpagedevice"
+*End
+*PageRegion A4/A4 (210 x 297 mm): "
+    (<<) cvx exec /PageSize [595 842] /ImagingBBox null (>>) cvx exec setpagedevice"
+*End
+*PageRegion A3/A3 (297 x 420 mm): "
+    (<<) cvx exec /PageSize [842 1191] /ImagingBBox null (>>) cvx exec setpagedevice"
+*End
+*PageRegion A5/A5 (148 x 210 mm): "
+    (<<) cvx exec /PageSize [420 595] /ImagingBBox null (>>) cvx exec setpagedevice"
+*End
+*PageRegion B4/B4 (250 x 353 mm): "
+    (<<) cvx exec /PageSize [709 1001] /ImagingBBox null (>>) cvx exec setpagedevice"
+*End
+*PageRegion B5/B5 (176 x 250 mm): "
+    (<<) cvx exec /PageSize [499 709] /ImagingBBox null (>>) cvx exec setpagedevice"
+*End
+*PageRegion JISB4/JIS B4 (257 x 364 mm): "
+    (<<) cvx exec /PageSize [729 1032] /ImagingBBox null (>>) cvx exec setpagedevice"
+*End
+*PageRegion JISB5/JIS B5 (182 x 257 mm): "
+    (<<) cvx exec /PageSize [516 729] /ImagingBBox null (>>) cvx exec setpagedevice"
+*End
+*PageRegion A4Tab/A4 Tab (225 x 297 mm): "
+    (<<) cvx exec /PageSize [638 842] /ImagingBBox null (>>) cvx exec setpagedevice"
+*End
+*PageRegion SRA3/SRA3 (320 x 450 mm): "
+    (<<) cvx exec /PageSize [907 1276] /ImagingBBox null (>>) cvx exec setpagedevice"
+*End
+*PageRegion EnvC4/C4 Envelope (324 x 229): "
+    (<<) cvx exec /PageSize [649 919] /ImagingBBox null (>>) cvx exec setpagedevice
+    (<<) cvx exec /MediaType (Envelopes) (>>) cvx exec setpagedevice
+    (<<) cvx exec /OutputFaceUp true (>>) cvx exec setpagedevice"
+*End
+*PageRegion EnvC5/C5 Envelope (162 x 229 mm): "
+    (<<) cvx exec /PageSize [459 649] /ImagingBBox null (>>) cvx exec setpagedevice"
+*End
+*PageRegion EnvDL/DL Envelope (110 x 220 mm): "
+    (<<) cvx exec /PageSize [312 624] /ImagingBBox null (>>) cvx exec setpagedevice"
+*End
+*PageRegion Env6x9/Envelope (6 x 9"): "
+    (<<) cvx exec /PageSize [432 648] /ImagingBBox null (>>) cvx exec setpagedevice"
+*End
+*PageRegion Env9x12/Envelope (9 x 12"): "
+    (<<) cvx exec /PageSize [648 864] /ImagingBBox null (>>) cvx exec setpagedevice"
+*End
+*PageRegion Env10/No. 10Envelope  (4.125 x 9.5"): "
+    (<<) cvx exec /PageSize [297 684] /ImagingBBox null (>>) cvx exec setpagedevice"
+*End
+*CloseUI: *PageRegion
+
+
+*% Imageable Area
+*DefaultImageableArea: Letter
+*ImageableArea Letter/Letter (8.5 x 11"): "11.34 11.34 600.66 780.66"
+*ImageableArea Legal/Legal (8.5 x 14"): "11.34 11.34 600.66 996.66"
+*ImageableArea Tabloid/Tabloid (11 x 17"): "11.34 11.34 780.66 1212.66"
+*ImageableArea Statement/Statement (5.5 x 8.5"): "11.34 11.34 384.66 600.66"
+*ImageableArea Executive/Executive (7.25 x 10.5"): "11.34 11.34 510.66 744.66"
+*ImageableArea FanFoldGermanLegal/8.5 x 13": "11.34 11.34 600.66 924.66"
+*ImageableArea 9x11/Letter Tab (9 x 11"): "11.34 11.34 636.66 780.66"
+*ImageableArea TabloidExtra/Oversized Tabloid (12 x 18"): "11.62 11.62 852.38 1284.38 "
+*ImageableArea A4/A4 (210 x 297 mm): "11.34 11.34 583.66 830.66"
+*ImageableArea A3/A3 (297 x 420 mm): "11.34 11.34 830.66 1179.66"
+*ImageableArea A5/A5 (148 x 210 mm): "11.34 11.34 408.66 583.66"
+*ImageableArea B4/B4 (250 x 353 mm): "11.34 11.34 697.66 989.66"
+*ImageableArea B5/B5 (176 x 250 mm): "11.34 11.34 487.66 697.66"
+*ImageableArea JISB4/JIS B4 (257 x 364 mm): "11.34 11.34 717.66 1020.66"
+*ImageableArea JISB5/JIS B5 (182 x 257 mm): "11.34 11.34 504.66 717.66"
+*ImageableArea A4Tab/A4 Tab (225 x 297 mm): "11.34 11.34 620.66 830.66"
+*ImageableArea SRA3/SRA3 (320 x 450 mm): "11.34 11.34 895.66 1264.66"
+*ImageableArea EnvC4/C4 Envelope (324 x 229): "11.34 11.34 637.66 906.66"
+*ImageableArea EnvC5/C5 Envelope (162 x 229 mm): "11.34 11.34 447.66 637.66"
+*ImageableArea EnvDL/DL Envelope (110 x 220 mm): "11.34 11.34 300.66 612.66"
+*ImageableArea Env6x9/Envelope (6 x 9"): "11.34 11.34 300.66 612.66"
+*ImageableArea Env9x12/Envelope (9 x 12"): "11.34 11.34 300.66 612.66"
+*ImageableArea Env10/No. 10 Envelope (4.125 x 9.5"): "11.34 11.34 285.66 672.66"
+
+*% Paper Dimension
+*DefaultPaperDimension: Letter
+*PaperDimension Letter/Letter (8.5 x 11"): "612 792"
+*PaperDimension Legal/Legal (8.5 x 14"): "612 1008"
+*PaperDimension Tabloid/Tabloid (11 x 17"): "792 1224"
+*PaperDimension Statement/Statement (5.5 x 8.5"): "396 612"
+*PaperDimension Executive/Executive (7.25 x 10.5"):"522 756"
+*PaperDimension FanFoldGermanLegal/8.5 x 13":"612 936"
+*PaperDimension 9x11/Letter Tab (9 x 11"):"648 792"
+*PaperDimension TabloidExtra/Oversized Tabloid (12 x 18"): "864 1296"
+*PaperDimension A4/A4 (210 x 297 mm): "595 842"
+*PaperDimension A3/A3 (297 x 420 mm): "842 1191"
+*PaperDimension A5/A5 (148 x 210 mm): "420 595"
+*PaperDimension B4/B4 (250 x 353 mm): "709 1001"
+*PaperDimension B5/B5 (176 x 250 mm): "499 709"
+*PaperDimension JISB4/JIS B4 (257 x 364 mm): "729 1032"
+*PaperDimension JISB5/JIS B5 (182 x 257 mm):"516 729"
+*PaperDimension A4Tab/A4 Tab: "638 842"
+*PaperDimension SRA3/SRA3: "907 1276"
+*PaperDimension EnvC4/C4 Envelope (324 x 229): "649 919"
+*PaperDimension EnvC5/C5 Envelope (162 x 229mm): "459 649"
+*PaperDimension EnvDL/DL Envelope (110 x 220 mm): "312 624"
+*PaperDimension Env6x9/Envelope (6 x 9"): "432 648"
+*PaperDimension Env9x12/Envelope (9 x 12"): "648 864"
+*PaperDimension Env10/No. 10 Envelope  (4.125 x 9.5"): "297 684"
+
+
+*% Custom Paper Sizes
+*VariablePaperSize: True
+*NonUIOrderDependency: 46.5 AnySetup *CustomPageSize
+*ParamCustomPageSize Width/Width: 1 points 295 907
+*ParamCustomPageSize Height/Height: 2 points 595 1295
+*ParamCustomPageSize WidthOffset: 3 points 0 0
+*ParamCustomPageSize HeightOffset: 4 points 0 0
+*ParamCustomPageSize Orientation: 5 int 0 1
+*HWMargins: 0 0 0 0
+*CustomPageSize True: "
+        pop pop pop
+        2 dict begin
+                2 array astore
+                /PageSize exch def
+                /ImagingBBox null def
+                currentdict
+        end
+        setpagedevice"
+*End
+*MaxMediaWidth: "907"
+*MaxMediaHeight: "1295"
+*%
+*OpenSubGroup: MediaSelection/Media Attributes
+
+*% Media Type
+*OpenUI *MediaType/Paper Type: PickOne
+*OrderDependency: 45.0 AnySetup *MediaType
+*DefaultMediaType: SystemDefault
+*MediaType Unspecified/Automatically Select Type: "
+        (<<) cvx exec /MediaType (Unspecified) (>>) cvx exec setpagedevice"
+*End
+*MediaType SystemDefault/Printer Default Type: "
+        (<<) cvx exec /MediaType (System-Default) (>>) cvx exec setpagedevice"
+*End
+*MediaType Standard/Plain: "
+        (<<) cvx exec /MediaType (Standard) (>>) cvx exec setpagedevice"
+*End
+*MediaType Punched/Hole Punched: "
+        (<<) cvx exec /MediaType (Drilled) (>>) cvx exec setpagedevice"
+*End
+*MediaType Transparency/Transparency: "
+        (<<) cvx exec /MediaType (Transparency) (>>) cvx exec setpagedevice"
+*End
+*MediaType TabStock/Pre-Cut Tabs...: "
+        (<<) cvx exec /MediaType (PrecutTabs) (>>) cvx exec setpagedevice"
+*End
+*MediaType CardStock/Heavyweight: "
+        (<<) cvx exec /MediaType (LightCardStock) (>>) cvx exec setpagedevice"
+*End
+*MediaType CardStock/Extra Heavyweight: "
+        (<<) cvx exec /MediaType (CardStock) (>>) cvx exec setpagedevice"
+*End
+*MediaType Recycled/Recycled Paper: "
+        (<<) cvx exec /MediaType (Recycled) (>>) cvx exec setpagedevice"
+*End
+*MediaType Labels/Labels: "
+        (<<) cvx exec /MediaType (Labels) (>>) cvx exec setpagedevice"
+*End
+*MediaType PrePrinted/Pre-Printed: "
+        (<<) cvx exec /MediaType (Preprinted) (>>) cvx exec setpagedevice"
+*End
+*MediaType Envelopes/Envelope: "
+        (<<) cvx exec /MediaType (Envelopes) (>>) cvx exec setpagedevice"
+*End
+*MediaType LightGlossy/Gloss Coating: "
+        (<<) cvx exec /MediaType (LightGlossy) (>>) cvx exec setpagedevice"
+*End
+*MediaType Custom1/Custom Type 1: "
+        (<<) cvx exec /MediaType (Custom1) (>>) cvx exec setpagedevice"
+*End
+*MediaType Custom2/Custom Type 2: "
+        (<<) cvx exec /MediaType (Custom2) (>>) cvx exec setpagedevice"
+*End
+*MediaType Custom3/Custom Type 3: "
+        (<<) cvx exec /MediaType (Custom3) (>>) cvx exec setpagedevice"
+*End
+*MediaType Custom4/Custom Type 4: "
+        (<<) cvx exec /MediaType (Custom4) (>>) cvx exec setpagedevice"
+*End
+*MediaType Custom5/Custom Type 5: "
+        (<<) cvx exec /MediaType (Custom5) (>>) cvx exec setpagedevice"
+*End
+*MediaType Custom6/Custom Type 6: "
+        (<<) cvx exec /MediaType (Custom6) (>>) cvx exec setpagedevice"
+*End
+*MediaType Custom7/Custom Type 7: "
+        (<<) cvx exec /MediaType (Custom7) (>>) cvx exec setpagedevice"
+*End
+*CloseUI: *MediaType
+
+
+*% Media Color
+*OpenUI *MediaColor/Paper Color: PickOne
+*OrderDependency: 46.0 AnySetup *MediaColor
+*DefaultMediaColor: White
+*MediaColor Unspecified/Automatically Select Color: "
+        (<<) cvx exec /MediaType (Unspecified) (>>) cvx exec setpagedevice"
+*End
+*MediaColor PrinterDefaultColor/Printer Default Color: "
+        (<<) cvx exec /MediaType (System-Default) (>>) cvx exec setpagedevice"
+*End
+*MediaColor White/White: "
+        (<<) cvx exec /MediaColor (White) (>>) cvx exec setpagedevice"
+*End
+*MediaColor Blue/Blue: "
+        (<<) cvx exec /MediaColor (Blue) (>>) cvx exec setpagedevice"
+*End
+*MediaColor Yellow/Yellow: "
+        (<<) cvx exec /MediaColor (Yellow) (>>) cvx exec setpagedevice"
+*End
+*MediaColor Green/Green: "
+        (<<) cvx exec /MediaColor (Green) (>>) cvx exec setpagedevice"
+*End
+*MediaColor Pink/Pink: "
+        (<<) cvx exec /MediaColor (Pink) (>>) cvx exec setpagedevice"
+*End
+*MediaColor Clear/Clear(Transparency): "
+        (<<) cvx exec /MediaColor (Clear) (>>) cvx exec setpagedevice"
+*End
+*MediaColor Ivory/Ivory: "
+        (<<) cvx exec /MediaColor (Ivory) (>>) cvx exec setpagedevice"
+*End
+*MediaColor Gray/Gray: "
+        (<<) cvx exec /MediaColor (Gray) (>>) cvx exec setpagedevice"
+*End
+*MediaColor Buff/Buff: "
+        (<<) cvx exec /MediaColor (Buff) (>>) cvx exec setpagedevice"
+*End
+*MediaColor Goldenrod/Goldenrod: "
+        (<<) cvx exec /MediaColor (Goldenrod) (>>) cvx exec setpagedevice"
+*End
+*MediaColor Red/Red: "
+        (<<) cvx exec /MediaColor (Red) (>>) cvx exec setpagedevice"
+*End
+*MediaColor Orange/Orange: "
+        (<<) cvx exec /MediaColor (Orange) (>>) cvx exec setpagedevice"
+*End
+*MediaColor Custom1/Custom Color 1: "
+        (<<) cvx exec /MediaColor (Custom1) (>>) cvx exec setpagedevice"
+*End
+*MediaColor Custom2/Custom Color 2: "
+        (<<) cvx exec /MediaColor (Custom2) (>>) cvx exec setpagedevice"
+*End
+*MediaColor Custom3/Custom Color 3: "
+        (<<) cvx exec /MediaColor (Custom3) (>>) cvx exec setpagedevice"
+*End
+*MediaColor Custom4/Custom Color 4: "
+        (<<) cvx exec /MediaColor (Custom4) (>>) cvx exec setpagedevice"
+*End
+*MediaColor Custom5/Custom Color 5: "
+        (<<) cvx exec /MediaColor (Custom5) (>>) cvx exec setpagedevice"
+*End
+*MediaColor Custom6/Custom Color 6: "
+        (<<) cvx exec /MediaColor (Custom6) (>>) cvx exec setpagedevice"
+*End
+*MediaColor Custom7/Custom Color 7: "
+        (<<) cvx exec /MediaColor (Custom7) (>>) cvx exec setpagedevice"
+*End
+*MediaColor Other/Other Color: "
+        (<<) cvx exec /MediaColor (Other) (>>) cvx exec setpagedevice"
+*End
+*CloseUI: *MediaColor
+*CloseSubGroup: MediaSelection/Media Attributes
+*% End Media Group Options
+*CloseGroup: MediaOptions
+*% Landscape Orientation
+*LandscapeOrientation: Plus90
+*% RequiresPageRegion
+*RequiresPageRegion All: True
+
+*%  ----------Begin Finishing Group----------
+*OpenGroup: XRXFinishing/Finishing Options
+*%Output Destination
+*OpenUI *OutputBin/Output Bin: PickOne
+*OrderDependency: 60.0 AnySetup *OutputBin
+*DefaultOutputBin: Auto
+*OutputBin Auto/Automatically Select: ""
+*OutputBin Middle/Offset Catch Tray: "
+        (<<) cvx exec /OutputType (SideTray) (>>) cvx exec setpagedevice"
+*End
+*OutputBin Top/Top Tray: "
+        (<<) cvx exec /OutputType (TopTray) (>>) cvx exec setpagedevice"
+*End
+*OutputBin Stacker/Stacker Tray: "
+        (<<) cvx exec /OutputType (Stacker) (>>) cvx exec setpagedevice"
+*End
+*OutputBin Booklet/Booklet Maker Bin: ""
+*CloseUI: *OutputBin
+
+*% XROutputOption
+*OpenUI *XROutputOption/Output Options: PickOne
+*OrderDependency: 66.0 AnySetup *XROutputOption
+*DefaultXROutputOption: False
+*XROutputOption True/Face Up: "
+	  (<<) cvx exec /Staple 0 (>>) cvx exec setpagedevice
+      (<<) cvx exec /Duplex false /Tumble false (>>) cvx exec setpagedevice
+	  << /OutputFaceUp true >> setpagedevice"
+*End
+*XROutputOption False/Face Down: "
+      << /OutputFaceUp false >> setpagedevice"
+*End
+*CloseUI: *XROutputOption
+
+*%Duplex
+*OpenUI *Duplex/2-Sided Printing: PickOne
+*OrderDependency: 50.0 AnySetup *Duplex
+*DefaultDuplex: None
+*Duplex None/1-Sided Print: "
+        (<<) cvx exec /Duplex false /Tumble false (>>) cvx exec setpagedevice"
+*End
+*Duplex DuplexNoTumble/2-Sided Print: "
+        (<<) cvx exec /Duplex true /Tumble false (>>) cvx exec setpagedevice"
+*End
+*Duplex DuplexTumble/2-Sided Print, Flip on Short Edge: "
+        (<<) cvx exec /Duplex true /Tumble true (>>) cvx exec setpagedevice"
+*End
+*CloseUI: *Duplex
+
+*% Jog
+*OpenUI *Jog/Request Set Offset: PickOne
+*OrderDependency: 43.0 AnySetup *Jog
+*DefaultJog: EndOfSet
+*Jog None/No Offset: "
+      (<<) cvx exec /Jog 0 (>>) cvx exec setpagedevice"
+*End
+*Jog EndOfSet/Offset Each Set: "
+      (<<) cvx exec /Jog 3 (>>) cvx exec setpagedevice"
+*End
+*CloseUI: *Jog
+
+*% Collate 
+*OpenUI *Collate/Collate: PickOne
+*OrderDependency: 54.0 AnySetup *Collate
+*DefaultCollate: True
+*Collate True/Collated: "
+      << /Collate true >> setpagedevice"
+*End
+*Collate False/Uncollated: "
+      << /Collate false >> setpagedevice"
+*End
+*CloseUI: *Collate
+
+*% Stapling -
+*OpenUI *StapleLocation/Stapling: PickOne
+*OrderDependency: 55.0 AnySetup *StapleLocation
+*DefaultStapleLocation: None
+*StapleLocation None/No Staple: "
+        (<<) cvx exec /Staple 0 (>>) cvx exec setpagedevice"
+*End
+*StapleLocation SinglePortrait/1 Staple: "		
+        (<<) cvx exec /Staple 3 (>>) cvx exec setpagedevice
+        (<<) cvx exec /StapleDetails (<<) cvx exec /Type 1 /StapleLocation (SinglePortrait) (>>) cvx exec (>>) cvx exec setpagedevice"
+*End
+*StapleLocation DualLandscape/2 Staples: "		
+        (<<) cvx exec /Staple 3 (>>) cvx exec setpagedevice
+        (<<) cvx exec /StapleDetails (<<) cvx exec /Type 1 /StapleLocation (DualLandscape) (>>) cvx exec (>>) cvx exec setpagedevice"
+*End
+*StapleLocation MultipleStaples/Multiple Staples: "		
+        (<<) cvx exec /Staple 3 (>>) cvx exec setpagedevice
+        (<<) cvx exec /StapleDetails (<<) cvx exec /Type 1 /StapleLocation (Multiple) (>>) cvx exec (>>) cvx exec setpagedevice"
+*End
+*CloseUI: *StapleLocation
+
+*% XREconomode
+*OpenUI *XREconomode/Draft Mode: PickOne
+*OrderDependency: 43.0 AnySetup *XREconomode
+*DefaultXREconomode: None
+*XREconomode None/Normal: " 
+	(<<) cvx exec /PostRenderingEnhance true (>>) cvx exec setpagedevice
+	currentpagedevice
+	dup /PostRenderingEnhanceDetails known
+	{
+		/PostRenderingEnhanceDetails get
+		3 dict copy
+	}{
+		2 dict
+	}ifelse
+	dup /TonerSaver 0 put
+	dup /Type 33 put
+	1 dict dup 3 1 roll
+	/PostRenderingEnhanceDetails 3 -1 roll put
+	setpagedevice"
+*End
+*XREconomode Draft/Conserve dry ink:"
+	(<<) cvx exec /PostRenderingEnhance true (>>) cvx exec setpagedevice
+	currentpagedevice
+	dup /PostRenderingEnhanceDetails known
+	{
+		/PostRenderingEnhanceDetails get
+		3 dict copy
+	}{
+		2 dict
+	}ifelse
+	dup /TonerSaver 1 put
+	dup /Type 33 put
+	1 dict dup 3 1 roll
+	/PostRenderingEnhanceDetails 3 -1 roll put
+	setpagedevice"
+*End
+*CloseUI: *XREconomode
+*% *XRImageQuality/Image Quality
+*OpenUI *XRImageQuality/Image Quality: PickOne
+*OrderDependency: 44.0 AnySetup *XRImageQuality
+*DefaultXRImageQuality: Normal
+*XRImageQuality Lighten3/Lighten -3: "
+	(<<) cvx exec /PostRenderingEnhance true (>>) cvx exec setpagedevice
+	currentpagedevice
+	dup /PostRenderingEnhanceDetails known
+	{
+		/PostRenderingEnhanceDetails get
+		3 dict copy
+	}{
+		2 dict
+	}ifelse
+	dup /DensityControl -3 put
+	dup /Type 33 put
+	1 dict dup 3 1 roll
+	/PostRenderingEnhanceDetails 3 -1 roll put
+	setpagedevice"
+*End
+*XRImageQuality Lighten2/Lighten -2: "
+    (<<) cvx exec /PostRenderingEnhance true (>>) cvx exec setpagedevice
+	currentpagedevice
+	dup /PostRenderingEnhanceDetails known
+	{
+		/PostRenderingEnhanceDetails get
+		3 dict copy
+	}{
+		2 dict
+	}ifelse
+	dup /DensityControl -2 put
+	dup /Type 33 put
+	1 dict dup 3 1 roll
+	/PostRenderingEnhanceDetails 3 -1 roll put
+	setpagedevice"
+*End
+*XRImageQuality Lighten1/Lighten -1: "
+    (<<) cvx exec /PostRenderingEnhance true (>>) cvx exec setpagedevice
+	currentpagedevice
+	dup /PostRenderingEnhanceDetails known
+	{
+		/PostRenderingEnhanceDetails get
+		3 dict copy
+	}{
+		2 dict
+	}ifelse
+	dup /DensityControl -1 put
+	dup /Type 33 put
+	1 dict dup 3 1 roll
+	/PostRenderingEnhanceDetails 3 -1 roll put
+	setpagedevice"
+*End
+*XRImageQuality Normal/Normal : "
+	(<<) cvx exec /PostRenderingEnhance true (>>) cvx exec setpagedevice
+	currentpagedevice
+	dup /PostRenderingEnhanceDetails known
+	{
+		/PostRenderingEnhanceDetails get
+		3 dict copy
+	}{
+		2 dict
+	}ifelse
+	dup /DensityControl 0 put
+	dup /Type 33 put
+	1 dict dup 3 1 roll
+	/PostRenderingEnhanceDetails 3 -1 roll put
+	setpagedevice"
+*End
+*XRImageQuality Darken1/Darken 1: "
+    (<<) cvx exec /PostRenderingEnhance true (>>) cvx exec setpagedevice
+	currentpagedevice
+	dup /PostRenderingEnhanceDetails known
+	{
+		/PostRenderingEnhanceDetails get
+		3 dict copy
+	}{
+		2 dict
+	}ifelse
+	dup /DensityControl 1 put
+	dup /Type 33 put
+	1 dict dup 3 1 roll
+	/PostRenderingEnhanceDetails 3 -1 roll put
+	setpagedevice"
+*End
+*XRImageQuality Darken2/Darken 2: "
+    (<<) cvx exec /PostRenderingEnhance true (>>) cvx exec setpagedevice
+	currentpagedevice
+	dup /PostRenderingEnhanceDetails known
+	{
+		/PostRenderingEnhanceDetails get
+		3 dict copy
+	}{
+		2 dict
+	}ifelse
+	dup /DensityControl 2 put
+	dup /Type 33 put
+	1 dict dup 3 1 roll
+	/PostRenderingEnhanceDetails 3 -1 roll put
+	setpagedevice"
+*End
+*XRImageQuality Darken3/Darken 3: "
+    (<<) cvx exec /PostRenderingEnhance true (>>) cvx exec setpagedevice
+	currentpagedevice
+	dup /PostRenderingEnhanceDetails known
+	{
+		/PostRenderingEnhanceDetails get
+		3 dict copy
+	}{
+		2 dict
+	}ifelse
+	dup /DensityControl 3 put
+	dup /Type 33 put
+	1 dict dup 3 1 roll
+	/PostRenderingEnhanceDetails 3 -1 roll put
+	setpagedevice"
+*End
+*CloseUI: *XRImageQuality
+
+*% Fold Options
+*OpenUI *XRFold/Fold: PickOne
+*OrderDependency: 50.0 AnySetup *XRFold
+*DefaultXRFold: None
+*XRFold None/None: ""
+*XRFold BiFold/Booklet Fold: "
+    (<<) cvx exec /LeadingEdge 2 (>>) cvx exec setpagedevice	
+    (<<) cvx exec /Booklet true (>>) cvx exec setpagedevice
+    (<<) cvx exec /BookletDetails (<<) cvx exec /Type 2 /Staples 0 (>>) cvx exec (>>) cvx exec setpagedevice"
+*End
+*XRFold BiFoldStaple/Booklet Fold and Staple: "
+    (<<) cvx exec /LeadingEdge 2 (>>) cvx exec setpagedevice	
+    (<<) cvx exec /Booklet true (>>) cvx exec setpagedevice
+    (<<) cvx exec /BookletDetails (<<) cvx exec /Type 2 /Staples 2 (>>) cvx exec (>>) cvx exec setpagedevice"
+*End
+*XRFold C/C Tri-Fold: "
+	(<<) cvx exec /LeadingEdge 2 (>>) cvx exec setpagedevice	
+    (<<) cvx exec /Fold 3 (>>) cvx exec setpagedevice
+    (<<) cvx exec /FoldDetails (<<) cvx exec /Type 5 /FoldMethod 1 (>>) cvx exec (>>) cvx exec setpagedevice
+"
+*End
+*XRFold Z/Z Tri-Fold: "
+    (<<) cvx exec /LeadingEdge 2 (>>) cvx exec setpagedevice	
+    (<<) cvx exec /Fold 3 (>>) cvx exec setpagedevice
+    (<<) cvx exec /FoldDetails (<<) cvx exec /Type 5 /FoldMethod 2 (>>) cvx exec (>>) cvx exec setpagedevice
+"
+*End
+*CloseUI: *XRFold
+*OpenUI *XRPunch/Hole Punch: PickOne
+*OrderDependency: 50.0 AnySetup *XRPunch
+*DefaultXRPunch: None
+*XRPunch None/None: ""
+*XRPunch HolePunch/Hole Punch: "
+    (<<) cvx exec /Punch 4 (>>) cvx exec setpagedevice
+    (<<) cvx exec /PunchDetails (<<) cvx exec /Type 6 /NumHoles 1 (>>) cvx exec (>>) cvx exec setpagedevice
+"
+*End
+*CloseUI: *XRPunch
+*% ----------Close finishing options----------
+*CloseGroup: XRXFinishing
+
+*% Halftone Info
+*DefaultHalftoneType: 3
+*ScreenFreq: "106.0"
+*ScreenAngle: "45.0"
+*DefaultScreenProc: Dot
+*ScreenProc Dot: "
+        { abs exch abs 2 copy add 1 gt { 1 sub dup mul exch 1 sub dup mul add 1 sub }
+        { dup mul exch dup mul add 1 exch sub } ifelse }
+"
+*End
+*ScreenProc Line: "
+        { pop }
+"
+*End
+*ScreenProc Ellipse: "
+        { dup 5 mul 8 div mul exch dup mul exch add sqrt 1 exch sub }
+"
+*End
+*DefaultTransfer: Null
+*Transfer Null: "
+        { }
+"
+*End
+*Transfer Null.Inverse: "
+        { 1 exch sub }
+"
+*End
+*% PrintPSErrors
+*PrintPSErrors: True
+
+*% Font Info
+*DefaultFont: Courier
+*Font AlbertusMT-Italic: Standard "(001.001)" Standard ROM
+*Font AlbertusMT-Light: Standard "(001.001)" Standard ROM
+*Font AlbertusMT: Standard "(001.001)" Standard ROM
+*Font AntiqueOlive-Bold: Standard "(001.002)" Standard ROM
+*Font AntiqueOlive-Compact: Standard "(001.002)" Standard ROM
+*Font AntiqueOlive-Italic: Standard "(001.002)" Standard ROM
+*Font AntiqueOlive-Roman: Standard "(001.002)" Standard ROM
+*Font Apple-Chancery: Standard "(001.002)" ExtendedRoman ROM
+*Font Arial-BoldItalicMT: Standard "(001.003)" Standard ROM
+*Font Arial-BoldMT: Standard "(001.003)" Standard ROM
+*Font Arial-ItalicMT: Standard "(001.003)" Standard ROM
+*Font ArialMT: Standard "(001.003)" Standard ROM
+*Font AvantGarde-Book: Standard "(003.000)" Standard ROM
+*Font AvantGarde-BookOblique: Standard "(003.000)" Standard ROM
+*Font AvantGarde-Demi: Standard "(003.000)" Standard ROM
+*Font AvantGarde-DemiOblique: Standard "(003.000)" Standard ROM
+*Font Bodoni-Bold: Standard "(001.003)" Standard ROM
+*Font Bodoni-BoldItalic: Standard "(001.003)" Standard ROM
+*Font Bodoni-Italic: Standard "(001.003)" Standard ROM
+*Font Bodoni-Poster: Standard "(001.003)" Standard ROM
+*Font Bodoni-PosterCompressed: Standard "(001.002)" Standard ROM
+*Font Bodoni: Standard "(001.003)" Standard ROM
+*Font Bookman-Demi: Standard "(003.000)" Standard ROM
+*Font Bookman-DemiItalic: Standard "(003.000)" Standard ROM
+*Font Bookman-Light: Standard "(003.000)" Standard ROM
+*Font Bookman-LightItalic: Standard "(003.000)" Standard ROM
+*Font Carta: Special "(001.001)" Special ROM
+*Font Chicago: Standard "(001.000)" ExtendedRoman ROM
+*Font Clarendon-Bold: Standard "(001.002)" Standard ROM
+*Font Clarendon-Light: Standard "(001.002)" Standard ROM
+*Font Clarendon: Standard "(001.002)" Standard ROM
+*Font CooperBlack-Italic: Standard "(001.004)" Standard ROM
+*Font CooperBlack: Standard "(001.004)" Standard ROM
+*Font Copperplate-ThirtyThreeBC: Standard "(001.003)" Standard ROM
+*Font Copperplate-ThirtyTwoBC: Standard "(001.003)" Standard ROM
+*Font Coronet-Regular: Standard "(001.002)" Standard ROM
+*Font Courier-Bold: Standard "(004.000)" Standard ROM
+*Font Courier-BoldOblique: Standard "(004.000)" Standard ROM
+*Font Courier-Oblique: Standard "(004.000)" Standard ROM
+*Font Courier: Standard "(004.000)" Standard ROM
+*Font Eurostile-Bold: Standard "(001.002)" Standard ROM
+*Font Eurostile-BoldExtendedTwo: Standard "(001.003)" Standard ROM
+*Font Eurostile-ExtendedTwo: Standard "(001.003)" Standard ROM
+*Font Eurostile: Standard "(001.003)" Standard ROM
+*Font Geneva: Standard "(001.000)" ExtendedRoman ROM
+*Font GillSans-Bold: Standard "(001.002)" Standard ROM
+*Font GillSans-BoldCondensed: Standard "(001.002)" Standard ROM
+*Font GillSans-BoldItalic: Standard "(001.003)" Standard ROM
+*Font GillSans-Condensed: Standard "(001.002)" Standard ROM
+*Font GillSans-ExtraBold: Standard "(001.002)" Standard ROM
+*Font GillSans-Italic: Standard "(001.003)" Standard ROM
+*Font GillSans-Light: Standard "(001.002)" Standard ROM
+*Font GillSans-LightItalic: Standard "(001.003)" Standard ROM
+*Font GillSans: Standard "(001.003)" Standard ROM
+*Font Goudy-Bold: Standard "(001.003)" Standard ROM
+*Font Goudy-BoldItalic: Standard "(001.003)" Standard ROM
+*Font Goudy-ExtraBold: Standard "(001.002)" Standard ROM
+*Font Goudy-Italic: Standard "(001.003)" Standard ROM
+*Font Goudy: Standard "(001.004)" Standard ROM
+*Font Helvetica-Bold: Standard "(003.000)" Standard ROM
+*Font Helvetica-BoldOblique: Standard "(003.000)" Standard ROM
+*Font Helvetica-Condensed-Bold: Standard "(003.000)" Standard ROM
+*Font Helvetica-Condensed-BoldObl: Standard "(003.000)" Standard ROM
+*Font Helvetica-Condensed-Oblique: Standard "(003.000)" Standard ROM
+*Font Helvetica-Condensed: Standard "(003.000)" Standard ROM
+*Font Helvetica-Narrow-Bold: Standard "(003.000)" Standard ROM
+*Font Helvetica-Narrow-BoldOblique: Standard "(003.000)" Standard ROM
+*Font Helvetica-Narrow-Oblique: Standard "(003.000)" Standard ROM
+*Font Helvetica-Narrow: Standard "(003.000)" Standard ROM
+*Font Helvetica-Oblique: Standard "(003.000)" Standard ROM
+*Font Helvetica: Standard "(003.000)" Standard ROM
+*Font HoeflerText-Black: Standard "(001.000)" ExtendedRoman ROM
+*Font HoeflerText-BlackItalic: Standard "(001.000)" ExtendedRoman ROM
+*Font HoeflerText-Italic: Standard "(001.000)" ExtendedRoman ROM
+*Font HoeflerText-Ornaments: Special "(001.001)" Standard ROM
+*Font HoeflerText-Regular: Standard "(001.000)" ExtendedRoman ROM
+*Font JoannaMT-Bold: Standard "(001.001)" Standard ROM
+*Font JoannaMT-BoldItalic: Standard "(001.001)" Standard ROM
+*Font JoannaMT-Italic: Standard "(001.001)" Standard ROM
+*Font JoannaMT: Standard "(001.001)" Standard ROM
+*Font LetterGothic-Bold: Standard "(001.007)" Standard ROM
+*Font LetterGothic-BoldSlanted: Standard "(001.006)" Standard ROM
+*Font LetterGothic-Slanted: Standard "(001.005)" Standard ROM
+*Font LetterGothic: Standard "(001.005)" Standard ROM
+*Font LubalinGraph-Book: Standard "(001.004)" Standard ROM
+*Font LubalinGraph-BookOblique: Standard "(001.004)" Standard ROM
+*Font LubalinGraph-Demi: Standard "(001.004)" Standard ROM
+*Font LubalinGraph-DemiOblique: Standard "(001.004)" Standard ROM
+*Font Marigold: Standard "(001.001)" Standard ROM
+*Font MonaLisa-Recut: Standard "(001.001)" Standard ROM
+*Font Monaco: Standard "(001.001)" ExtendedRoman ROM
+*Font NewCenturySchlbk-Bold: Standard "(003.000)" Standard ROM
+*Font NewCenturySchlbk-BoldItalic: Standard "(003.000)" Standard ROM
+*Font NewCenturySchlbk-Italic: Standard "(003.000)" Standard ROM
+*Font NewCenturySchlbk-Roman: Standard "(003.000)" Standard ROM
+*Font NewYork: Standard "(001.000)" ExtendedRoman ROM
+*Font Optima-Bold: Standard "(001.007)" Standard ROM
+*Font Optima-BoldItalic: Standard "(001.001)" Standard ROM
+*Font Optima-Italic: Standard "(001.001)" Standard ROM
+*Font Optima: Standard "(001.006)" Standard ROM
+*Font Oxford: Standard "(001.001)" Standard ROM
+*Font Palatino-Bold: Standard "(003.000)" Standard ROM
+*Font Palatino-BoldItalic: Standard "(003.000)" Standard ROM
+*Font Palatino-Italic: Standard "(003.000)" Standard ROM
+*Font Palatino-Roman: Standard "(003.000)" Standard ROM
+*Font StempelGaramond-Bold: Standard "(001.003)" Standard ROM
+*Font StempelGaramond-BoldItalic: Standard "(001.003)" Standard ROM
+*Font StempelGaramond-Italic: Standard "(001.003)" Standard ROM
+*Font StempelGaramond-Roman: Standard "(001.003)" Standard ROM
+*Font Symbol: Special "(001.008)" Special ROM
+*Font Tekton: Standard "(001.002)" Standard ROM
+*Font Times-Bold: Standard "(003.000)" Standard ROM
+*Font Times-BoldItalic: Standard "(003.000)" Standard ROM
+*Font Times-Italic: Standard "(003.000)" Standard ROM
+*Font Times-Roman: Standard "(003.000)" Standard ROM
+*Font TimesNewRomanPS-BoldItalicMT: Standard "(001.003)" Standard ROM
+*Font TimesNewRomanPS-BoldMT: Standard "(001.004)" Standard ROM
+*Font TimesNewRomanPS-ItalicMT: Standard "(001.003)" Standard ROM
+*Font TimesNewRomanPSMT: Standard "(001.003)" Standard ROM
+*Font Univers-Bold: Standard "(001.004)" Standard ROM
+*Font Univers-BoldExt: Standard "(001.001)" Standard ROM
+*Font Univers-BoldExtObl: Standard "(001.001)" Standard ROM
+*Font Univers-BoldOblique: Standard "(001.004)" Standard ROM
+*Font Univers-Condensed: Standard "(001.003)" Standard ROM
+*Font Univers-CondensedBold: Standard "(001.002)" Standard ROM
+*Font Univers-CondensedBoldOblique: Standard "(001.002)" Standard ROM
+*Font Univers-CondensedOblique: Standard "(001.003)" Standard ROM
+*Font Univers-Extended: Standard "(001.001)" Standard ROM
+*Font Univers-ExtendedObl: Standard "(001.001)" Standard ROM
+*Font Univers-Light: Standard "(001.004)" Standard ROM
+*Font Univers-LightOblique: Standard "(001.004)" Standard ROM
+*Font Univers-Oblique: Standard "(001.004)" Standard ROM
+*Font Univers: Standard "(001.004)" Standard ROM
+*Font Wingdings-Regular: Special "(Version 2.00)" Special ROM
+*Font ZapfChancery-MediumItalic: Standard "(003.000)" Standard ROM
+*Font ZapfDingbats: Special "(002.000)" Special ROM
+*?FontList: "
+        save
+                (*) { cvn == } 128 string /Font resourceforall
+                (*) = flush
+        restore
+"
+*End
+*?FontQuery: "
+        save
+                { count 1 gt
+                  { exch dup 127 string cvs (/) print print (:) print
+                    /Font resourcestatus { pop pop (Yes) } { (No) } ifelse =
+                  } { exit } ifelse
+                } bind loop
+                (*) = flush
+        restore
+"
+*End
+*%

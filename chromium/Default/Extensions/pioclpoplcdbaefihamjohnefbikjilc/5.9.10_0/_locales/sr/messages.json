@@ -1,0 +1,1070 @@
+{
+   "April": {
+      "message": "\u0410\u043F\u0440\u0438\u043B"
+   },
+   "Aug": {
+      "message": "Aug"
+   },
+   "BrowserActionTitle": {
+      "description": "Title for the browser action that's visible to the user of extension",
+      "message": "\u0421\u043D\u0438\u043C\u0438 \u0443 Evernote"
+   },
+   "Close": {
+      "description": "The string that shows up on a button used to close a window.",
+      "message": "\u0417\u0430\u0442\u0432\u043E\u0440\u0438"
+   },
+   "Dec": {
+      "message": "Dec"
+   },
+   "EDAMError_1": {
+      "description": "Used to describe an unknown EDAM error",
+      "message": "\u041D\u0435\u043F\u043E\u0437\u043D\u0430\u0442\u0430 \u0433\u0440\u0435\u0448\u043A\u0430"
+   },
+   "EDAMError_1_notebookGuid": {
+      "description": "Error message indicating unknown notebook",
+      "message": "\u0411\u0435\u043B\u0435\u0436\u043D\u0438\u0446\u0430 \u043D\u0435\u043F\u043E\u0437\u043D\u0430\u0442\u0430"
+   },
+   "EDAMError_3": {
+      "description": "Indicates that permission was denied for request by the server",
+      "message": "\u0417\u0430\u0431\u0440\u0430\u045A\u0435\u043D \u043F\u0440\u0438\u0441\u0442\u0443\u043F"
+   },
+   "EDAMError_3_User_active": {
+      "description": "Indicates that a user tried to login but their account is inactive",
+      "message": "\u0417\u0430\u0431\u0440\u0430\u045A\u0435\u043D \u043F\u0440\u0438\u0441\u0442\u0443\u043F j\u0435\u0440 j\u0435 \u043A\u043E\u0440\u0438\u0441\u043D\u0438\u043A \u0443\u0433\u0430\u0448\u0435\u043D"
+   },
+   "EDAMError_3_User_tooManyFailuresTryAgainLater": {
+      "description": "Indicates that a user tried to login way too many times with invalid credentials and needs to chill for a bit",
+      "message": "Too many login attempt failures. Please try again later"
+   },
+   "Error_HTTP_Transport": {
+      "description": "Generic error indicating that the extension could not get a response from a server",
+      "message": "\u041F\u0440\u043E\u0431\u043B\u0435\u043C \u0443 \u043F\u043E\u0432\u0435\u0437\u0438\u0432\u0430\u045A\u0443 \u0441\u0430 \u0441\u0435\u0440\u0432\u0435\u0440\u043E\u043C [$status$]. $errorText$",
+      "placeholders": {
+         "errorText": {
+            "content": "$2",
+            "example": "http error response"
+         },
+         "status": {
+            "content": "HTTP $1",
+            "example": "404"
+         }
+      }
+   },
+   "Error_Network_Unavailable": {
+      "description": "error message shown when we can't connect to the internet.",
+      "message": "No Internet Connection"
+   },
+   "ExtensionDescription": {
+      "description": "Description of the extension as it's visible to the outside world",
+      "message": "\u0423\u0437 \u043F\u043E\u043C\u043E\u045B Evernote \u0434\u043E\u0434\u0430\u0442\u043A\u0430 \u043C\u043E\u0436\u0435\u0442\u0435 \u0441\u0430\u0447\u0443\u0432\u0430\u0442\u0438 \u0437\u0430\u043D\u0438\u043C\u0459\u0438\u0432\u0435 \u0441\u0442\u0432\u0430\u0440\u0438 \u043A\u043Ej\u0435 \u0432\u0438\u0434\u0438\u0442\u0435 \u043D\u0430 w\u0435b-\u0443 \u0443 \u0441\u0432\u043E\u043C Evernote \u043D\u0430\u043B\u043E\u0433\u0443. \u0421\u0430\u0447\u0443\u0432\u0430\u043D\u0435 \u0431\u0435\u043B\u0435\u0448\u043A\u0435 \u043C\u043E\u0436\u0435\u0442\u0435 \u0438 \u043F\u0440\u0435\u0442\u0440\u0430\u0436\u0438\u0432\u0430\u0442\u0438."
+   },
+   "ExtensionName": {
+      "description": "Name of the extension as it's visible to the outside world",
+      "message": "Evernote Web Clipper"
+   },
+   "Feb": {
+      "message": "Feb"
+   },
+   "Friday": {
+      "message": "Friday"
+   },
+   "Jan": {
+      "message": "Jan"
+   },
+   "July": {
+      "message": "J\u0443\u043B"
+   },
+   "June": {
+      "message": "J\u0443\u043D"
+   },
+   "March": {
+      "message": "\u041C\u0430\u0440\u0442"
+   },
+   "May": {
+      "message": "\u041C\u0430j"
+   },
+   "Monday": {
+      "message": "Monday"
+   },
+   "Nov": {
+      "message": "Nov"
+   },
+   "Oct": {
+      "message": "Oct"
+   },
+   "Saturday": {
+      "message": "Saturday"
+   },
+   "Sept": {
+      "message": "Sept"
+   },
+   "Sunday": {
+      "message": "Sunday"
+   },
+   "Thursday": {
+      "message": "Thursday"
+   },
+   "Today": {
+      "message": "\u0414\u0430\u043D\u0430\u0441"
+   },
+   "Tuesday": {
+      "message": "Tuesday"
+   },
+   "Wednesday": {
+      "message": "Wednesday"
+   },
+   "accountChangedTo": {
+      "description": "message notifying the user that he's switched to a different account.",
+      "message": "Now using account $name$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "addAnotherAccount": {
+      "description": "Label to click when a user wants to log in with multiple accounts.",
+      "message": "Add another account..."
+   },
+   "articleClipFailure": {
+      "description": "Messages shown to user when the article of the page isn't clippable.",
+      "message": "Sorry, Evernote cannot clip this page as an article. Please select the portion you wish to clip."
+   },
+   "authPersistenceError": {
+      "description": "Error indicating that the browser fails to persist authentication.",
+      "message": "\u041F\u043E\u0434\u0435\u0448\u0430\u0432\u0430\u045A\u0430 \u0432\u0430\u0448\u0435\u0433 \u043F\u0440\u0435\u0442\u0440\u0430\u0436\u0438\u0432\u0430\u0447\u0430 \u0434\u043E\u043B\u0430\u0437\u0435 \u0443 \u0441\u0443\u043A\u043E\u0431 \u0441\u0430 Evernote \u0435\u043A\u0441\u0442\u0435\u043D\u0437\u0438\u0458\u043E\u043C. \u041F\u0440\u043E\u0431\u0430\u0458\u0442\u0435 \u0434\u0430 \u0432\u0440\u0430\u0442\u0438\u0442\u0435 \u043F\u043E\u0434\u0435\u0448\u0430\u0432\u0430\u045A\u0430 \u0437\u0430 Chrome \u043D\u0430 \u043F\u0440\u0435\u0434\u0435\u0444\u0438\u043D\u0438\u0441\u0430\u043D\u0430: \u0434\u043E\u0437\u0432\u043E\u043B\u0438\u0442\u0438 \u0447\u0443\u0432\u0430\u045A\u0435 \u043B\u043E\u043A\u0430\u043B\u043D\u0438\u0445 \u043F\u043E\u0434\u0430\u0442\u0430\u043A\u0430 \u0438 \u041D\u0415 \u0431\u043B\u043E\u043A\u0438\u0440\u0430\u0442\u0438 \u043A\u043E\u043B\u0430\u0447\u0438\u045B\u0435 \u0441\u0430 \u0434\u0440\u0443\u0433\u0438\u0445 \u0441\u0430\u0458\u0442\u043E\u0432\u0430. \u0420\u0430\u0437\u043C\u0438\u0441\u043B\u0438\u0442\u0435 \u043E \u0442\u043E\u043C\u0435 \u0434\u0430 \u0438\u0441\u043A\u0459\u0443\u0447\u0438\u0442\u0435 \u0434\u043E\u0434\u0430\u0442\u043A\u0435 \u0437\u0430 \u043D\u0435\u043A\u0435 \u0434\u0440\u0443\u0433\u0435 \u0430\u043F\u043B\u0438\u043A\u0430\u0446\u0438\u0458\u0435."
+   },
+   "bizNotebookOptionText": {
+      "description": "text that shows up in the dropdown list used to select another user's business notebook.",
+      "message": " (shared by $creator$)",
+      "placeholders": {
+         "creator": {
+            "content": "$1",
+            "example": "Connie Chan"
+         }
+      }
+   },
+   "bizNotebooksOptGroupTitle": {
+      "description": "text that appears above the list of business notebooks in the dropdown list of notebooks.",
+      "message": "Business Notebooks"
+   },
+   "cancelAddAnotherAccount": {
+      "description": "The text for the control that cancels adding a new acconut to switch to.",
+      "message": "\u041E\u0434\u0443\u0441\u0442\u0430\u043D\u0438"
+   },
+   "cancelSwitchFree": {
+      "description": "Message on button to cancel switching to a different free account.",
+      "message": "No, take me back"
+   },
+   "captcha_instruction": {
+      "description": "Instruction for captcha in the registration form.",
+      "message": "Enter the numbers below"
+   },
+   "checkVersionWarning": {
+      "description": "Warning message shown to user when the client doesn't pass version check",
+      "message": "This version of Evernote Web Clipper is no longer compatible with Evernote Service. Please install the latest version."
+   },
+   "clearFeatureDiscoveryTooltip": {
+      "description": "The message that pops up when you hover over the 'x' icon for the 'feature discovery' box.",
+      "message": "Don't show this notification again"
+   },
+   "clearTagsToolTip": {
+      "description": "The message that pops up when you hover over the 'x' icon that displays beside the tag list.",
+      "message": "Clear all tags"
+   },
+   "clipsFromThisSite": {
+      "description": "Label for the site search button.",
+      "message": "Other clips from $site$",
+      "placeholders": {
+         "site": {
+            "content": "$1",
+            "example": "71"
+         }
+      }
+   },
+   "contentPreview_clipArticle": {
+      "description": "Selection nudging legend for clipping article",
+      "message": "clip article"
+   },
+   "contentPreview_expandSelection": {
+      "description": "Selection nudging legend for expanding selection",
+      "message": "expand selection"
+   },
+   "contentPreview_moveSelection": {
+      "description": "Selection nudging legend for moving selection",
+      "message": "move selection"
+   },
+   "contentPreview_shrinkSelection": {
+      "description": "Selection nudging legend for shrinking selection",
+      "message": "shrink selection"
+   },
+   "contentclipper_clipping": {
+      "description": "Message shown on content pages to notify users that the page is being scraped for clipping.",
+      "message": "\u003Cb\u003EClipping\u003C/b\u003E \u201C$clipTitle$\u201D",
+      "placeholders": {
+         "clipTitle": {
+            "content": "$1",
+            "example": "Sample clip title"
+         }
+      }
+   },
+   "contentclipper_clipping_no_title": {
+      "description": "Message shown on content pages to notify users that the page is being scraped for clipping when the title of the clip is unavailable.",
+      "message": "\u003Cb\u003EClipping \u2026\u003C/b\u003E"
+   },
+   "contentclipper_syncing": {
+      "description": "Message shown on content pages to notify users that the page is being sent to the server.",
+      "message": "\u003Cb\u003ESyncing\u003C/b\u003E \u201C$clipTitle$\u201D",
+      "placeholders": {
+         "clipTitle": {
+            "content": "$1",
+            "example": "Sample clip title"
+         }
+      }
+   },
+   "contextMenuClipImage": {
+      "description": "Context menu item for creating a new note with image",
+      "message": "\u0421\u043D\u0438\u043C\u0438 \u0441\u043B\u0438\u043A\u0443"
+   },
+   "contextMenuClipPDF": {
+      "description": "Context menu item for creating a new note with PDF",
+      "message": "Clip PDF"
+   },
+   "contextMenuClipPage": {
+      "description": "Context menu item for clipping current page",
+      "message": "\u0421\u043D\u0438\u043C\u0438 \u043E\u0432\u0443 \u0441\u0442\u0440\u0430\u043D\u0438\u0446\u0443"
+   },
+   "contextMenuClipSelection": {
+      "description": "Context menu item for clipping current selection",
+      "message": "\u0421\u043D\u0438\u043C\u0438 \u0438\u0437\u0430\u0431\u0440\u0430\u043D\u043E"
+   },
+   "contextMenuClipUrl": {
+      "description": "Context menu item for creating a new note with just the URL of the current page",
+      "message": "Clip URL"
+   },
+   "contextMenuNewNote": {
+      "description": "Context menu item for creating new note",
+      "message": "\u041D\u043E\u0432\u0430 \u0431\u0435\u043B\u0435\u0448\u043A\u0430"
+   },
+   "contextMenuPleaseLogin": {
+      "description": "Help message shown to users when they try to clip content via contextual menu items but not being intially logged in",
+      "message": "\u041F\u0440\u0435 \u043D\u0435\u0433\u043E \u0448\u0442\u043E \u0441\u043D\u0438\u043C\u0438\u0442\u0435 \u043D\u0435\u043A\u0438 \u0441\u0430\u0434\u0440\u0436\u0430\u0458 \u043F\u0440\u0435\u043A\u043E \u043E\u043F\u0446\u0438\u0458\u0435 \u041F\u043E\u0448\u0430\u0459\u0438 \u0443 Evernote, \u043C\u043E\u0440\u0430\u0442\u0435 \u0434\u0430 \u0441\u0435 \u043F\u0440\u0438\u0458\u0430\u0432\u0438\u0442\u0435 \u0443 \u0441\u0432\u043E\u0458 \u043D\u0430\u043B\u043E\u0433."
+   },
+   "copyright": {
+      "description": "Copyright statement",
+      "message": "Copyright 2009-2013 Evernote Corporation. All rights reserved. \u003Ca href='$baseUrl$/privacy' target='_blank'\u003EPrivacy Policy\u003C/a\u003E | \u003Ca href='$baseUrl$/tos' target='_blank'\u003ETerms of Service\u003C/a\u003E | \u003Ca href='#' id='legalLink'\u003ELegal Notices\u003C/a\u003E",
+      "placeholders": {
+         "baseUrl": {
+            "content": "$1",
+            "example": "https://www.evernote.com"
+         }
+      }
+   },
+   "deleting": {
+      "description": "Message indicating that the extension is deleting previously clipped note from the server",
+      "message": "\u0411\u0440\u0438\u0441\u0430\u045A\u0435 \u0441\u0430\u0447\u0443\u0432\u0430\u043D\u0435 \u0431\u0435\u043B\u0435\u0448\u043A\u0435..."
+   },
+   "desktopNotification_cancelFailedClip": {
+      "description": "Name of the action associated with cancelling the clip that failed to upload. Should be as short as possible",
+      "message": "\u041E\u0434\u0443\u0441\u0442\u0430\u043D\u0438"
+   },
+   "desktopNotification_clipProcessorSignInMessage": {
+      "description": "Message shown to users inside desktop notification informing users that they clip could not be uploaded because they are not authenticated...",
+      "message": "\u041F\u043E\u0434\u0430\u0446\u0438 \u0437\u0430 \u043F\u0440\u0438\u0458\u0430\u0432\u0443 \u043D\u0438\u0441\u0443 \u0438\u0441\u043F\u0440\u0430\u0432\u043D\u0438 \u0438\u043B\u0438 \u0458\u0435 \u0441\u0435\u0441\u0438\u0458\u0430 \u0438\u0441\u0442\u0435\u043A\u043B\u0430. \u041C\u043E\u043B\u0438\u043C\u043E \u043F\u0440\u0438\u0458\u0430\u0432\u0438\u0442\u0435 \u0441\u0435 \u043F\u043E\u043D\u043E\u0432\u043E \u043A\u043B\u0438\u043A\u043D\u0443\u0432\u0448\u0438 \u043D\u0430 \u0438\u043A\u043E\u043D\u0443 \u0438 \u043F\u043E\u043A\u0443\u0448\u0430\u0458\u0442\u0435 \u043F\u043E\u043D\u043E\u0432\u043E."
+   },
+   "desktopNotification_clipProcessorSignInTitle": {
+      "description": "Title for desktop notification informing user that there was an error with uploading a clip. This should be as short as possible",
+      "message": "\u041D\u0438\u0458\u0435 \u043C\u043E\u0433\u0443\u045B\u0435 \u0441\u0430\u0447\u0443\u0432\u0430\u0442\u0438 \"$clipTitle$\"",
+      "placeholders": {
+         "clipTitle": {
+            "content": "$1",
+            "example": "Sample clip title"
+         }
+      }
+   },
+   "desktopNotification_clipProcessorTooManyRetries": {
+      "description": "Message indicating that we've tried too many times to clip this note.",
+      "message": "The clip \"$title$\" has failed too many times and cannot be retried.",
+      "placeholders": {
+         "title": {
+            "content": "$1",
+            "example": "Title of the clip."
+         }
+      }
+   },
+   "desktopNotification_clipUploaded": {
+      "description": "Headline for desktop notification indicating that clip was successfully uploaded",
+      "message": "\u003Cb\u003EClipped\u003C/b\u003E \u201C$clipTitle$\u201D",
+      "placeholders": {
+         "clipTitle": {
+            "content": "$1",
+            "example": "Sample clip title"
+         }
+      }
+   },
+   "desktopNotification_clipUploadedMessage": {
+      "description": "Message indicating that clip was successfully uploaded",
+      "message": "\u0421\u0430\u0434\u0440\u0436\u0430j \u0443\u0441\u043F\u0435\u0448\u043D\u043E \u0441\u043D\u0438\u043C\u0459\u0435\u043D."
+   },
+   "desktopNotification_editSuccessClip": {
+      "description": "Name of the action associated with editing clipped note",
+      "message": "\u0418\u0437\u043C\u0435\u043D\u0438"
+   },
+   "desktopNotification_retryFailedClip": {
+      "description": "Name of the action associated with retrying the clip that failed to upload. Should be as short as possible",
+      "message": "\u041F\u043E\u043A\u0443\u0448\u0430j \u043F\u043E\u043D\u043E\u0432\u043E"
+   },
+   "desktopNotification_unableToSaveClip": {
+      "description": "Headline for desktop notifications indicating there was a problem with saving the clip",
+      "message": "\u0418\u0441\u0435\u0447\u0430\u043A \"$clipTitle$\" \u043D\u0438\u0458\u0435 \u043C\u043E\u0433\u0443\u045B\u0435 \u0441\u0430\u0447\u0443\u0432\u0430\u0442\u0438.",
+      "placeholders": {
+         "clipTitle": {
+            "content": "$1",
+            "example": "Sample clip title"
+         }
+      }
+   },
+   "desktopNotification_unableToSaveClipUnknown": {
+      "description": "Headline for desktop notification indicating that there was an unknown error while uploading a clip",
+      "message": "\u0418\u0441\u0435\u0447\u0430\u043A \u043D\u0438\u0458\u0435 \u043C\u043E\u0433\u0443\u045B\u0435 \u0441\u0430\u0447\u0443\u0432\u0430\u0442\u0438"
+   },
+   "desktopNotification_unableToSaveClipUnknownMessage": {
+      "description": "Description of the unknown error that may occur after the extension failed to upload a clip",
+      "message": "Unknown error occured while trying to save one of your clips. Error Message: $details$",
+      "placeholders": {
+         "details": {
+            "content": "$1",
+            "example": "Error 503"
+         }
+      }
+   },
+   "desktopNotification_viewSuccessClip": {
+      "description": "Name of the actions associated with viewing clipped note",
+      "message": "\u041F\u0440\u0435\u0433\u043B\u0435\u0434"
+   },
+   "dismiss": {
+      "description": "Message shown on buttons to dismiss a widget of some kind",
+      "message": "\u041E\u0442\u043A\u0430\u0436\u0438"
+   },
+   "email": {
+      "description": "Label for email field of registration form",
+      "message": "Email \u0430\u0434\u0440\u0435\u0441\u0430"
+   },
+   "filing": {
+      "description": "Message indicating that the extension is filing changes made to previously clipped note on the server",
+      "message": "\u0427\u0443\u0432\u0430\u045A\u0435 \u0431\u0435\u043B\u0435\u0448\u043A\u0435..."
+   },
+   "freeAccountLimit": {
+      "description": "",
+      "message": "You are already signed into a free account, \u003Cb\u003E$name$\u003C/b\u003E. You can switch between multiple premium accounts, but only one free account. Do you want to use this free account instead?",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "fullPageClipFailure": {
+      "description": "Message shown to user when full page clip wasn't possible",
+      "message": "\u041D\u0430 \u0436\u0430\u043B\u043E\u0441\u0442 Evernote \u043D\u0435 \u043C\u043E\u0436\u0435 \u0434\u0430 \u0441\u0430\u0447\u0443\u0432\u0430 \u0446\u0435\u043B\u0443 \u0441\u0442\u0440\u0430\u043D\u0438\u0446\u0443. \u041C\u043E\u043B\u0438\u043C\u043E \u0432\u0430\u0441 \u0441\u0435\u043B\u0435\u043A\u0442\u0443j\u0442\u0435 \u0434\u0435\u043E \u043A\u043Ej\u0438 \u0436\u0435\u043B\u0438\u0442\u0435 \u0434\u0430 \u0441\u0430\u0447\u0443\u0432\u0430\u0442\u0435."
+   },
+   "getEvernoteFood": {
+      "description": "First part of the text for the Evernote Food cross promotion that appears in the clip result notification",
+      "message": "Get Evernote Food"
+   },
+   "header_register": {
+      "description": "Registration link in header",
+      "message": "Create an Evernote account"
+   },
+   "hideRelatedNotes": {
+      "description": "text for the link in the 'related notes' overlay that will hide this section.",
+      "message": "Hide Related Notes"
+   },
+   "illegalUrlClipFailure": {
+      "description": "Error message shown when you try to clip from pages that aren't scriptable by the browser. Such as the chrome gallery pages.",
+      "message": "\u0417\u0431\u043E\u0433 \u043E\u0433\u0440\u0430\u043D\u0438\u0447\u0435\u045A\u0430 \u0443 \u043F\u043E\u0434\u0435\u0448\u0430\u0432\u0430\u045A\u0438\u043C\u0430 \u0432\u0430\u0448\u0435\u0433 \u043F\u0440\u0435\u0442\u0440\u0430\u0436\u0438\u0432\u0430\u0447\u0430, \u0438\u0441\u0435\u0447\u0430\u043A \u043D\u0438\u0458\u0435 \u043C\u043E\u0433\u0443\u045B\u0435 \u0441\u0430\u0447\u0443\u0432\u0430\u0442\u0438."
+   },
+   "legalNoticesTitle": {
+      "description": "the title of the legal notices dialog in the options page where we list the licenses of all third party packages we use",
+      "message": "Web Clipper uses the following open source software"
+   },
+   "linkedNotebookOptionText": {
+      "description": "Text that shows up inside the dropdown list used to select another user's shared notebook.",
+      "message": "$notebookName$ (owned by $owner$)",
+      "placeholders": {
+         "notebookName": {
+            "content": "$1",
+            "example": "recipes"
+         },
+         "owner": {
+            "content": "$2",
+            "example": "tylerkaraszewski"
+         }
+      }
+   },
+   "linkedNotebooksOptGroupTitle": {
+      "description": "the text that apeears above the list of linked notebooks in the dropdown list of notebooks.",
+      "message": "\u0414\u0435\u0459\u0435\u043D\u0435 \u0431\u0435\u043B\u0435\u0436\u043D\u0438\u0446\u0435"
+   },
+   "loading": {
+      "description": "Message shown when extension is loading...",
+      "message": "\u0423\u0447\u0438\u0442\u0430\u0432\u0430\u045A\u0435..."
+   },
+   "loggingIn": {
+      "description": "Message indicating that the extension is currently attempting to sign in user",
+      "message": "\u041F\u0440\u0438j\u0430\u0432\u0430 \u0443 Evernote"
+   },
+   "loginForm_login": {
+      "description": "Sign in button label for login form",
+      "message": "\u041F\u0440\u0438j\u0430\u0432\u0430"
+   },
+   "loginForm_password": {
+      "description": "Label for entering password into login form",
+      "message": "\u041B\u043E\u0437\u0438\u043D\u043A\u0430"
+   },
+   "loginForm_passwordError_5": {
+      "description": "",
+      "message": "\u041B\u043E\u0437\u0438\u043D\u043A\u0430 \u0458\u0435 \u043D\u0435\u043E\u043F\u0445\u043E\u0434\u043D\u0430."
+   },
+   "loginForm_passwordInvalidError": {
+      "description": "",
+      "message": "\u041D\u0435\u0438\u0441\u043F\u0440\u0430\u0432\u043D\u0430 \u043B\u043E\u0437\u0438\u043D\u043A\u0430"
+   },
+   "loginForm_rememberMe": {
+      "description": "Label for extending login session",
+      "message": "\u0417\u0430\u043F\u0430\u043C\u0442\u0438 \u043C\u0435"
+   },
+   "loginForm_searchHelper": {
+      "description": "Label for search helper option on the login view",
+      "message": "Show Related Results when you search the web"
+   },
+   "loginForm_username": {
+      "description": "Label for entering email address or username into login form",
+      "message": "Email address or username"
+   },
+   "loginForm_usernameError_5": {
+      "description": "",
+      "message": "\u041A\u043E\u0440\u0438\u0441\u043D\u0438\u0447\u043A\u043E \u0438\u043C\u0435 j\u0435 \u043E\u0431\u0430\u0432\u0435\u0437\u043D\u043E."
+   },
+   "loginForm_usernameError_8": {
+      "description": "",
+      "message": "\u041D\u0435 \u043F\u043E\u0441\u0442\u043Ej\u0438 \u043A\u043E\u0440\u0438\u0441\u043D\u0438\u043A \u0441\u0430 \u0442\u0430\u043A\u0432\u0438\u043C \u043A\u043E\u0440\u0438\u0441\u043D\u0438\u0447\u043A\u0438\u043C \u0438\u043C\u0435\u043D\u043E\u043C \u0438 \u043B\u043E\u0437\u0438\u043D\u043A\u043E\u043C."
+   },
+   "loginForm_usernameInvalidChinaError": {
+      "description": "",
+      "message": "Unknown login, or try Evernote International"
+   },
+   "loginForm_usernameInvalidError": {
+      "description": "",
+      "message": "No user with that name exists."
+   },
+   "login_searchHelperLongDescription": {
+      "description": "Description of the search-helper feature as shown on the options page",
+      "message": "When enabled, your searches on supported search engines will also be performed on your Evernote account. Supported search engines are: Google, Bing, Yahoo, Yandex, Baidu, Daum, and Naver."
+   },
+   "logs_export": {
+      "description": "Title of the button for exporting all of the logs",
+      "message": "Export Logs"
+   },
+   "logs_follow": {
+      "description": "Label for an option to trail the logfile",
+      "message": "\u041F\u0440\u0430\u0442\u0438"
+   },
+   "logs_selectLogFile": {
+      "description": "Label for selecting log files for viewing",
+      "message": "\u0418\u0437\u0430\u0431\u0435\u0440\u0438 \u0438\u0437\u0432\u0435\u0448\u0442\u0430\u0458: "
+   },
+   "logs_title": {
+      "description": "The title of the logs page.",
+      "message": "Event Logs"
+   },
+   "more": {
+      "description": "General purpose, capitalized word for More - as in - there's more to see/read etc.",
+      "message": "\u0412\u0438\u0448\u0435"
+   },
+   "newFeatureDescription": {
+      "description": "The popover description of for the Smart Filing feature, including a link to the options page.",
+      "message": "Web Clipper will suggest tags and notebooks based on the content of the clip. Manage this feature and other settings in the Web Clipper \u003Cspan class='newFeatureOptionsPseudoLink'\u003EOptions\u003C/span\u003E."
+   },
+   "newFeatureTitle": {
+      "description": "The title for any new feature we're showcasing in the current release.",
+      "message": "Smart Filing"
+   },
+   "noteSizeExceededFree": {
+      "description": "Error message shown to free users who try to clip something over the maximum note size",
+      "message": "Only Evernote Premium users can clip notes over 25mb in size. \u003Ca href='$baseUrl$/Checkout.action'\u003EUpgrade to Premium\u003C/a\u003E",
+      "placeholders": {
+         "baseUrl": {
+            "content": "$1",
+            "example": "http://www.evernote.com"
+         }
+      }
+   },
+   "noteSizeExceededPremium": {
+      "description": "Error message shown to premium users who try to clip something over the maximum note size",
+      "message": "Maximum note size is 100mb, cannot create note"
+   },
+   "notification_quotaExceededFree": {
+      "description": "Indicates that free user has exceeded their quota",
+      "message": "You don't have enough upload allowance to save this clip. \u003Ca href='$url$'\u003EUpgrading to Premium\u003C/a\u003E",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "https://www.evernote.com/Checkout.action"
+         }
+      }
+   },
+   "notification_quotaExceededPremium": {
+      "description": "Indicates that premium user has exceeded their quota",
+      "message": "You don't have enough upload allowance to save this clip. \u003Ca href='$url$'\u003EIncrease upload allowance\u003C/a\u003E",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "https://www.evernote.com/QuotaCheckout.action"
+         }
+      }
+   },
+   "options_buildId": {
+      "description": "The revison number of this build of the clipper, as pulled fro mSVN at the time the clipper was built.",
+      "message": "Build ID:"
+   },
+   "options_client": {
+      "description": "Label for the dropdown menu in Options where user can choose what client s/he wants to open and edit notes in",
+      "message": "Open notes in"
+   },
+   "options_clientSelectionDescription": {
+      "description": "Description of the dropdown menu to select what client the user wants to open notes in. Only displayed when user selects the desktop client",
+      "message": "On first use with this setting you will see an \u2018External Protocol Request\u2019 dialog. For best experience check the \u2018Remember my choice\u2019 checkbox and then \u2018Launch Application\u2019."
+   },
+   "options_client_desktop": {
+      "description": "Desktop client choice in the dropdown menu to select what client to open/edit a note in",
+      "message": "Desktop client"
+   },
+   "options_client_web": {
+      "description": "Web client choice in the dropdown menu to select what client to open/edit a note in",
+      "message": "Web client"
+   },
+   "options_clipAction": {
+      "description": "Label for specifying default clipping action",
+      "message": "Default action"
+   },
+   "options_clipAction_article": {
+      "description": "Label for article as the default clipping action",
+      "message": "Clip article"
+   },
+   "options_clipAction_fullPage": {
+      "description": "Label for full-page as the default clipping action",
+      "message": "\u0421\u043D\u0438\u043C\u0438 \u0446\u0435\u043B\u0443 \u0441\u0442\u0440\u0430\u043D\u0443"
+   },
+   "options_clipAction_url": {
+      "description": "Label for url as the default clipping action",
+      "message": "Clip URL"
+   },
+   "options_clipNotificationEnabled": {
+      "description": "Label for option to enable notification about successful clips",
+      "message": "Enable notifications"
+   },
+   "options_clipNotificationEnabledDescription": {
+      "description": "Description of the notifications option",
+      "message": "When enabled, you will be notified whenever a clip has been uploaded. Notifications make it easier for you to view, edit, and share your clips."
+   },
+   "options_clipStyle": {
+      "description": "Label for the option to keep the style of the page while clipping.",
+      "message": "Preserve Style"
+   },
+   "options_clipStyleDescription": {
+      "description": "Description for the option to preserve styles with clips.",
+      "message": "When enabled, clips will preserve styling information to look as close to the original page as possible. When disabled, clips will be given a simple style with plain text and no decoration."
+   },
+   "options_developer_title": {
+      "description": "Title for developer options",
+      "message": "\u041F\u043E\u0434\u0435\u0448\u0430\u0432\u0430\u045A\u0430 \u0437\u0430 \u0434\u0435\u0432\u0435\u043B\u043E\u043F\u0435\u0440\u0435"
+   },
+   "options_eventLogDescription": {
+      "description": "Describes the purpose of the event logs link in the options page.",
+      "message": "If you contact Evernote Support, they may ask you to view these logs to help diagnose a problem."
+   },
+   "options_eventLogLink": {
+      "description": "the text for the link to the event logs page from the options page",
+      "message": "View Event Logs"
+   },
+   "options_insecureProto": {
+      "description": "Label for specifying insecure protocol option.",
+      "message": "\u041D\u0435\u0441\u0438\u0433\u0443\u0440\u0430\u043D \u043F\u0440\u043E\u0442\u043E\u043A\u043E\u043B"
+   },
+   "options_overrideServiceURL": {
+      "description": "Custom URL to use that will override both stage and production URLs.",
+      "message": "Override Service URL"
+   },
+   "options_saving": {
+      "description": "Notifies the user that their changes to the options page are being saved",
+      "message": "\u0427\u0443\u0432\u0430 \u0441\u0435..."
+   },
+   "options_secureProto": {
+      "description": "Label specifying secure protocol option.",
+      "message": "\u0421\u0438\u0433\u0443\u0440\u0430\u043D \u043F\u0440\u043E\u0442\u043E\u043A\u043E\u043B"
+   },
+   "options_selectionNudging": {
+      "description": "Label for selection nudging options",
+      "message": "Article selection"
+   },
+   "options_selectionNudgingDescription": {
+      "description": "Description of selection nudging",
+      "message": "When enabled, you can modify article selection using your keyboard before make a clip. Enabling with &quot;no hints&quot; will prevent displaying the informational message. When disabled - you cannot make any adjustments to the automatic article selection."
+   },
+   "options_selectionNudging_disabled": {
+      "description": "Label for disabled selection nudging",
+      "message": "Disabled"
+   },
+   "options_selectionNudging_enabled": {
+      "description": "Label for enabled selection nudging",
+      "message": "Enabled"
+   },
+   "options_selectionNudging_enabledNoprompt": {
+      "description": "Label for enabled selection nudging, but without showing the hits",
+      "message": "Enabled (no hints)"
+   },
+   "options_simulateCheckVersionFailure": {
+      "description": "Label for developer option to simulate checkVersion failure",
+      "message": "Simulate checkVersion Failure"
+   },
+   "options_simulateSimplifiedChinese": {
+      "description": "Label for developer option to simulate checkVersion failure",
+      "message": "Simulate Simplified Chinese"
+   },
+   "options_simulateSimplifiedChineseDescription": {
+      "description": "Description for what it means to select this option",
+      "message": "When this options is enabled, the clipper will pretend to be set to the Simplified Chinese language for the purpose of choosing a service to connect to."
+   },
+   "options_smartFilingBizDesc": {
+      "description": "Description of option to allow smart filing into business notebooks",
+      "message": "Allow Smart Filing into Business Notebooks"
+   },
+   "options_smartFilingEnabled": {
+      "description": "Label for option to enable automatic tagging and notebook selection for new notes.",
+      "message": "Enable Smart Filing"
+   },
+   "options_smartFilingEnabledDescription": {
+      "description": "Description of the smart filing option",
+      "message": "Smart Filing will automatically select a notebook and a list of tags for you based on the page you're clipping from."
+   },
+   "options_smartFilingEnabled_all": {
+      "description": "",
+      "message": "Tags and Notebooks"
+   },
+   "options_smartFilingEnabled_none": {
+      "description": "",
+      "message": "Disable Smart Filing"
+   },
+   "options_smartFilingEnabled_notebooks": {
+      "description": "",
+      "message": "Notebooks Only"
+   },
+   "options_smartFilingEnabled_tags": {
+      "description": "",
+      "message": "Tags Only"
+   },
+   "options_storedCredentials": {
+      "description": "Label for a set of options controls enabling users to store their credentials",
+      "message": "\u0410\u0443\u0442\u0435\u043D\u0442\u0438\u0444\u0438\u043A\u0430\u0446\u0438\u0458\u0430"
+   },
+   "options_storedCredentialsDescription": {
+      "description": "Educational message for users who wish to store their Evernote password. First sentence is the most critical one as it will be used in options_storedCredentialsShortDescription",
+      "message": "\u003Cb\u003E\u041F\u0430\u0436\u045A\u0430:\u003C/b\u003E \u0410\u043A\u043E \u0438\u0437\u0430\u0431\u0435\u0440\u0435\u0442\u0435 \u043E\u043F\u0446\u0438\u0458\u0443 \u0437\u0430 \u0447\u0443\u0432\u0430\u045A\u0435 \u043B\u043E\u0437\u0438\u043D\u043A\u0435 \u0437\u0430 \u0441\u0432\u043E\u0458 Evernote  \u043D\u0430\u043B\u043E\u0433, \u0441\u0432\u0438 \u043A\u043E\u0458\u0438 \u043A\u043E\u0440\u0438\u0441\u0442\u0435 \u043E\u0432\u0430\u0458 \u043F\u0440\u0435\u0442\u0440\u0430\u0436\u0438\u0432\u0430\u0447 \u0438\u043C\u0430\u045B\u0435 \u043F\u0440\u0438\u0441\u0442\u0443\u043F \u0432\u0430\u0448\u0435\u043C \u043D\u0430\u043B\u043E\u0433\u0443. \u0423\u043A\u043B\u043E\u043D\u0438\u0442\u0435 \u0458\u0435 \u0438\u043B\u0438 \u0441\u0435 \u043E\u0434\u0458\u0430\u0432\u0438\u0442\u0435 \u0441\u0430 \u0441\u0432\u043E\u0433 \u043D\u0430\u043B\u043E\u0433\u0430 \u0434\u0430 \u0431\u0438\u0441\u0442\u0435 \u043E\u0431\u0440\u0438\u0441\u0430\u043B\u0438 \u043A\u043E\u0440\u0438\u0441\u043D\u0438\u0447\u043A\u043E \u0438\u043C\u0435 \u0438 \u043B\u043E\u0437\u0438\u043D\u043A\u0443 \u043A\u043E\u0458\u0438 \u0441\u0443 \u0441\u0430\u0447\u0443\u0432\u0430\u043D\u0438."
+   },
+   "options_title": {
+      "description": "Title of the options page",
+      "message": "\u041F\u043E\u0434\u0435\u0448\u0430\u0432\u0430\u045A\u0430"
+   },
+   "options_useContextMenu": {
+      "description": "Label for option to enable clipping via contextual menu",
+      "message": "\u0423\u043A\u0459\u0443\u0447\u0438\u0442\u0435 \u043A\u043E\u043D\u0442\u0435\u043A\u0441\u0442\u0443\u0430\u043B\u043D\u0435 \u043C\u0435\u043D\u0438\u0458\u0435"
+   },
+   "options_useContextMenuDescription": {
+      "description": "Description of the contextual menu option",
+      "message": "\u0410\u043A\u043E \u0443\u043A\u0459\u0443\u0447\u0438\u0442\u0435 \u043A\u043E\u043D\u0442\u0435\u043A\u0441\u0442\u0443\u0430\u043B\u043D\u0438 \u043C\u0435\u043D\u0438, \u043B\u0430\u043A\u0448\u0435 \u045B\u0435\u0442\u0435 \u043C\u043E\u045B\u0438 \u0434\u0430 \u0447\u0443\u0432\u0430\u0442\u0435 \u0441\u0430\u0434\u0440\u0436\u0430\u0458\u0435 \u0441\u0430 \u0438\u043D\u0442\u0435\u0440\u043D\u0435\u0442\u0430. \u041A\u043B\u0438\u043A\u043D\u0438\u0442\u0435 \u0434\u0435\u0441\u043D\u0438\u043C \u0442\u0430\u0441\u0442\u0435\u0440\u043E\u043C \u043D\u0430 \u0441\u043B\u0438\u043A\u0435, \u0438\u0437\u0430\u0431\u0440\u0430\u043D\u0438 \u0442\u0435\u043A\u0441\u0442 \u0438 \u0431\u0438\u043B\u043E \u0433\u0434\u0435 \u043D\u0430 \u0441\u0442\u0440\u0430\u043D\u0438 \u0438 \u043F\u043E\u0458\u0430\u0432\u0438\u045B\u0435 \u0441\u0435 \u043C\u0435\u043D\u0438 \u0441\u0430 \u043E\u0434\u0433\u043E\u0432\u0430\u0440\u0430\u0458\u0443\u045B\u0438\u043C \u043E\u043F\u0446\u0438\u0458\u0430\u043C\u0430."
+   },
+   "options_useSearchHelper": {
+      "description": "Label for search-helper feature toggle",
+      "message": "Related Results"
+   },
+   "options_useSearchHelperDescription": {
+      "description": "Description of the search-helper feature as shown on the options page",
+      "message": "When enabled, searching the web with supported web browsers will also display results from your Evernote account."
+   },
+   "options_useStage": {
+      "description": "Label for developer option to simulate checkVersion failure",
+      "message": "Use Stage"
+   },
+   "options_useStageDescription": {
+      "description": "Description for what it means to select this option",
+      "message": "Instructs the clipper to use the 'stage' service in place of the production service, which is normal only for testing."
+   },
+   "pdfTip": {
+      "description": "Tooltip that appears on PDFs",
+      "message": "Did you know that you can clip PDF's directly to your Evernote account with the Web Clipper?"
+   },
+   "popup_couldntStart": {
+      "description": "Message that shows up when the clipper popup can't open.",
+      "message": "The Clipper couldn't start on this page. Reload the page and try again. If that doesn't help, contact customer support."
+   },
+   "popup_loadingNotebooks": {
+      "description": "Message shown while smart filing is running. Should *not* include trailing punctuation.",
+      "message": "Loading Notebooks"
+   },
+   "popup_loginCheckTimeout": {
+      "description": "Message that displays if checking if the user is logged in takes too long.",
+      "message": "Checking credentials took too long. Make sure you're connected to the internet and try again."
+   },
+   "popup_moreNotesLink": {
+      "description": "Message showing how many more notes can be seen on the server.",
+      "message": "See $count$ more notes\u2026",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "10"
+         }
+      }
+   },
+   "popup_oneMoreNoteLink": {
+      "description": "Message showing there is one more note on the server.",
+      "message": "See one more note\u2026"
+   },
+   "popup_unsupportedScheme": {
+      "description": "The error to display when the popup can't operate on a specific type of url.",
+      "message": "Clipping from this location is not supported."
+   },
+   "popup_waiting": {
+      "description": "Displays while the popup window waits for a page to finish loading.",
+      "message": "Waiting for page\u2026"
+   },
+   "quickNote": {
+      "description": "Title for creating quick note",
+      "message": "\u0418\u0441\u0435\u0447\u0430\u043A"
+   },
+   "quickNoteAction_clipArticle": {
+      "description": "Label for clipping article action",
+      "message": "Save Article"
+   },
+   "quickNoteAction_clipFullPage": {
+      "description": "Label for clipping full page action",
+      "message": "Save Full Page"
+   },
+   "quickNoteAction_clipPDF": {
+      "description": "Label for clipping PDF action",
+      "message": "Save PDF"
+   },
+   "quickNoteAction_clipSelection": {
+      "description": "Label for clipping selection action",
+      "message": "Save Selection"
+   },
+   "quickNoteAction_clipUrl": {
+      "description": "Label for clipping URL action",
+      "message": "Save URL"
+   },
+   "quickNote_addComment": {
+      "description": "Placeholder text for comment input",
+      "message": "\u0414\u043E\u0434\u0430j \u043A\u043E\u043C\u0435\u043D\u0442\u0430\u0440"
+   },
+   "quickNote_addTags": {
+      "description": "Placeholder text for tag input",
+      "message": "Add tags"
+   },
+   "quickNote_comment": {
+      "description": "Label for additional text to be added to the note",
+      "message": "\u0414\u043E\u0434\u0430j \u0442\u0435\u043A\u0441\u0442"
+   },
+   "quickNote_notebook": {
+      "description": "Label for selection of note's notebook",
+      "message": "\u0411\u0435\u043B\u0435\u0436\u043D\u0438\u0446\u0430"
+   },
+   "quickNote_submit": {
+      "description": "Label for saving quick note",
+      "message": "\u0421\u0430\u0447\u0443\u0432\u0430j"
+   },
+   "quickNote_tagsDisabled": {
+      "description": "Message indicating that you can't use tags for shared notebooks.",
+      "message": "Tags are not currently supported for shared notebooks."
+   },
+   "quickNote_title": {
+      "description": "Label for note title",
+      "message": "\u041D\u0430\u0441\u043B\u043E\u0432"
+   },
+   "quickNote_untitledNote": {
+      "description": "Placeholder title for untitled note",
+      "message": "\u0411\u0435\u043B\u0435\u0448\u043A\u0430 \u0431\u0435\u0437 \u043D\u0430\u0441\u043B\u043E\u0432\u0430"
+   },
+   "regForm_cancel": {
+      "description": "Allows user to back out of registration when s/he's creating an account during account switching",
+      "message": "\u041E\u0434\u0443\u0441\u0442\u0430\u043D\u0438"
+   },
+   "regForm_deactivated_username": {
+      "description": "User wanted to register with a deactivated username",
+      "message": "Username has been deactivated.  Would you like to \u003Ca href='$url$'\u003Ereactivate\u003C/a\u003E the account?",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "https://www.evernote.com/AccountReactivation.action"
+         }
+      }
+   },
+   "regForm_email_required": {
+      "description": "User didn't enter an email address",
+      "message": "Email address is a required field."
+   },
+   "regForm_goodUsername": {
+      "description": "The user entered a valid and available username into the registration form",
+      "message": "\u0414\u043E\u0441\u0442\u0443\u043F\u043D\u043E"
+   },
+   "regForm_invalid_captcha": {
+      "description": "User didn't fill out the captcha.",
+      "message": "\u041F\u0440\u0435\u043A\u0443\u0446\u0430j\u0442\u0435 \u0441\u043B\u043E\u0432\u0430 \u043A\u043Ej\u0430 \u0441\u0435 \u043D\u0430\u043B\u0430\u0437\u0435 \u043D\u0430 \u0433\u043E\u0440\u045A\u043Ej \u0441\u043B\u0438\u0446\u0438."
+   },
+   "regForm_invalid_email": {
+      "description": "User didn't enter a properly-formatted email address",
+      "message": "Email address appears to be invalid."
+   },
+   "regForm_invalid_password": {
+      "description": "User entered an invalid password",
+      "message": "Select a password between 6 and 64 characters long consisting of letters, numbers and punctuation."
+   },
+   "regForm_invalid_username": {
+      "description": "User entered an invalid username",
+      "message": "\u041A\u043E\u0440\u0438\u0441\u043D\u0438\u0447\u043A\u043E \u0438\u043C\u0435 \u043C\u043E\u0440\u0430 \u0434\u0430 \u043F\u043E\u0447\u043D\u0435 \u0438 \u0437\u0430\u0432\u0440\u0448\u0438 \u0441\u0435 \u043D\u0430 \u0441\u043B\u043E\u0432\u043E \u0438\u043B\u0438 \u0431\u0440\u043Ej, \u0441\u043C\u0435 \u0434\u0430 \u0441\u0430\u0434\u0440\u0436\u0438 \u0446\u0440\u0442\u0438\u0446\u0435 \u0438 \u0434\u043E\u045A\u0435 \u0446\u0440\u0442\u0435."
+   },
+   "regForm_password_required": {
+      "description": "User didn't enter a password",
+      "message": "Password is a required field."
+   },
+   "regForm_taken_email": {
+      "description": "User entered a valid but unavailable email",
+      "message": "This email address is already in use."
+   },
+   "regForm_taken_username": {
+      "description": "User entered a valid but unavailable username",
+      "message": "\u041A\u043E\u0440\u0438\u0441\u043D\u0438\u0447\u043A\u043E \u0438\u043C\u0435 \u043A\u043Ej\u0435 \u0441\u0442\u0435 \u0438\u0437\u0430\u0431\u0440\u0430\u043B\u0438 j\u0435 \u0432\u0435\u045B \u0443 \u0443\u043F\u043E\u0442\u0440\u0435\u0431\u0438."
+   },
+   "register": {
+      "description": "Text on the submit button of the registration form",
+      "message": "\u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0443j \u0441\u0435"
+   },
+   "registrationForm_username": {
+      "description": "Text on the username field of the registration form",
+      "message": "\u041A\u043E\u0440\u0438\u0441\u043D\u0438\u0447\u043A\u043E \u0438\u043C\u0435"
+   },
+   "registration_terms": {
+      "description": "Terms of Service and Privacy Policy agreement",
+      "message": "By clicking Register, you are agreeing to our \u003Ca href='$tos_url$'\u003ETerms of Service\u003C/a\u003E and \u003Ca href='$pp_url$'\u003EPrivacy Policy\u003C/a\u003E.",
+      "placeholders": {
+         "pp_url": {
+            "content": "$2",
+            "example": "http://www.evernote.com/privacy"
+         },
+         "tos_url": {
+            "content": "$1",
+            "example": "http://www.evernote.com/tos"
+         }
+      }
+   },
+   "relatedNotes": {
+      "description": "Label for the related notes button, and the title for the descriptive overlay.",
+      "message": "Related Notes"
+   },
+   "relatedNotesDescription": {
+      "description": "message describing what Related Notes do.",
+      "message": "Evernote finds up to three notes in your account that are related to the page you just clipped and presents them here."
+   },
+   "rememberFoodYouLove": {
+      "description": "Second part of the text for the Evernote Food cross promotion",
+      "message": "Remember the food you love."
+   },
+   "safariContextClipImage": {
+      "description": "Label for right-click menu to clip an image in Safari.",
+      "message": "Save image to Evernote"
+   },
+   "safariContextClipPDF": {
+      "description": "Label for right-click menu to clip a PDF in Safari.",
+      "message": "\u0421\u0430\u0447\u0443\u0432\u0430j PDF \u0443 Evernote"
+   },
+   "safariContextClipPage": {
+      "description": "Label for right-click menu to clip the whole page in Safari.",
+      "message": "Save full page to Evernote"
+   },
+   "safariContextClipSelection": {
+      "description": "Label for right-click menu to clip a selection in Safari.",
+      "message": "Save selection to Evernote"
+   },
+   "safariContextClipUrl": {
+      "description": "Label for right-click menu to clip a URL in Safari.",
+      "message": "Save URL to Evernote"
+   },
+   "safariContextNewNote": {
+      "description": "Label for right-click menu to create a new note.",
+      "message": "Create new note in Evernote"
+   },
+   "saveToEvernote": {
+      "description": "Label for button to save clip to Evernote",
+      "message": "Save to Evernote"
+   },
+   "searchHelperFoundNotes": {
+      "description": "Message indicating that related notes were found",
+      "message": "\u003Cb\u003ETop results\u003C/b\u003E in your Evernote account"
+   },
+   "searchHelperLoginMessage": {
+      "description": "Message injected into search-engine page indicating that the user must login prior to seeing results.",
+      "message": "\u003Cdiv class='grayText' id='login'\u003E\u003Ca target='_blank' href='$loginUrl$'\u003ESign in\u003C/a\u003E to Web Clipper to see Related Results\u003C/div\u003E",
+      "placeholders": {
+         "loginUrl": {
+            "content": "$1",
+            "example": "http://www.evernote.com/Login.action"
+         }
+      }
+   },
+   "searchHelperNoTransportError": {
+      "description": "Error message shown to user when there is a problem reaching the servers when doing simultaneous search.",
+      "message": "\u0421\u0438\u043C\u0443\u043B\u0442\u0430\u043D\u0430 \u043F\u0440\u0435\u0442\u0440\u0430\u0433\u0430 \u0442\u0440\u0435\u043D\u0443\u0442\u043D\u043E \u043D\u0438\u0458\u0435 \u0434\u043E\u0441\u0442\u0443\u043F\u043D\u0430, \u0458\u0435\u0440 \u0458\u0435 \u043A\u043E\u043C\u0443\u043D\u0438\u043A\u0430\u0446\u0438\u0458\u0430 \u0441\u0430 \u0441\u0435\u0440\u0432\u0435\u0440\u0438\u043C\u0430 \u0443 \u043F\u0440\u0435\u043A\u0438\u0434\u0443."
+   },
+   "searchHelperNotesNotFoundBiz": {
+      "description": "Message injected into search-engine page indicating there were no related notes found in personal or business accounts",
+      "message": "No Related Results in your Personal or Business notes"
+   },
+   "searchHelperNotesNotFoundPers": {
+      "description": "Message injected into search-engine page indicating there were no related notes found in personal account",
+      "message": "No Related Results in your notes"
+   },
+   "searchHelperTopBizLibraryMatches": {
+      "description": "Section heading for the simsearch notes found in the user's business account",
+      "message": "$num$ Related Results in your Business notes",
+      "placeholders": {
+         "num": {
+            "content": "$1",
+            "example": "2"
+         }
+      }
+   },
+   "searchHelperTopBizLibraryMatchesOne": {
+      "description": "Section heading for the simsearch notes found in the user's business account, if there was only one result",
+      "message": "1 Related Result in your Business notes"
+   },
+   "searchHelperTopMatchesBiz": {
+      "description": "Section heading for the simsearch notes found in a business user's personal account",
+      "message": "$num$ Related Results in your Personal notes",
+      "placeholders": {
+         "num": {
+            "content": "$1",
+            "example": "3"
+         }
+      }
+   },
+   "searchHelperTopMatchesBizOne": {
+      "description": "Section heading for the simsearch notes found in a business user's personal account, if there was only one result",
+      "message": "1 Related Result in your Personal notes"
+   },
+   "searchHelperTopMatchesPers": {
+      "description": "Section heading for the simsearch notes found in a non-business user's personal account",
+      "message": "$num$ Related Results in your notes",
+      "placeholders": {
+         "num": {
+            "content": "$1",
+            "example": "3"
+         }
+      }
+   },
+   "searchHelperTopMatchesPersOne": {
+      "description": "Section heading for the simsearch notes found in a non-business user's personal account, if there was only one result",
+      "message": "1 Related Result in your notes"
+   },
+   "searchHelperViewAll": {
+      "description": "Label for the link in simsearch to the web client to search for the user's search query.",
+      "message": "View all"
+   },
+   "searchHelper_hidePerm": {
+      "description": "Text for the option in the simsearch drop down menu to let user to disable simsearch in the options",
+      "message": "Dismiss forever"
+   },
+   "searchHelper_hideTemp": {
+      "description": "Text for the option in the simsearch drop down menu to let user temporarily close the simsearch box, but not disable in the options",
+      "message": "\u041E\u0442\u043A\u0430\u0436\u0438"
+   },
+   "showRelatedNotes": {
+      "description": "text for the link in the 'related notes' overlay that will show this section.",
+      "message": "Show Related Notes"
+   },
+   "signInHelperText": {
+      "description": "message shown at the top of the login screen to tell them why they should sign in",
+      "message": "Sign in to make sure you can clip or view Related Results"
+   },
+   "signInPrompt": {
+      "description": "hover text on signed out state of the toolbar icon",
+      "message": "Sign in to Web Clipper"
+   },
+   "signOutAccount": {
+      "description": "menu item for logging out of the currently selected account.",
+      "message": "Sign out of $name$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "signOutAll": {
+      "description": "Label to click when a user wants to log in with multiple accounts.",
+      "message": "Sign out of all accounts"
+   },
+   "signout": {
+      "description": "Text on a link prompting for signing out currently logged in user",
+      "message": "\u041E\u0434j\u0430\u0432\u0430"
+   },
+   "stayLoggedInFree": {
+      "description": "Message indicating user should stay logged in as existing user.",
+      "message": "Stay logged in as $name$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "switchAnyMessage": {
+      "description": "Message shown when a user tries to add another user and is not already logged into a free account.",
+      "message": "User switching is a premium feature that lets you jump quickly between users. You can add a premium or free user."
+   },
+   "switchFreeAccount": {
+      "description": "Message indicating user should switch to newly logged in user.",
+      "message": "Use $name$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "switchPremiumMessage": {
+      "description": "Message shown when a user tries to add another user and is already logged into a free account.",
+      "message": "User switching is a premium feature that lets you jump quickly between users. You can add a  premium user."
+   },
+   "switchToAccount": {
+      "description": "Menu item indicating a user account that can be switched to.",
+      "message": "Switch to $name$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Username"
+         }
+      }
+   },
+   "tagNamesNotInRange": {
+      "description": "Indicates that user entered an abnormal number of tags",
+      "message": "You've entered the maximum number of tags."
+   },
+   "tryItOut": {
+      "description": "text for button on pdf tooltip",
+      "message": "Try it out"
+   },
+   "youHaveRelatedNotes": {
+      "description": "Text indicating that the user has other related notes.",
+      "message": "You have other notes like this."
+   }
+}
