@@ -1,4 +1,15 @@
 {
+  "viewer_toolbar_state": {
+    "__class__": "bytearray", 
+    "__value__": "AAAA/wAAAAH9AAAAAAAABfwAAAMuAAAABAAAAAQAAAAIAAAACPwAAAACAAAAAAAAAAEAAAAQAHQAbwBvAGwAXwBiAGEAcgMAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAASAHQAbwBvAGwAXwBiAGEAcgAyAQAAAAD/////AAAAAAAAAAA="
+  }, 
+  "viewer_toc_isvisible": false, 
+  "in_paged_mode": true, 
+  "viewer_window_geometry": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywABAAAAAAAAAAAAAAAABj8AAANvAAAAAAAAAAD////+/////gAAAAACAA=="
+  }, 
+  "multiplier": 1.0, 
   "viewer_open_history": [
     "/home/francois/Books/Aaron Sumner/Everyday Rails Testing with RSpec (7)/Everyday Rails Testing with RSpec - Aaron Sumner.epub"
   ]

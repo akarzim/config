@@ -1,7 +1,43 @@
 {
   "fonts": {
-    "/usr/share/fonts/truetype/freefont/FreeSans.ttf||1563256:1337983250.0": {
+    "/usr/share/fonts/truetype/ttf-bitstream-vera/VeraBd.ttf||58716:1050501733.0": {
+      "full_name": "Bitstream Vera Sans Bold", 
+      "weight": 700, 
+      "is_regular": false, 
+      "panose": [
+        2, 
+        11, 
+        8, 
+        3, 
+        3, 
+        6, 
+        4, 
+        2, 
+        2, 
+        4
+      ], 
+      "fs_type": 4, 
       "is_oblique": false, 
+      "font-style": "normal", 
+      "is_wws": false, 
+      "preferred_family_name": null, 
+      "is_otf": false, 
+      "width": 5, 
+      "font-stretch": "normal", 
+      "font-weight": "bold", 
+      "wws_subfamily_name": null, 
+      "preferred_subfamily_name": null, 
+      "subfamily_name": "Bold", 
+      "wws_family_name": null, 
+      "path": "/usr/share/fonts/truetype/ttf-bitstream-vera/VeraBd.ttf", 
+      "font-family": "Bitstream Vera Sans", 
+      "family_name": "Bitstream Vera Sans", 
+      "os2_version": 1, 
+      "is_italic": false, 
+      "is_bold": true
+    }, 
+    "/usr/share/fonts/truetype/freefont/FreeSans.ttf||1563256:1337983250.0": {
+      "full_name": "FreeSans", 
       "weight": 400, 
       "is_regular": true, 
       "panose": [
@@ -17,7 +53,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "FreeSans", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -37,7 +73,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/freefont/FreeSansBold.ttf||416128:1337983224.0": {
-      "is_oblique": false, 
+      "full_name": "FreeSans Bold", 
       "weight": 600, 
       "is_regular": false, 
       "panose": [
@@ -53,7 +89,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "FreeSans Bold", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -73,7 +109,7 @@
       "is_bold": true
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/Courier_New_Bold_Italic.ttf||234788:958038318.0": {
-      "is_oblique": false, 
+      "full_name": "Courier New Bold Italic", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -89,7 +125,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Courier New Bold Italic", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -109,7 +145,7 @@
       "is_bold": true
     }, 
     "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSansCondensed.ttf||643852:1298817440.0": {
-      "full_name": "DejaVu Sans Condensed", 
+      "is_oblique": false, 
       "weight": 400, 
       "is_regular": true, 
       "panose": [
@@ -125,27 +161,27 @@
         4
       ], 
       "fs_type": 0, 
-      "is_oblique": false, 
+      "full_name": "DejaVu Sans Condensed", 
       "font-style": "normal", 
-      "is_wws": false, 
+      "preferred_subfamily_name": "Condensed", 
       "preferred_family_name": "DejaVu Sans", 
       "is_otf": false, 
       "width": 4, 
       "font-stretch": "semi-condensed", 
       "font-weight": "normal", 
       "wws_subfamily_name": null, 
-      "preferred_subfamily_name": "Condensed", 
+      "is_wws": false, 
       "subfamily_name": "Book", 
       "wws_family_name": null, 
       "path": "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSansCondensed.ttf", 
       "font-family": "DejaVu Sans", 
       "family_name": "DejaVu Sans Condensed", 
-      "os2_version": 1, 
       "is_italic": false, 
+      "os2_version": 1, 
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/Verdana.ttf||139640:910851520.0": {
-      "is_oblique": false, 
+      "full_name": "Verdana", 
       "weight": 400, 
       "is_regular": true, 
       "panose": [
@@ -161,7 +197,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Verdana", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -181,7 +217,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/trebucit.ttf||139288:986825144.0": {
-      "is_oblique": false, 
+      "full_name": "Trebuchet MS Italic", 
       "weight": 400, 
       "is_regular": false, 
       "panose": [
@@ -197,7 +233,7 @@
         4
       ], 
       "fs_type": 8, 
-      "full_name": "Trebuchet MS Italic", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -217,7 +253,7 @@
       "is_bold": false
     }, 
     "/home/francois/.fonts/UbuntuMono-BI-Powerline.ttf||209756:1355493439.45": {
-      "is_oblique": false, 
+      "full_name": "Ubuntu Mono Bold Italic for Powerline", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -233,7 +269,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Ubuntu Mono Bold Italic for Powerline", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": "Bold Italic", 
       "preferred_family_name": "Ubuntu Mono for Powerline", 
@@ -252,8 +288,44 @@
       "os2_version": 3, 
       "is_bold": true
     }, 
-    "/usr/share/fonts/truetype/liberation/LiberationMono-Italic.ttf||124376:1340936878.0": {
+    "/usr/share/fonts/opentype/ipafont-mincho/ipam.ttf||8046712:1302599820.0": {
+      "full_name": "IPAMincho", 
+      "weight": 400, 
+      "is_regular": true, 
+      "panose": [
+        2, 
+        2, 
+        4, 
+        9, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0
+      ], 
+      "fs_type": 0, 
       "is_oblique": false, 
+      "font-style": "normal", 
+      "is_wws": false, 
+      "preferred_family_name": null, 
+      "is_otf": false, 
+      "width": 5, 
+      "font-stretch": "normal", 
+      "font-weight": "normal", 
+      "wws_subfamily_name": null, 
+      "preferred_subfamily_name": null, 
+      "subfamily_name": "Regular", 
+      "wws_family_name": null, 
+      "path": "/usr/share/fonts/opentype/ipafont-mincho/ipam.ttf", 
+      "font-family": "IPAMincho", 
+      "family_name": "IPAMincho", 
+      "os2_version": 3, 
+      "is_italic": false, 
+      "is_bold": false
+    }, 
+    "/usr/share/fonts/truetype/liberation/LiberationMono-Italic.ttf||124376:1340936878.0": {
+      "full_name": "Liberation Mono Italic", 
       "weight": 400, 
       "is_regular": false, 
       "panose": [
@@ -269,7 +341,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Liberation Mono Italic", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -289,7 +361,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/timesbd.ttf||333900:958038320.0": {
-      "is_oblique": false, 
+      "full_name": "Times New Roman Bold", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -305,7 +377,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Times New Roman Bold", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -325,7 +397,7 @@
       "is_bold": true
     }, 
     "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSansCondensed-Bold.ttf||631992:1298817440.0": {
-      "full_name": "DejaVu Sans Condensed Bold", 
+      "is_oblique": false, 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -341,27 +413,27 @@
         4
       ], 
       "fs_type": 0, 
-      "is_oblique": false, 
+      "full_name": "DejaVu Sans Condensed Bold", 
       "font-style": "normal", 
-      "is_wws": false, 
+      "preferred_subfamily_name": "Condensed Bold", 
       "preferred_family_name": "DejaVu Sans", 
       "is_otf": false, 
       "width": 4, 
       "font-stretch": "semi-condensed", 
       "font-weight": "bold", 
       "wws_subfamily_name": null, 
-      "preferred_subfamily_name": "Condensed Bold", 
+      "is_wws": false, 
       "subfamily_name": "Bold", 
       "wws_family_name": null, 
       "path": "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSansCondensed-Bold.ttf", 
       "font-family": "DejaVu Sans", 
       "family_name": "DejaVu Sans Condensed", 
-      "os2_version": 1, 
       "is_italic": false, 
+      "os2_version": 1, 
       "is_bold": true
     }, 
     "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSerifCondensed-Bold.ttf||316440:1298817441.0": {
-      "full_name": "DejaVu Serif Condensed Bold", 
+      "is_oblique": false, 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -377,27 +449,27 @@
         4
       ], 
       "fs_type": 0, 
-      "is_oblique": false, 
+      "full_name": "DejaVu Serif Condensed Bold", 
       "font-style": "normal", 
-      "is_wws": false, 
+      "preferred_subfamily_name": "Condensed Bold", 
       "preferred_family_name": "DejaVu Serif", 
       "is_otf": false, 
       "width": 4, 
       "font-stretch": "semi-condensed", 
       "font-weight": "bold", 
       "wws_subfamily_name": null, 
-      "preferred_subfamily_name": "Condensed Bold", 
+      "is_wws": false, 
       "subfamily_name": "Bold", 
       "wws_family_name": null, 
       "path": "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSerifCondensed-Bold.ttf", 
       "font-family": "DejaVu Serif", 
       "family_name": "DejaVu Serif Condensed", 
-      "os2_version": 1, 
       "is_italic": false, 
+      "os2_version": 1, 
       "is_bold": true
     }, 
     "/usr/share/fonts/truetype/liberation/LiberationMono-Regular.ttf||108476:1340936878.0": {
-      "is_oblique": false, 
+      "full_name": "Liberation Mono", 
       "weight": 400, 
       "is_regular": true, 
       "panose": [
@@ -413,7 +485,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Liberation Mono", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -433,7 +505,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSansCondensed-BoldOblique.ttf||580168:1298817440.0": {
-      "full_name": "DejaVu Sans Condensed Bold Oblique", 
+      "is_oblique": false, 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -449,27 +521,27 @@
         4
       ], 
       "fs_type": 0, 
-      "is_oblique": false, 
+      "full_name": "DejaVu Sans Condensed Bold Oblique", 
       "font-style": "italic", 
-      "is_wws": false, 
+      "preferred_subfamily_name": "Condensed Bold Oblique", 
       "preferred_family_name": "DejaVu Sans", 
       "is_otf": false, 
       "width": 4, 
       "font-stretch": "semi-condensed", 
       "font-weight": "bold", 
       "wws_subfamily_name": null, 
-      "preferred_subfamily_name": "Condensed Bold Oblique", 
+      "is_wws": false, 
       "subfamily_name": "Bold Oblique", 
       "wws_family_name": null, 
       "path": "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSansCondensed-BoldOblique.ttf", 
       "font-family": "DejaVu Sans", 
       "family_name": "DejaVu Sans Condensed", 
-      "os2_version": 1, 
       "is_italic": true, 
+      "os2_version": 1, 
       "is_bold": true
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/Trebuchet_MS_Bold.ttf||123828:986825124.0": {
-      "is_oblique": false, 
+      "full_name": "Trebuchet MS Bold", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -485,7 +557,7 @@
         4
       ], 
       "fs_type": 8, 
-      "full_name": "Trebuchet MS Bold", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -504,8 +576,44 @@
       "os2_version": 1, 
       "is_bold": true
     }, 
-    "/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-MI.ttf||284848:1349525057.0": {
+    "/usr/share/fonts/opentype/ipafont-gothic/ipag.ttf||6235344:1302598466.0": {
+      "full_name": "IPAGothic", 
+      "weight": 400, 
+      "is_regular": true, 
+      "panose": [
+        2, 
+        11, 
+        5, 
+        9, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0
+      ], 
+      "fs_type": 0, 
       "is_oblique": false, 
+      "font-style": "normal", 
+      "is_wws": false, 
+      "preferred_family_name": null, 
+      "is_otf": false, 
+      "width": 5, 
+      "font-stretch": "normal", 
+      "font-weight": "normal", 
+      "wws_subfamily_name": null, 
+      "preferred_subfamily_name": null, 
+      "subfamily_name": "Regular", 
+      "wws_family_name": null, 
+      "path": "/usr/share/fonts/opentype/ipafont-gothic/ipag.ttf", 
+      "font-family": "IPAGothic", 
+      "family_name": "IPAGothic", 
+      "os2_version": 3, 
+      "is_italic": false, 
+      "is_bold": false
+    }, 
+    "/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-MI.ttf||284848:1349525057.0": {
+      "full_name": "Ubuntu Medium Italic", 
       "weight": 500, 
       "is_regular": false, 
       "panose": [
@@ -521,7 +629,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Ubuntu Medium Italic", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": "Medium Italic", 
       "preferred_family_name": "Ubuntu", 
@@ -541,7 +649,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/arial.ttf||275572:958038302.0": {
-      "is_oblique": false, 
+      "full_name": "Arial", 
       "weight": 400, 
       "is_regular": true, 
       "panose": [
@@ -557,7 +665,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Arial", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -577,7 +685,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/Verdana_Italic.ttf||154264:910851520.0": {
-      "is_oblique": false, 
+      "full_name": "Verdana Italic", 
       "weight": 400, 
       "is_regular": false, 
       "panose": [
@@ -593,7 +701,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Verdana Italic", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -612,8 +720,44 @@
       "os2_version": 1, 
       "is_bold": false
     }, 
-    "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSansMono.ttf||333636:1298817441.0": {
+    "/usr/share/fonts/truetype/ttf-bitstream-vera/VeraMoIt.ttf||54508:1050501733.0": {
+      "full_name": "Bitstream Vera Sans Mono Oblique", 
+      "weight": 400, 
+      "is_regular": false, 
+      "panose": [
+        2, 
+        11, 
+        6, 
+        9, 
+        3, 
+        3, 
+        4, 
+        11, 
+        2, 
+        4
+      ], 
+      "fs_type": 4, 
       "is_oblique": false, 
+      "font-style": "italic", 
+      "is_wws": false, 
+      "preferred_family_name": null, 
+      "is_otf": false, 
+      "width": 5, 
+      "font-stretch": "normal", 
+      "font-weight": "normal", 
+      "wws_subfamily_name": null, 
+      "preferred_subfamily_name": null, 
+      "subfamily_name": "Oblique", 
+      "wws_family_name": null, 
+      "path": "/usr/share/fonts/truetype/ttf-bitstream-vera/VeraMoIt.ttf", 
+      "font-family": "Bitstream Vera Sans Mono", 
+      "family_name": "Bitstream Vera Sans Mono", 
+      "os2_version": 1, 
+      "is_italic": true, 
+      "is_bold": false
+    }, 
+    "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSansMono.ttf||333636:1298817441.0": {
+      "full_name": "DejaVu Sans Mono", 
       "weight": 400, 
       "is_regular": true, 
       "panose": [
@@ -629,7 +773,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "DejaVu Sans Mono", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -648,15 +792,51 @@
       "os2_version": 1, 
       "is_bold": false
     }, 
-    "/usr/share/calibre/fonts/liberation/LiberationSans-Italic.ttf||162324:1340936879.0": {
-      "is_oblique": false, 
+    "/usr/share/fonts/truetype/ttf-bitstream-vera/VeraSe.ttf||60280:1050501733.0": {
+      "full_name": "Bitstream Vera Serif", 
       "weight": 400, 
+      "is_regular": true, 
+      "panose": [
+        2, 
+        6, 
+        6, 
+        3, 
+        5, 
+        6, 
+        5, 
+        2, 
+        2, 
+        4
+      ], 
+      "fs_type": 4, 
+      "is_oblique": false, 
+      "font-style": "normal", 
+      "is_wws": false, 
+      "preferred_family_name": null, 
+      "is_otf": false, 
+      "width": 5, 
+      "font-stretch": "normal", 
+      "font-weight": "normal", 
+      "wws_subfamily_name": null, 
+      "preferred_subfamily_name": null, 
+      "subfamily_name": "Roman", 
+      "wws_family_name": null, 
+      "path": "/usr/share/fonts/truetype/ttf-bitstream-vera/VeraSe.ttf", 
+      "font-family": "Bitstream Vera Serif", 
+      "family_name": "Bitstream Vera Serif", 
+      "os2_version": 1, 
+      "is_italic": false, 
+      "is_bold": false
+    }, 
+    "/usr/share/fonts/truetype/msttcorefonts/Trebuchet_MS_Bold_Italic.ttf||131188:986825138.0": {
+      "full_name": "Trebuchet MS Bold Italic", 
+      "weight": 700, 
       "is_regular": false, 
       "panose": [
         2, 
         11, 
-        6, 
-        4, 
+        7, 
+        3, 
         2, 
         2, 
         2, 
@@ -664,64 +844,28 @@
         2, 
         4
       ], 
-      "fs_type": 0, 
-      "full_name": "Liberation Sans Italic", 
+      "fs_type": 8, 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
       "is_otf": false, 
       "width": 5, 
       "font-stretch": "normal", 
-      "font-weight": "normal", 
+      "font-weight": "bold", 
       "wws_subfamily_name": null, 
       "is_wws": false, 
-      "subfamily_name": "Italic", 
+      "subfamily_name": "Bold Italic", 
       "wws_family_name": null, 
-      "path": "/usr/share/calibre/fonts/liberation/LiberationSans-Italic.ttf", 
-      "font-family": "Liberation Sans", 
-      "family_name": "Liberation Sans", 
+      "path": "/usr/share/fonts/truetype/msttcorefonts/Trebuchet_MS_Bold_Italic.ttf", 
+      "font-family": "Trebuchet MS", 
+      "family_name": "Trebuchet MS", 
       "is_italic": true, 
-      "os2_version": 3, 
-      "is_bold": false
-    }, 
-    "/usr/share/fonts/truetype/msttcorefonts/Comic_Sans_MS.ttf||126364:910702354.0": {
-      "is_oblique": false, 
-      "weight": 400, 
-      "is_regular": true, 
-      "panose": [
-        3, 
-        15, 
-        7, 
-        2, 
-        3, 
-        3, 
-        2, 
-        2, 
-        2, 
-        4
-      ], 
-      "fs_type": 0, 
-      "full_name": "Comic Sans MS", 
-      "font-style": "normal", 
-      "preferred_subfamily_name": null, 
-      "preferred_family_name": null, 
-      "is_otf": false, 
-      "width": 5, 
-      "font-stretch": "normal", 
-      "font-weight": "normal", 
-      "wws_subfamily_name": null, 
-      "is_wws": false, 
-      "subfamily_name": "Regular", 
-      "wws_family_name": null, 
-      "path": "/usr/share/fonts/truetype/msttcorefonts/Comic_Sans_MS.ttf", 
-      "font-family": "Comic Sans MS", 
-      "family_name": "Comic Sans MS", 
-      "is_italic": false, 
       "os2_version": 1, 
-      "is_bold": false
+      "is_bold": true
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/georgiaz.ttf||158796:910702802.0": {
-      "is_oblique": false, 
+      "full_name": "Georgia Bold Italic", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -737,7 +881,7 @@
         3
       ], 
       "fs_type": 0, 
-      "full_name": "Georgia Bold Italic", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -757,7 +901,7 @@
       "is_bold": true
     }, 
     "/usr/share/fonts/truetype/freefont/FreeSerifItalic.ttf||922088:1337983275.0": {
-      "is_oblique": false, 
+      "full_name": "FreeSerif Italic", 
       "weight": 400, 
       "is_regular": false, 
       "panose": [
@@ -773,7 +917,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "FreeSerif Italic", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -793,7 +937,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/liberation/LiberationSans-Italic.ttf||162324:1340936879.0": {
-      "is_oblique": false, 
+      "full_name": "Liberation Sans Italic", 
       "weight": 400, 
       "is_regular": false, 
       "panose": [
@@ -809,7 +953,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Liberation Sans Italic", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -828,44 +972,44 @@
       "os2_version": 3, 
       "is_bold": false
     }, 
-    "/usr/share/fonts/truetype/msttcorefonts/comicbd.ttf||111476:910702358.0": {
-      "is_oblique": false, 
-      "weight": 700, 
+    "/usr/share/fonts/truetype/msttcorefonts/timesi.ttf||247092:958038322.0": {
+      "full_name": "Times New Roman Italic", 
+      "weight": 400, 
       "is_regular": false, 
       "panose": [
+        2, 
+        2, 
+        5, 
         3, 
-        15, 
+        5, 
+        4, 
+        5, 
         9, 
-        2, 
         3, 
-        3, 
-        2, 
-        2, 
-        2, 
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Comic Sans MS Bold", 
-      "font-style": "normal", 
+      "is_oblique": false, 
+      "font-style": "italic", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
       "is_otf": false, 
       "width": 5, 
       "font-stretch": "normal", 
-      "font-weight": "bold", 
+      "font-weight": "normal", 
       "wws_subfamily_name": null, 
       "is_wws": false, 
-      "subfamily_name": "Bold", 
+      "subfamily_name": "Italic", 
       "wws_family_name": null, 
-      "path": "/usr/share/fonts/truetype/msttcorefonts/comicbd.ttf", 
-      "font-family": "Comic Sans MS", 
-      "family_name": "Comic Sans MS", 
-      "is_italic": false, 
+      "path": "/usr/share/fonts/truetype/msttcorefonts/timesi.ttf", 
+      "font-family": "Times New Roman", 
+      "family_name": "Times New Roman", 
+      "is_italic": true, 
       "os2_version": 1, 
-      "is_bold": true
+      "is_bold": false
     }, 
     "/usr/share/fonts/truetype/freefont/FreeMono.ttf||592752:1337983218.0": {
-      "is_oblique": false, 
+      "full_name": "FreeMono", 
       "weight": 400, 
       "is_regular": true, 
       "panose": [
@@ -881,7 +1025,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "FreeMono", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -901,7 +1045,7 @@
       "is_bold": false
     }, 
     "/usr/share/calibre/fonts/liberation/LiberationSansNarrow-Regular.ttf||113320:1340936880.0": {
-      "is_oblique": false, 
+      "full_name": "Liberation Sans Narrow", 
       "weight": 400, 
       "is_regular": true, 
       "panose": [
@@ -917,7 +1061,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Liberation Sans Narrow", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -937,7 +1081,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-C.ttf||350420:1316705700.0": {
-      "is_oblique": false, 
+      "full_name": "Ubuntu Condensed", 
       "weight": 400, 
       "is_regular": true, 
       "panose": [
@@ -953,7 +1097,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Ubuntu Condensed", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": "Regular", 
       "preferred_family_name": "Ubuntu Condensed", 
@@ -972,8 +1116,44 @@
       "os2_version": 3, 
       "is_bold": false
     }, 
-    "/usr/share/calibre/fonts/liberation/LiberationSerif-Italic.ttf||144308:1340936879.0": {
+    "/usr/share/fonts/truetype/ttf-bitstream-vera/VeraIt.ttf||63684:1050501733.0": {
+      "full_name": "Bitstream Vera Sans Oblique", 
+      "weight": 400, 
+      "is_regular": false, 
+      "panose": [
+        2, 
+        11, 
+        6, 
+        3, 
+        3, 
+        3, 
+        4, 
+        11, 
+        2, 
+        4
+      ], 
+      "fs_type": 4, 
       "is_oblique": false, 
+      "font-style": "italic", 
+      "is_wws": false, 
+      "preferred_family_name": null, 
+      "is_otf": false, 
+      "width": 5, 
+      "font-stretch": "normal", 
+      "font-weight": "normal", 
+      "wws_subfamily_name": null, 
+      "preferred_subfamily_name": null, 
+      "subfamily_name": "Oblique", 
+      "wws_family_name": null, 
+      "path": "/usr/share/fonts/truetype/ttf-bitstream-vera/VeraIt.ttf", 
+      "font-family": "Bitstream Vera Sans", 
+      "family_name": "Bitstream Vera Sans", 
+      "os2_version": 1, 
+      "is_italic": true, 
+      "is_bold": false
+    }, 
+    "/usr/share/calibre/fonts/liberation/LiberationSerif-Italic.ttf||144308:1340936879.0": {
+      "full_name": "Liberation Serif Italic", 
       "weight": 400, 
       "is_regular": false, 
       "panose": [
@@ -989,7 +1169,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Liberation Serif Italic", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -1009,7 +1189,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSerifCondensed-Italic.ttf||338140:1298817441.0": {
-      "full_name": "DejaVu Serif Condensed Italic", 
+      "is_oblique": false, 
       "weight": 400, 
       "is_regular": false, 
       "panose": [
@@ -1025,27 +1205,27 @@
         4
       ], 
       "fs_type": 0, 
-      "is_oblique": false, 
+      "full_name": "DejaVu Serif Condensed Italic", 
       "font-style": "italic", 
-      "is_wws": false, 
+      "preferred_subfamily_name": "Condensed Italic", 
       "preferred_family_name": "DejaVu Serif", 
       "is_otf": false, 
       "width": 4, 
       "font-stretch": "semi-condensed", 
       "font-weight": "normal", 
       "wws_subfamily_name": null, 
-      "preferred_subfamily_name": "Condensed Italic", 
+      "is_wws": false, 
       "subfamily_name": "Italic", 
       "wws_family_name": null, 
       "path": "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSerifCondensed-Italic.ttf", 
       "font-family": "DejaVu Serif", 
       "family_name": "DejaVu Serif Condensed", 
-      "os2_version": 1, 
       "is_italic": true, 
+      "os2_version": 1, 
       "is_bold": false
     }, 
     "/usr/share/calibre/fonts/liberation/LiberationSans-BoldItalic.ttf||135404:1340936879.0": {
-      "is_oblique": false, 
+      "full_name": "Liberation Sans Bold Italic", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -1061,7 +1241,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Liberation Sans Bold Italic", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -1081,7 +1261,7 @@
       "is_bold": true
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/georgiab.ttf||139584:910702802.0": {
-      "is_oblique": false, 
+      "full_name": "Georgia Bold", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -1097,7 +1277,7 @@
         3
       ], 
       "fs_type": 0, 
-      "full_name": "Georgia Bold", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -1117,7 +1297,7 @@
       "is_bold": true
     }, 
     "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSerifCondensed-BoldItalic.ttf||331128:1298817441.0": {
-      "full_name": "DejaVu Serif Condensed Bold Italic", 
+      "is_oblique": false, 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -1133,27 +1313,27 @@
         4
       ], 
       "fs_type": 0, 
-      "is_oblique": false, 
+      "full_name": "DejaVu Serif Condensed Bold Italic", 
       "font-style": "italic", 
-      "is_wws": false, 
+      "preferred_subfamily_name": "Condensed Bold Italic", 
       "preferred_family_name": "DejaVu Serif", 
       "is_otf": false, 
       "width": 4, 
       "font-stretch": "semi-condensed", 
       "font-weight": "bold", 
       "wws_subfamily_name": null, 
-      "preferred_subfamily_name": "Condensed Bold Italic", 
+      "is_wws": false, 
       "subfamily_name": "Bold Italic", 
       "wws_family_name": null, 
       "path": "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSerifCondensed-BoldItalic.ttf", 
       "font-family": "DejaVu Serif", 
       "family_name": "DejaVu Serif Condensed", 
-      "os2_version": 1, 
       "is_italic": true, 
+      "os2_version": 1, 
       "is_bold": true
     }, 
     "/usr/share/calibre/fonts/liberation/LiberationSans-Regular.ttf||139628:1340936879.0": {
-      "is_oblique": false, 
+      "full_name": "Liberation Sans", 
       "weight": 400, 
       "is_regular": true, 
       "panose": [
@@ -1169,7 +1349,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Liberation Sans", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -1189,7 +1369,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSerif-BoldItalic.ttf||332036:1298817441.0": {
-      "full_name": "DejaVu Serif Bold Italic", 
+      "is_oblique": false, 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -1205,27 +1385,27 @@
         4
       ], 
       "fs_type": 0, 
-      "is_oblique": false, 
+      "full_name": "DejaVu Serif Bold Italic", 
       "font-style": "italic", 
-      "is_wws": false, 
+      "preferred_subfamily_name": "Bold Italic", 
       "preferred_family_name": "DejaVu Serif", 
       "is_otf": false, 
       "width": 5, 
       "font-stretch": "normal", 
       "font-weight": "bold", 
       "wws_subfamily_name": null, 
-      "preferred_subfamily_name": "Bold Italic", 
+      "is_wws": false, 
       "subfamily_name": "Bold Italic", 
       "wws_family_name": null, 
       "path": "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSerif-BoldItalic.ttf", 
       "font-family": "DejaVu Serif", 
       "family_name": "DejaVu Serif", 
-      "os2_version": 1, 
       "is_italic": true, 
+      "os2_version": 1, 
       "is_bold": true
     }, 
     "/home/francois/.fonts/UbuntuMono-B-Powerline.ttf||183408:1355493435.83": {
-      "is_oblique": false, 
+      "full_name": "Ubuntu Mono Bold for Powerline", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -1241,7 +1421,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Ubuntu Mono Bold for Powerline", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": "Bold", 
       "preferred_family_name": "Ubuntu Mono for Powerline", 
@@ -1261,7 +1441,7 @@
       "is_bold": true
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/Courier_New_Bold.ttf||311508:958038316.0": {
-      "is_oblique": false, 
+      "full_name": "Courier New Bold", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -1277,7 +1457,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Courier New Bold", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -1297,7 +1477,7 @@
       "is_bold": true
     }, 
     "/usr/share/fonts/truetype/ubuntu-font-family/UbuntuMono-B.ttf||191400:1317052287.0": {
-      "is_oblique": false, 
+      "full_name": "Ubuntu Mono Bold", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -1313,7 +1493,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Ubuntu Mono Bold", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": "Bold", 
       "preferred_family_name": "Ubuntu Mono", 
@@ -1333,7 +1513,7 @@
       "is_bold": true
     }, 
     "/usr/share/calibre/fonts/liberation/LiberationSansNarrow-Bold.ttf||110528:1340936880.0": {
-      "is_oblique": false, 
+      "full_name": "Liberation Sans Narrow Bold", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -1349,7 +1529,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Liberation Sans Narrow Bold", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -1369,7 +1549,7 @@
       "is_bold": true
     }, 
     "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSans-Bold.ttf||673144:1334043650.0": {
-      "is_oblique": false, 
+      "full_name": "DejaVu Sans Bold", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -1385,7 +1565,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "DejaVu Sans Bold", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": "Bold", 
       "preferred_family_name": "DejaVu Sans", 
@@ -1405,7 +1585,7 @@
       "is_bold": true
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/Arial_Italic.ttf||206132:958038310.0": {
-      "is_oblique": false, 
+      "full_name": "Arial Italic", 
       "weight": 400, 
       "is_regular": false, 
       "panose": [
@@ -1421,7 +1601,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Arial Italic", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -1441,7 +1621,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/Georgia_Italic.ttf||156668:910702802.0": {
-      "is_oblique": false, 
+      "full_name": "Georgia Italic", 
       "weight": 400, 
       "is_regular": false, 
       "panose": [
@@ -1457,7 +1637,7 @@
         3
       ], 
       "fs_type": 0, 
-      "full_name": "Georgia Italic", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -1477,7 +1657,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/Arial.ttf||275572:958038302.0": {
-      "is_oblique": false, 
+      "full_name": "Arial", 
       "weight": 400, 
       "is_regular": true, 
       "panose": [
@@ -1493,7 +1673,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Arial", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -1512,8 +1692,44 @@
       "os2_version": 1, 
       "is_bold": false
     }, 
-    "/usr/share/fonts/truetype/liberation/LiberationSansNarrow-Bold.ttf||110528:1340936880.0": {
+    "/usr/share/fonts/opentype/ipafont-gothic/ipagp.ttf||6235712:1302598068.0": {
+      "full_name": "IPAPGothic", 
+      "weight": 400, 
+      "is_regular": true, 
+      "panose": [
+        2, 
+        11, 
+        5, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0
+      ], 
+      "fs_type": 0, 
       "is_oblique": false, 
+      "font-style": "normal", 
+      "is_wws": false, 
+      "preferred_family_name": null, 
+      "is_otf": false, 
+      "width": 5, 
+      "font-stretch": "normal", 
+      "font-weight": "normal", 
+      "wws_subfamily_name": null, 
+      "preferred_subfamily_name": null, 
+      "subfamily_name": "Regular", 
+      "wws_family_name": null, 
+      "path": "/usr/share/fonts/opentype/ipafont-gothic/ipagp.ttf", 
+      "font-family": "IPAPGothic", 
+      "family_name": "IPAPGothic", 
+      "os2_version": 3, 
+      "is_italic": false, 
+      "is_bold": false
+    }, 
+    "/usr/share/fonts/truetype/liberation/LiberationSansNarrow-Bold.ttf||110528:1340936880.0": {
+      "full_name": "Liberation Sans Narrow Bold", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -1529,7 +1745,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Liberation Sans Narrow Bold", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -1549,7 +1765,7 @@
       "is_bold": true
     }, 
     "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSans-BoldOblique.ttf||611212:1298817440.0": {
-      "full_name": "DejaVu Sans Bold Oblique", 
+      "is_oblique": false, 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -1565,27 +1781,27 @@
         4
       ], 
       "fs_type": 0, 
-      "is_oblique": false, 
+      "full_name": "DejaVu Sans Bold Oblique", 
       "font-style": "italic", 
-      "is_wws": false, 
+      "preferred_subfamily_name": "Bold Oblique", 
       "preferred_family_name": "DejaVu Sans", 
       "is_otf": false, 
       "width": 5, 
       "font-stretch": "normal", 
       "font-weight": "bold", 
       "wws_subfamily_name": null, 
-      "preferred_subfamily_name": "Bold Oblique", 
+      "is_wws": false, 
       "subfamily_name": "Bold Oblique", 
       "wws_family_name": null, 
       "path": "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSans-BoldOblique.ttf", 
       "font-family": "DejaVu Sans", 
       "family_name": "DejaVu Sans", 
-      "os2_version": 1, 
       "is_italic": true, 
+      "os2_version": 1, 
       "is_bold": true
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/comic.ttf||126364:910702354.0": {
-      "is_oblique": false, 
+      "full_name": "Comic Sans MS", 
       "weight": 400, 
       "is_regular": true, 
       "panose": [
@@ -1601,7 +1817,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Comic Sans MS", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -1620,8 +1836,44 @@
       "os2_version": 1, 
       "is_bold": false
     }, 
-    "/usr/share/fonts/truetype/msttcorefonts/Andale_Mono.ttf||105468:910851506.0": {
+    "/usr/share/fonts/truetype/ttf-bitstream-vera/VeraSeBd.ttf||58736:1050501733.0": {
+      "full_name": "Bitstream Vera Serif Bold", 
+      "weight": 700, 
+      "is_regular": false, 
+      "panose": [
+        2, 
+        6, 
+        8, 
+        3, 
+        5, 
+        6, 
+        5, 
+        2, 
+        2, 
+        4
+      ], 
+      "fs_type": 4, 
       "is_oblique": false, 
+      "font-style": "normal", 
+      "is_wws": false, 
+      "preferred_family_name": null, 
+      "is_otf": false, 
+      "width": 5, 
+      "font-stretch": "normal", 
+      "font-weight": "bold", 
+      "wws_subfamily_name": null, 
+      "preferred_subfamily_name": null, 
+      "subfamily_name": "Bold", 
+      "wws_family_name": null, 
+      "path": "/usr/share/fonts/truetype/ttf-bitstream-vera/VeraSeBd.ttf", 
+      "font-family": "Bitstream Vera Serif", 
+      "family_name": "Bitstream Vera Serif", 
+      "os2_version": 1, 
+      "is_italic": false, 
+      "is_bold": true
+    }, 
+    "/usr/share/fonts/truetype/msttcorefonts/Andale_Mono.ttf||105468:910851506.0": {
+      "full_name": "Andale Mono", 
       "weight": 400, 
       "is_regular": true, 
       "panose": [
@@ -1637,7 +1889,7 @@
         4
       ], 
       "fs_type": 8, 
-      "full_name": "Andale Mono", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -1656,8 +1908,44 @@
       "os2_version": 1, 
       "is_bold": false
     }, 
-    "/home/francois/.fonts/Inconsolata-dz-Powerline.otf||54612:1355492223.34": {
+    "/usr/share/fonts/opentype/ipafont-mincho/ipamp.ttf||8046048:1302599108.0": {
+      "full_name": "IPAPMincho", 
+      "weight": 400, 
+      "is_regular": true, 
+      "panose": [
+        2, 
+        2, 
+        4, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0
+      ], 
+      "fs_type": 0, 
       "is_oblique": false, 
+      "font-style": "normal", 
+      "is_wws": false, 
+      "preferred_family_name": null, 
+      "is_otf": false, 
+      "width": 5, 
+      "font-stretch": "normal", 
+      "font-weight": "normal", 
+      "wws_subfamily_name": null, 
+      "preferred_subfamily_name": null, 
+      "subfamily_name": "Regular", 
+      "wws_family_name": null, 
+      "path": "/usr/share/fonts/opentype/ipafont-mincho/ipamp.ttf", 
+      "font-family": "IPAPMincho", 
+      "family_name": "IPAPMincho", 
+      "os2_version": 3, 
+      "is_italic": false, 
+      "is_bold": false
+    }, 
+    "/home/francois/.fonts/Inconsolata-dz-Powerline.otf||54612:1355492223.34": {
+      "full_name": "Inconsolata-dz for Powerline", 
       "weight": 500, 
       "is_regular": true, 
       "panose": [
@@ -1673,7 +1961,7 @@
         0
       ], 
       "fs_type": 8, 
-      "full_name": "Inconsolata-dz for Powerline", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -1693,7 +1981,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/Arial_Black.ttf||117028:910702348.0": {
-      "is_oblique": false, 
+      "full_name": "Arial Black", 
       "weight": 400, 
       "is_regular": true, 
       "panose": [
@@ -1709,7 +1997,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Arial Black", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -1729,7 +2017,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-LI.ttf||409608:1316703586.0": {
-      "is_oblique": false, 
+      "full_name": "Ubuntu Light Italic", 
       "weight": 300, 
       "is_regular": false, 
       "panose": [
@@ -1745,7 +2033,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Ubuntu Light Italic", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": "Light Italic", 
       "preferred_family_name": "Ubuntu", 
@@ -1765,7 +2053,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/cour.ttf||302688:958038310.0": {
-      "is_oblique": false, 
+      "full_name": "Courier New", 
       "weight": 400, 
       "is_regular": true, 
       "panose": [
@@ -1781,7 +2069,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Courier New", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -1800,8 +2088,44 @@
       "os2_version": 1, 
       "is_bold": false
     }, 
-    "/usr/share/calibre/fonts/liberation/LiberationSansNarrow-BoldItalic.ttf||128852:1340936880.0": {
+    "/usr/share/fonts/truetype/ttf-bitstream-vera/VeraMono.ttf||49224:1050501733.0": {
+      "full_name": "Bitstream Vera Sans Mono", 
+      "weight": 400, 
+      "is_regular": true, 
+      "panose": [
+        2, 
+        11, 
+        6, 
+        9, 
+        3, 
+        8, 
+        4, 
+        2, 
+        2, 
+        4
+      ], 
+      "fs_type": 4, 
       "is_oblique": false, 
+      "font-style": "normal", 
+      "is_wws": false, 
+      "preferred_family_name": null, 
+      "is_otf": false, 
+      "width": 5, 
+      "font-stretch": "normal", 
+      "font-weight": "normal", 
+      "wws_subfamily_name": null, 
+      "preferred_subfamily_name": null, 
+      "subfamily_name": "Roman", 
+      "wws_family_name": null, 
+      "path": "/usr/share/fonts/truetype/ttf-bitstream-vera/VeraMono.ttf", 
+      "font-family": "Bitstream Vera Sans Mono", 
+      "family_name": "Bitstream Vera Sans Mono", 
+      "os2_version": 1, 
+      "is_italic": false, 
+      "is_bold": false
+    }, 
+    "/usr/share/calibre/fonts/liberation/LiberationSansNarrow-BoldItalic.ttf||128852:1340936880.0": {
+      "full_name": "Liberation Sans Narrow Bold Italic", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -1817,7 +2141,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Liberation Sans Narrow Bold Italic", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -1837,7 +2161,7 @@
       "is_bold": true
     }, 
     "/usr/share/fonts/truetype/nanum/NanumGothicBold.ttf||4288380:1338651904.0": {
-      "is_oblique": false, 
+      "full_name": "NanumGothicBold", 
       "weight": 600, 
       "is_regular": false, 
       "panose": [
@@ -1853,7 +2177,7 @@
         0
       ], 
       "fs_type": 8, 
-      "full_name": "NanumGothicBold", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": "Bold", 
       "preferred_family_name": "NanumGothic", 
@@ -1873,7 +2197,7 @@
       "is_bold": true
     }, 
     "/usr/share/calibre/fonts/liberation/LiberationSansNarrow-Italic.ttf||132796:1340936880.0": {
-      "is_oblique": false, 
+      "full_name": "Liberation Sans Narrow Italic", 
       "weight": 400, 
       "is_regular": false, 
       "panose": [
@@ -1889,7 +2213,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Liberation Sans Narrow Italic", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -1909,7 +2233,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/freefont/FreeMonoBoldOblique.ttf||298940:1337983206.0": {
-      "is_oblique": false, 
+      "full_name": "FreeMono Bold Oblique", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -1925,7 +2249,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "FreeMono Bold Oblique", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -1945,7 +2269,7 @@
       "is_bold": true
     }, 
     "/usr/share/fonts/truetype/freefont/FreeMonoOblique.ttf||395184:1337983213.0": {
-      "is_oblique": false, 
+      "full_name": "FreeMono Oblique", 
       "weight": 400, 
       "is_regular": false, 
       "panose": [
@@ -1961,7 +2285,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "FreeMono Oblique", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -1981,7 +2305,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/ubuntu-font-family/UbuntuMono-R.ttf||205748:1317052235.0": {
-      "is_oblique": false, 
+      "full_name": "Ubuntu Mono", 
       "weight": 400, 
       "is_regular": true, 
       "panose": [
@@ -1997,7 +2321,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Ubuntu Mono", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": "Regular", 
       "preferred_family_name": "Ubuntu Mono", 
@@ -2017,7 +2341,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/ariali.ttf||206132:958038310.0": {
-      "is_oblique": false, 
+      "full_name": "Arial Italic", 
       "weight": 400, 
       "is_regular": false, 
       "panose": [
@@ -2033,7 +2357,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Arial Italic", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -2052,8 +2376,44 @@
       "os2_version": 1, 
       "is_bold": false
     }, 
-    "/usr/share/fonts/truetype/msttcorefonts/Verdana_Bold_Italic.ttf||153324:910851520.0": {
+    "/usr/share/fonts/truetype/fonts-japanese-gothic.ttf||6235344:1302598466.0": {
+      "full_name": "IPAGothic", 
+      "weight": 400, 
+      "is_regular": true, 
+      "panose": [
+        2, 
+        11, 
+        5, 
+        9, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0
+      ], 
+      "fs_type": 0, 
       "is_oblique": false, 
+      "font-style": "normal", 
+      "is_wws": false, 
+      "preferred_family_name": null, 
+      "is_otf": false, 
+      "width": 5, 
+      "font-stretch": "normal", 
+      "font-weight": "normal", 
+      "wws_subfamily_name": null, 
+      "preferred_subfamily_name": null, 
+      "subfamily_name": "Regular", 
+      "wws_family_name": null, 
+      "path": "/usr/share/fonts/truetype/fonts-japanese-gothic.ttf", 
+      "font-family": "IPAGothic", 
+      "family_name": "IPAGothic", 
+      "os2_version": 3, 
+      "is_italic": false, 
+      "is_bold": false
+    }, 
+    "/usr/share/fonts/truetype/msttcorefonts/Verdana_Bold_Italic.ttf||153324:910851520.0": {
+      "full_name": "Verdana Bold Italic", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -2069,7 +2429,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Verdana Bold Italic", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -2089,7 +2449,7 @@
       "is_bold": true
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/Courier_New.ttf||302688:958038310.0": {
-      "is_oblique": false, 
+      "full_name": "Courier New", 
       "weight": 400, 
       "is_regular": true, 
       "panose": [
@@ -2105,7 +2465,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Courier New", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -2125,7 +2485,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/ariblk.ttf||117028:910702348.0": {
-      "is_oblique": false, 
+      "full_name": "Arial Black", 
       "weight": 400, 
       "is_regular": true, 
       "panose": [
@@ -2141,7 +2501,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Arial Black", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -2161,7 +2521,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/couri.ttf||244156:958038320.0": {
-      "is_oblique": false, 
+      "full_name": "Courier New Italic", 
       "weight": 400, 
       "is_regular": false, 
       "panose": [
@@ -2177,7 +2537,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Courier New Italic", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -2197,7 +2557,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-L.ttf||415552:1316703712.0": {
-      "is_oblique": false, 
+      "full_name": "Ubuntu Light", 
       "weight": 300, 
       "is_regular": true, 
       "panose": [
@@ -2213,7 +2573,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Ubuntu Light", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": "Light", 
       "preferred_family_name": "Ubuntu", 
@@ -2233,7 +2593,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/georgia.ttf||142964:910702798.0": {
-      "is_oblique": false, 
+      "full_name": "Georgia", 
       "weight": 400, 
       "is_regular": true, 
       "panose": [
@@ -2249,7 +2609,7 @@
         3
       ], 
       "fs_type": 0, 
-      "full_name": "Georgia", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -2269,7 +2629,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/freefont/FreeSerif.ttf||3303592:1337983318.0": {
-      "is_oblique": false, 
+      "full_name": "FreeSerif", 
       "weight": 400, 
       "is_regular": true, 
       "panose": [
@@ -2285,7 +2645,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "FreeSerif", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -2304,8 +2664,44 @@
       "os2_version": 3, 
       "is_bold": false
     }, 
-    "/usr/share/fonts/truetype/msttcorefonts/verdanai.ttf||154264:910851520.0": {
+    "/usr/share/fonts/truetype/ttf-bitstream-vera/VeraMoBI.ttf||55032:1050501733.0": {
+      "full_name": "Bitstream Vera Sans Mono Bold Oblique", 
+      "weight": 700, 
+      "is_regular": false, 
+      "panose": [
+        2, 
+        11, 
+        7, 
+        9, 
+        3, 
+        3, 
+        4, 
+        11, 
+        2, 
+        4
+      ], 
+      "fs_type": 4, 
       "is_oblique": false, 
+      "font-style": "italic", 
+      "is_wws": false, 
+      "preferred_family_name": null, 
+      "is_otf": false, 
+      "width": 5, 
+      "font-stretch": "normal", 
+      "font-weight": "bold", 
+      "wws_subfamily_name": null, 
+      "preferred_subfamily_name": null, 
+      "subfamily_name": "Bold Oblique", 
+      "wws_family_name": null, 
+      "path": "/usr/share/fonts/truetype/ttf-bitstream-vera/VeraMoBI.ttf", 
+      "font-family": "Bitstream Vera Sans Mono", 
+      "family_name": "Bitstream Vera Sans Mono", 
+      "os2_version": 1, 
+      "is_italic": true, 
+      "is_bold": true
+    }, 
+    "/usr/share/fonts/truetype/msttcorefonts/verdanai.ttf||154264:910851520.0": {
+      "full_name": "Verdana Italic", 
       "weight": 400, 
       "is_regular": false, 
       "panose": [
@@ -2321,7 +2717,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Verdana Italic", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -2341,7 +2737,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/liberation/LiberationSerif-Regular.ttf||152280:1340936880.0": {
-      "is_oblique": false, 
+      "full_name": "Liberation Serif", 
       "weight": 400, 
       "is_regular": true, 
       "panose": [
@@ -2357,7 +2753,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Liberation Serif", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -2377,7 +2773,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/Verdana_Bold.ttf||136032:910869302.0": {
-      "is_oblique": false, 
+      "full_name": "Verdana Bold", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -2393,7 +2789,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Verdana Bold", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -2413,7 +2809,7 @@
       "is_bold": true
     }, 
     "/home/francois/.fonts/Menlo-Powerline.otf||487212:1355492374.59": {
-      "is_oblique": false, 
+      "full_name": "Menlo Regular for Powerline", 
       "weight": 400, 
       "is_regular": true, 
       "panose": [
@@ -2429,7 +2825,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Menlo Regular for Powerline", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -2449,7 +2845,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/Comic_Sans_MS_Bold.ttf||111476:910702358.0": {
-      "is_oblique": false, 
+      "full_name": "Comic Sans MS Bold", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -2465,7 +2861,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Comic Sans MS Bold", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -2485,7 +2881,7 @@
       "is_bold": true
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/Arial_Bold.ttf||286620:958038304.0": {
-      "is_oblique": false, 
+      "full_name": "Arial Bold", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -2501,7 +2897,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Arial Bold", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -2521,7 +2917,7 @@
       "is_bold": true
     }, 
     "/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf||146896:1340936879.0": {
-      "is_oblique": false, 
+      "full_name": "Liberation Serif Bold", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -2537,7 +2933,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Liberation Serif Bold", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -2557,7 +2953,7 @@
       "is_bold": true
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/Trebuchet_MS_Italic.ttf||139288:986825144.0": {
-      "is_oblique": false, 
+      "full_name": "Trebuchet MS Italic", 
       "weight": 400, 
       "is_regular": false, 
       "panose": [
@@ -2573,7 +2969,7 @@
         4
       ], 
       "fs_type": 8, 
-      "full_name": "Trebuchet MS Italic", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -2593,7 +2989,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/verdanaz.ttf||153324:910851520.0": {
-      "is_oblique": false, 
+      "full_name": "Verdana Bold Italic", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -2609,7 +3005,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Verdana Bold Italic", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -2629,7 +3025,7 @@
       "is_bold": true
     }, 
     "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSerif.ttf||363200:1298817441.0": {
-      "is_oblique": false, 
+      "full_name": "DejaVu Serif", 
       "weight": 400, 
       "is_regular": true, 
       "panose": [
@@ -2645,7 +3041,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "DejaVu Serif", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": "Book", 
       "preferred_family_name": "DejaVu Serif", 
@@ -2665,7 +3061,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/freefont/FreeSerifBold.ttf||1310828:1337983267.0": {
-      "is_oblique": false, 
+      "full_name": "FreeSerif Bold", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -2681,7 +3077,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "FreeSerif Bold", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -2701,7 +3097,7 @@
       "is_bold": true
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/trebucbd.ttf||123828:986825124.0": {
-      "is_oblique": false, 
+      "full_name": "Trebuchet MS Bold", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -2717,7 +3113,7 @@
         4
       ], 
       "fs_type": 8, 
-      "full_name": "Trebuchet MS Bold", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -2737,7 +3133,7 @@
       "is_bold": true
     }, 
     "/usr/share/calibre/fonts/liberation/LiberationMono-Italic.ttf||124376:1340936878.0": {
-      "is_oblique": false, 
+      "full_name": "Liberation Mono Italic", 
       "weight": 400, 
       "is_regular": false, 
       "panose": [
@@ -2753,7 +3149,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Liberation Mono Italic", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -2773,7 +3169,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/Times_New_Roman_Italic.ttf||247092:958038322.0": {
-      "is_oblique": false, 
+      "full_name": "Times New Roman Italic", 
       "weight": 400, 
       "is_regular": false, 
       "panose": [
@@ -2789,7 +3185,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Times New Roman Italic", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -2809,7 +3205,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSans.ttf||720856:1334043650.0": {
-      "is_oblique": false, 
+      "full_name": "DejaVu Sans", 
       "weight": 400, 
       "is_regular": true, 
       "panose": [
@@ -2825,7 +3221,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "DejaVu Sans", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": "Book", 
       "preferred_family_name": "DejaVu Sans", 
@@ -2845,7 +3241,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSansMono-Oblique.ttf||241972:1298817441.0": {
-      "full_name": "DejaVu Sans Mono Oblique", 
+      "is_oblique": false, 
       "weight": 400, 
       "is_regular": false, 
       "panose": [
@@ -2861,27 +3257,27 @@
         4
       ], 
       "fs_type": 0, 
-      "is_oblique": false, 
+      "full_name": "DejaVu Sans Mono Oblique", 
       "font-style": "italic", 
-      "is_wws": false, 
+      "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
       "is_otf": false, 
       "width": 5, 
       "font-stretch": "normal", 
       "font-weight": "normal", 
       "wws_subfamily_name": null, 
-      "preferred_subfamily_name": null, 
+      "is_wws": false, 
       "subfamily_name": "Oblique", 
       "wws_family_name": null, 
       "path": "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSansMono-Oblique.ttf", 
       "font-family": "DejaVu Sans Mono", 
       "family_name": "DejaVu Sans Mono", 
-      "os2_version": 1, 
       "is_italic": true, 
+      "os2_version": 1, 
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/freefont/FreeSansBoldOblique.ttf||342488:1337983221.0": {
-      "is_oblique": false, 
+      "full_name": "FreeSans Bold Oblique", 
       "weight": 600, 
       "is_regular": false, 
       "panose": [
@@ -2897,7 +3293,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "FreeSans Bold Oblique", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -2917,7 +3313,7 @@
       "is_bold": true
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/Times_New_Roman_Bold.ttf||333900:958038320.0": {
-      "is_oblique": false, 
+      "full_name": "Times New Roman Bold", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -2933,7 +3329,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Times New Roman Bold", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -2953,7 +3349,7 @@
       "is_bold": true
     }, 
     "/usr/share/fonts/truetype/liberation/LiberationSerif-BoldItalic.ttf||150692:1340936879.0": {
-      "is_oblique": false, 
+      "full_name": "Liberation Serif Bold Italic", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -2969,7 +3365,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Liberation Serif Bold Italic", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -2989,7 +3385,7 @@
       "is_bold": true
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/courbd.ttf||311508:958038316.0": {
-      "is_oblique": false, 
+      "full_name": "Courier New Bold", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -3005,7 +3401,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Courier New Bold", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -3024,80 +3420,44 @@
       "os2_version": 1, 
       "is_bold": true
     }, 
-    "/usr/share/calibre/fonts/liberation/LiberationMono-Bold.ttf||105616:1340936878.0": {
-      "is_oblique": false, 
+    "/usr/share/fonts/truetype/ttf-bitstream-vera/VeraMoBd.ttf||49052:1050501733.0": {
+      "full_name": "Bitstream Vera Sans Mono Bold", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
         2, 
-        7, 
+        11, 
         7, 
         9, 
-        2, 
-        2, 
-        5, 
-        2, 
+        3, 
+        6, 
         4, 
+        2, 
+        2, 
         4
       ], 
-      "fs_type": 0, 
-      "full_name": "Liberation Mono Bold", 
+      "fs_type": 4, 
+      "is_oblique": false, 
       "font-style": "normal", 
-      "preferred_subfamily_name": null, 
+      "is_wws": false, 
       "preferred_family_name": null, 
       "is_otf": false, 
       "width": 5, 
       "font-stretch": "normal", 
       "font-weight": "bold", 
       "wws_subfamily_name": null, 
-      "is_wws": false, 
+      "preferred_subfamily_name": null, 
       "subfamily_name": "Bold", 
       "wws_family_name": null, 
-      "path": "/usr/share/calibre/fonts/liberation/LiberationMono-Bold.ttf", 
-      "font-family": "Liberation Mono", 
-      "family_name": "Liberation Mono", 
+      "path": "/usr/share/fonts/truetype/ttf-bitstream-vera/VeraMoBd.ttf", 
+      "font-family": "Bitstream Vera Sans Mono", 
+      "family_name": "Bitstream Vera Sans Mono", 
+      "os2_version": 1, 
       "is_italic": false, 
-      "os2_version": 3, 
       "is_bold": true
     }, 
-    "/home/francois/.fonts/Inconsolata-dz-Powerline (1).otf||54612:1355492365.87": {
-      "is_oblique": false, 
-      "weight": 500, 
-      "is_regular": true, 
-      "panose": [
-        2, 
-        11, 
-        6, 
-        9, 
-        3, 
-        0, 
-        3, 
-        0, 
-        0, 
-        0
-      ], 
-      "fs_type": 8, 
-      "full_name": "Inconsolata-dz for Powerline", 
-      "font-style": "normal", 
-      "preferred_subfamily_name": null, 
-      "preferred_family_name": null, 
-      "is_otf": true, 
-      "width": 5, 
-      "font-stretch": "normal", 
-      "font-weight": "500", 
-      "wws_subfamily_name": null, 
-      "is_wws": false, 
-      "subfamily_name": "dzForPowerline", 
-      "wws_family_name": null, 
-      "path": "/home/francois/.fonts/Inconsolata-dz-Powerline (1).otf", 
-      "font-family": "Inconsolata-dz for Powerline", 
-      "family_name": "Inconsolata-dz for Powerline", 
-      "is_italic": false, 
-      "os2_version": 3, 
-      "is_bold": false
-    }, 
     "/usr/share/fonts/truetype/ubuntu-font-family/UbuntuMono-BI.ttf||216208:1317052314.0": {
-      "is_oblique": false, 
+      "full_name": "Ubuntu Mono Bold Italic", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -3113,7 +3473,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Ubuntu Mono Bold Italic", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": "Bold Italic", 
       "preferred_family_name": "Ubuntu Mono", 
@@ -3133,7 +3493,7 @@
       "is_bold": true
     }, 
     "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSans-Oblique.ttf||611556:1298817441.0": {
-      "full_name": "DejaVu Sans Oblique", 
+      "is_oblique": false, 
       "weight": 400, 
       "is_regular": false, 
       "panose": [
@@ -3149,27 +3509,27 @@
         4
       ], 
       "fs_type": 0, 
-      "is_oblique": false, 
+      "full_name": "DejaVu Sans Oblique", 
       "font-style": "italic", 
-      "is_wws": false, 
+      "preferred_subfamily_name": "Oblique", 
       "preferred_family_name": "DejaVu Sans", 
       "is_otf": false, 
       "width": 5, 
       "font-stretch": "normal", 
       "font-weight": "normal", 
       "wws_subfamily_name": null, 
-      "preferred_subfamily_name": "Oblique", 
+      "is_wws": false, 
       "subfamily_name": "Oblique", 
       "wws_family_name": null, 
       "path": "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSans-Oblique.ttf", 
       "font-family": "DejaVu Sans", 
       "family_name": "DejaVu Sans", 
-      "os2_version": 1, 
       "is_italic": true, 
+      "os2_version": 1, 
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/Webdings.ttf||118752:900053276.0": {
-      "is_oblique": false, 
+      "full_name": "Webdings", 
       "weight": 400, 
       "is_regular": true, 
       "panose": [
@@ -3185,7 +3545,7 @@
         3
       ], 
       "fs_type": 0, 
-      "full_name": "Webdings", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -3205,7 +3565,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/liberation/LiberationSansNarrow-BoldItalic.ttf||128852:1340936880.0": {
-      "is_oblique": false, 
+      "full_name": "Liberation Sans Narrow Bold Italic", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -3221,7 +3581,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Liberation Sans Narrow Bold Italic", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -3240,44 +3600,44 @@
       "os2_version": 1, 
       "is_bold": true
     }, 
-    "/usr/share/fonts/truetype/msttcorefonts/andalemo.ttf||105468:910851506.0": {
-      "is_oblique": false, 
-      "weight": 400, 
-      "is_regular": true, 
+    "/usr/share/fonts/truetype/liberation/LiberationSans-BoldItalic.ttf||135404:1340936879.0": {
+      "full_name": "Liberation Sans Bold Italic", 
+      "weight": 700, 
+      "is_regular": false, 
       "panose": [
         2, 
         11, 
-        5, 
+        7, 
+        4, 
+        2, 
+        2, 
+        2, 
         9, 
-        0, 
-        0, 
-        0, 
-        0, 
-        0, 
+        2, 
         4
       ], 
-      "fs_type": 8, 
-      "full_name": "Andale Mono", 
-      "font-style": "normal", 
+      "fs_type": 0, 
+      "is_oblique": false, 
+      "font-style": "italic", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
       "is_otf": false, 
       "width": 5, 
       "font-stretch": "normal", 
-      "font-weight": "normal", 
+      "font-weight": "bold", 
       "wws_subfamily_name": null, 
       "is_wws": false, 
-      "subfamily_name": "Regular", 
+      "subfamily_name": "Bold Italic", 
       "wws_family_name": null, 
-      "path": "/usr/share/fonts/truetype/msttcorefonts/andalemo.ttf", 
-      "font-family": "Andale Mono", 
-      "family_name": "Andale Mono", 
-      "is_italic": false, 
-      "os2_version": 1, 
-      "is_bold": false
+      "path": "/usr/share/fonts/truetype/liberation/LiberationSans-BoldItalic.ttf", 
+      "font-family": "Liberation Sans", 
+      "family_name": "Liberation Sans", 
+      "is_italic": true, 
+      "os2_version": 3, 
+      "is_bold": true
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/Georgia.ttf||142964:910702798.0": {
-      "is_oblique": false, 
+      "full_name": "Georgia", 
       "weight": 400, 
       "is_regular": true, 
       "panose": [
@@ -3293,7 +3653,7 @@
         3
       ], 
       "fs_type": 0, 
-      "full_name": "Georgia", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -3313,7 +3673,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/liberation/LiberationMono-Bold.ttf||105616:1340936878.0": {
-      "is_oblique": false, 
+      "full_name": "Liberation Mono Bold", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -3329,7 +3689,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Liberation Mono Bold", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -3349,7 +3709,7 @@
       "is_bold": true
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/Georgia_Bold.ttf||139584:910702802.0": {
-      "is_oblique": false, 
+      "full_name": "Georgia Bold", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -3365,7 +3725,7 @@
         3
       ], 
       "fs_type": 0, 
-      "full_name": "Georgia Bold", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -3385,7 +3745,7 @@
       "is_bold": true
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/Courier_New_Italic.ttf||244156:958038320.0": {
-      "is_oblique": false, 
+      "full_name": "Courier New Italic", 
       "weight": 400, 
       "is_regular": false, 
       "panose": [
@@ -3401,7 +3761,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Courier New Italic", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -3421,7 +3781,7 @@
       "is_bold": false
     }, 
     "/usr/share/calibre/fonts/liberation/LiberationSerif-Bold.ttf||146896:1340936879.0": {
-      "is_oblique": false, 
+      "full_name": "Liberation Serif Bold", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -3437,7 +3797,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Liberation Serif Bold", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -3457,7 +3817,7 @@
       "is_bold": true
     }, 
     "/usr/share/fonts/truetype/nanum/NanumMyeongjoBold.ttf||4638736:1338651904.0": {
-      "is_oblique": false, 
+      "full_name": "NanumMyeongjoBold", 
       "weight": 600, 
       "is_regular": true, 
       "panose": [
@@ -3473,7 +3833,7 @@
         1
       ], 
       "fs_type": 8, 
-      "full_name": "NanumMyeongjoBold", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": "Bold", 
       "preferred_family_name": "NanumMyeongjo", 
@@ -3493,7 +3853,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/verdana.ttf||139640:910851520.0": {
-      "is_oblique": false, 
+      "full_name": "Verdana", 
       "weight": 400, 
       "is_regular": true, 
       "panose": [
@@ -3509,7 +3869,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Verdana", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -3529,7 +3889,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/webdings.ttf||118752:900053276.0": {
-      "is_oblique": false, 
+      "full_name": "Webdings", 
       "weight": 400, 
       "is_regular": true, 
       "panose": [
@@ -3545,7 +3905,7 @@
         3
       ], 
       "fs_type": 0, 
-      "full_name": "Webdings", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -3565,7 +3925,7 @@
       "is_bold": false
     }, 
     "/usr/share/calibre/fonts/liberation/LiberationMono-BoldItalic.ttf||118652:1340936878.0": {
-      "is_oblique": false, 
+      "full_name": "Liberation Mono Bold Italic", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -3581,7 +3941,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Liberation Mono Bold Italic", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -3601,7 +3961,7 @@
       "is_bold": true
     }, 
     "/usr/share/calibre/fonts/liberation/LiberationSerif-BoldItalic.ttf||150692:1340936879.0": {
-      "is_oblique": false, 
+      "full_name": "Liberation Serif Bold Italic", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -3617,7 +3977,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Liberation Serif Bold Italic", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -3637,7 +3997,7 @@
       "is_bold": true
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/times.ttf||330412:958038318.0": {
-      "is_oblique": false, 
+      "full_name": "Times New Roman", 
       "weight": 400, 
       "is_regular": true, 
       "panose": [
@@ -3653,7 +4013,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Times New Roman", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -3673,7 +4033,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-B.ttf||333616:1316703356.0": {
-      "is_oblique": false, 
+      "full_name": "Ubuntu Bold", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -3689,7 +4049,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Ubuntu Bold", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -3709,7 +4069,7 @@
       "is_bold": true
     }, 
     "/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-BI.ttf||356980:1316703662.0": {
-      "is_oblique": false, 
+      "full_name": "Ubuntu Bold Italic", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -3725,7 +4085,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Ubuntu Bold Italic", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -3744,8 +4104,44 @@
       "os2_version": 3, 
       "is_bold": true
     }, 
-    "/usr/share/calibre/fonts/liberation/LiberationSans-Bold.ttf||137272:1340936879.0": {
+    "/usr/share/fonts/truetype/fonts-japanese-mincho.ttf||8046712:1302599820.0": {
+      "full_name": "IPAMincho", 
+      "weight": 400, 
+      "is_regular": true, 
+      "panose": [
+        2, 
+        2, 
+        4, 
+        9, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0
+      ], 
+      "fs_type": 0, 
       "is_oblique": false, 
+      "font-style": "normal", 
+      "is_wws": false, 
+      "preferred_family_name": null, 
+      "is_otf": false, 
+      "width": 5, 
+      "font-stretch": "normal", 
+      "font-weight": "normal", 
+      "wws_subfamily_name": null, 
+      "preferred_subfamily_name": null, 
+      "subfamily_name": "Regular", 
+      "wws_family_name": null, 
+      "path": "/usr/share/fonts/truetype/fonts-japanese-mincho.ttf", 
+      "font-family": "IPAMincho", 
+      "family_name": "IPAMincho", 
+      "os2_version": 3, 
+      "is_italic": false, 
+      "is_bold": false
+    }, 
+    "/usr/share/calibre/fonts/liberation/LiberationSans-Bold.ttf||137272:1340936879.0": {
+      "full_name": "Liberation Sans Bold", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -3761,7 +4157,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Liberation Sans Bold", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -3781,7 +4177,7 @@
       "is_bold": true
     }, 
     "/usr/share/calibre/fonts/liberation/LiberationMono-Regular.ttf||108476:1340936878.0": {
-      "is_oblique": false, 
+      "full_name": "Liberation Mono", 
       "weight": 400, 
       "is_regular": true, 
       "panose": [
@@ -3797,7 +4193,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Liberation Mono", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -3817,7 +4213,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-M.ttf||258772:1349524735.0": {
-      "is_oblique": false, 
+      "full_name": "Ubuntu Medium", 
       "weight": 500, 
       "is_regular": true, 
       "panose": [
@@ -3833,7 +4229,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Ubuntu Medium", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": "Medium", 
       "preferred_family_name": "Ubuntu", 
@@ -3853,7 +4249,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/trebucbi.ttf||131188:986825138.0": {
-      "is_oblique": false, 
+      "full_name": "Trebuchet MS Bold Italic", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -3869,7 +4265,7 @@
         4
       ], 
       "fs_type": 8, 
-      "full_name": "Trebuchet MS Bold Italic", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -3889,7 +4285,7 @@
       "is_bold": true
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/Trebuchet_MS.ttf||126796:986825112.0": {
-      "is_oblique": false, 
+      "full_name": "Trebuchet MS", 
       "weight": 400, 
       "is_regular": true, 
       "panose": [
@@ -3905,7 +4301,7 @@
         4
       ], 
       "fs_type": 8, 
-      "full_name": "Trebuchet MS", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -3924,44 +4320,44 @@
       "os2_version": 1, 
       "is_bold": false
     }, 
-    "/usr/share/fonts/truetype/liberation/LiberationSans-BoldItalic.ttf||135404:1340936879.0": {
-      "is_oblique": false, 
-      "weight": 700, 
-      "is_regular": false, 
+    "/usr/share/fonts/truetype/msttcorefonts/andalemo.ttf||105468:910851506.0": {
+      "full_name": "Andale Mono", 
+      "weight": 400, 
+      "is_regular": true, 
       "panose": [
         2, 
         11, 
-        7, 
-        4, 
-        2, 
-        2, 
-        2, 
+        5, 
         9, 
-        2, 
+        0, 
+        0, 
+        0, 
+        0, 
+        0, 
         4
       ], 
-      "fs_type": 0, 
-      "full_name": "Liberation Sans Bold Italic", 
-      "font-style": "italic", 
+      "fs_type": 8, 
+      "is_oblique": false, 
+      "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
       "is_otf": false, 
       "width": 5, 
       "font-stretch": "normal", 
-      "font-weight": "bold", 
+      "font-weight": "normal", 
       "wws_subfamily_name": null, 
       "is_wws": false, 
-      "subfamily_name": "Bold Italic", 
+      "subfamily_name": "Regular", 
       "wws_family_name": null, 
-      "path": "/usr/share/fonts/truetype/liberation/LiberationSans-BoldItalic.ttf", 
-      "font-family": "Liberation Sans", 
-      "family_name": "Liberation Sans", 
-      "is_italic": true, 
-      "os2_version": 3, 
-      "is_bold": true
+      "path": "/usr/share/fonts/truetype/msttcorefonts/andalemo.ttf", 
+      "font-family": "Andale Mono", 
+      "family_name": "Andale Mono", 
+      "is_italic": false, 
+      "os2_version": 1, 
+      "is_bold": false
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/arialbd.ttf||286620:958038304.0": {
-      "is_oblique": false, 
+      "full_name": "Arial Bold", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -3977,7 +4373,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Arial Bold", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -3997,7 +4393,7 @@
       "is_bold": true
     }, 
     "/usr/share/fonts/truetype/nanum/NanumMyeongjo.ttf||3808496:1338651904.0": {
-      "is_oblique": false, 
+      "full_name": "NanumMyeongjo", 
       "weight": 400, 
       "is_regular": true, 
       "panose": [
@@ -4013,7 +4409,7 @@
         1
       ], 
       "fs_type": 8, 
-      "full_name": "NanumMyeongjo", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": "Regular", 
       "preferred_family_name": "NanumMyeongjo", 
@@ -4033,7 +4429,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSans-ExtraLight.ttf||345208:1298817440.0": {
-      "full_name": "DejaVu Sans ExtraLight", 
+      "is_oblique": false, 
       "weight": 200, 
       "is_regular": false, 
       "panose": [
@@ -4049,27 +4445,27 @@
         4
       ], 
       "fs_type": 0, 
-      "is_oblique": false, 
+      "full_name": "DejaVu Sans ExtraLight", 
       "font-style": "normal", 
-      "is_wws": false, 
+      "preferred_subfamily_name": "ExtraLight", 
       "preferred_family_name": "DejaVu Sans", 
       "is_otf": false, 
       "width": 5, 
       "font-stretch": "normal", 
       "font-weight": "200", 
       "wws_subfamily_name": null, 
-      "preferred_subfamily_name": "ExtraLight", 
+      "is_wws": false, 
       "subfamily_name": "ExtraLight", 
       "wws_family_name": null, 
       "path": "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSans-ExtraLight.ttf", 
       "font-family": "DejaVu Sans", 
       "family_name": "DejaVu Sans Light", 
-      "os2_version": 1, 
       "is_italic": false, 
+      "os2_version": 1, 
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/nanum/NanumGothic.ttf||4343844:1338651904.0": {
-      "is_oblique": false, 
+      "full_name": "NanumGothic", 
       "weight": 400, 
       "is_regular": true, 
       "panose": [
@@ -4085,7 +4481,7 @@
         0
       ], 
       "fs_type": 8, 
-      "full_name": "NanumGothic", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": "Regular", 
       "preferred_family_name": "NanumGothic", 
@@ -4105,7 +4501,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/Arial_Bold_Italic.ttf||224692:958038306.0": {
-      "is_oblique": false, 
+      "full_name": "Arial Bold Italic", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -4121,7 +4517,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Arial Bold Italic", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -4141,7 +4537,7 @@
       "is_bold": true
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/Impact.ttf||136076:910702372.0": {
-      "is_oblique": false, 
+      "full_name": "Impact", 
       "weight": 400, 
       "is_regular": true, 
       "panose": [
@@ -4157,7 +4553,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Impact", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -4177,7 +4573,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/courbi.ttf||234788:958038318.0": {
-      "is_oblique": false, 
+      "full_name": "Courier New Bold Italic", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -4193,7 +4589,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Courier New Bold Italic", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -4213,7 +4609,7 @@
       "is_bold": true
     }, 
     "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf||137272:1340936879.0": {
-      "is_oblique": false, 
+      "full_name": "Liberation Sans Bold", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -4229,7 +4625,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Liberation Sans Bold", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -4249,7 +4645,7 @@
       "is_bold": true
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/Times_New_Roman.ttf||330412:958038318.0": {
-      "is_oblique": false, 
+      "full_name": "Times New Roman", 
       "weight": 400, 
       "is_regular": true, 
       "panose": [
@@ -4265,7 +4661,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Times New Roman", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -4285,7 +4681,7 @@
       "is_bold": false
     }, 
     "/home/francois/.fonts/mensch-Powerline.otf||488268:1355492377.59": {
-      "is_oblique": false, 
+      "full_name": "Mensch Regular for Powerline", 
       "weight": 400, 
       "is_regular": true, 
       "panose": [
@@ -4301,7 +4697,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Mensch Regular for Powerline", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -4321,7 +4717,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/liberation/LiberationSansNarrow-Regular.ttf||113320:1340936880.0": {
-      "is_oblique": false, 
+      "full_name": "Liberation Sans Narrow", 
       "weight": 400, 
       "is_regular": true, 
       "panose": [
@@ -4337,7 +4733,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Liberation Sans Narrow", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -4357,7 +4753,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSerif-Bold.ttf||341072:1298817441.0": {
-      "is_oblique": false, 
+      "full_name": "DejaVu Serif Bold", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -4373,7 +4769,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "DejaVu Serif Bold", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": "Bold", 
       "preferred_family_name": "DejaVu Serif", 
@@ -4393,7 +4789,7 @@
       "is_bold": true
     }, 
     "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSerifCondensed.ttf||330012:1298817441.0": {
-      "full_name": "DejaVu Serif Condensed", 
+      "is_oblique": false, 
       "weight": 400, 
       "is_regular": true, 
       "panose": [
@@ -4409,27 +4805,27 @@
         4
       ], 
       "fs_type": 0, 
-      "is_oblique": false, 
+      "full_name": "DejaVu Serif Condensed", 
       "font-style": "normal", 
-      "is_wws": false, 
+      "preferred_subfamily_name": "Condensed", 
       "preferred_family_name": "DejaVu Serif", 
       "is_otf": false, 
       "width": 4, 
       "font-stretch": "semi-condensed", 
       "font-weight": "normal", 
       "wws_subfamily_name": null, 
-      "preferred_subfamily_name": "Condensed", 
+      "is_wws": false, 
       "subfamily_name": "Book", 
       "wws_family_name": null, 
       "path": "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSerifCondensed.ttf", 
       "font-family": "DejaVu Serif", 
       "family_name": "DejaVu Serif Condensed", 
-      "os2_version": 1, 
       "is_italic": false, 
+      "os2_version": 1, 
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf||139628:1340936879.0": {
-      "is_oblique": false, 
+      "full_name": "Liberation Sans", 
       "weight": 400, 
       "is_regular": true, 
       "panose": [
@@ -4445,7 +4841,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Liberation Sans", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -4464,8 +4860,44 @@
       "os2_version": 3, 
       "is_bold": false
     }, 
-    "/usr/share/fonts/truetype/freefont/FreeSerifBoldItalic.ttf||608708:1337983254.0": {
+    "/usr/share/calibre/fonts/liberation/LiberationSans-Italic.ttf||162324:1340936879.0": {
+      "full_name": "Liberation Sans Italic", 
+      "weight": 400, 
+      "is_regular": false, 
+      "panose": [
+        2, 
+        11, 
+        6, 
+        4, 
+        2, 
+        2, 
+        2, 
+        9, 
+        2, 
+        4
+      ], 
+      "fs_type": 0, 
       "is_oblique": false, 
+      "font-style": "italic", 
+      "preferred_subfamily_name": null, 
+      "preferred_family_name": null, 
+      "is_otf": false, 
+      "width": 5, 
+      "font-stretch": "normal", 
+      "font-weight": "normal", 
+      "wws_subfamily_name": null, 
+      "is_wws": false, 
+      "subfamily_name": "Italic", 
+      "wws_family_name": null, 
+      "path": "/usr/share/calibre/fonts/liberation/LiberationSans-Italic.ttf", 
+      "font-family": "Liberation Sans", 
+      "family_name": "Liberation Sans", 
+      "is_italic": true, 
+      "os2_version": 3, 
+      "is_bold": false
+    }, 
+    "/usr/share/fonts/truetype/freefont/FreeSerifBoldItalic.ttf||608708:1337983254.0": {
+      "full_name": "FreeSerif Bold Italic", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -4481,7 +4913,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "FreeSerif Bold Italic", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -4501,7 +4933,7 @@
       "is_bold": true
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/georgiai.ttf||156668:910702802.0": {
-      "is_oblique": false, 
+      "full_name": "Georgia Italic", 
       "weight": 400, 
       "is_regular": false, 
       "panose": [
@@ -4517,7 +4949,7 @@
         3
       ], 
       "fs_type": 0, 
-      "full_name": "Georgia Italic", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -4536,44 +4968,44 @@
       "os2_version": 1, 
       "is_bold": false
     }, 
-    "/usr/share/fonts/truetype/msttcorefonts/Trebuchet_MS_Bold_Italic.ttf||131188:986825138.0": {
-      "is_oblique": false, 
-      "weight": 700, 
-      "is_regular": false, 
+    "/usr/share/fonts/truetype/msttcorefonts/Comic_Sans_MS.ttf||126364:910702354.0": {
+      "full_name": "Comic Sans MS", 
+      "weight": 400, 
+      "is_regular": true, 
       "panose": [
-        2, 
-        11, 
+        3, 
+        15, 
         7, 
+        2, 
+        3, 
         3, 
         2, 
         2, 
         2, 
-        9, 
-        2, 
         4
       ], 
-      "fs_type": 8, 
-      "full_name": "Trebuchet MS Bold Italic", 
-      "font-style": "italic", 
+      "fs_type": 0, 
+      "is_oblique": false, 
+      "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
       "is_otf": false, 
       "width": 5, 
       "font-stretch": "normal", 
-      "font-weight": "bold", 
+      "font-weight": "normal", 
       "wws_subfamily_name": null, 
       "is_wws": false, 
-      "subfamily_name": "Bold Italic", 
+      "subfamily_name": "Regular", 
       "wws_family_name": null, 
-      "path": "/usr/share/fonts/truetype/msttcorefonts/Trebuchet_MS_Bold_Italic.ttf", 
-      "font-family": "Trebuchet MS", 
-      "family_name": "Trebuchet MS", 
-      "is_italic": true, 
+      "path": "/usr/share/fonts/truetype/msttcorefonts/Comic_Sans_MS.ttf", 
+      "font-family": "Comic Sans MS", 
+      "family_name": "Comic Sans MS", 
+      "is_italic": false, 
       "os2_version": 1, 
-      "is_bold": true
+      "is_bold": false
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/impact.ttf||136076:910702372.0": {
-      "is_oblique": false, 
+      "full_name": "Impact", 
       "weight": 400, 
       "is_regular": true, 
       "panose": [
@@ -4589,7 +5021,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Impact", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -4609,7 +5041,7 @@
       "is_bold": false
     }, 
     "/usr/share/calibre/fonts/liberation/LiberationSerif-Regular.ttf||152280:1340936880.0": {
-      "is_oblique": false, 
+      "full_name": "Liberation Serif", 
       "weight": 400, 
       "is_regular": true, 
       "panose": [
@@ -4625,7 +5057,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Liberation Serif", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -4645,7 +5077,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/timesbi.ttf||238612:958038322.0": {
-      "is_oblique": false, 
+      "full_name": "Times New Roman Bold Italic", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -4661,7 +5093,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Times New Roman Bold Italic", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -4680,44 +5112,80 @@
       "os2_version": 1, 
       "is_bold": true
     }, 
-    "/usr/share/fonts/truetype/msttcorefonts/timesi.ttf||247092:958038322.0": {
-      "is_oblique": false, 
+    "/usr/share/fonts/truetype/ttf-bitstream-vera/Vera.ttf||65932:1050501733.0": {
+      "full_name": "Bitstream Vera Sans", 
       "weight": 400, 
-      "is_regular": false, 
+      "is_regular": true, 
       "panose": [
         2, 
-        2, 
-        5, 
+        11, 
+        6, 
         3, 
-        5, 
+        3, 
+        8, 
         4, 
-        5, 
-        9, 
-        3, 
+        2, 
+        2, 
         4
       ], 
-      "fs_type": 0, 
-      "full_name": "Times New Roman Italic", 
-      "font-style": "italic", 
-      "preferred_subfamily_name": null, 
+      "fs_type": 4, 
+      "is_oblique": false, 
+      "font-style": "normal", 
+      "is_wws": false, 
       "preferred_family_name": null, 
       "is_otf": false, 
       "width": 5, 
       "font-stretch": "normal", 
       "font-weight": "normal", 
       "wws_subfamily_name": null, 
-      "is_wws": false, 
-      "subfamily_name": "Italic", 
+      "preferred_subfamily_name": null, 
+      "subfamily_name": "Roman", 
       "wws_family_name": null, 
-      "path": "/usr/share/fonts/truetype/msttcorefonts/timesi.ttf", 
-      "font-family": "Times New Roman", 
-      "family_name": "Times New Roman", 
-      "is_italic": true, 
+      "path": "/usr/share/fonts/truetype/ttf-bitstream-vera/Vera.ttf", 
+      "font-family": "Bitstream Vera Sans", 
+      "family_name": "Bitstream Vera Sans", 
       "os2_version": 1, 
+      "is_italic": false, 
       "is_bold": false
     }, 
-    "/usr/share/fonts/truetype/liberation/LiberationMono-BoldItalic.ttf||118652:1340936878.0": {
+    "/usr/share/fonts/truetype/msttcorefonts/comicbd.ttf||111476:910702358.0": {
+      "full_name": "Comic Sans MS Bold", 
+      "weight": 700, 
+      "is_regular": false, 
+      "panose": [
+        3, 
+        15, 
+        9, 
+        2, 
+        3, 
+        3, 
+        2, 
+        2, 
+        2, 
+        4
+      ], 
+      "fs_type": 0, 
       "is_oblique": false, 
+      "font-style": "normal", 
+      "preferred_subfamily_name": null, 
+      "preferred_family_name": null, 
+      "is_otf": false, 
+      "width": 5, 
+      "font-stretch": "normal", 
+      "font-weight": "bold", 
+      "wws_subfamily_name": null, 
+      "is_wws": false, 
+      "subfamily_name": "Bold", 
+      "wws_family_name": null, 
+      "path": "/usr/share/fonts/truetype/msttcorefonts/comicbd.ttf", 
+      "font-family": "Comic Sans MS", 
+      "family_name": "Comic Sans MS", 
+      "is_italic": false, 
+      "os2_version": 1, 
+      "is_bold": true
+    }, 
+    "/usr/share/fonts/truetype/liberation/LiberationMono-BoldItalic.ttf||118652:1340936878.0": {
+      "full_name": "Liberation Mono Bold Italic", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -4733,7 +5201,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Liberation Mono Bold Italic", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -4753,7 +5221,7 @@
       "is_bold": true
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/Times_New_Roman_Bold_Italic.ttf||238612:958038322.0": {
-      "is_oblique": false, 
+      "full_name": "Times New Roman Bold Italic", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -4769,7 +5237,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Times New Roman Bold Italic", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -4789,7 +5257,7 @@
       "is_bold": true
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/verdanab.ttf||136032:910869302.0": {
-      "is_oblique": false, 
+      "full_name": "Verdana Bold", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -4805,7 +5273,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Verdana Bold", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -4825,7 +5293,7 @@
       "is_bold": true
     }, 
     "/usr/share/fonts/truetype/freefont/FreeSansOblique.ttf||763696:1337983230.0": {
-      "is_oblique": false, 
+      "full_name": "FreeSans Oblique", 
       "weight": 400, 
       "is_regular": false, 
       "panose": [
@@ -4841,7 +5309,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "FreeSans Oblique", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -4861,7 +5329,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/liberation/LiberationSansNarrow-Italic.ttf||132796:1340936880.0": {
-      "is_oblique": false, 
+      "full_name": "Liberation Sans Narrow Italic", 
       "weight": 400, 
       "is_regular": false, 
       "panose": [
@@ -4877,7 +5345,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Liberation Sans Narrow Italic", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -4897,7 +5365,7 @@
       "is_bold": false
     }, 
     "/home/francois/.fonts/UbuntuMono-RI-Powerline.ttf||202248:1355493444.48": {
-      "is_oblique": false, 
+      "full_name": "Ubuntu Mono Italic for Powerline", 
       "weight": 400, 
       "is_regular": false, 
       "panose": [
@@ -4913,7 +5381,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Ubuntu Mono Italic for Powerline", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": "Italic", 
       "preferred_family_name": "Ubuntu Mono for Powerline", 
@@ -4933,7 +5401,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/freefont/FreeMonoBold.ttf||299136:1337983209.0": {
-      "is_oblique": false, 
+      "full_name": "FreeMono Bold", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -4949,7 +5417,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "FreeMono Bold", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -4969,7 +5437,7 @@
       "is_bold": true
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/Georgia_Bold_Italic.ttf||158796:910702802.0": {
-      "is_oblique": false, 
+      "full_name": "Georgia Bold Italic", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -4985,7 +5453,7 @@
         3
       ], 
       "fs_type": 0, 
-      "full_name": "Georgia Bold Italic", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -5005,7 +5473,7 @@
       "is_bold": true
     }, 
     "/usr/share/fonts/truetype/liberation/LiberationSerif-Italic.ttf||144308:1340936879.0": {
-      "is_oblique": false, 
+      "full_name": "Liberation Serif Italic", 
       "weight": 400, 
       "is_regular": false, 
       "panose": [
@@ -5021,7 +5489,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Liberation Serif Italic", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -5041,7 +5509,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/arialbi.ttf||224692:958038306.0": {
-      "is_oblique": false, 
+      "full_name": "Arial Bold Italic", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -5057,7 +5525,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Arial Bold Italic", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -5077,7 +5545,7 @@
       "is_bold": true
     }, 
     "/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-R.ttf||353824:1316703436.0": {
-      "is_oblique": false, 
+      "full_name": "Ubuntu", 
       "weight": 400, 
       "is_regular": true, 
       "panose": [
@@ -5093,7 +5561,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Ubuntu", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -5112,8 +5580,80 @@
       "os2_version": 3, 
       "is_bold": false
     }, 
-    "/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-RI.ttf||386440:1316704340.0": {
+    "/usr/share/calibre/fonts/liberation/LiberationMono-Bold.ttf||105616:1340936878.0": {
+      "full_name": "Liberation Mono Bold", 
+      "weight": 700, 
+      "is_regular": false, 
+      "panose": [
+        2, 
+        7, 
+        7, 
+        9, 
+        2, 
+        2, 
+        5, 
+        2, 
+        4, 
+        4
+      ], 
+      "fs_type": 0, 
       "is_oblique": false, 
+      "font-style": "normal", 
+      "preferred_subfamily_name": null, 
+      "preferred_family_name": null, 
+      "is_otf": false, 
+      "width": 5, 
+      "font-stretch": "normal", 
+      "font-weight": "bold", 
+      "wws_subfamily_name": null, 
+      "is_wws": false, 
+      "subfamily_name": "Bold", 
+      "wws_family_name": null, 
+      "path": "/usr/share/calibre/fonts/liberation/LiberationMono-Bold.ttf", 
+      "font-family": "Liberation Mono", 
+      "family_name": "Liberation Mono", 
+      "is_italic": false, 
+      "os2_version": 3, 
+      "is_bold": true
+    }, 
+    "/usr/share/fonts/truetype/ttf-bitstream-vera/VeraBI.ttf||63208:1050501733.0": {
+      "full_name": "Bitstream Vera Sans Bold Oblique", 
+      "weight": 700, 
+      "is_regular": false, 
+      "panose": [
+        2, 
+        11, 
+        8, 
+        3, 
+        3, 
+        3, 
+        4, 
+        11, 
+        2, 
+        4
+      ], 
+      "fs_type": 4, 
+      "is_oblique": false, 
+      "font-style": "italic", 
+      "is_wws": false, 
+      "preferred_family_name": null, 
+      "is_otf": false, 
+      "width": 5, 
+      "font-stretch": "normal", 
+      "font-weight": "bold", 
+      "wws_subfamily_name": null, 
+      "preferred_subfamily_name": null, 
+      "subfamily_name": "Bold Oblique", 
+      "wws_family_name": null, 
+      "path": "/usr/share/fonts/truetype/ttf-bitstream-vera/VeraBI.ttf", 
+      "font-family": "Bitstream Vera Sans", 
+      "family_name": "Bitstream Vera Sans", 
+      "os2_version": 1, 
+      "is_italic": true, 
+      "is_bold": true
+    }, 
+    "/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-RI.ttf||386440:1316704340.0": {
+      "full_name": "Ubuntu Italic", 
       "weight": 400, 
       "is_regular": false, 
       "panose": [
@@ -5129,7 +5669,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Ubuntu Italic", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -5149,7 +5689,7 @@
       "is_bold": false
     }, 
     "/home/francois/.fonts/UbuntuMono-R-Powerline.ttf||197800:1355493441.49": {
-      "is_oblique": false, 
+      "full_name": "Ubuntu Mono for Powerline", 
       "weight": 400, 
       "is_regular": true, 
       "panose": [
@@ -5165,7 +5705,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Ubuntu Mono for Powerline", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": "Regular", 
       "preferred_family_name": "Ubuntu Mono for Powerline", 
@@ -5185,7 +5725,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSansMono-BoldOblique.ttf||235848:1298817441.0": {
-      "full_name": "DejaVu Sans Mono Bold Oblique", 
+      "is_oblique": false, 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -5201,27 +5741,27 @@
         4
       ], 
       "fs_type": 0, 
-      "is_oblique": false, 
+      "full_name": "DejaVu Sans Mono Bold Oblique", 
       "font-style": "italic", 
-      "is_wws": false, 
+      "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
       "is_otf": false, 
       "width": 5, 
       "font-stretch": "normal", 
       "font-weight": "bold", 
       "wws_subfamily_name": null, 
-      "preferred_subfamily_name": null, 
+      "is_wws": false, 
       "subfamily_name": "Bold Oblique", 
       "wws_family_name": null, 
       "path": "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSansMono-BoldOblique.ttf", 
       "font-family": "DejaVu Sans Mono", 
       "family_name": "DejaVu Sans Mono", 
-      "os2_version": 1, 
       "is_italic": true, 
+      "os2_version": 1, 
       "is_bold": true
     }, 
     "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSansCondensed-Oblique.ttf||576004:1298817440.0": {
-      "full_name": "DejaVu Sans Condensed Oblique", 
+      "is_oblique": false, 
       "weight": 400, 
       "is_regular": false, 
       "panose": [
@@ -5237,27 +5777,27 @@
         4
       ], 
       "fs_type": 0, 
-      "is_oblique": false, 
+      "full_name": "DejaVu Sans Condensed Oblique", 
       "font-style": "italic", 
-      "is_wws": false, 
+      "preferred_subfamily_name": "Condensed Oblique", 
       "preferred_family_name": "DejaVu Sans", 
       "is_otf": false, 
       "width": 4, 
       "font-stretch": "semi-condensed", 
       "font-weight": "normal", 
       "wws_subfamily_name": null, 
-      "preferred_subfamily_name": "Condensed Oblique", 
+      "is_wws": false, 
       "subfamily_name": "Oblique", 
       "wws_family_name": null, 
       "path": "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSansCondensed-Oblique.ttf", 
       "font-family": "DejaVu Sans", 
       "family_name": "DejaVu Sans Condensed", 
-      "os2_version": 1, 
       "is_italic": true, 
+      "os2_version": 1, 
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/ubuntu-font-family/UbuntuMono-RI.ttf||210216:1317052262.0": {
-      "is_oblique": false, 
+      "full_name": "Ubuntu Mono Italic", 
       "weight": 400, 
       "is_regular": false, 
       "panose": [
@@ -5273,7 +5813,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "Ubuntu Mono Italic", 
+      "is_oblique": false, 
       "font-style": "italic", 
       "preferred_subfamily_name": "Italic", 
       "preferred_family_name": "Ubuntu Mono", 
@@ -5293,7 +5833,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSansMono-Bold.ttf||313856:1298817441.0": {
-      "is_oblique": false, 
+      "full_name": "DejaVu Sans Mono Bold", 
       "weight": 700, 
       "is_regular": false, 
       "panose": [
@@ -5309,7 +5849,7 @@
         4
       ], 
       "fs_type": 0, 
-      "full_name": "DejaVu Sans Mono Bold", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -5329,7 +5869,7 @@
       "is_bold": true
     }, 
     "/usr/share/fonts/truetype/msttcorefonts/trebuc.ttf||126796:986825112.0": {
-      "is_oblique": false, 
+      "full_name": "Trebuchet MS", 
       "weight": 400, 
       "is_regular": true, 
       "panose": [
@@ -5345,7 +5885,7 @@
         4
       ], 
       "fs_type": 8, 
-      "full_name": "Trebuchet MS", 
+      "is_oblique": false, 
       "font-style": "normal", 
       "preferred_subfamily_name": null, 
       "preferred_family_name": null, 
@@ -5365,7 +5905,7 @@
       "is_bold": false
     }, 
     "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSerif-Italic.ttf||338776:1298817441.0": {
-      "full_name": "DejaVu Serif Italic", 
+      "is_oblique": false, 
       "weight": 400, 
       "is_regular": false, 
       "panose": [
@@ -5381,23 +5921,23 @@
         4
       ], 
       "fs_type": 0, 
-      "is_oblique": false, 
+      "full_name": "DejaVu Serif Italic", 
       "font-style": "italic", 
-      "is_wws": false, 
+      "preferred_subfamily_name": "Italic", 
       "preferred_family_name": "DejaVu Serif", 
       "is_otf": false, 
       "width": 5, 
       "font-stretch": "normal", 
       "font-weight": "normal", 
       "wws_subfamily_name": null, 
-      "preferred_subfamily_name": "Italic", 
+      "is_wws": false, 
       "subfamily_name": "Italic", 
       "wws_family_name": null, 
       "path": "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSerif-Italic.ttf", 
       "font-family": "DejaVu Serif", 
       "family_name": "DejaVu Serif", 
-      "os2_version": 1, 
       "is_italic": true, 
+      "os2_version": 1, 
       "is_bold": false
     }
   }, 

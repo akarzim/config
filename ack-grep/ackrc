@@ -37,7 +37,7 @@
 
 # JSON
 --type-set=json=.json
---type-add=yaml=.json
+--type-add=yaml=.json,.yml
 
 # Conf
 --type-set=conf=.conf,.config
@@ -52,8 +52,12 @@
 # documentation
 --type-set=doc=.markdown,.md,.mdown,.mkd,.mkdn,.rst,.textile,.rdoc,.pod,.txt
 
+# XLS
+--type-set=xls=.xls,.xlsx,.axlsx
+
 
 # Ack Ignore Directory
 ####################################################################
+--ignore-dir=tmp
 --ignore-dir=log
 --ignore-dir=coverage

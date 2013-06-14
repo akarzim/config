@@ -77,7 +77,7 @@ editor_backup_extension=~
 mcview_eof=
 ignore_ftp_chattr_errors=true
 keymap=mc.keymap
-skin=default
+skin=solarized
 
 [Layout]
 message_visible=1
@@ -110,6 +110,8 @@ xterm=
 color_terminals=
 
 xterm-256color=
+
+gnome-256color=
 
 [Panels]
 show_mini_info=true
