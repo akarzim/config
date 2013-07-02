@@ -45,7 +45,6 @@
 ; (gtk_accel_path "<Actions>/DirViewActions/Mount Volume" "")
 ; (gtk_accel_path "<Actions>/ClipboardActions/Paste" "<Primary>v")
 ; (gtk_accel_path "<Actions>/DirViewActions/Copy" "<Primary>c")
-; (gtk_accel_path "<Actions>/ExtensionsMenuGroup/DejaDupNautilusExtension::restore_missing_item" "")
 ; (gtk_accel_path "<Actions>/DirViewActions/Location Eject Volume" "")
 ; (gtk_accel_path "<Actions>/DirViewActions/Move To" "")
 ; (gtk_accel_path "<Actions>/ShellActions/Zoom Out" "<Primary>minus")

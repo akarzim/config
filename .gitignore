@@ -15,6 +15,7 @@
 /KeePass
 /leafpad
 /libfm
+/libreoffice
 /lsc
 /menus
 /.mono
@@ -26,5 +27,6 @@
 /vim/bundle
 /vim/ftbundle
 /vim/vimfiles
+/vim/log
 /vlc
 /xfburn
