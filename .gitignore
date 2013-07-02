@@ -4,6 +4,7 @@
 /blueman
 /chromium
 /compiz-1
+/dconf
 /enchant
 /evince
 /evolution
@@ -46,4 +47,5 @@
 /vim/log
 /vlc
 /xfburn
+/xfce4
 /xpad
