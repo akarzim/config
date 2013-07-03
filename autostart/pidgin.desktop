@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
 Exec=/usr/bin/pidgin
-Hidden=false
+Hidden=true
 NoDisplay=false
 X-GNOME-Autostart-enabled=true
 Name[fr_FR]=Pidgin
