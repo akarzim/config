@@ -1,0 +1,2 @@
+# Use fi_FI.UTF-8/Compose as the base compose sequence definition set
+include "/usr/share/X11/locale/fi_FI.UTF-8/Compose"
